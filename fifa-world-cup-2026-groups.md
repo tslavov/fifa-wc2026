@@ -7,6 +7,10 @@ Sources:
 - FIFA: https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers
 - FIFA final draw results: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-draw-results
 
+Related knowledge:
+
+- Player watchlist and current-performance notes: ./fifa-world-cup-2026-player-watchlist.md
+
 The FIFA World Cup 2026 final tournament has 48 teams split into 12 groups of four.
 
 ## Group A
