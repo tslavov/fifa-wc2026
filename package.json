@@ -15,6 +15,7 @@
     "build:model-input": "tsx src/output/buildModelInput.ts",
     "predict:groups": "tsx src/predict/groupStandings.ts",
     "predict:monte-carlo": "tsx src/predict/monteCarloGroupStage.ts",
+    "predict:markov": "tsx src/predict/markovChainGroupStage.ts",
     "compare:predictions": "tsx src/predict/comparePredictionPositions.ts",
     "validate": "tsx src/validate.ts"
   },
