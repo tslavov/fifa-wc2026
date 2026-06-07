@@ -50,6 +50,7 @@ Required normalized outputs:
 - `data/squads/squad-quality.json`
 - `data/fixtures/group-fixtures.json`
 - `data/sources/source-index.json`
+- `data/model-input/world-cup-2026-model-input.json`
 
 Additional generated exports:
 
@@ -127,7 +128,10 @@ Export combined JSON and CSV extracts:
 ```bash
 npm run export:json
 npm run export:csv
+npm run export:model-input
 ```
+
+The model-input export combines team strength, squad quality, recent form, coaching context, fixture/environment data, and tournament rules into numeric feature objects. Missing or unsourced model features are written as `null` and paired with warnings; this export never imputes values.
 
 ## Validation Rules
 

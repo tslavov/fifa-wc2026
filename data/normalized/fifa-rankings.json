@@ -1,0 +1,3163 @@
+{
+  "generatedAt": "2026-06-07T08:25:31.121Z",
+  "rows": [
+    {
+      "team": "Spain",
+      "countryCode": "ESP",
+      "rank": 1,
+      "points": 1875.37,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "countryCode": "FRA",
+      "rank": 2,
+      "points": 1870.92,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "countryCode": "ARG",
+      "rank": 3,
+      "points": 1870.32,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "countryCode": "ENG",
+      "rank": 4,
+      "points": 1820.44,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "countryCode": "POR",
+      "rank": 5,
+      "points": 1779.55,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "countryCode": "BRA",
+      "rank": 6,
+      "points": 1761.6,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "countryCode": "NED",
+      "rank": 7,
+      "points": 1754.17,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Belgium",
+      "countryCode": "BEL",
+      "rank": 8,
+      "points": 1739.54,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "countryCode": "CRO",
+      "rank": 9,
+      "points": 1714.2,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Italy",
+      "countryCode": "ITA",
+      "rank": 10,
+      "points": 1710.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "countryCode": "MAR",
+      "rank": 11,
+      "points": 1706.27,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Germany",
+      "countryCode": "GER",
+      "rank": 12,
+      "points": 1704.27,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "countryCode": "COL",
+      "rank": 13,
+      "points": 1692.1,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "countryCode": "MEX",
+      "rank": 14,
+      "points": 1688.38,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Uruguay",
+      "countryCode": "URU",
+      "rank": 15,
+      "points": 1673.65,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "countryCode": "USA",
+      "rank": 16,
+      "points": 1670.04,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "countryCode": "SUI",
+      "rank": 17,
+      "points": 1648.3,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "countryCode": "SEN",
+      "rank": 18,
+      "points": 1645.23,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Japan",
+      "countryCode": "JPN",
+      "rank": 19,
+      "points": 1640.47,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Denmark",
+      "countryCode": "DEN",
+      "rank": 20,
+      "points": 1627.64,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Iran",
+      "countryCode": "IRN",
+      "rank": 21,
+      "points": 1622.61,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Austria",
+      "countryCode": "AUT",
+      "rank": 22,
+      "points": 1601.86,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "countryCode": "KOR",
+      "rank": 23,
+      "points": 1593.19,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "countryCode": "ECU",
+      "rank": 24,
+      "points": 1588.04,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "countryCode": "AUS",
+      "rank": 25,
+      "points": 1583.49,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Canada",
+      "countryCode": "CAN",
+      "rank": 26,
+      "points": 1558.04,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Turkey",
+      "countryCode": "TUR",
+      "rank": 27,
+      "points": 1555.72,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Ukraine",
+      "countryCode": "UKR",
+      "rank": 28,
+      "points": 1543.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Panama",
+      "countryCode": "PAN",
+      "rank": 29,
+      "points": 1529.71,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Wales",
+      "countryCode": "WAL",
+      "rank": 30,
+      "points": 1529.09,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "countryCode": "NOR",
+      "rank": 31,
+      "points": 1526.23,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "countryCode": "SWE",
+      "rank": 32,
+      "points": 1524.62,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Russia",
+      "countryCode": "RUS",
+      "rank": 33,
+      "points": 1521.74,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Serbia",
+      "countryCode": "SRB",
+      "rank": 34,
+      "points": 1520.9,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "countryCode": "EGY",
+      "rank": 35,
+      "points": 1519.18,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Poland",
+      "countryCode": "POL",
+      "rank": 36,
+      "points": 1517.3,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "countryCode": "PAR",
+      "rank": 37,
+      "points": 1501.01,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "countryCode": "ALG",
+      "rank": 38,
+      "points": 1500.74,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Czechia",
+      "countryCode": "CZE",
+      "rank": 39,
+      "points": 1500.29,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Greece",
+      "countryCode": "GRE",
+      "rank": 40,
+      "points": 1494.72,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Hungary",
+      "countryCode": "HUN",
+      "rank": 41,
+      "points": 1492.18,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Slovakia",
+      "countryCode": "SVK",
+      "rank": 42,
+      "points": 1491.87,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Scotland",
+      "countryCode": "SCO",
+      "rank": 43,
+      "points": 1485.08,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Ivory Coast",
+      "countryCode": "CIV",
+      "rank": 44,
+      "points": 1483.9,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Nigeria",
+      "countryCode": "NGA",
+      "rank": 45,
+      "points": 1483.86,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Tunisia",
+      "countryCode": "TUN",
+      "rank": 46,
+      "points": 1483.02,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Costa Rica",
+      "countryCode": "CRC",
+      "rank": 47,
+      "points": 1481.13,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Peru",
+      "countryCode": "PER",
+      "rank": 48,
+      "points": 1469.31,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Venezuela",
+      "countryCode": "VEN",
+      "rank": 49,
+      "points": 1465.02,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Slovenia",
+      "countryCode": "SVN",
+      "rank": 50,
+      "points": 1462.96,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Romania",
+      "countryCode": "ROU",
+      "rank": 51,
+      "points": 1462.85,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cameroon",
+      "countryCode": "CMR",
+      "rank": 52,
+      "points": 1455.42,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "countryCode": "QAT",
+      "rank": 53,
+      "points": 1453.65,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "countryCode": "UZB",
+      "rank": 54,
+      "points": 1453.31,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "countryCode": "RSA",
+      "rank": 55,
+      "points": 1448.67,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mali",
+      "countryCode": "MLI",
+      "rank": 56,
+      "points": 1445.83,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Chile",
+      "countryCode": "CHI",
+      "rank": 57,
+      "points": 1441.66,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "countryCode": "IRQ",
+      "rank": 58,
+      "points": 1422.2,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Saudi Arabia",
+      "countryCode": "KSA",
+      "rank": 59,
+      "points": 1420.65,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "DR Congo",
+      "countryCode": "COD",
+      "rank": 60,
+      "points": 1407.6,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Republic of Ireland",
+      "countryCode": "IRL",
+      "rank": 61,
+      "points": 1397.52,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "countryCode": "JOR",
+      "rank": 62,
+      "points": 1391.33,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "North Macedonia",
+      "countryCode": "MKD",
+      "rank": 63,
+      "points": 1388.5,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Burkina Faso",
+      "countryCode": "BFA",
+      "rank": 64,
+      "points": 1385.37,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Honduras",
+      "countryCode": "HON",
+      "rank": 65,
+      "points": 1383.98,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Albania",
+      "countryCode": "ALB",
+      "rank": 66,
+      "points": 1380.66,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "United Arab Emirates",
+      "countryCode": "UAE",
+      "rank": 67,
+      "points": 1379.86,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "countryCode": "GEO",
+      "rank": 68,
+      "points": 1377.32,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Jamaica",
+      "countryCode": "JAM",
+      "rank": 69,
+      "points": 1377.22,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cape Verde",
+      "countryCode": "CPV",
+      "rank": 70,
+      "points": 1363.21,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Finland",
+      "countryCode": "FIN",
+      "rank": 71,
+      "points": 1358.72,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Northern Ireland",
+      "countryCode": "NIR",
+      "rank": 72,
+      "points": 1355.98,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "countryCode": "BIH",
+      "rank": 73,
+      "points": 1344.25,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Iceland",
+      "countryCode": "ISL",
+      "rank": 74,
+      "points": 1343.09,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "countryCode": "GHA",
+      "rank": 75,
+      "points": 1340.84,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Israel",
+      "countryCode": "ISR",
+      "rank": 76,
+      "points": 1337.4,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bolivia",
+      "countryCode": "BOL",
+      "rank": 77,
+      "points": 1332.24,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Oman",
+      "countryCode": "OMA",
+      "rank": 78,
+      "points": 1320.34,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Gabon",
+      "countryCode": "GAB",
+      "rank": 79,
+      "points": 1314.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Montenegro",
+      "countryCode": "MNE",
+      "rank": 80,
+      "points": 1314.05,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Guinea",
+      "countryCode": "GUI",
+      "rank": 81,
+      "points": 1299.49,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Uganda",
+      "countryCode": "UGA",
+      "rank": 82,
+      "points": 1287.61,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "New Zealand",
+      "countryCode": "NZL",
+      "rank": 83,
+      "points": 1283.94,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Curacao",
+      "countryCode": "CUW",
+      "rank": 84,
+      "points": 1282.42,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Zambia",
+      "countryCode": "ZAM",
+      "rank": 85,
+      "points": 1273,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bulgaria",
+      "countryCode": "BUL",
+      "rank": 86,
+      "points": 1271.52,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "countryCode": "HAI",
+      "rank": 87,
+      "points": 1269.24,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bahrain",
+      "countryCode": "BHR",
+      "rank": 88,
+      "points": 1268.73,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Angola",
+      "countryCode": "ANG",
+      "rank": 89,
+      "points": 1268.72,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "El Salvador",
+      "countryCode": "SLV",
+      "rank": 90,
+      "points": 1267.75,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Kosovo",
+      "countryCode": "KOS",
+      "rank": 91,
+      "points": 1262.1,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Syria",
+      "countryCode": "SYR",
+      "rank": 92,
+      "points": 1259.32,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Benin",
+      "countryCode": "BEN",
+      "rank": 93,
+      "points": 1257.3,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "China",
+      "countryCode": "CHN",
+      "rank": 94,
+      "points": 1249.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Equatorial Guinea",
+      "countryCode": "EQG",
+      "rank": 95,
+      "points": 1248.68,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Luxembourg",
+      "countryCode": "LUX",
+      "rank": 96,
+      "points": 1242.61,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mozambique",
+      "countryCode": "MOZ",
+      "rank": 97,
+      "points": 1234.04,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Guatemala",
+      "countryCode": "GUA",
+      "rank": 98,
+      "points": 1230.73,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Palestine",
+      "countryCode": "PLE",
+      "rank": 99,
+      "points": 1230.55,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Belarus",
+      "countryCode": "BLR",
+      "rank": 100,
+      "points": 1223.54,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Thailand",
+      "countryCode": "THA",
+      "rank": 101,
+      "points": 1222.2,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Trinidad and Tobago",
+      "countryCode": "TRI",
+      "rank": 102,
+      "points": 1220.99,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Armenia",
+      "countryCode": "ARM",
+      "rank": 103,
+      "points": 1219.55,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Tajikistan",
+      "countryCode": "TJK",
+      "rank": 104,
+      "points": 1206.15,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Comoros",
+      "countryCode": "COM",
+      "rank": 105,
+      "points": 1201.83,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Kyrgyzstan",
+      "countryCode": "KGZ",
+      "rank": 106,
+      "points": 1201.22,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Tanzania",
+      "countryCode": "TAN",
+      "rank": 107,
+      "points": 1199.45,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Madagascar",
+      "countryCode": "MAD",
+      "rank": 108,
+      "points": 1187.59,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Namibia",
+      "countryCode": "NAM",
+      "rank": 109,
+      "points": 1183.8,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mauritania",
+      "countryCode": "MTN",
+      "rank": 110,
+      "points": 1183.28,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Kenya",
+      "countryCode": "KEN",
+      "rank": 111,
+      "points": 1181.64,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Libya",
+      "countryCode": "LBY",
+      "rank": 112,
+      "points": 1179.57,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Lebanon",
+      "countryCode": "LBN",
+      "rank": 113,
+      "points": 1172.3,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Vietnam",
+      "countryCode": "VIE",
+      "rank": 114,
+      "points": 1169.92,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Gambia",
+      "countryCode": "GAM",
+      "rank": 115,
+      "points": 1165.93,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Sudan",
+      "countryCode": "SDN",
+      "rank": 116,
+      "points": 1163.56,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Niger",
+      "countryCode": "NIG",
+      "rank": 117,
+      "points": 1160.33,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Kazakhstan",
+      "countryCode": "KAZ",
+      "rank": 118,
+      "points": 1158.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Indonesia",
+      "countryCode": "IDN",
+      "rank": 119,
+      "points": 1157.94,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Togo",
+      "countryCode": "TOG",
+      "rank": 120,
+      "points": 1151.08,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "North Korea",
+      "countryCode": "PRK",
+      "rank": 121,
+      "points": 1151.05,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Sierra Leone",
+      "countryCode": "SLE",
+      "rank": 122,
+      "points": 1150.1,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Malaysia",
+      "countryCode": "MAS",
+      "rank": 123,
+      "points": 1148.23,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Azerbaijan",
+      "countryCode": "AZE",
+      "rank": 124,
+      "points": 1148.09,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Zimbabwe",
+      "countryCode": "ZIM",
+      "rank": 125,
+      "points": 1133.75,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Malawi",
+      "countryCode": "MWI",
+      "rank": 126,
+      "points": 1133.6,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Rwanda",
+      "countryCode": "RWA",
+      "rank": 127,
+      "points": 1133.5,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cyprus",
+      "countryCode": "CYP",
+      "rank": 128,
+      "points": 1128.1,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Estonia",
+      "countryCode": "EST",
+      "rank": 129,
+      "points": 1127.2,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Guinea-Bissau",
+      "countryCode": "GNB",
+      "rank": 130,
+      "points": 1126.81,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Suriname",
+      "countryCode": "SUR",
+      "rank": 131,
+      "points": 1125.21,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Nicaragua",
+      "countryCode": "NCA",
+      "rank": 132,
+      "points": 1120.78,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Congo",
+      "countryCode": "CGO",
+      "rank": 133,
+      "points": 1119.77,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "India",
+      "countryCode": "IND",
+      "rank": 134,
+      "points": 1113.8,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Kuwait",
+      "countryCode": "KUW",
+      "rank": 135,
+      "points": 1100.38,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Faroe Islands",
+      "countryCode": "FRO",
+      "rank": 136,
+      "points": 1094.46,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Latvia",
+      "countryCode": "LVA",
+      "rank": 137,
+      "points": 1088.8,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Turkmenistan",
+      "countryCode": "TKM",
+      "rank": 138,
+      "points": 1087.96,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Botswana",
+      "countryCode": "BOT",
+      "rank": 139,
+      "points": 1087.27,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Central African Republic",
+      "countryCode": "CTA",
+      "rank": 140,
+      "points": 1081.36,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Burundi",
+      "countryCode": "BDI",
+      "rank": 141,
+      "points": 1077.05,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Dominican Republic",
+      "countryCode": "DOM",
+      "rank": 142,
+      "points": 1074.46,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Philippines",
+      "countryCode": "PHI",
+      "rank": 143,
+      "points": 1066.35,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Liberia",
+      "countryCode": "LBR",
+      "rank": 144,
+      "points": 1065.62,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Lithuania",
+      "countryCode": "LTU",
+      "rank": 145,
+      "points": 1065.34,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Hong Kong",
+      "countryCode": "HKG",
+      "rank": 146,
+      "points": 1047.36,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Ethiopia",
+      "countryCode": "ETH",
+      "rank": 147,
+      "points": 1046.41,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Solomon Islands",
+      "countryCode": "SOL",
+      "rank": 148,
+      "points": 1045.58,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "countryCode": "SKN",
+      "rank": 149,
+      "points": 1041.53,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "New Caledonia",
+      "countryCode": "NCL",
+      "rank": 150,
+      "points": 1039.55,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Guyana",
+      "countryCode": "GUY",
+      "rank": 151,
+      "points": 1037.34,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Fiji",
+      "countryCode": "FIJ",
+      "rank": 152,
+      "points": 1035.11,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Lesotho",
+      "countryCode": "LES",
+      "rank": 153,
+      "points": 1034.1,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Yemen",
+      "countryCode": "YEM",
+      "rank": 154,
+      "points": 1021.25,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Puerto Rico",
+      "countryCode": "PUR",
+      "rank": 155,
+      "points": 1020.44,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Moldova",
+      "countryCode": "MDA",
+      "rank": 156,
+      "points": 1019.2,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Tahiti",
+      "countryCode": "TAH",
+      "rank": 157,
+      "points": 1019.04,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Singapore",
+      "countryCode": "SGP",
+      "rank": 158,
+      "points": 1013.34,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Eswatini",
+      "countryCode": "SWZ",
+      "rank": 159,
+      "points": 1010.06,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Myanmar",
+      "countryCode": "MYA",
+      "rank": 160,
+      "points": 1004.15,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Afghanistan",
+      "countryCode": "AFG",
+      "rank": 161,
+      "points": 998.88,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "countryCode": "ATG",
+      "rank": 162,
+      "points": 992.38,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Vanuatu",
+      "countryCode": "VAN",
+      "rank": 163,
+      "points": 991.59,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Saint Lucia",
+      "countryCode": "LCA",
+      "rank": 164,
+      "points": 990.69,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bermuda",
+      "countryCode": "BER",
+      "rank": 165,
+      "points": 988.72,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Malta",
+      "countryCode": "MLT",
+      "rank": 166,
+      "points": 982.43,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cuba",
+      "countryCode": "CUB",
+      "rank": 167,
+      "points": 980.33,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Grenada",
+      "countryCode": "GRN",
+      "rank": 168,
+      "points": 978.4,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "South Sudan",
+      "countryCode": "SSD",
+      "rank": 169,
+      "points": 976.56,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Papua New Guinea",
+      "countryCode": "PNG",
+      "rank": 170,
+      "points": 969.17,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Maldives",
+      "countryCode": "MDV",
+      "rank": 171,
+      "points": 968.59,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "countryCode": "VIN",
+      "rank": 172,
+      "points": 962.43,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Chinese Taipei",
+      "countryCode": "TPE",
+      "rank": 173,
+      "points": 960.81,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Andorra",
+      "countryCode": "AND",
+      "rank": 174,
+      "points": 954.68,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Chad",
+      "countryCode": "CHA",
+      "rank": 175,
+      "points": 925.82,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Nepal",
+      "countryCode": "NEP",
+      "rank": 176,
+      "points": 923.02,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Barbados",
+      "countryCode": "BRB",
+      "rank": 177,
+      "points": 919.97,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Montserrat",
+      "countryCode": "MSR",
+      "rank": 178,
+      "points": 916.75,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mauritius",
+      "countryCode": "MRI",
+      "rank": 179,
+      "points": 912.24,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cambodia",
+      "countryCode": "CAM",
+      "rank": 180,
+      "points": 910.21,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Belize",
+      "countryCode": "BLZ",
+      "rank": 181,
+      "points": 904.45,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Dominica",
+      "countryCode": "DMA",
+      "rank": 182,
+      "points": 901.37,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Brunei",
+      "countryCode": "BRU",
+      "rank": 183,
+      "points": 900.62,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bangladesh",
+      "countryCode": "BAN",
+      "rank": 184,
+      "points": 899.24,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Laos",
+      "countryCode": "LAO",
+      "rank": 185,
+      "points": 890.35,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bhutan",
+      "countryCode": "BHU",
+      "rank": 186,
+      "points": 888.94,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "American Samoa",
+      "countryCode": "ASA",
+      "rank": 187,
+      "points": 883.17,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mongolia",
+      "countryCode": "MNG",
+      "rank": 188,
+      "points": 879.75,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cook Islands",
+      "countryCode": "COK",
+      "rank": 189,
+      "points": 877.53,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Samoa",
+      "countryCode": "SAM",
+      "rank": 190,
+      "points": 876.41,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Macau",
+      "countryCode": "MAC",
+      "rank": 191,
+      "points": 865.29,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Aruba",
+      "countryCode": "ARU",
+      "rank": 192,
+      "points": 861.16,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Djibouti",
+      "countryCode": "DJI",
+      "rank": 193,
+      "points": 855.91,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Timor-Leste",
+      "countryCode": "TLS",
+      "rank": 194,
+      "points": 855.36,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Sao Tome and Principe",
+      "countryCode": "STP",
+      "rank": 195,
+      "points": 854.76,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Cayman Islands",
+      "countryCode": "CAY",
+      "rank": 196,
+      "points": 853.37,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Sri Lanka",
+      "countryCode": "SRI",
+      "rank": 197,
+      "points": 852.3,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Tonga",
+      "countryCode": "TGA",
+      "rank": 198,
+      "points": 835.64,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Pakistan",
+      "countryCode": "PAK",
+      "rank": 199,
+      "points": 829.41,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Gibraltar",
+      "countryCode": "GIB",
+      "rank": 200,
+      "points": 827.19,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Somalia",
+      "countryCode": "SOM",
+      "rank": 201,
+      "points": 824.76,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Guam",
+      "countryCode": "GUM",
+      "rank": 202,
+      "points": 823.08,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Seychelles",
+      "countryCode": "SEY",
+      "rank": 203,
+      "points": 812.32,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Liechtenstein",
+      "countryCode": "LIE",
+      "rank": 204,
+      "points": 808.48,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Bahamas",
+      "countryCode": "BAH",
+      "rank": 205,
+      "points": 807.36,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Turks and Caicos Islands",
+      "countryCode": "TCA",
+      "rank": 206,
+      "points": 803.98,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "US Virgin Islands",
+      "countryCode": "VIR",
+      "rank": 207,
+      "points": 779.71,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "British Virgin Islands",
+      "countryCode": "VGB",
+      "rank": 208,
+      "points": 768.5,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Anguilla",
+      "countryCode": "AIA",
+      "rank": 209,
+      "points": 758.52,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "San Marino",
+      "countryCode": "SMR",
+      "rank": 210,
+      "points": 733.23,
+      "rankingDate": "2025-09-18",
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "FIFA ranking dateId FRS_Male_Football_20260119 returned no ranking rows.",
+    "FIFA ranking dateId FRS_Male_Football_20251219 returned no ranking rows.",
+    "FIFA ranking dateId FRS_Male_Football_20251119 returned no ranking rows.",
+    "FIFA ranking dateId FRS_Male_Football_20251015 returned no ranking rows.",
+    "FIFA ranking dateId FRS_Male_Football_20250910 returned no ranking rows.",
+    "Skipped incomplete FIFA ranking row for Eritrea."
+  ]
+}

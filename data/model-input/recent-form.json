@@ -1,0 +1,4418 @@
+{
+  "generatedAt": "2026-06-07T08:28:06.979Z",
+  "rows": [
+    {
+      "team": "Afghanistan",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 4,
+      "goalsAgainst": 12,
+      "goalDifference": -8,
+      "goalsForPerMatch": 0.4,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Albania",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 0,
+      "losses": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 9,
+      "goalDifference": 0,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 19,
+      "goalsAgainst": 4,
+      "goalDifference": 15,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.4,
+      "formPoints": 23,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "American Samoa",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 1,
+      "losses": 9,
+      "goalsFor": 6,
+      "goalsAgainst": 66,
+      "goalDifference": -60,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 6.6,
+      "formPoints": 1,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Andorra",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 15,
+      "goalDifference": -10,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Angola",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 5,
+      "losses": 3,
+      "goalsFor": 11,
+      "goalsAgainst": 12,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Anguilla",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 8,
+      "goalsAgainst": 28,
+      "goalDifference": -20,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 2.8,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 2,
+      "losses": 8,
+      "goalsFor": 3,
+      "goalsAgainst": 22,
+      "goalDifference": -19,
+      "goalsForPerMatch": 0.3,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 2,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 23,
+      "goalsAgainst": 3,
+      "goalDifference": 20,
+      "goalsForPerMatch": 2.3,
+      "goalsAgainstPerMatch": 0.3,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Armenia",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 29,
+      "goalDifference": -20,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 2.9,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Aruba",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 15,
+      "goalsAgainst": 19,
+      "goalDifference": -4,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 10,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Austria",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 27,
+      "goalsAgainst": 4,
+      "goalDifference": 23,
+      "goalsForPerMatch": 2.7,
+      "goalsAgainstPerMatch": 0.4,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Azerbaijan",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 22,
+      "goalDifference": -11,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bahamas",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 39,
+      "goalDifference": -27,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 3.9,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bahrain",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 17,
+      "goalDifference": -8,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bangladesh",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 12,
+      "goalsAgainst": 13,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Barbados",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 12,
+      "goalsAgainst": 23,
+      "goalDifference": -11,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 2.3,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Belarus",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 23,
+      "goalDifference": -11,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 2.3,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Belgium",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 3,
+      "losses": 0,
+      "goalsFor": 37,
+      "goalsAgainst": 6,
+      "goalDifference": 31,
+      "goalsForPerMatch": 3.7,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 24,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Belize",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 15,
+      "goalsAgainst": 27,
+      "goalDifference": -12,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 2.7,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Benin",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 6,
+      "goalsAgainst": 15,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bermuda",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 14,
+      "goalsAgainst": 26,
+      "goalDifference": -12,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 2.6,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bhutan",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "goalsFor": 3,
+      "goalsAgainst": 24,
+      "goalDifference": -21,
+      "goalsForPerMatch": 0.3,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bolivia",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 8,
+      "goalsAgainst": 17,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 6,
+      "losses": 1,
+      "goalsFor": 20,
+      "goalsAgainst": 10,
+      "goalDifference": 10,
+      "goalsForPerMatch": 2,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Botswana",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 18,
+      "goalDifference": -12,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 25,
+      "goalsAgainst": 11,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2.5,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "British Virgin Islands",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 17,
+      "goalsAgainst": 15,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Brunei",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 4,
+      "goalsAgainst": 24,
+      "goalDifference": -20,
+      "goalsForPerMatch": 0.4,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Bulgaria",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 16,
+      "goalsAgainst": 24,
+      "goalDifference": -8,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Burkina Faso",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 12,
+      "goalDifference": 7,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Burundi",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 14,
+      "goalDifference": -8,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cambodia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "goalsFor": 15,
+      "goalsAgainst": 18,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cameroon",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 10,
+      "goalsAgainst": 7,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 0.7,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Canada",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 5,
+      "losses": 1,
+      "goalsFor": 11,
+      "goalsAgainst": 4,
+      "goalDifference": 7,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 0.4,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cape Verde",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 12,
+      "goalDifference": 4,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cayman Islands",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 24,
+      "goalDifference": -15,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Central African Republic",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 19,
+      "goalDifference": -12,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Chad",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 3,
+      "losses": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 21,
+      "goalDifference": -13,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 2.1,
+      "formPoints": 3,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Chile",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 16,
+      "goalDifference": -4,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "China",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 12,
+      "goalDifference": -3,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Chinese Taipei",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 14,
+      "goalsAgainst": 29,
+      "goalDifference": -15,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 2.9,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 2,
+      "losses": 2,
+      "goalsFor": 24,
+      "goalsAgainst": 11,
+      "goalDifference": 13,
+      "goalsForPerMatch": 2.4,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 20,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Comoros",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 15,
+      "goalDifference": -4,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Congo",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 23,
+      "goalDifference": -17,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 2.3,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cook Islands",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 5,
+      "goalsAgainst": 33,
+      "goalDifference": -28,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 3.3,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Costa Rica",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 6,
+      "losses": 3,
+      "goalsFor": 13,
+      "goalsAgainst": 18,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "goalsFor": 22,
+      "goalsAgainst": 10,
+      "goalDifference": 12,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cuba",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 10,
+      "goalsAgainst": 19,
+      "goalDifference": -9,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Curacao",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 14,
+      "goalDifference": 5,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Cyprus",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 14,
+      "goalsAgainst": 17,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Czechia",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "goalsFor": 22,
+      "goalsAgainst": 9,
+      "goalDifference": 13,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Denmark",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "goalsFor": 27,
+      "goalsAgainst": 9,
+      "goalDifference": 18,
+      "goalsForPerMatch": 2.7,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Djibouti",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 2,
+      "losses": 8,
+      "goalsFor": 5,
+      "goalsAgainst": 27,
+      "goalDifference": -22,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 2.7,
+      "formPoints": 2,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Dominica",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 18,
+      "goalDifference": -11,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Dominican Republic",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 10,
+      "goalsAgainst": 16,
+      "goalDifference": -6,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "DR Congo",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 3,
+      "losses": 1,
+      "goalsFor": 11,
+      "goalsAgainst": 3,
+      "goalDifference": 8,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 0.3,
+      "formPoints": 21,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 7,
+      "losses": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 5,
+      "goalDifference": 4,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 0.5,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 13,
+      "goalsAgainst": 6,
+      "goalDifference": 7,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "El Salvador",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "goalsFor": 5,
+      "goalsAgainst": 14,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "goalsFor": 22,
+      "goalsAgainst": 5,
+      "goalDifference": 17,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 0.5,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Equatorial Guinea",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "goalsFor": 8,
+      "goalsAgainst": 16,
+      "goalDifference": -8,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Estonia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 19,
+      "goalDifference": -10,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Eswatini",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 5,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 24,
+      "goalDifference": -17,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Ethiopia",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 0,
+      "losses": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 16,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Faroe Islands",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 0,
+      "losses": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 9,
+      "goalDifference": 4,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Fiji",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 28,
+      "goalDifference": -21,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 2.8,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Finland",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 17,
+      "goalDifference": -6,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 24,
+      "goalsAgainst": 8,
+      "goalDifference": 16,
+      "goalsForPerMatch": 2.4,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Gabon",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 18,
+      "goalsAgainst": 19,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.8,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Gambia",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 22,
+      "goalsAgainst": 16,
+      "goalDifference": 6,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 14,
+      "goalsAgainst": 18,
+      "goalDifference": -4,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Germany",
+      "matchesPlayed": 10,
+      "wins": 9,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 28,
+      "goalsAgainst": 8,
+      "goalDifference": 20,
+      "goalsForPerMatch": 2.8,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 27,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 14,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Gibraltar",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 0,
+      "losses": 7,
+      "goalsFor": 14,
+      "goalsAgainst": 19,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Greece",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "goalsFor": 16,
+      "goalsAgainst": 15,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Grenada",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 0,
+      "losses": 5,
+      "goalsFor": 17,
+      "goalsAgainst": 21,
+      "goalDifference": -4,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 2.1,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Guam",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 14,
+      "goalsAgainst": 28,
+      "goalDifference": -14,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 2.8,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Guatemala",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 22,
+      "goalDifference": -11,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 12,
+      "goalsAgainst": 9,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea-Bissau",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 17,
+      "goalDifference": -11,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Guyana",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 0,
+      "losses": 2,
+      "goalsFor": 26,
+      "goalsAgainst": 12,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2.6,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 24,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 10,
+      "goalDifference": 5,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Honduras",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 5,
+      "losses": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 8,
+      "goalDifference": 0,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Hong Kong",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 9,
+      "goalDifference": 10,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Hungary",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 12,
+      "goalDifference": 4,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Iceland",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 16,
+      "goalsAgainst": 19,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "India",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 13,
+      "goalDifference": -7,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Indonesia",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 17,
+      "goalsAgainst": 11,
+      "goalDifference": 6,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Iran",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 17,
+      "goalsAgainst": 6,
+      "goalDifference": 11,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 11,
+      "goalsAgainst": 8,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Israel",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 17,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Italy",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 10,
+      "goalDifference": 15,
+      "goalsForPerMatch": 2.5,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Ivory Coast",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 8,
+      "goalDifference": 11,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Jamaica",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 8,
+      "goalDifference": 1,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Japan",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 19,
+      "goalsAgainst": 6,
+      "goalDifference": 13,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 23,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 16,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Kazakhstan",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 12,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Kenya",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "goalsFor": 14,
+      "goalsAgainst": 17,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Kosovo",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 13,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Kuwait",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "goalsFor": 15,
+      "goalsAgainst": 22,
+      "goalDifference": -7,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Kyrgyzstan",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 17,
+      "goalDifference": -6,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Laos",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 11,
+      "goalsAgainst": 29,
+      "goalDifference": -18,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 2.9,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Latvia",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 5,
+      "losses": 5,
+      "goalsFor": 5,
+      "goalsAgainst": 16,
+      "goalDifference": -11,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Lebanon",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 21,
+      "goalsAgainst": 5,
+      "goalDifference": 16,
+      "goalsForPerMatch": 2.1,
+      "goalsAgainstPerMatch": 0.5,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Lesotho",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 19,
+      "goalDifference": -12,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Liberia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 10,
+      "goalsAgainst": 15,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Libya",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 6,
+      "losses": 1,
+      "goalsFor": 11,
+      "goalsAgainst": 9,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Liechtenstein",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 0,
+      "losses": 9,
+      "goalsFor": 3,
+      "goalsAgainst": 35,
+      "goalDifference": -32,
+      "goalsForPerMatch": 0.3,
+      "goalsAgainstPerMatch": 3.5,
+      "formPoints": 3,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Lithuania",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 20,
+      "goalDifference": -13,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Luxembourg",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "goalsFor": 2,
+      "goalsAgainst": 15,
+      "goalDifference": -13,
+      "goalsForPerMatch": 0.2,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Macau",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 1,
+      "losses": 9,
+      "goalsFor": 3,
+      "goalsAgainst": 28,
+      "goalDifference": -25,
+      "goalsForPerMatch": 0.3,
+      "goalsAgainstPerMatch": 2.8,
+      "formPoints": 1,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Madagascar",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 17,
+      "goalsAgainst": 19,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Malawi",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 8,
+      "goalsAgainst": 9,
+      "goalDifference": -1,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Malaysia",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 19,
+      "goalsAgainst": 6,
+      "goalDifference": 13,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 23,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Maldives",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "goalsFor": 6,
+      "goalsAgainst": 20,
+      "goalDifference": -14,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mali",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 5,
+      "losses": 2,
+      "goalsFor": 12,
+      "goalsAgainst": 9,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Malta",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 23,
+      "goalDifference": -12,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 2.3,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritania",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 5,
+      "losses": 4,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "goalDifference": -6,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritius",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 6,
+      "goalsAgainst": 15,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 3,
+      "losses": 1,
+      "goalsFor": 16,
+      "goalsAgainst": 4,
+      "goalDifference": 12,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 0.4,
+      "formPoints": 21,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Moldova",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 2,
+      "losses": 8,
+      "goalsFor": 8,
+      "goalsAgainst": 33,
+      "goalDifference": -25,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 3.3,
+      "formPoints": 2,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mongolia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 5,
+      "goalsAgainst": 24,
+      "goalDifference": -19,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 2.4,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Montenegro",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 20,
+      "goalDifference": -7,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Montserrat",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 6,
+      "goalsAgainst": 20,
+      "goalDifference": -14,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 3,
+      "losses": 0,
+      "goalsFor": 22,
+      "goalsAgainst": 3,
+      "goalDifference": 19,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 0.3,
+      "formPoints": 24,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Mozambique",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 18,
+      "goalDifference": -8,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Myanmar",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 15,
+      "goalsAgainst": 20,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Namibia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 2,
+      "losses": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 16,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Nepal",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 11,
+      "goalDifference": -4,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 3,
+      "losses": 1,
+      "goalsFor": 28,
+      "goalsAgainst": 7,
+      "goalDifference": 21,
+      "goalsForPerMatch": 2.8,
+      "goalsAgainstPerMatch": 0.7,
+      "formPoints": 21,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "New Caledonia",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 2,
+      "losses": 2,
+      "goalsFor": 23,
+      "goalsAgainst": 10,
+      "goalDifference": 13,
+      "goalsForPerMatch": 2.3,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 20,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "New Zealand",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 1,
+      "losses": 8,
+      "goalsFor": 7,
+      "goalsAgainst": 18,
+      "goalDifference": -11,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Nicaragua",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 5,
+      "goalsAgainst": 22,
+      "goalDifference": -17,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Niger",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 10,
+      "goalsAgainst": 13,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Nigeria",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 4,
+      "losses": 0,
+      "goalsFor": 20,
+      "goalsAgainst": 6,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2,
+      "goalsAgainstPerMatch": 0.6,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "North Korea",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 4,
+      "losses": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 21,
+      "goalDifference": -11,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 2.1,
+      "formPoints": 4,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "North Macedonia",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 5,
+      "losses": 4,
+      "goalsFor": 8,
+      "goalsAgainst": 18,
+      "goalDifference": -10,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Northern Ireland",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 9,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 31,
+      "goalsAgainst": 7,
+      "goalDifference": 24,
+      "goalsForPerMatch": 3.1,
+      "goalsAgainstPerMatch": 0.7,
+      "formPoints": 23,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Oman",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 11,
+      "goalDifference": -4,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Pakistan",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 4,
+      "goalsAgainst": 25,
+      "goalDifference": -21,
+      "goalsForPerMatch": 0.4,
+      "goalsAgainstPerMatch": 2.5,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Palestine",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 5,
+      "losses": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 9,
+      "goalDifference": -2,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Panama",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 18,
+      "goalsAgainst": 16,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.8,
+      "goalsAgainstPerMatch": 1.6,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Papua New Guinea",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 18,
+      "goalsAgainst": 15,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.8,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 12,
+      "goalsAgainst": 10,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Peru",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 14,
+      "goalDifference": -7,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Philippines",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 11,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2.5,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 23,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Poland",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 17,
+      "goalsAgainst": 13,
+      "goalDifference": 4,
+      "goalsForPerMatch": 1.7,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 3,
+      "losses": 1,
+      "goalsFor": 26,
+      "goalsAgainst": 10,
+      "goalDifference": 16,
+      "goalsForPerMatch": 2.6,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 21,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Puerto Rico",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 19,
+      "goalDifference": -8,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.9,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 7,
+      "goalsAgainst": 15,
+      "goalDifference": -8,
+      "goalsForPerMatch": 0.7,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Republic of Ireland",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 8,
+      "goalDifference": 8,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Romania",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 16,
+      "goalsAgainst": 15,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Russia",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 7,
+      "goalDifference": 9,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 0.7,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Rwanda",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 8,
+      "goalsAgainst": 12,
+      "goalDifference": -4,
+      "goalsForPerMatch": 0.8,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 21,
+      "goalsAgainst": 27,
+      "goalDifference": -6,
+      "goalsForPerMatch": 2.1,
+      "goalsAgainstPerMatch": 2.7,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Lucia",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 0,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 31,
+      "goalDifference": -22,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 3.1,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 26,
+      "goalsAgainst": 11,
+      "goalDifference": 15,
+      "goalsForPerMatch": 2.6,
+      "goalsAgainstPerMatch": 1.1,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Samoa",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 0,
+      "losses": 6,
+      "goalsFor": 12,
+      "goalsAgainst": 30,
+      "goalDifference": -18,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 3,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "San Marino",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 1,
+      "losses": 9,
+      "goalsFor": 4,
+      "goalsAgainst": 39,
+      "goalDifference": -35,
+      "goalsForPerMatch": 0.4,
+      "goalsAgainstPerMatch": 3.9,
+      "formPoints": 1,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Sao Tome and Principe",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 6,
+      "goalsAgainst": 21,
+      "goalDifference": -15,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 2.1,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Saudi Arabia",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 0,
+      "losses": 6,
+      "goalsFor": 12,
+      "goalsAgainst": 15,
+      "goalDifference": -3,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Scotland",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 21,
+      "goalsAgainst": 10,
+      "goalDifference": 11,
+      "goalsForPerMatch": 2.1,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "goalsFor": 19,
+      "goalsAgainst": 9,
+      "goalDifference": 10,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Serbia",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 0,
+      "losses": 6,
+      "goalsFor": 9,
+      "goalsAgainst": 22,
+      "goalDifference": -13,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Seychelles",
+      "matchesPlayed": 10,
+      "wins": 0,
+      "draws": 0,
+      "losses": 10,
+      "goalsFor": 2,
+      "goalsAgainst": 53,
+      "goalDifference": -51,
+      "goalsForPerMatch": 0.2,
+      "goalsAgainstPerMatch": 5.3,
+      "formPoints": 0,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Sierra Leone",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 3,
+      "losses": 3,
+      "goalsFor": 11,
+      "goalsAgainst": 9,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 15,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Singapore",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 19,
+      "goalsAgainst": 13,
+      "goalDifference": 6,
+      "goalsForPerMatch": 1.9,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Slovakia",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 15,
+      "goalDifference": 0,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Slovenia",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 5,
+      "losses": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 13,
+      "goalDifference": -4,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Solomon Islands",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 16,
+      "goalsAgainst": 29,
+      "goalDifference": -13,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 2.9,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Somalia",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 4,
+      "goalsAgainst": 17,
+      "goalDifference": -13,
+      "goalsForPerMatch": 0.4,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 10,
+      "goalDifference": 5,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 17,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 15,
+      "goalsAgainst": 12,
+      "goalDifference": 3,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.2,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "South Sudan",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 3,
+      "losses": 6,
+      "goalsFor": 6,
+      "goalsAgainst": 20,
+      "goalDifference": -14,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 4,
+      "losses": 0,
+      "goalsFor": 27,
+      "goalsAgainst": 5,
+      "goalDifference": 22,
+      "goalsForPerMatch": 2.7,
+      "goalsAgainstPerMatch": 0.5,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Sri Lanka",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 1,
+      "losses": 5,
+      "goalsFor": 9,
+      "goalsAgainst": 15,
+      "goalDifference": -6,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Sudan",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 5,
+      "goalsAgainst": 17,
+      "goalDifference": -12,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 7,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Suriname",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "goalsFor": 13,
+      "goalsAgainst": 14,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 20,
+      "goalDifference": -7,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 9,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 4,
+      "losses": 1,
+      "goalsFor": 22,
+      "goalsAgainst": 8,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2.2,
+      "goalsAgainstPerMatch": 0.8,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Syria",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 20,
+      "goalsAgainst": 9,
+      "goalDifference": 11,
+      "goalsForPerMatch": 2,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Tahiti",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 12,
+      "goalsAgainst": 14,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Tajikistan",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 10,
+      "goalDifference": 15,
+      "goalsForPerMatch": 2.5,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Tanzania",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 12,
+      "goalsAgainst": 14,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Thailand",
+      "matchesPlayed": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "goalsFor": 24,
+      "goalsAgainst": 9,
+      "goalDifference": 15,
+      "goalsForPerMatch": 2.4,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 22,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Timor-Leste",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 0,
+      "losses": 9,
+      "goalsFor": 6,
+      "goalsAgainst": 35,
+      "goalDifference": -29,
+      "goalsForPerMatch": 0.6,
+      "goalsAgainstPerMatch": 3.5,
+      "formPoints": 3,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Togo",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 10,
+      "goalsAgainst": 10,
+      "goalDifference": 0,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Tonga",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 0,
+      "losses": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 45,
+      "goalDifference": -33,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 4.5,
+      "formPoints": 6,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Trinidad and Tobago",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 5,
+      "losses": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 20,
+      "goalDifference": -10,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 8,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Tunisia",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 13,
+      "goalsAgainst": 14,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 13,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Turkey",
+      "matchesPlayed": 10,
+      "wins": 8,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 25,
+      "goalsAgainst": 13,
+      "goalDifference": 12,
+      "goalsForPerMatch": 2.5,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 25,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Turkmenistan",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 16,
+      "goalsAgainst": 14,
+      "goalDifference": 2,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Turks and Caicos Islands",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 18,
+      "goalDifference": -9,
+      "goalsForPerMatch": 0.9,
+      "goalsAgainstPerMatch": 1.8,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Uganda",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 14,
+      "goalsAgainst": 15,
+      "goalDifference": -1,
+      "goalsForPerMatch": 1.4,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Ukraine",
+      "matchesPlayed": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 16,
+      "goalsAgainst": 15,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 1.5,
+      "formPoints": 19,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "United Arab Emirates",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "goalsFor": 12,
+      "goalsAgainst": 14,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 1,
+      "losses": 4,
+      "goalsFor": 18,
+      "goalsAgainst": 17,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1.8,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Uruguay",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 10,
+      "goalsAgainst": 9,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1,
+      "goalsAgainstPerMatch": 0.9,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "US Virgin Islands",
+      "matchesPlayed": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "goalsFor": 15,
+      "goalsAgainst": 20,
+      "goalDifference": -5,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 2,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 13,
+      "goalsAgainst": 7,
+      "goalDifference": 6,
+      "goalsForPerMatch": 1.3,
+      "goalsAgainstPerMatch": 0.7,
+      "formPoints": 16,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Vanuatu",
+      "matchesPlayed": 10,
+      "wins": 4,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 16,
+      "goalsAgainst": 22,
+      "goalDifference": -6,
+      "goalsForPerMatch": 1.6,
+      "goalsAgainstPerMatch": 2.2,
+      "formPoints": 14,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Venezuela",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 1,
+      "losses": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 17,
+      "goalDifference": -6,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.7,
+      "formPoints": 10,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Vietnam",
+      "matchesPlayed": 10,
+      "wins": 9,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 24,
+      "goalsAgainst": 10,
+      "goalDifference": 14,
+      "goalsForPerMatch": 2.4,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 27,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Wales",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 3,
+      "losses": 4,
+      "goalsFor": 15,
+      "goalsAgainst": 14,
+      "goalDifference": 1,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 1.4,
+      "formPoints": 12,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Yemen",
+      "matchesPlayed": 10,
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "goalsFor": 28,
+      "goalsAgainst": 10,
+      "goalDifference": 18,
+      "goalsForPerMatch": 2.8,
+      "goalsAgainstPerMatch": 1,
+      "formPoints": 18,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Zambia",
+      "matchesPlayed": 10,
+      "wins": 1,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 5,
+      "goalsAgainst": 23,
+      "goalDifference": -18,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 2.3,
+      "formPoints": 5,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    },
+    {
+      "team": "Zimbabwe",
+      "matchesPlayed": 10,
+      "wins": 3,
+      "draws": 2,
+      "losses": 5,
+      "goalsFor": 11,
+      "goalsAgainst": 13,
+      "goalDifference": -2,
+      "goalsForPerMatch": 1.1,
+      "goalsAgainstPerMatch": 1.3,
+      "formPoints": 11,
+      "sourceRefs": [
+        {
+          "sourceName": "international_results results.csv",
+          "sourceUrl": "https://github.com/martj42/international_results",
+          "collectedAt": "2026-06-07T08:28:02.649Z",
+          "notes": "Raw CSV snapshot: https://raw.githubusercontent.com/martj42/international_results/master/results.csv."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Results collector warning: Skipped incomplete results.csv rows: 72 (49367, 49368, 49369, 49370, 49371, 49372, 49373, 49374, 49375, 49376, 49377, 49378, 49379, 49380, 49381, 49382, 49383, 49384, 49385, 49386, 49387, 49388, 49389, 49390, 49391, and 47 more)."
+  ]
+}

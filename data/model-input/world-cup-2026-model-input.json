@@ -1,0 +1,1047 @@
+{
+  "datasetId": "world-cup-2026-model-input-group-a-sample",
+  "generatedAt": "2026-06-07",
+  "scope": "Prediction-ready model input for sourced Group A sample data only. Missing features remain null.",
+  "missingValuePolicy": "Use null for unavailable or unsourced model features; do not impute inside this export.",
+  "normalizationPolicy": {
+    "fifaRankInverse": "Computed as 1 / collected FIFA rank; higher values indicate stronger rank position.",
+    "fifaRankSampleMinMax01": "Computed as (maxRankInExport - rank) / (maxRankInExport - minRankInExport), using only teams present in this export; higher is stronger.",
+    "otherFeatures": "Only sourced numeric values are emitted. Unavailable values are null and paired with warnings."
+  },
+  "sourceDatasets": [
+    {
+      "key": "rules",
+      "path": "data/rules/world-cup-2026-rules.json",
+      "datasetId": "world-cup-2026-rules",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "teams",
+      "path": "data/teams/teams.normalized.json",
+      "datasetId": "teams-group-a-sample",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "fifaRankings",
+      "path": "data/rankings/fifa-rankings.json",
+      "datasetId": "fifa-rankings-group-a-sample",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "eloRatings",
+      "path": "data/rankings/elo-ratings.json",
+      "datasetId": "elo-ratings-not-collected",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "form",
+      "path": "data/form/team-form.json",
+      "datasetId": "team-form-not-collected",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "squads",
+      "path": "data/squads/squad-quality.json",
+      "datasetId": "squad-quality-not-collected",
+      "generatedAt": "2026-06-07"
+    },
+    {
+      "key": "fixtures",
+      "path": "data/fixtures/group-fixtures.json",
+      "datasetId": "world-cup-2026-group-a-fixtures",
+      "generatedAt": "2026-06-07"
+    }
+  ],
+  "tournamentRules": {
+    "totalTeams": 48,
+    "groupCount": 12,
+    "teamsPerGroup": 4,
+    "groupMatchesPerTeam": 3,
+    "topTeamsPerGroup": 2,
+    "bestThirdPlaceTeams": 8,
+    "qualifiedFromGroupsTotal": 32,
+    "pointsForWin": 3,
+    "pointsForDraw": 1,
+    "pointsForLoss": 0,
+    "groupRankingTiebreakerKeys": [
+      "points_all_group_matches",
+      "head_to_head_points",
+      "head_to_head_goal_difference",
+      "head_to_head_goals_scored",
+      "overall_group_goal_difference",
+      "overall_group_goals_scored",
+      "team_conduct_score",
+      "latest_fifa_mens_world_ranking",
+      "previous_fifa_mens_world_rankings"
+    ],
+    "thirdPlaceRankingTiebreakerKeys": [
+      "points_all_group_matches",
+      "goal_difference_all_group_matches",
+      "goals_scored_all_group_matches",
+      "team_conduct_score",
+      "latest_fifa_mens_world_ranking",
+      "previous_fifa_mens_world_rankings"
+    ],
+    "fairPlayDeductions": {
+      "yellowCard": -1,
+      "indirectRedCardSecondYellow": -3,
+      "directRedCard": -4,
+      "yellowCardAndDirectRedCard": -5
+    }
+  },
+  "teams": [
+    {
+      "teamId": "mexico",
+      "name": "Mexico",
+      "countryCode": "MEX",
+      "group": "A",
+      "groupPosition": "A1",
+      "features": {
+        "teamStrength": {
+          "fifaRank": 15,
+          "fifaRankInverse": 0.066667,
+          "fifaRankSampleMinMax01": 1,
+          "fifaRankingPoints": null,
+          "eloRating": null,
+          "eloRatingNormalized": null,
+          "historicalWorldCupAppearances": null,
+          "recentTournamentPerformanceScore": null,
+          "attackingStrengthEstimate": null,
+          "defensiveStrengthEstimate": null
+        },
+        "squadQuality": {
+          "playerCount": null,
+          "averageSquadAge": null,
+          "totalSquadValueEur": null,
+          "topFiveLeaguePlayerCount": null,
+          "championsLeagueEuropaLeaguePlayerCount": null,
+          "keyPlayerCount": null
+        },
+        "recentForm": {
+          "matchesWindow": null,
+          "cleanSheets": null,
+          "winRate": null,
+          "drawRate": null,
+          "lossRate": null,
+          "goalDifference": null,
+          "weightedRecentFormScore": null,
+          "xgForPerMatch": null,
+          "xgAgainstPerMatch": null
+        },
+        "coachingContext": {
+          "coachTenureDays": null,
+          "formationKnown01": null,
+          "possessionStyle01": null,
+          "highPressStyle01": null,
+          "lowBlockStyle01": null,
+          "counterattackStyle01": null,
+          "directPlayStyle01": null,
+          "setPieceStrength01": null
+        },
+        "availabilityRisk": {
+          "injuryCount": null,
+          "suspensionCount": null,
+          "keyPlayerUncertainty01": null,
+          "recentMinutesLoadIndex": null
+        },
+        "fixtureEnvironment": {
+          "groupFixtureCount": 3,
+          "averageRestDays": null,
+          "totalTravelDistanceKm": null,
+          "maxVenueAltitudeMeters": null,
+          "climateRiskIndex": null
+        }
+      },
+      "fixtures": [
+        {
+          "fixtureId": "fwc2026-m001",
+          "matchNumber": 1,
+          "opponentTeamId": "south-africa",
+          "opponentCountryCode": "RSA",
+          "matchDay": 1,
+          "kickoffHourEt": 15,
+          "venueName": "Mexico City Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m028",
+          "matchNumber": 28,
+          "opponentTeamId": "korea-republic",
+          "opponentCountryCode": "KOR",
+          "matchDay": 2,
+          "kickoffHourEt": 21,
+          "venueName": "Estadio Guadalajara",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m053",
+          "matchNumber": 53,
+          "opponentTeamId": "czechia",
+          "opponentCountryCode": "CZE",
+          "matchDay": 3,
+          "kickoffHourEt": 21,
+          "venueName": "Mexico City Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "code": "missing_fifa_ranking_points",
+          "severity": "warning",
+          "message": "Mexico: FIFA ranking points were not collected."
+        },
+        {
+          "code": "missing_elo_rating",
+          "severity": "warning",
+          "message": "Mexico: Elo rating is null because no allowed Elo source has been collected."
+        },
+        {
+          "code": "missing_attacking_strength",
+          "severity": "warning",
+          "message": "Mexico: attacking strength estimate is null; no sourced xG/goals model input collected."
+        },
+        {
+          "code": "missing_defensive_strength",
+          "severity": "warning",
+          "message": "Mexico: defensive strength estimate is null; no sourced xG/goals-against model input collected."
+        },
+        {
+          "code": "missing_historical_world_cup_performance",
+          "severity": "warning",
+          "message": "Mexico: historical World Cup performance is null."
+        },
+        {
+          "code": "missing_recent_tournament_performance",
+          "severity": "warning",
+          "message": "Mexico: recent tournament performance score is null."
+        },
+        {
+          "code": "missing_squad_quality",
+          "severity": "warning",
+          "message": "Mexico: squad quality features are null because squad data has not been collected."
+        },
+        {
+          "code": "missing_recent_form",
+          "severity": "warning",
+          "message": "Mexico: recent-form features are null because form data has not been collected."
+        },
+        {
+          "code": "missing_coaching_context",
+          "severity": "warning",
+          "message": "Mexico: coaching and tactical features are null because tactical data has not been collected."
+        },
+        {
+          "code": "missing_availability_risk",
+          "severity": "warning",
+          "message": "Mexico: availability-risk features are null because injury/suspension data has not been collected."
+        },
+        {
+          "code": "missing_fixture_environment",
+          "severity": "warning",
+          "message": "Mexico: rest days, travel distance, altitude, and climate features are null until sourced environment data is collected."
+        }
+      ]
+    },
+    {
+      "teamId": "south-africa",
+      "name": "South Africa",
+      "countryCode": "RSA",
+      "group": "A",
+      "groupPosition": "A2",
+      "features": {
+        "teamStrength": {
+          "fifaRank": 60,
+          "fifaRankInverse": 0.016667,
+          "fifaRankSampleMinMax01": 0,
+          "fifaRankingPoints": null,
+          "eloRating": null,
+          "eloRatingNormalized": null,
+          "historicalWorldCupAppearances": null,
+          "recentTournamentPerformanceScore": null,
+          "attackingStrengthEstimate": null,
+          "defensiveStrengthEstimate": null
+        },
+        "squadQuality": {
+          "playerCount": null,
+          "averageSquadAge": null,
+          "totalSquadValueEur": null,
+          "topFiveLeaguePlayerCount": null,
+          "championsLeagueEuropaLeaguePlayerCount": null,
+          "keyPlayerCount": null
+        },
+        "recentForm": {
+          "matchesWindow": null,
+          "cleanSheets": null,
+          "winRate": null,
+          "drawRate": null,
+          "lossRate": null,
+          "goalDifference": null,
+          "weightedRecentFormScore": null,
+          "xgForPerMatch": null,
+          "xgAgainstPerMatch": null
+        },
+        "coachingContext": {
+          "coachTenureDays": null,
+          "formationKnown01": null,
+          "possessionStyle01": null,
+          "highPressStyle01": null,
+          "lowBlockStyle01": null,
+          "counterattackStyle01": null,
+          "directPlayStyle01": null,
+          "setPieceStrength01": null
+        },
+        "availabilityRisk": {
+          "injuryCount": null,
+          "suspensionCount": null,
+          "keyPlayerUncertainty01": null,
+          "recentMinutesLoadIndex": null
+        },
+        "fixtureEnvironment": {
+          "groupFixtureCount": 3,
+          "averageRestDays": null,
+          "totalTravelDistanceKm": null,
+          "maxVenueAltitudeMeters": null,
+          "climateRiskIndex": null
+        }
+      },
+      "fixtures": [
+        {
+          "fixtureId": "fwc2026-m001",
+          "matchNumber": 1,
+          "opponentTeamId": "mexico",
+          "opponentCountryCode": "MEX",
+          "matchDay": 1,
+          "kickoffHourEt": 15,
+          "venueName": "Mexico City Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m025",
+          "matchNumber": 25,
+          "opponentTeamId": "czechia",
+          "opponentCountryCode": "CZE",
+          "matchDay": 2,
+          "kickoffHourEt": 12,
+          "venueName": "Atlanta Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m054",
+          "matchNumber": 54,
+          "opponentTeamId": "korea-republic",
+          "opponentCountryCode": "KOR",
+          "matchDay": 3,
+          "kickoffHourEt": 21,
+          "venueName": "Estadio Monterrey",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "code": "missing_fifa_ranking_points",
+          "severity": "warning",
+          "message": "South Africa: FIFA ranking points were not collected."
+        },
+        {
+          "code": "missing_elo_rating",
+          "severity": "warning",
+          "message": "South Africa: Elo rating is null because no allowed Elo source has been collected."
+        },
+        {
+          "code": "missing_attacking_strength",
+          "severity": "warning",
+          "message": "South Africa: attacking strength estimate is null; no sourced xG/goals model input collected."
+        },
+        {
+          "code": "missing_defensive_strength",
+          "severity": "warning",
+          "message": "South Africa: defensive strength estimate is null; no sourced xG/goals-against model input collected."
+        },
+        {
+          "code": "missing_historical_world_cup_performance",
+          "severity": "warning",
+          "message": "South Africa: historical World Cup performance is null."
+        },
+        {
+          "code": "missing_recent_tournament_performance",
+          "severity": "warning",
+          "message": "South Africa: recent tournament performance score is null."
+        },
+        {
+          "code": "missing_squad_quality",
+          "severity": "warning",
+          "message": "South Africa: squad quality features are null because squad data has not been collected."
+        },
+        {
+          "code": "missing_recent_form",
+          "severity": "warning",
+          "message": "South Africa: recent-form features are null because form data has not been collected."
+        },
+        {
+          "code": "missing_coaching_context",
+          "severity": "warning",
+          "message": "South Africa: coaching and tactical features are null because tactical data has not been collected."
+        },
+        {
+          "code": "missing_availability_risk",
+          "severity": "warning",
+          "message": "South Africa: availability-risk features are null because injury/suspension data has not been collected."
+        },
+        {
+          "code": "missing_fixture_environment",
+          "severity": "warning",
+          "message": "South Africa: rest days, travel distance, altitude, and climate features are null until sourced environment data is collected."
+        }
+      ]
+    },
+    {
+      "teamId": "korea-republic",
+      "name": "Korea Republic",
+      "countryCode": "KOR",
+      "group": "A",
+      "groupPosition": "A3",
+      "features": {
+        "teamStrength": {
+          "fifaRank": 25,
+          "fifaRankInverse": 0.04,
+          "fifaRankSampleMinMax01": 0.777778,
+          "fifaRankingPoints": null,
+          "eloRating": null,
+          "eloRatingNormalized": null,
+          "historicalWorldCupAppearances": null,
+          "recentTournamentPerformanceScore": null,
+          "attackingStrengthEstimate": null,
+          "defensiveStrengthEstimate": null
+        },
+        "squadQuality": {
+          "playerCount": null,
+          "averageSquadAge": null,
+          "totalSquadValueEur": null,
+          "topFiveLeaguePlayerCount": null,
+          "championsLeagueEuropaLeaguePlayerCount": null,
+          "keyPlayerCount": null
+        },
+        "recentForm": {
+          "matchesWindow": null,
+          "cleanSheets": null,
+          "winRate": null,
+          "drawRate": null,
+          "lossRate": null,
+          "goalDifference": null,
+          "weightedRecentFormScore": null,
+          "xgForPerMatch": null,
+          "xgAgainstPerMatch": null
+        },
+        "coachingContext": {
+          "coachTenureDays": null,
+          "formationKnown01": null,
+          "possessionStyle01": null,
+          "highPressStyle01": null,
+          "lowBlockStyle01": null,
+          "counterattackStyle01": null,
+          "directPlayStyle01": null,
+          "setPieceStrength01": null
+        },
+        "availabilityRisk": {
+          "injuryCount": null,
+          "suspensionCount": null,
+          "keyPlayerUncertainty01": null,
+          "recentMinutesLoadIndex": null
+        },
+        "fixtureEnvironment": {
+          "groupFixtureCount": 3,
+          "averageRestDays": null,
+          "totalTravelDistanceKm": null,
+          "maxVenueAltitudeMeters": null,
+          "climateRiskIndex": null
+        }
+      },
+      "fixtures": [
+        {
+          "fixtureId": "fwc2026-m002",
+          "matchNumber": 2,
+          "opponentTeamId": "czechia",
+          "opponentCountryCode": "CZE",
+          "matchDay": 1,
+          "kickoffHourEt": 22,
+          "venueName": "Estadio Guadalajara",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m028",
+          "matchNumber": 28,
+          "opponentTeamId": "mexico",
+          "opponentCountryCode": "MEX",
+          "matchDay": 2,
+          "kickoffHourEt": 21,
+          "venueName": "Estadio Guadalajara",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m054",
+          "matchNumber": 54,
+          "opponentTeamId": "south-africa",
+          "opponentCountryCode": "RSA",
+          "matchDay": 3,
+          "kickoffHourEt": 21,
+          "venueName": "Estadio Monterrey",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "code": "missing_fifa_ranking_points",
+          "severity": "warning",
+          "message": "Korea Republic: FIFA ranking points were not collected."
+        },
+        {
+          "code": "missing_elo_rating",
+          "severity": "warning",
+          "message": "Korea Republic: Elo rating is null because no allowed Elo source has been collected."
+        },
+        {
+          "code": "missing_attacking_strength",
+          "severity": "warning",
+          "message": "Korea Republic: attacking strength estimate is null; no sourced xG/goals model input collected."
+        },
+        {
+          "code": "missing_defensive_strength",
+          "severity": "warning",
+          "message": "Korea Republic: defensive strength estimate is null; no sourced xG/goals-against model input collected."
+        },
+        {
+          "code": "missing_historical_world_cup_performance",
+          "severity": "warning",
+          "message": "Korea Republic: historical World Cup performance is null."
+        },
+        {
+          "code": "missing_recent_tournament_performance",
+          "severity": "warning",
+          "message": "Korea Republic: recent tournament performance score is null."
+        },
+        {
+          "code": "missing_squad_quality",
+          "severity": "warning",
+          "message": "Korea Republic: squad quality features are null because squad data has not been collected."
+        },
+        {
+          "code": "missing_recent_form",
+          "severity": "warning",
+          "message": "Korea Republic: recent-form features are null because form data has not been collected."
+        },
+        {
+          "code": "missing_coaching_context",
+          "severity": "warning",
+          "message": "Korea Republic: coaching and tactical features are null because tactical data has not been collected."
+        },
+        {
+          "code": "missing_availability_risk",
+          "severity": "warning",
+          "message": "Korea Republic: availability-risk features are null because injury/suspension data has not been collected."
+        },
+        {
+          "code": "missing_fixture_environment",
+          "severity": "warning",
+          "message": "Korea Republic: rest days, travel distance, altitude, and climate features are null until sourced environment data is collected."
+        }
+      ]
+    },
+    {
+      "teamId": "czechia",
+      "name": "Czechia",
+      "countryCode": "CZE",
+      "group": "A",
+      "groupPosition": "A4",
+      "features": {
+        "teamStrength": {
+          "fifaRank": 41,
+          "fifaRankInverse": 0.02439,
+          "fifaRankSampleMinMax01": 0.422222,
+          "fifaRankingPoints": null,
+          "eloRating": null,
+          "eloRatingNormalized": null,
+          "historicalWorldCupAppearances": null,
+          "recentTournamentPerformanceScore": null,
+          "attackingStrengthEstimate": null,
+          "defensiveStrengthEstimate": null
+        },
+        "squadQuality": {
+          "playerCount": null,
+          "averageSquadAge": null,
+          "totalSquadValueEur": null,
+          "topFiveLeaguePlayerCount": null,
+          "championsLeagueEuropaLeaguePlayerCount": null,
+          "keyPlayerCount": null
+        },
+        "recentForm": {
+          "matchesWindow": null,
+          "cleanSheets": null,
+          "winRate": null,
+          "drawRate": null,
+          "lossRate": null,
+          "goalDifference": null,
+          "weightedRecentFormScore": null,
+          "xgForPerMatch": null,
+          "xgAgainstPerMatch": null
+        },
+        "coachingContext": {
+          "coachTenureDays": null,
+          "formationKnown01": null,
+          "possessionStyle01": null,
+          "highPressStyle01": null,
+          "lowBlockStyle01": null,
+          "counterattackStyle01": null,
+          "directPlayStyle01": null,
+          "setPieceStrength01": null
+        },
+        "availabilityRisk": {
+          "injuryCount": null,
+          "suspensionCount": null,
+          "keyPlayerUncertainty01": null,
+          "recentMinutesLoadIndex": null
+        },
+        "fixtureEnvironment": {
+          "groupFixtureCount": 3,
+          "averageRestDays": null,
+          "totalTravelDistanceKm": null,
+          "maxVenueAltitudeMeters": null,
+          "climateRiskIndex": null
+        }
+      },
+      "fixtures": [
+        {
+          "fixtureId": "fwc2026-m002",
+          "matchNumber": 2,
+          "opponentTeamId": "korea-republic",
+          "opponentCountryCode": "KOR",
+          "matchDay": 1,
+          "kickoffHourEt": 22,
+          "venueName": "Estadio Guadalajara",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m025",
+          "matchNumber": 25,
+          "opponentTeamId": "south-africa",
+          "opponentCountryCode": "RSA",
+          "matchDay": 2,
+          "kickoffHourEt": 12,
+          "venueName": "Atlanta Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        },
+        {
+          "fixtureId": "fwc2026-m053",
+          "matchNumber": 53,
+          "opponentTeamId": "mexico",
+          "opponentCountryCode": "MEX",
+          "matchDay": 3,
+          "kickoffHourEt": 21,
+          "venueName": "Mexico City Stadium",
+          "environmentFeatures": {
+            "restDays": null,
+            "travelDistanceKm": null,
+            "venueAltitudeMeters": null,
+            "climateRiskIndex": null
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "code": "missing_fifa_ranking_points",
+          "severity": "warning",
+          "message": "Czechia: FIFA ranking points were not collected."
+        },
+        {
+          "code": "missing_elo_rating",
+          "severity": "warning",
+          "message": "Czechia: Elo rating is null because no allowed Elo source has been collected."
+        },
+        {
+          "code": "missing_attacking_strength",
+          "severity": "warning",
+          "message": "Czechia: attacking strength estimate is null; no sourced xG/goals model input collected."
+        },
+        {
+          "code": "missing_defensive_strength",
+          "severity": "warning",
+          "message": "Czechia: defensive strength estimate is null; no sourced xG/goals-against model input collected."
+        },
+        {
+          "code": "missing_historical_world_cup_performance",
+          "severity": "warning",
+          "message": "Czechia: historical World Cup performance is null."
+        },
+        {
+          "code": "missing_recent_tournament_performance",
+          "severity": "warning",
+          "message": "Czechia: recent tournament performance score is null."
+        },
+        {
+          "code": "missing_squad_quality",
+          "severity": "warning",
+          "message": "Czechia: squad quality features are null because squad data has not been collected."
+        },
+        {
+          "code": "missing_recent_form",
+          "severity": "warning",
+          "message": "Czechia: recent-form features are null because form data has not been collected."
+        },
+        {
+          "code": "missing_coaching_context",
+          "severity": "warning",
+          "message": "Czechia: coaching and tactical features are null because tactical data has not been collected."
+        },
+        {
+          "code": "missing_availability_risk",
+          "severity": "warning",
+          "message": "Czechia: availability-risk features are null because injury/suspension data has not been collected."
+        },
+        {
+          "code": "missing_fixture_environment",
+          "severity": "warning",
+          "message": "Czechia: rest days, travel distance, altitude, and climate features are null until sourced environment data is collected."
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "fixtureId": "fwc2026-m001",
+      "matchNumber": 1,
+      "group": "A",
+      "date": "2026-06-11",
+      "matchDay": 1,
+      "kickoffHourEt": 15,
+      "homeTeamId": "mexico",
+      "awayTeamId": "south-africa",
+      "venueName": "Mexico City Stadium",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m001: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m001: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m001: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m001: climate risk is null because climate data has not been collected."
+        }
+      ]
+    },
+    {
+      "fixtureId": "fwc2026-m002",
+      "matchNumber": 2,
+      "group": "A",
+      "date": "2026-06-11",
+      "matchDay": 1,
+      "kickoffHourEt": 22,
+      "homeTeamId": "korea-republic",
+      "awayTeamId": "czechia",
+      "venueName": "Estadio Guadalajara",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m002: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m002: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m002: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m002: climate risk is null because climate data has not been collected."
+        }
+      ]
+    },
+    {
+      "fixtureId": "fwc2026-m025",
+      "matchNumber": 25,
+      "group": "A",
+      "date": "2026-06-18",
+      "matchDay": 2,
+      "kickoffHourEt": 12,
+      "homeTeamId": "czechia",
+      "awayTeamId": "south-africa",
+      "venueName": "Atlanta Stadium",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m025: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m025: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m025: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m025: climate risk is null because climate data has not been collected."
+        }
+      ]
+    },
+    {
+      "fixtureId": "fwc2026-m028",
+      "matchNumber": 28,
+      "group": "A",
+      "date": "2026-06-18",
+      "matchDay": 2,
+      "kickoffHourEt": 21,
+      "homeTeamId": "mexico",
+      "awayTeamId": "korea-republic",
+      "venueName": "Estadio Guadalajara",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m028: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m028: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m028: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m028: climate risk is null because climate data has not been collected."
+        }
+      ]
+    },
+    {
+      "fixtureId": "fwc2026-m053",
+      "matchNumber": 53,
+      "group": "A",
+      "date": "2026-06-24",
+      "matchDay": 3,
+      "kickoffHourEt": 21,
+      "homeTeamId": "czechia",
+      "awayTeamId": "mexico",
+      "venueName": "Mexico City Stadium",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m053: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m053: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m053: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m053: climate risk is null because climate data has not been collected."
+        }
+      ]
+    },
+    {
+      "fixtureId": "fwc2026-m054",
+      "matchNumber": 54,
+      "group": "A",
+      "date": "2026-06-24",
+      "matchDay": 3,
+      "kickoffHourEt": 21,
+      "homeTeamId": "south-africa",
+      "awayTeamId": "korea-republic",
+      "venueName": "Estadio Monterrey",
+      "numericFeatures": {
+        "homeRestDays": null,
+        "awayRestDays": null,
+        "homeTravelDistanceKm": null,
+        "awayTravelDistanceKm": null,
+        "venueAltitudeMeters": null,
+        "climateRiskIndex": null
+      },
+      "warnings": [
+        {
+          "code": "missing_fixture_rest_days",
+          "severity": "warning",
+          "message": "fwc2026-m054: rest-day features are null because rest calculations have not been collected."
+        },
+        {
+          "code": "missing_fixture_travel_distance",
+          "severity": "warning",
+          "message": "fwc2026-m054: travel-distance features are null because fixture travel data has not been collected."
+        },
+        {
+          "code": "missing_fixture_altitude",
+          "severity": "warning",
+          "message": "fwc2026-m054: venue altitude is null because altitude data has not been collected."
+        },
+        {
+          "code": "missing_fixture_climate",
+          "severity": "warning",
+          "message": "fwc2026-m054: climate risk is null because climate data has not been collected."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "code": "sample_scope_group_a_only",
+      "severity": "warning",
+      "message": "Model input currently covers only the Group A sample. Do not run a full 48-team tournament simulation from this file yet."
+    },
+    {
+      "code": "sample_minmax_normalization",
+      "severity": "warning",
+      "message": "fifaRankSampleMinMax01 is normalized only across teams present in this export, not across all FIFA members or all 48 World Cup teams."
+    },
+    {
+      "code": "empty_elo_dataset",
+      "severity": "warning",
+      "message": "Elo rating dataset is empty; all Elo model features are null."
+    },
+    {
+      "code": "empty_squad_dataset",
+      "severity": "warning",
+      "message": "Squad quality dataset is empty; all squad quality model features are null."
+    },
+    {
+      "code": "empty_form_dataset",
+      "severity": "warning",
+      "message": "Recent form dataset is empty; all recent-form model features are null."
+    },
+    {
+      "code": "empty_tactical_dataset",
+      "severity": "warning",
+      "message": "Tactical/coaching dataset is empty; all coaching context model features are null."
+    },
+    {
+      "code": "empty_availability_dataset",
+      "severity": "warning",
+      "message": "Availability-risk dataset is empty; all injury/suspension model features are null."
+    }
+  ]
+}

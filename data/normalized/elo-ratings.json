@@ -1,0 +1,3421 @@
+{
+  "generatedAt": "2026-06-07T08:25:33.906Z",
+  "rows": [
+    {
+      "team": "Spain",
+      "rank": 1,
+      "rating": 2155,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "rank": 2,
+      "rating": 2114,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "rank": 3,
+      "rating": 2062,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "rank": 4,
+      "rating": 2021,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "rank": 5,
+      "rating": 1991,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "rank": 6,
+      "rating": 1986,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "rank": 7,
+      "rating": 1977,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "rank": 8,
+      "rating": 1944,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "rank": 9,
+      "rating": 1935,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Germany",
+      "rank": 10,
+      "rating": 1932,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "rank": 11,
+      "rating": 1917,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turkey",
+      "rank": 12,
+      "rating": 1911,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "rank": 13,
+      "rating": 1908,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Japan",
+      "rank": 14,
+      "rating": 1906,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belgium",
+      "rank": 15,
+      "rating": 1893,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uruguay",
+      "rank": 16,
+      "rating": 1892,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "rank": 17,
+      "rating": 1891,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "rank": 18,
+      "rating": 1875,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "rank": 19,
+      "rating": 1867,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Denmark",
+      "rank": 20,
+      "rating": 1864,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Italy",
+      "rank": 21,
+      "rating": 1859,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "rank": 22,
+      "rating": 1833,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Austria",
+      "rank": 23,
+      "rating": 1830,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "rank": 24,
+      "rating": 1824,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Canada",
+      "rank": 25,
+      "rating": 1788,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ukraine",
+      "rank": 26,
+      "rating": 1785,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Scotland",
+      "rank": 27,
+      "rating": 1782,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "rank": 28,
+      "rating": 1777,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iran",
+      "rank": 29,
+      "rating": 1772,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nigeria",
+      "rank": 30,
+      "rating": 1770,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Russia",
+      "rank": 30,
+      "rating": 1770,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "rank": 32,
+      "rating": 1760,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "rank": 33,
+      "rating": 1758,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Greece",
+      "rank": 34,
+      "rating": 1754,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Czechia",
+      "rank": 35,
+      "rating": 1740,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Serbia",
+      "rank": 36,
+      "rating": 1734,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Panama",
+      "rank": 37,
+      "rating": 1730,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "rank": 38,
+      "rating": 1726,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Venezuela",
+      "rank": 39,
+      "rating": 1722,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "rank": 40,
+      "rating": 1718,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kosovo",
+      "rank": 41,
+      "rating": 1714,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "rank": 42,
+      "rating": 1712,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Poland",
+      "rank": 43,
+      "rating": 1710,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chile",
+      "rank": 44,
+      "rating": 1708,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Hungary",
+      "rank": 45,
+      "rating": 1707,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Peru",
+      "rank": 46,
+      "rating": 1701,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Republic of Ireland",
+      "rank": 47,
+      "rating": 1699,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "rank": 48,
+      "rating": 1696,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ivory Coast",
+      "rank": 49,
+      "rating": 1695,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "rank": 50,
+      "rating": 1685,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Slovenia",
+      "rank": 50,
+      "rating": 1685,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Wales",
+      "rank": 52,
+      "rating": 1682,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Slovakia",
+      "rank": 53,
+      "rating": 1667,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "DR Congo",
+      "rank": 54,
+      "rating": 1661,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "rank": 55,
+      "rating": 1654,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Israel",
+      "rank": 56,
+      "rating": 1647,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Romania",
+      "rank": 57,
+      "rating": 1639,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bolivia",
+      "rank": 58,
+      "rating": 1633,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tunisia",
+      "rank": 59,
+      "rating": 1628,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "rank": 60,
+      "rating": 1618,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Albania",
+      "rank": 61,
+      "rating": 1616,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cameroon",
+      "rank": 62,
+      "rating": 1613,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Costa Rica",
+      "rank": 63,
+      "rating": 1611,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Northern Ireland",
+      "rank": 64,
+      "rating": 1607,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "rank": 65,
+      "rating": 1595,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "North Macedonia",
+      "rank": 66,
+      "rating": 1589,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mali",
+      "rank": 67,
+      "rating": 1588,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cape Verde",
+      "rank": 68,
+      "rating": 1578,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Honduras",
+      "rank": 69,
+      "rating": 1570,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iceland",
+      "rank": 70,
+      "rating": 1569,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saudi Arabia",
+      "rank": 70,
+      "rating": 1569,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "New Zealand",
+      "rank": 72,
+      "rating": 1562,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "rank": 73,
+      "rating": 1548,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "United Arab Emirates",
+      "rank": 74,
+      "rating": 1540,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Angola",
+      "rank": 75,
+      "rating": 1537,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Finland",
+      "rank": 76,
+      "rating": 1536,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "rank": 77,
+      "rating": 1528,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Burkina Faso",
+      "rank": 78,
+      "rating": 1526,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belarus",
+      "rank": 79,
+      "rating": 1525,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Jamaica",
+      "rank": 80,
+      "rating": 1517,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "rank": 81,
+      "rating": 1510,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guatemala",
+      "rank": 82,
+      "rating": 1507,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Syria",
+      "rank": 83,
+      "rating": 1479,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Palestine",
+      "rank": 84,
+      "rating": 1467,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea",
+      "rank": 85,
+      "rating": 1463,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Montenegro",
+      "rank": 86,
+      "rating": 1460,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Oman",
+      "rank": 87,
+      "rating": 1459,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bulgaria",
+      "rank": 88,
+      "rating": 1458,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Northern Cyprus",
+      "rank": 89,
+      "rating": 1457,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Luxembourg",
+      "rank": 90,
+      "rating": 1450,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Curacao",
+      "rank": 91,
+      "rating": 1434,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kazakhstan",
+      "rank": 92,
+      "rating": 1431,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Suriname",
+      "rank": 92,
+      "rating": 1431,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Benin",
+      "rank": 94,
+      "rating": 1428,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "China",
+      "rank": 94,
+      "rating": 1428,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kurdistan",
+      "rank": 96,
+      "rating": 1425,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "rank": 97,
+      "rating": 1421,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Libya",
+      "rank": 98,
+      "rating": 1420,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gambia",
+      "rank": 99,
+      "rating": 1419,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bahrain",
+      "rank": 100,
+      "rating": 1414,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gabon",
+      "rank": 101,
+      "rating": 1401,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Niger",
+      "rank": 102,
+      "rating": 1394,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uganda",
+      "rank": 102,
+      "rating": 1394,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Equatorial Guinea",
+      "rank": 104,
+      "rating": 1391,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Trinidad and Tobago",
+      "rank": 105,
+      "rating": 1388,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Madagascar",
+      "rank": 106,
+      "rating": 1380,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Armenia",
+      "rank": 107,
+      "rating": 1378,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "North Korea",
+      "rank": 108,
+      "rating": 1375,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mozambique",
+      "rank": 109,
+      "rating": 1372,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Thailand",
+      "rank": 109,
+      "rating": 1372,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Zimbabwe",
+      "rank": 109,
+      "rating": 1372,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Zambia",
+      "rank": 112,
+      "rating": 1371,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Faroe Islands",
+      "rank": 113,
+      "rating": 1368,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Comoros",
+      "rank": 114,
+      "rating": 1363,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Indonesia",
+      "rank": 115,
+      "rating": 1362,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Togo",
+      "rank": 116,
+      "rating": 1356,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sierra Leone",
+      "rank": 117,
+      "rating": 1354,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Estonia",
+      "rank": 118,
+      "rating": 1352,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kenya",
+      "rank": 118,
+      "rating": 1352,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Vietnam",
+      "rank": 120,
+      "rating": 1351,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sudan",
+      "rank": 121,
+      "rating": 1350,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Reunion",
+      "rank": 122,
+      "rating": 1345,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "El Salvador",
+      "rank": 123,
+      "rating": 1342,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guadeloupe",
+      "rank": 124,
+      "rating": 1338,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Rwanda",
+      "rank": 125,
+      "rating": 1337,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nicaragua",
+      "rank": 126,
+      "rating": 1333,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kuwait",
+      "rank": 127,
+      "rating": 1331,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Azerbaijan",
+      "rank": 128,
+      "rating": 1321,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Zanzibar",
+      "rank": 128,
+      "rating": 1321,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritania",
+      "rank": 130,
+      "rating": 1317,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tanzania",
+      "rank": 131,
+      "rating": 1313,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Martinique",
+      "rank": 132,
+      "rating": 1312,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cyprus",
+      "rank": 133,
+      "rating": 1310,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Latvia",
+      "rank": 134,
+      "rating": 1305,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Namibia",
+      "rank": 135,
+      "rating": 1303,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kyrgyzstan",
+      "rank": 136,
+      "rating": 1293,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malaysia",
+      "rank": 136,
+      "rating": 1293,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guyana",
+      "rank": 138,
+      "rating": 1292,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ethiopia",
+      "rank": 139,
+      "rating": 1291,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Liberia",
+      "rank": 139,
+      "rating": 1291,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tajikistan",
+      "rank": 141,
+      "rating": 1290,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lebanon",
+      "rank": 142,
+      "rating": 1288,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lithuania",
+      "rank": 143,
+      "rating": 1286,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "New Caledonia",
+      "rank": 143,
+      "rating": 1286,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Burundi",
+      "rank": 145,
+      "rating": 1285,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Dominican Republic",
+      "rank": 146,
+      "rating": 1283,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Botswana",
+      "rank": 147,
+      "rating": 1267,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Moldova",
+      "rank": 148,
+      "rating": 1265,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malta",
+      "rank": 149,
+      "rating": 1255,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea-Bissau",
+      "rank": 150,
+      "rating": 1248,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Central African Republic",
+      "rank": 151,
+      "rating": 1241,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cuba",
+      "rank": 152,
+      "rating": 1239,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malawi",
+      "rank": 153,
+      "rating": 1235,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "French Guiana",
+      "rank": 154,
+      "rating": 1223,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mayotte",
+      "rank": 155,
+      "rating": 1216,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lesotho",
+      "rank": 156,
+      "rating": 1209,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turkmenistan",
+      "rank": 156,
+      "rating": 1209,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Congo",
+      "rank": 158,
+      "rating": 1207,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Eritrea",
+      "rank": 159,
+      "rating": 1201,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Yemen",
+      "rank": 160,
+      "rating": 1195,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tahiti",
+      "rank": 161,
+      "rating": 1176,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Philippines",
+      "rank": 162,
+      "rating": 1169,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Eswatini",
+      "rank": 163,
+      "rating": 1149,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "rank": 164,
+      "rating": 1141,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Papua New Guinea",
+      "rank": 165,
+      "rating": 1135,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Puerto Rico",
+      "rank": 165,
+      "rating": 1135,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Singapore",
+      "rank": 167,
+      "rating": 1134,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Hong Kong",
+      "rank": 168,
+      "rating": 1122,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "India",
+      "rank": 168,
+      "rating": 1122,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Vanuatu",
+      "rank": 170,
+      "rating": 1121,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bermuda",
+      "rank": 171,
+      "rating": 1117,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Sudan",
+      "rank": 172,
+      "rating": 1109,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Fiji",
+      "rank": 173,
+      "rating": 1101,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Grenada",
+      "rank": 174,
+      "rating": 1098,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Andorra",
+      "rank": 175,
+      "rating": 1081,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belize",
+      "rank": 176,
+      "rating": 1073,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chad",
+      "rank": 176,
+      "rating": 1073,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritius",
+      "rank": 176,
+      "rating": 1073,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Solomon Islands",
+      "rank": 179,
+      "rating": 1054,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Martin",
+      "rank": 180,
+      "rating": 1042,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sao Tome and Principe",
+      "rank": 181,
+      "rating": 1035,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "rank": 182,
+      "rating": 1029,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Afghanistan",
+      "rank": 183,
+      "rating": 1023,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gibraltar",
+      "rank": 184,
+      "rating": 1011,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Somaliland",
+      "rank": 185,
+      "rating": 1005,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Lucia",
+      "rank": 186,
+      "rating": 1003,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Western Sahara",
+      "rank": 187,
+      "rating": 996,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Myanmar",
+      "rank": 188,
+      "rating": 993,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Somalia",
+      "rank": 189,
+      "rating": 979,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Aruba",
+      "rank": 190,
+      "rating": 978,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sint Maarten",
+      "rank": 191,
+      "rating": 975,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Montserrat",
+      "rank": 192,
+      "rating": 971,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Greenland",
+      "rank": 193,
+      "rating": 946,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bangladesh",
+      "rank": 194,
+      "rating": 942,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Djibouti",
+      "rank": 195,
+      "rating": 940,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Dominica",
+      "rank": 196,
+      "rating": 934,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Monaco",
+      "rank": 197,
+      "rating": 903,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Liechtenstein",
+      "rank": 198,
+      "rating": 899,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Barbados",
+      "rank": 199,
+      "rating": 898,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "rank": 200,
+      "rating": 894,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nepal",
+      "rank": 201,
+      "rating": 893,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Seychelles",
+      "rank": 202,
+      "rating": 853,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cambodia",
+      "rank": 203,
+      "rating": 849,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Pakistan",
+      "rank": 204,
+      "rating": 847,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sri Lanka",
+      "rank": 205,
+      "rating": 827,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "San Marino",
+      "rank": 206,
+      "rating": 826,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chinese Taipei",
+      "rank": 207,
+      "rating": 821,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bonaire",
+      "rank": 208,
+      "rating": 816,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Maldives",
+      "rank": 209,
+      "rating": 801,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cayman Islands",
+      "rank": 210,
+      "rating": 800,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chagos Islands",
+      "rank": 211,
+      "rating": 782,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tuvalu",
+      "rank": 212,
+      "rating": 756,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "British Virgin Islands",
+      "rank": 213,
+      "rating": 743,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sint Eustatius",
+      "rank": 214,
+      "rating": 737,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Laos",
+      "rank": 215,
+      "rating": 734,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Samoa",
+      "rank": 216,
+      "rating": 728,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mongolia",
+      "rank": 217,
+      "rating": 725,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Barthelemy",
+      "rank": 217,
+      "rating": 725,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Timor-Leste",
+      "rank": 219,
+      "rating": 714,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guam",
+      "rank": 220,
+      "rating": 705,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Wallis and Futuna",
+      "rank": 221,
+      "rating": 699,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Vatican",
+      "rank": 222,
+      "rating": 692,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saba",
+      "rank": 223,
+      "rating": 691,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bahamas",
+      "rank": 224,
+      "rating": 685,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Pierre and Miquelon",
+      "rank": 225,
+      "rating": 677,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turks and Caicos Islands",
+      "rank": 226,
+      "rating": 657,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Anguilla",
+      "rank": 227,
+      "rating": 646,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bhutan",
+      "rank": 228,
+      "rating": 631,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tibet",
+      "rank": 229,
+      "rating": 629,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "US Virgin Islands",
+      "rank": 230,
+      "rating": 628,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cook Islands",
+      "rank": 231,
+      "rating": 622,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Brunei",
+      "rank": 232,
+      "rating": 592,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Macau",
+      "rank": 233,
+      "rating": 588,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Christmas Island",
+      "rank": 234,
+      "rating": 578,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Falkland Islands",
+      "rank": 235,
+      "rating": 571,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "FS Micronesia",
+      "rank": 236,
+      "rating": 563,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Marshall Islands",
+      "rank": 237,
+      "rating": 559,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kiribati",
+      "rank": 238,
+      "rating": 544,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tonga",
+      "rank": 239,
+      "rating": 520,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Niue",
+      "rank": 240,
+      "rating": 496,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Northern Mariana Islands",
+      "rank": 241,
+      "rating": 432,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cocos Islands",
+      "rank": 242,
+      "rating": 422,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Palau",
+      "rank": 243,
+      "rating": 402,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Eastern Samoa",
+      "rank": 244,
+      "rating": 369,
+      "lastUpdated": "2026-06-07T02:04:56.000Z",
+      "sourceRefs": [
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    }
+  ]
+}

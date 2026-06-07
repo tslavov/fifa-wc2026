@@ -1,0 +1,4627 @@
+{
+  "generatedAt": "2026-06-07T08:28:06.910Z",
+  "rows": [
+    {
+      "team": "Spain",
+      "countryCode": "ESP",
+      "fifaRank": 1,
+      "fifaPoints": 1875.37,
+      "eloRank": 1,
+      "eloRating": 2155,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "countryCode": "FRA",
+      "fifaRank": 2,
+      "fifaPoints": 1870.92,
+      "eloRank": 3,
+      "eloRating": 2062,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "countryCode": "ARG",
+      "fifaRank": 3,
+      "fifaPoints": 1870.32,
+      "eloRank": 2,
+      "eloRating": 2114,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "countryCode": "ENG",
+      "fifaRank": 4,
+      "fifaPoints": 1820.44,
+      "eloRank": 4,
+      "eloRating": 2021,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "countryCode": "POR",
+      "fifaRank": 5,
+      "fifaPoints": 1779.55,
+      "eloRank": 6,
+      "eloRating": 1986,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "countryCode": "BRA",
+      "fifaRank": 6,
+      "fifaPoints": 1761.6,
+      "eloRank": 5,
+      "eloRating": 1991,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "countryCode": "NED",
+      "fifaRank": 7,
+      "fifaPoints": 1754.17,
+      "eloRank": 8,
+      "eloRating": 1944,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belgium",
+      "countryCode": "BEL",
+      "fifaRank": 8,
+      "fifaPoints": 1739.54,
+      "eloRank": 15,
+      "eloRating": 1893,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "countryCode": "CRO",
+      "fifaRank": 9,
+      "fifaPoints": 1714.2,
+      "eloRank": 13,
+      "eloRating": 1908,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Italy",
+      "countryCode": "ITA",
+      "fifaRank": 10,
+      "fifaPoints": 1710.06,
+      "eloRank": 21,
+      "eloRating": 1859,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "countryCode": "MAR",
+      "fifaRank": 11,
+      "fifaPoints": 1706.27,
+      "eloRank": 24,
+      "eloRating": 1824,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Germany",
+      "countryCode": "GER",
+      "fifaRank": 12,
+      "fifaPoints": 1704.27,
+      "eloRank": 10,
+      "eloRating": 1932,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "countryCode": "COL",
+      "fifaRank": 13,
+      "fifaPoints": 1692.1,
+      "eloRank": 7,
+      "eloRating": 1977,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "countryCode": "MEX",
+      "fifaRank": 14,
+      "fifaPoints": 1688.38,
+      "eloRank": 18,
+      "eloRating": 1875,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uruguay",
+      "countryCode": "URU",
+      "fifaRank": 15,
+      "fifaPoints": 1673.65,
+      "eloRank": 16,
+      "eloRating": 1892,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "countryCode": "USA",
+      "fifaRank": 16,
+      "fifaPoints": 1670.04,
+      "eloRank": 38,
+      "eloRating": 1726,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "countryCode": "SUI",
+      "fifaRank": 17,
+      "fifaPoints": 1648.3,
+      "eloRank": 17,
+      "eloRating": 1891,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "countryCode": "SEN",
+      "fifaRank": 18,
+      "fifaPoints": 1645.23,
+      "eloRank": 19,
+      "eloRating": 1867,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Japan",
+      "countryCode": "JPN",
+      "fifaRank": 19,
+      "fifaPoints": 1640.47,
+      "eloRank": 14,
+      "eloRating": 1906,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Denmark",
+      "countryCode": "DEN",
+      "fifaRank": 20,
+      "fifaPoints": 1627.64,
+      "eloRank": 20,
+      "eloRating": 1864,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iran",
+      "countryCode": "IRN",
+      "fifaRank": 21,
+      "fifaPoints": 1622.61,
+      "eloRank": 29,
+      "eloRating": 1772,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Austria",
+      "countryCode": "AUT",
+      "fifaRank": 22,
+      "fifaPoints": 1601.86,
+      "eloRank": 23,
+      "eloRating": 1830,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "countryCode": "KOR",
+      "fifaRank": 23,
+      "fifaPoints": 1593.19,
+      "eloRank": 33,
+      "eloRating": 1758,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "countryCode": "ECU",
+      "fifaRank": 24,
+      "fifaPoints": 1588.04,
+      "eloRank": 9,
+      "eloRating": 1935,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "countryCode": "AUS",
+      "fifaRank": 25,
+      "fifaPoints": 1583.49,
+      "eloRank": 28,
+      "eloRating": 1777,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Canada",
+      "countryCode": "CAN",
+      "fifaRank": 26,
+      "fifaPoints": 1558.04,
+      "eloRank": 25,
+      "eloRating": 1788,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turkey",
+      "countryCode": "TUR",
+      "fifaRank": 27,
+      "fifaPoints": 1555.72,
+      "eloRank": 12,
+      "eloRating": 1911,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ukraine",
+      "countryCode": "UKR",
+      "fifaRank": 28,
+      "fifaPoints": 1543.06,
+      "eloRank": 26,
+      "eloRating": 1785,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Panama",
+      "countryCode": "PAN",
+      "fifaRank": 29,
+      "fifaPoints": 1529.71,
+      "eloRank": 37,
+      "eloRating": 1730,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Wales",
+      "countryCode": "WAL",
+      "fifaRank": 30,
+      "fifaPoints": 1529.09,
+      "eloRank": 52,
+      "eloRating": 1682,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "countryCode": "NOR",
+      "fifaRank": 31,
+      "fifaPoints": 1526.23,
+      "eloRank": 11,
+      "eloRating": 1917,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "countryCode": "SWE",
+      "fifaRank": 32,
+      "fifaPoints": 1524.62,
+      "eloRank": 42,
+      "eloRating": 1712,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Russia",
+      "countryCode": "RUS",
+      "fifaRank": 33,
+      "fifaPoints": 1521.74,
+      "eloRank": 30,
+      "eloRating": 1770,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Serbia",
+      "countryCode": "SRB",
+      "fifaRank": 34,
+      "fifaPoints": 1520.9,
+      "eloRank": 36,
+      "eloRating": 1734,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "countryCode": "EGY",
+      "fifaRank": 35,
+      "fifaPoints": 1519.18,
+      "eloRank": 48,
+      "eloRating": 1696,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Poland",
+      "countryCode": "POL",
+      "fifaRank": 36,
+      "fifaPoints": 1517.3,
+      "eloRank": 43,
+      "eloRating": 1710,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "countryCode": "PAR",
+      "fifaRank": 37,
+      "fifaPoints": 1501.01,
+      "eloRank": 22,
+      "eloRating": 1833,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "countryCode": "ALG",
+      "fifaRank": 38,
+      "fifaPoints": 1500.74,
+      "eloRank": 32,
+      "eloRating": 1760,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Czechia",
+      "countryCode": "CZE",
+      "fifaRank": 39,
+      "fifaPoints": 1500.29,
+      "eloRank": 35,
+      "eloRating": 1740,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Greece",
+      "countryCode": "GRE",
+      "fifaRank": 40,
+      "fifaPoints": 1494.72,
+      "eloRank": 34,
+      "eloRating": 1754,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Hungary",
+      "countryCode": "HUN",
+      "fifaRank": 41,
+      "fifaPoints": 1492.18,
+      "eloRank": 45,
+      "eloRating": 1707,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Slovakia",
+      "countryCode": "SVK",
+      "fifaRank": 42,
+      "fifaPoints": 1491.87,
+      "eloRank": 53,
+      "eloRating": 1667,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Scotland",
+      "countryCode": "SCO",
+      "fifaRank": 43,
+      "fifaPoints": 1485.08,
+      "eloRank": 27,
+      "eloRating": 1782,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ivory Coast",
+      "countryCode": "CIV",
+      "fifaRank": 44,
+      "fifaPoints": 1483.9,
+      "eloRank": 49,
+      "eloRating": 1695,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nigeria",
+      "countryCode": "NGA",
+      "fifaRank": 45,
+      "fifaPoints": 1483.86,
+      "eloRank": 30,
+      "eloRating": 1770,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tunisia",
+      "countryCode": "TUN",
+      "fifaRank": 46,
+      "fifaPoints": 1483.02,
+      "eloRank": 59,
+      "eloRating": 1628,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Costa Rica",
+      "countryCode": "CRC",
+      "fifaRank": 47,
+      "fifaPoints": 1481.13,
+      "eloRank": 63,
+      "eloRating": 1611,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Peru",
+      "countryCode": "PER",
+      "fifaRank": 48,
+      "fifaPoints": 1469.31,
+      "eloRank": 46,
+      "eloRating": 1701,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Venezuela",
+      "countryCode": "VEN",
+      "fifaRank": 49,
+      "fifaPoints": 1465.02,
+      "eloRank": 39,
+      "eloRating": 1722,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Slovenia",
+      "countryCode": "SVN",
+      "fifaRank": 50,
+      "fifaPoints": 1462.96,
+      "eloRank": 50,
+      "eloRating": 1685,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Romania",
+      "countryCode": "ROU",
+      "fifaRank": 51,
+      "fifaPoints": 1462.85,
+      "eloRank": 57,
+      "eloRating": 1639,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cameroon",
+      "countryCode": "CMR",
+      "fifaRank": 52,
+      "fifaPoints": 1455.42,
+      "eloRank": 62,
+      "eloRating": 1613,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "countryCode": "QAT",
+      "fifaRank": 53,
+      "fifaPoints": 1453.65,
+      "eloRank": 97,
+      "eloRating": 1421,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "countryCode": "UZB",
+      "fifaRank": 54,
+      "fifaPoints": 1453.31,
+      "eloRank": 40,
+      "eloRating": 1718,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "countryCode": "RSA",
+      "fifaRank": 55,
+      "fifaPoints": 1448.67,
+      "eloRank": 77,
+      "eloRating": 1528,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mali",
+      "countryCode": "MLI",
+      "fifaRank": 56,
+      "fifaPoints": 1445.83,
+      "eloRank": 67,
+      "eloRating": 1588,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chile",
+      "countryCode": "CHI",
+      "fifaRank": 57,
+      "fifaPoints": 1441.66,
+      "eloRank": 44,
+      "eloRating": 1708,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "countryCode": "IRQ",
+      "fifaRank": 58,
+      "fifaPoints": 1422.2,
+      "eloRank": 60,
+      "eloRating": 1618,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saudi Arabia",
+      "countryCode": "KSA",
+      "fifaRank": 59,
+      "fifaPoints": 1420.65,
+      "eloRank": 70,
+      "eloRating": 1569,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "DR Congo",
+      "countryCode": "COD",
+      "fifaRank": 60,
+      "fifaPoints": 1407.6,
+      "eloRank": 54,
+      "eloRating": 1661,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Republic of Ireland",
+      "countryCode": "IRL",
+      "fifaRank": 61,
+      "fifaPoints": 1397.52,
+      "eloRank": 47,
+      "eloRating": 1699,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "countryCode": "JOR",
+      "fifaRank": 62,
+      "fifaPoints": 1391.33,
+      "eloRank": 50,
+      "eloRating": 1685,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "North Macedonia",
+      "countryCode": "MKD",
+      "fifaRank": 63,
+      "fifaPoints": 1388.5,
+      "eloRank": 66,
+      "eloRating": 1589,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Burkina Faso",
+      "countryCode": "BFA",
+      "fifaRank": 64,
+      "fifaPoints": 1385.37,
+      "eloRank": 78,
+      "eloRating": 1526,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Honduras",
+      "countryCode": "HON",
+      "fifaRank": 65,
+      "fifaPoints": 1383.98,
+      "eloRank": 69,
+      "eloRating": 1570,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Albania",
+      "countryCode": "ALB",
+      "fifaRank": 66,
+      "fifaPoints": 1380.66,
+      "eloRank": 61,
+      "eloRating": 1616,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "United Arab Emirates",
+      "countryCode": "UAE",
+      "fifaRank": 67,
+      "fifaPoints": 1379.86,
+      "eloRank": 74,
+      "eloRating": 1540,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "countryCode": "GEO",
+      "fifaRank": 68,
+      "fifaPoints": 1377.32,
+      "eloRank": 55,
+      "eloRating": 1654,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Jamaica",
+      "countryCode": "JAM",
+      "fifaRank": 69,
+      "fifaPoints": 1377.22,
+      "eloRank": 80,
+      "eloRating": 1517,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cape Verde",
+      "countryCode": "CPV",
+      "fifaRank": 70,
+      "fifaPoints": 1363.21,
+      "eloRank": 68,
+      "eloRating": 1578,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Finland",
+      "countryCode": "FIN",
+      "fifaRank": 71,
+      "fifaPoints": 1358.72,
+      "eloRank": 76,
+      "eloRating": 1536,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Northern Ireland",
+      "countryCode": "NIR",
+      "fifaRank": 72,
+      "fifaPoints": 1355.98,
+      "eloRank": 64,
+      "eloRating": 1607,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "countryCode": "BIH",
+      "fifaRank": 73,
+      "fifaPoints": 1344.25,
+      "eloRank": 65,
+      "eloRating": 1595,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Iceland",
+      "countryCode": "ISL",
+      "fifaRank": 74,
+      "fifaPoints": 1343.09,
+      "eloRank": 70,
+      "eloRating": 1569,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "countryCode": "GHA",
+      "fifaRank": 75,
+      "fifaPoints": 1340.84,
+      "eloRank": 81,
+      "eloRating": 1510,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Israel",
+      "countryCode": "ISR",
+      "fifaRank": 76,
+      "fifaPoints": 1337.4,
+      "eloRank": 56,
+      "eloRating": 1647,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bolivia",
+      "countryCode": "BOL",
+      "fifaRank": 77,
+      "fifaPoints": 1332.24,
+      "eloRank": 58,
+      "eloRating": 1633,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Oman",
+      "countryCode": "OMA",
+      "fifaRank": 78,
+      "fifaPoints": 1320.34,
+      "eloRank": 87,
+      "eloRating": 1459,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gabon",
+      "countryCode": "GAB",
+      "fifaRank": 79,
+      "fifaPoints": 1314.06,
+      "eloRank": 101,
+      "eloRating": 1401,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Montenegro",
+      "countryCode": "MNE",
+      "fifaRank": 80,
+      "fifaPoints": 1314.05,
+      "eloRank": 86,
+      "eloRating": 1460,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea",
+      "countryCode": "GUI",
+      "fifaRank": 81,
+      "fifaPoints": 1299.49,
+      "eloRank": 85,
+      "eloRating": 1463,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Uganda",
+      "countryCode": "UGA",
+      "fifaRank": 82,
+      "fifaPoints": 1287.61,
+      "eloRank": 102,
+      "eloRating": 1394,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "New Zealand",
+      "countryCode": "NZL",
+      "fifaRank": 83,
+      "fifaPoints": 1283.94,
+      "eloRank": 72,
+      "eloRating": 1562,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Curacao",
+      "countryCode": "CUW",
+      "fifaRank": 84,
+      "fifaPoints": 1282.42,
+      "eloRank": 91,
+      "eloRating": 1434,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Zambia",
+      "countryCode": "ZAM",
+      "fifaRank": 85,
+      "fifaPoints": 1273,
+      "eloRank": 112,
+      "eloRating": 1371,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bulgaria",
+      "countryCode": "BUL",
+      "fifaRank": 86,
+      "fifaPoints": 1271.52,
+      "eloRank": 88,
+      "eloRating": 1458,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "countryCode": "HAI",
+      "fifaRank": 87,
+      "fifaPoints": 1269.24,
+      "eloRank": 73,
+      "eloRating": 1548,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bahrain",
+      "countryCode": "BHR",
+      "fifaRank": 88,
+      "fifaPoints": 1268.73,
+      "eloRank": 100,
+      "eloRating": 1414,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Angola",
+      "countryCode": "ANG",
+      "fifaRank": 89,
+      "fifaPoints": 1268.72,
+      "eloRank": 75,
+      "eloRating": 1537,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "El Salvador",
+      "countryCode": "SLV",
+      "fifaRank": 90,
+      "fifaPoints": 1267.75,
+      "eloRank": 123,
+      "eloRating": 1342,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kosovo",
+      "countryCode": "KOS",
+      "fifaRank": 91,
+      "fifaPoints": 1262.1,
+      "eloRank": 41,
+      "eloRating": 1714,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Syria",
+      "countryCode": "SYR",
+      "fifaRank": 92,
+      "fifaPoints": 1259.32,
+      "eloRank": 83,
+      "eloRating": 1479,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Benin",
+      "countryCode": "BEN",
+      "fifaRank": 93,
+      "fifaPoints": 1257.3,
+      "eloRank": 94,
+      "eloRating": 1428,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "China",
+      "countryCode": "CHN",
+      "fifaRank": 94,
+      "fifaPoints": 1249.06,
+      "eloRank": 94,
+      "eloRating": 1428,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Equatorial Guinea",
+      "countryCode": "EQG",
+      "fifaRank": 95,
+      "fifaPoints": 1248.68,
+      "eloRank": 104,
+      "eloRating": 1391,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Luxembourg",
+      "countryCode": "LUX",
+      "fifaRank": 96,
+      "fifaPoints": 1242.61,
+      "eloRank": 90,
+      "eloRating": 1450,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mozambique",
+      "countryCode": "MOZ",
+      "fifaRank": 97,
+      "fifaPoints": 1234.04,
+      "eloRank": 109,
+      "eloRating": 1372,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guatemala",
+      "countryCode": "GUA",
+      "fifaRank": 98,
+      "fifaPoints": 1230.73,
+      "eloRank": 82,
+      "eloRating": 1507,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Palestine",
+      "countryCode": "PLE",
+      "fifaRank": 99,
+      "fifaPoints": 1230.55,
+      "eloRank": 84,
+      "eloRating": 1467,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belarus",
+      "countryCode": "BLR",
+      "fifaRank": 100,
+      "fifaPoints": 1223.54,
+      "eloRank": 79,
+      "eloRating": 1525,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Thailand",
+      "countryCode": "THA",
+      "fifaRank": 101,
+      "fifaPoints": 1222.2,
+      "eloRank": 109,
+      "eloRating": 1372,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Trinidad and Tobago",
+      "countryCode": "TRI",
+      "fifaRank": 102,
+      "fifaPoints": 1220.99,
+      "eloRank": 105,
+      "eloRating": 1388,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Armenia",
+      "countryCode": "ARM",
+      "fifaRank": 103,
+      "fifaPoints": 1219.55,
+      "eloRank": 107,
+      "eloRating": 1378,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tajikistan",
+      "countryCode": "TJK",
+      "fifaRank": 104,
+      "fifaPoints": 1206.15,
+      "eloRank": 141,
+      "eloRating": 1290,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Comoros",
+      "countryCode": "COM",
+      "fifaRank": 105,
+      "fifaPoints": 1201.83,
+      "eloRank": 114,
+      "eloRating": 1363,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kyrgyzstan",
+      "countryCode": "KGZ",
+      "fifaRank": 106,
+      "fifaPoints": 1201.22,
+      "eloRank": 136,
+      "eloRating": 1293,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tanzania",
+      "countryCode": "TAN",
+      "fifaRank": 107,
+      "fifaPoints": 1199.45,
+      "eloRank": 131,
+      "eloRating": 1313,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Madagascar",
+      "countryCode": "MAD",
+      "fifaRank": 108,
+      "fifaPoints": 1187.59,
+      "eloRank": 106,
+      "eloRating": 1380,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Namibia",
+      "countryCode": "NAM",
+      "fifaRank": 109,
+      "fifaPoints": 1183.8,
+      "eloRank": 135,
+      "eloRating": 1303,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritania",
+      "countryCode": "MTN",
+      "fifaRank": 110,
+      "fifaPoints": 1183.28,
+      "eloRank": 130,
+      "eloRating": 1317,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kenya",
+      "countryCode": "KEN",
+      "fifaRank": 111,
+      "fifaPoints": 1181.64,
+      "eloRank": 118,
+      "eloRating": 1352,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Libya",
+      "countryCode": "LBY",
+      "fifaRank": 112,
+      "fifaPoints": 1179.57,
+      "eloRank": 98,
+      "eloRating": 1420,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lebanon",
+      "countryCode": "LBN",
+      "fifaRank": 113,
+      "fifaPoints": 1172.3,
+      "eloRank": 142,
+      "eloRating": 1288,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Vietnam",
+      "countryCode": "VIE",
+      "fifaRank": 114,
+      "fifaPoints": 1169.92,
+      "eloRank": 120,
+      "eloRating": 1351,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gambia",
+      "countryCode": "GAM",
+      "fifaRank": 115,
+      "fifaPoints": 1165.93,
+      "eloRank": 99,
+      "eloRating": 1419,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sudan",
+      "countryCode": "SDN",
+      "fifaRank": 116,
+      "fifaPoints": 1163.56,
+      "eloRank": 121,
+      "eloRating": 1350,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Niger",
+      "countryCode": "NIG",
+      "fifaRank": 117,
+      "fifaPoints": 1160.33,
+      "eloRank": 102,
+      "eloRating": 1394,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kazakhstan",
+      "countryCode": "KAZ",
+      "fifaRank": 118,
+      "fifaPoints": 1158.06,
+      "eloRank": 92,
+      "eloRating": 1431,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Indonesia",
+      "countryCode": "IDN",
+      "fifaRank": 119,
+      "fifaPoints": 1157.94,
+      "eloRank": 115,
+      "eloRating": 1362,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Togo",
+      "countryCode": "TOG",
+      "fifaRank": 120,
+      "fifaPoints": 1151.08,
+      "eloRank": 116,
+      "eloRating": 1356,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "North Korea",
+      "countryCode": "PRK",
+      "fifaRank": 121,
+      "fifaPoints": 1151.05,
+      "eloRank": 108,
+      "eloRating": 1375,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sierra Leone",
+      "countryCode": "SLE",
+      "fifaRank": 122,
+      "fifaPoints": 1150.1,
+      "eloRank": 117,
+      "eloRating": 1354,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malaysia",
+      "countryCode": "MAS",
+      "fifaRank": 123,
+      "fifaPoints": 1148.23,
+      "eloRank": 136,
+      "eloRating": 1293,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Azerbaijan",
+      "countryCode": "AZE",
+      "fifaRank": 124,
+      "fifaPoints": 1148.09,
+      "eloRank": 128,
+      "eloRating": 1321,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Zimbabwe",
+      "countryCode": "ZIM",
+      "fifaRank": 125,
+      "fifaPoints": 1133.75,
+      "eloRank": 109,
+      "eloRating": 1372,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malawi",
+      "countryCode": "MWI",
+      "fifaRank": 126,
+      "fifaPoints": 1133.6,
+      "eloRank": 153,
+      "eloRating": 1235,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Rwanda",
+      "countryCode": "RWA",
+      "fifaRank": 127,
+      "fifaPoints": 1133.5,
+      "eloRank": 125,
+      "eloRating": 1337,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cyprus",
+      "countryCode": "CYP",
+      "fifaRank": 128,
+      "fifaPoints": 1128.1,
+      "eloRank": 133,
+      "eloRating": 1310,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Estonia",
+      "countryCode": "EST",
+      "fifaRank": 129,
+      "fifaPoints": 1127.2,
+      "eloRank": 118,
+      "eloRating": 1352,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guinea-Bissau",
+      "countryCode": "GNB",
+      "fifaRank": 130,
+      "fifaPoints": 1126.81,
+      "eloRank": 150,
+      "eloRating": 1248,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Suriname",
+      "countryCode": "SUR",
+      "fifaRank": 131,
+      "fifaPoints": 1125.21,
+      "eloRank": 92,
+      "eloRating": 1431,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nicaragua",
+      "countryCode": "NCA",
+      "fifaRank": 132,
+      "fifaPoints": 1120.78,
+      "eloRank": 126,
+      "eloRating": 1333,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Congo",
+      "countryCode": "CGO",
+      "fifaRank": 133,
+      "fifaPoints": 1119.77,
+      "eloRank": 158,
+      "eloRating": 1207,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "India",
+      "countryCode": "IND",
+      "fifaRank": 134,
+      "fifaPoints": 1113.8,
+      "eloRank": 168,
+      "eloRating": 1122,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Kuwait",
+      "countryCode": "KUW",
+      "fifaRank": 135,
+      "fifaPoints": 1100.38,
+      "eloRank": 127,
+      "eloRating": 1331,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Faroe Islands",
+      "countryCode": "FRO",
+      "fifaRank": 136,
+      "fifaPoints": 1094.46,
+      "eloRank": 113,
+      "eloRating": 1368,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Latvia",
+      "countryCode": "LVA",
+      "fifaRank": 137,
+      "fifaPoints": 1088.8,
+      "eloRank": 134,
+      "eloRating": 1305,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turkmenistan",
+      "countryCode": "TKM",
+      "fifaRank": 138,
+      "fifaPoints": 1087.96,
+      "eloRank": 156,
+      "eloRating": 1209,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Botswana",
+      "countryCode": "BOT",
+      "fifaRank": 139,
+      "fifaPoints": 1087.27,
+      "eloRank": 147,
+      "eloRating": 1267,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Central African Republic",
+      "countryCode": "CTA",
+      "fifaRank": 140,
+      "fifaPoints": 1081.36,
+      "eloRank": 151,
+      "eloRating": 1241,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Burundi",
+      "countryCode": "BDI",
+      "fifaRank": 141,
+      "fifaPoints": 1077.05,
+      "eloRank": 145,
+      "eloRating": 1285,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Dominican Republic",
+      "countryCode": "DOM",
+      "fifaRank": 142,
+      "fifaPoints": 1074.46,
+      "eloRank": 146,
+      "eloRating": 1283,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Philippines",
+      "countryCode": "PHI",
+      "fifaRank": 143,
+      "fifaPoints": 1066.35,
+      "eloRank": 162,
+      "eloRating": 1169,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Liberia",
+      "countryCode": "LBR",
+      "fifaRank": 144,
+      "fifaPoints": 1065.62,
+      "eloRank": 139,
+      "eloRating": 1291,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lithuania",
+      "countryCode": "LTU",
+      "fifaRank": 145,
+      "fifaPoints": 1065.34,
+      "eloRank": 143,
+      "eloRating": 1286,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Hong Kong",
+      "countryCode": "HKG",
+      "fifaRank": 146,
+      "fifaPoints": 1047.36,
+      "eloRank": 168,
+      "eloRating": 1122,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Ethiopia",
+      "countryCode": "ETH",
+      "fifaRank": 147,
+      "fifaPoints": 1046.41,
+      "eloRank": 139,
+      "eloRating": 1291,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Solomon Islands",
+      "countryCode": "SOL",
+      "fifaRank": 148,
+      "fifaPoints": 1045.58,
+      "eloRank": 179,
+      "eloRating": 1054,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "countryCode": "SKN",
+      "fifaRank": 149,
+      "fifaPoints": 1041.53,
+      "eloRank": 182,
+      "eloRating": 1029,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "New Caledonia",
+      "countryCode": "NCL",
+      "fifaRank": 150,
+      "fifaPoints": 1039.55,
+      "eloRank": 143,
+      "eloRating": 1286,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guyana",
+      "countryCode": "GUY",
+      "fifaRank": 151,
+      "fifaPoints": 1037.34,
+      "eloRank": 138,
+      "eloRating": 1292,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Fiji",
+      "countryCode": "FIJ",
+      "fifaRank": 152,
+      "fifaPoints": 1035.11,
+      "eloRank": 173,
+      "eloRating": 1101,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Lesotho",
+      "countryCode": "LES",
+      "fifaRank": 153,
+      "fifaPoints": 1034.1,
+      "eloRank": 156,
+      "eloRating": 1209,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Yemen",
+      "countryCode": "YEM",
+      "fifaRank": 154,
+      "fifaPoints": 1021.25,
+      "eloRank": 160,
+      "eloRating": 1195,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Puerto Rico",
+      "countryCode": "PUR",
+      "fifaRank": 155,
+      "fifaPoints": 1020.44,
+      "eloRank": 165,
+      "eloRating": 1135,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Moldova",
+      "countryCode": "MDA",
+      "fifaRank": 156,
+      "fifaPoints": 1019.2,
+      "eloRank": 148,
+      "eloRating": 1265,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tahiti",
+      "countryCode": "TAH",
+      "fifaRank": 157,
+      "fifaPoints": 1019.04,
+      "eloRank": 161,
+      "eloRating": 1176,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Singapore",
+      "countryCode": "SGP",
+      "fifaRank": 158,
+      "fifaPoints": 1013.34,
+      "eloRank": 167,
+      "eloRating": 1134,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Eswatini",
+      "countryCode": "SWZ",
+      "fifaRank": 159,
+      "fifaPoints": 1010.06,
+      "eloRank": 163,
+      "eloRating": 1149,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Myanmar",
+      "countryCode": "MYA",
+      "fifaRank": 160,
+      "fifaPoints": 1004.15,
+      "eloRank": 188,
+      "eloRating": 993,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Afghanistan",
+      "countryCode": "AFG",
+      "fifaRank": 161,
+      "fifaPoints": 998.88,
+      "eloRank": 183,
+      "eloRating": 1023,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "countryCode": "ATG",
+      "fifaRank": 162,
+      "fifaPoints": 992.38,
+      "eloRank": 200,
+      "eloRating": 894,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Vanuatu",
+      "countryCode": "VAN",
+      "fifaRank": 163,
+      "fifaPoints": 991.59,
+      "eloRank": 170,
+      "eloRating": 1121,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Lucia",
+      "countryCode": "LCA",
+      "fifaRank": 164,
+      "fifaPoints": 990.69,
+      "eloRank": 186,
+      "eloRating": 1003,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bermuda",
+      "countryCode": "BER",
+      "fifaRank": 165,
+      "fifaPoints": 988.72,
+      "eloRank": 171,
+      "eloRating": 1117,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Malta",
+      "countryCode": "MLT",
+      "fifaRank": 166,
+      "fifaPoints": 982.43,
+      "eloRank": 149,
+      "eloRating": 1255,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cuba",
+      "countryCode": "CUB",
+      "fifaRank": 167,
+      "fifaPoints": 980.33,
+      "eloRank": 152,
+      "eloRating": 1239,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Grenada",
+      "countryCode": "GRN",
+      "fifaRank": 168,
+      "fifaPoints": 978.4,
+      "eloRank": 174,
+      "eloRating": 1098,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "South Sudan",
+      "countryCode": "SSD",
+      "fifaRank": 169,
+      "fifaPoints": 976.56,
+      "eloRank": 172,
+      "eloRating": 1109,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Papua New Guinea",
+      "countryCode": "PNG",
+      "fifaRank": 170,
+      "fifaPoints": 969.17,
+      "eloRank": 165,
+      "eloRating": 1135,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Maldives",
+      "countryCode": "MDV",
+      "fifaRank": 171,
+      "fifaPoints": 968.59,
+      "eloRank": 209,
+      "eloRating": 801,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "countryCode": "VIN",
+      "fifaRank": 172,
+      "fifaPoints": 962.43,
+      "eloRank": 164,
+      "eloRating": 1141,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chinese Taipei",
+      "countryCode": "TPE",
+      "fifaRank": 173,
+      "fifaPoints": 960.81,
+      "eloRank": 207,
+      "eloRating": 821,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Andorra",
+      "countryCode": "AND",
+      "fifaRank": 174,
+      "fifaPoints": 954.68,
+      "eloRank": 175,
+      "eloRating": 1081,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Chad",
+      "countryCode": "CHA",
+      "fifaRank": 175,
+      "fifaPoints": 925.82,
+      "eloRank": 176,
+      "eloRating": 1073,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Nepal",
+      "countryCode": "NEP",
+      "fifaRank": 176,
+      "fifaPoints": 923.02,
+      "eloRank": 201,
+      "eloRating": 893,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Barbados",
+      "countryCode": "BRB",
+      "fifaRank": 177,
+      "fifaPoints": 919.97,
+      "eloRank": 199,
+      "eloRating": 898,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Montserrat",
+      "countryCode": "MSR",
+      "fifaRank": 178,
+      "fifaPoints": 916.75,
+      "eloRank": 192,
+      "eloRating": 971,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Mauritius",
+      "countryCode": "MRI",
+      "fifaRank": 179,
+      "fifaPoints": 912.24,
+      "eloRank": 176,
+      "eloRating": 1073,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cambodia",
+      "countryCode": "CAM",
+      "fifaRank": 180,
+      "fifaPoints": 910.21,
+      "eloRank": 203,
+      "eloRating": 849,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Belize",
+      "countryCode": "BLZ",
+      "fifaRank": 181,
+      "fifaPoints": 904.45,
+      "eloRank": 176,
+      "eloRating": 1073,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Dominica",
+      "countryCode": "DMA",
+      "fifaRank": 182,
+      "fifaPoints": 901.37,
+      "eloRank": 196,
+      "eloRating": 934,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Brunei",
+      "countryCode": "BRU",
+      "fifaRank": 183,
+      "fifaPoints": 900.62,
+      "eloRank": 232,
+      "eloRating": 592,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bangladesh",
+      "countryCode": "BAN",
+      "fifaRank": 184,
+      "fifaPoints": 899.24,
+      "eloRank": 194,
+      "eloRating": 942,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Laos",
+      "countryCode": "LAO",
+      "fifaRank": 185,
+      "fifaPoints": 890.35,
+      "eloRank": 215,
+      "eloRating": 734,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bhutan",
+      "countryCode": "BHU",
+      "fifaRank": 186,
+      "fifaPoints": 888.94,
+      "eloRank": 228,
+      "eloRating": 631,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "American Samoa",
+      "countryCode": "ASA",
+      "fifaRank": 187,
+      "fifaPoints": 883.17,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        }
+      ]
+    },
+    {
+      "team": "Mongolia",
+      "countryCode": "MNG",
+      "fifaRank": 188,
+      "fifaPoints": 879.75,
+      "eloRank": 217,
+      "eloRating": 725,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cook Islands",
+      "countryCode": "COK",
+      "fifaRank": 189,
+      "fifaPoints": 877.53,
+      "eloRank": 231,
+      "eloRating": 622,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Samoa",
+      "countryCode": "SAM",
+      "fifaRank": 190,
+      "fifaPoints": 876.41,
+      "eloRank": 216,
+      "eloRating": 728,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Macau",
+      "countryCode": "MAC",
+      "fifaRank": 191,
+      "fifaPoints": 865.29,
+      "eloRank": 233,
+      "eloRating": 588,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Aruba",
+      "countryCode": "ARU",
+      "fifaRank": 192,
+      "fifaPoints": 861.16,
+      "eloRank": 190,
+      "eloRating": 978,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Djibouti",
+      "countryCode": "DJI",
+      "fifaRank": 193,
+      "fifaPoints": 855.91,
+      "eloRank": 195,
+      "eloRating": 940,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Timor-Leste",
+      "countryCode": "TLS",
+      "fifaRank": 194,
+      "fifaPoints": 855.36,
+      "eloRank": 219,
+      "eloRating": 714,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sao Tome and Principe",
+      "countryCode": "STP",
+      "fifaRank": 195,
+      "fifaPoints": 854.76,
+      "eloRank": 181,
+      "eloRating": 1035,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Cayman Islands",
+      "countryCode": "CAY",
+      "fifaRank": 196,
+      "fifaPoints": 853.37,
+      "eloRank": 210,
+      "eloRating": 800,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Sri Lanka",
+      "countryCode": "SRI",
+      "fifaRank": 197,
+      "fifaPoints": 852.3,
+      "eloRank": 205,
+      "eloRating": 827,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Tonga",
+      "countryCode": "TGA",
+      "fifaRank": 198,
+      "fifaPoints": 835.64,
+      "eloRank": 239,
+      "eloRating": 520,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Pakistan",
+      "countryCode": "PAK",
+      "fifaRank": 199,
+      "fifaPoints": 829.41,
+      "eloRank": 204,
+      "eloRating": 847,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Gibraltar",
+      "countryCode": "GIB",
+      "fifaRank": 200,
+      "fifaPoints": 827.19,
+      "eloRank": 184,
+      "eloRating": 1011,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Somalia",
+      "countryCode": "SOM",
+      "fifaRank": 201,
+      "fifaPoints": 824.76,
+      "eloRank": 189,
+      "eloRating": 979,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Guam",
+      "countryCode": "GUM",
+      "fifaRank": 202,
+      "fifaPoints": 823.08,
+      "eloRank": 220,
+      "eloRating": 705,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Seychelles",
+      "countryCode": "SEY",
+      "fifaRank": 203,
+      "fifaPoints": 812.32,
+      "eloRank": 202,
+      "eloRating": 853,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Liechtenstein",
+      "countryCode": "LIE",
+      "fifaRank": 204,
+      "fifaPoints": 808.48,
+      "eloRank": 198,
+      "eloRating": 899,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Bahamas",
+      "countryCode": "BAH",
+      "fifaRank": 205,
+      "fifaPoints": 807.36,
+      "eloRank": 224,
+      "eloRating": 685,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Turks and Caicos Islands",
+      "countryCode": "TCA",
+      "fifaRank": 206,
+      "fifaPoints": 803.98,
+      "eloRank": 226,
+      "eloRating": 657,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "US Virgin Islands",
+      "countryCode": "VIR",
+      "fifaRank": 207,
+      "fifaPoints": 779.71,
+      "eloRank": 230,
+      "eloRating": 628,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "British Virgin Islands",
+      "countryCode": "VGB",
+      "fifaRank": 208,
+      "fifaPoints": 768.5,
+      "eloRank": 213,
+      "eloRating": 743,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "Anguilla",
+      "countryCode": "AIA",
+      "fifaRank": 209,
+      "fifaPoints": 758.52,
+      "eloRank": 227,
+      "eloRating": 646,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    },
+    {
+      "team": "San Marino",
+      "countryCode": "SMR",
+      "fifaRank": 210,
+      "fifaPoints": 733.23,
+      "eloRank": 206,
+      "eloRating": 826,
+      "sourceRefs": [
+        {
+          "sourceName": "FIFA men's ranking",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/men",
+          "collectedAt": "2026-06-07T08:25:31.121Z",
+          "notes": "Official FIFA ranking-overview API: https://inside.fifa.com/api/ranking-overview?locale=en&dateId=id14870; dateId: id14870."
+        },
+        {
+          "sourceName": "World Football Elo Ratings",
+          "sourceUrl": "https://www.eloratings.net/",
+          "collectedAt": "2026-06-07T08:25:33.906Z",
+          "notes": "Parsed from https://www.eloratings.net/World.tsv and https://www.eloratings.net/en.teams.tsv."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "FIFA collector warning: FIFA ranking dateId FRS_Male_Football_20260119 returned no ranking rows.",
+    "FIFA collector warning: FIFA ranking dateId FRS_Male_Football_20251219 returned no ranking rows.",
+    "FIFA collector warning: FIFA ranking dateId FRS_Male_Football_20251119 returned no ranking rows.",
+    "FIFA collector warning: FIFA ranking dateId FRS_Male_Football_20251015 returned no ranking rows.",
+    "FIFA collector warning: FIFA ranking dateId FRS_Male_Football_20250910 returned no ranking rows.",
+    "FIFA collector warning: Skipped incomplete FIFA ranking row for Eritrea.",
+    "FIFA teams without matched Elo rows: 1 (American Samoa).",
+    "Elo teams not emitted because no FIFA countryCode was available: 35 (Northern Cyprus, Kurdistan, Reunion, Guadeloupe, Zanzibar, Martinique, French Guiana, Mayotte, Eritrea, Saint Martin, Somaliland, Western Sahara, Sint Maarten, Greenland, Monaco, Bonaire, Chagos Islands, Tuvalu, Sint Eustatius, Saint Barthelemy, Wallis and Futuna, Vatican, Saba, Saint Pierre and Miquelon, Tibet, and 10 more)."
+  ]
+}

@@ -4,17 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "collect:rules": "tsx src/collectors/collect-fifa-rules.ts",
-    "collect:fixtures": "tsx src/collectors/collect-fixtures.ts",
-    "collect:rankings": "tsx src/collectors/collect-fifa-rankings.ts",
-    "validate": "tsx src/validate.ts",
-    "export:json": "tsx src/output/export-json.ts",
-    "export:csv": "tsx src/output/export-csv.ts",
+    "collect:fifa-ranking": "tsx src/collect/fifaRanking.ts",
     "typecheck": "tsc --noEmit",
-    "collect:elo": "tsx src/collectors/collect-elo-ratings.ts",
-    "collect:squads": "tsx src/collectors/collect-squad-quality.ts",
-    "collect:form": "tsx src/collectors/collect-current-form.ts",
-    "collect:all": "npm run collect:rules && npm run collect:fixtures && npm run collect:rankings && npm run collect:elo && npm run collect:squads && npm run collect:form"
+    "collect:elo": "tsx src/collect/eloRatings.ts",
+    "collect:results": "tsx src/collect/results.ts",
+    "collect:all": "npm run collect:fifa-ranking && npm run collect:elo && npm run collect:results",
+    "features:team-strength": "tsx src/features/teamStrength.ts",
+    "features:recent-form": "tsx src/features/recentForm.ts",
+    "features:all": "npm run features:team-strength && npm run features:recent-form",
+    "build:model-input": "tsx src/output/buildModelInput.ts",
+    "validate": "tsx src/validate.ts"
   },
   "dependencies": {
     "zod": "^3.25.76"
