@@ -1,0 +1,676 @@
+{
+  "artifactKind": "prediction_comparison",
+  "comparisonId": "group-position-differences-v1",
+  "generatedAt": "2026-06-07T09:13:50.430Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "doNotUseAsCollectedData": true,
+  "contaminationControl": {
+    "notes": "This file compares prediction artifacts for review only. It must not be read by future collectors, model-input builders, or prediction builders.",
+    "comparisonInputPaths": [
+      "data\\predictions\\group-standings-v1.json",
+      "data\\predictions\\group-stage-monte-carlo-v1.json"
+    ],
+    "outputPath": "data\\predictions\\group-position-differences-v1.json"
+  },
+  "inputs": {
+    "deterministic": {
+      "path": "data\\predictions\\group-standings-v1.json",
+      "predictionId": "group-standings-v1",
+      "predictionType": "group_standings_rank_order",
+      "generatedAt": "2026-06-07T08:51:39.923Z"
+    },
+    "monteCarlo": {
+      "path": "data\\predictions\\group-stage-monte-carlo-v1.json",
+      "predictionId": "group-stage-monte-carlo-v1",
+      "predictionType": "group_stage_monte_carlo",
+      "generatedAt": "2026-06-07T09:03:03.734Z"
+    }
+  },
+  "positionDeltaDefinition": "monteCarloPosition - deterministicPosition; negative means the Monte Carlo artifact ranks the team higher, positive means lower.",
+  "summary": {
+    "totalTeamsCompared": 48,
+    "unchanged": 32,
+    "movedUpInMonteCarlo": 8,
+    "movedDownInMonteCarlo": 8,
+    "maxAbsolutePositionDelta": 1
+  },
+  "groups": [
+    {
+      "group": "A",
+      "differences": [
+        {
+          "team": "Mexico",
+          "countryCode": "MEX",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8385,
+          "monteCarloAveragePosition": 1.8223,
+          "monteCarloAdvanceProbability": 0.8876,
+          "monteCarloTopTwoAdvanceProbability": 0.7684
+        },
+        {
+          "team": "South Korea",
+          "countryCode": "KOR",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 3,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.7675,
+          "monteCarloAveragePosition": 2.8327,
+          "monteCarloAdvanceProbability": 0.5633,
+          "monteCarloTopTwoAdvanceProbability": 0.3612
+        },
+        {
+          "team": "Czechia",
+          "countryCode": "CZE",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 2,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.726,
+          "monteCarloAveragePosition": 2.3633,
+          "monteCarloAdvanceProbability": 0.7441,
+          "monteCarloTopTwoAdvanceProbability": 0.5628
+        },
+        {
+          "team": "South Africa",
+          "countryCode": "RSA",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.6449,
+          "monteCarloAveragePosition": 2.9818,
+          "monteCarloAdvanceProbability": 0.4943,
+          "monteCarloTopTwoAdvanceProbability": 0.3077
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "differences": [
+        {
+          "team": "Switzerland",
+          "countryCode": "SUI",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8207,
+          "monteCarloAveragePosition": 1.8197,
+          "monteCarloAdvanceProbability": 0.9153,
+          "monteCarloTopTwoAdvanceProbability": 0.7706
+        },
+        {
+          "team": "Canada",
+          "countryCode": "CAN",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.755,
+          "monteCarloAveragePosition": 2.0732,
+          "monteCarloAdvanceProbability": 0.8611,
+          "monteCarloTopTwoAdvanceProbability": 0.6803
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "countryCode": "BIH",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 3,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.6041,
+          "monteCarloAveragePosition": 2.5452,
+          "monteCarloAdvanceProbability": 0.7156,
+          "monteCarloTopTwoAdvanceProbability": 0.4518
+        },
+        {
+          "team": "Qatar",
+          "countryCode": "QAT",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.5882,
+          "monteCarloAveragePosition": 3.5619,
+          "monteCarloAdvanceProbability": 0.2043,
+          "monteCarloTopTwoAdvanceProbability": 0.0974
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "differences": [
+        {
+          "team": "Brazil",
+          "countryCode": "BRA",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 2,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.8842,
+          "monteCarloAveragePosition": 2.2944,
+          "monteCarloAdvanceProbability": 0.792,
+          "monteCarloTopTwoAdvanceProbability": 0.6015
+        },
+        {
+          "team": "Morocco",
+          "countryCode": "MAR",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 1,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.8513,
+          "monteCarloAveragePosition": 1.615,
+          "monteCarloAdvanceProbability": 0.9399,
+          "monteCarloTopTwoAdvanceProbability": 0.8464
+        },
+        {
+          "team": "Scotland",
+          "countryCode": "SCO",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 3,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7241,
+          "monteCarloAveragePosition": 2.75,
+          "monteCarloAdvanceProbability": 0.6123,
+          "monteCarloTopTwoAdvanceProbability": 0.384
+        },
+        {
+          "team": "Haiti",
+          "countryCode": "HAI",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.5563,
+          "monteCarloAveragePosition": 3.3407,
+          "monteCarloAdvanceProbability": 0.3174,
+          "monteCarloTopTwoAdvanceProbability": 0.1683
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "differences": [
+        {
+          "team": "Turkey",
+          "countryCode": "TUR",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8052,
+          "monteCarloAveragePosition": 2.0235,
+          "monteCarloAdvanceProbability": 0.8319,
+          "monteCarloTopTwoAdvanceProbability": 0.6861
+        },
+        {
+          "team": "United States",
+          "countryCode": "USA",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 3,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.7808,
+          "monteCarloAveragePosition": 2.6882,
+          "monteCarloAdvanceProbability": 0.6107,
+          "monteCarloTopTwoAdvanceProbability": 0.4271
+        },
+        {
+          "team": "Australia",
+          "countryCode": "AUS",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 2,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.756,
+          "monteCarloAveragePosition": 2.5572,
+          "monteCarloAdvanceProbability": 0.6705,
+          "monteCarloTopTwoAdvanceProbability": 0.4776
+        },
+        {
+          "team": "Paraguay",
+          "countryCode": "PAR",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7226,
+          "monteCarloAveragePosition": 2.7312,
+          "monteCarloAdvanceProbability": 0.5948,
+          "monteCarloTopTwoAdvanceProbability": 0.4092
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "differences": [
+        {
+          "team": "Germany",
+          "countryCode": "GER",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8802,
+          "monteCarloAveragePosition": 1.7156,
+          "monteCarloAdvanceProbability": 0.921,
+          "monteCarloTopTwoAdvanceProbability": 0.8077
+        },
+        {
+          "team": "Ecuador",
+          "countryCode": "ECU",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 3,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.788,
+          "monteCarloAveragePosition": 2.5393,
+          "monteCarloAdvanceProbability": 0.6956,
+          "monteCarloTopTwoAdvanceProbability": 0.481
+        },
+        {
+          "team": "Ivory Coast",
+          "countryCode": "CIV",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 2,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.7168,
+          "monteCarloAveragePosition": 2.4326,
+          "monteCarloAdvanceProbability": 0.7363,
+          "monteCarloTopTwoAdvanceProbability": 0.5286
+        },
+        {
+          "team": "Curacao",
+          "countryCode": "CUW",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.5423,
+          "monteCarloAveragePosition": 3.3126,
+          "monteCarloAdvanceProbability": 0.3286,
+          "monteCarloTopTwoAdvanceProbability": 0.1829
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "differences": [
+        {
+          "team": "Netherlands",
+          "countryCode": "NED",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.883,
+          "monteCarloAveragePosition": 1.5872,
+          "monteCarloAdvanceProbability": 0.9596,
+          "monteCarloTopTwoAdvanceProbability": 0.8836
+        },
+        {
+          "team": "Japan",
+          "countryCode": "JPN",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8319,
+          "monteCarloAveragePosition": 1.8732,
+          "monteCarloAdvanceProbability": 0.9187,
+          "monteCarloTopTwoAdvanceProbability": 0.804
+        },
+        {
+          "team": "Sweden",
+          "countryCode": "SWE",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 4,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.6906,
+          "monteCarloAveragePosition": 3.3822,
+          "monteCarloAdvanceProbability": 0.2845,
+          "monteCarloTopTwoAdvanceProbability": 0.126
+        },
+        {
+          "team": "Tunisia",
+          "countryCode": "TUN",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 3,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.6657,
+          "monteCarloAveragePosition": 3.1576,
+          "monteCarloAdvanceProbability": 0.4169,
+          "monteCarloTopTwoAdvanceProbability": 0.1865
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "differences": [
+        {
+          "team": "Belgium",
+          "countryCode": "BEL",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8836,
+          "monteCarloAveragePosition": 1.491,
+          "monteCarloAdvanceProbability": 0.981,
+          "monteCarloTopTwoAdvanceProbability": 0.887
+        },
+        {
+          "team": "Iran",
+          "countryCode": "IRN",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7788,
+          "monteCarloAveragePosition": 2.2195,
+          "monteCarloAdvanceProbability": 0.8602,
+          "monteCarloTopTwoAdvanceProbability": 0.619
+        },
+        {
+          "team": "Egypt",
+          "countryCode": "EGY",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 3,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7209,
+          "monteCarloAveragePosition": 2.5011,
+          "monteCarloAdvanceProbability": 0.7664,
+          "monteCarloTopTwoAdvanceProbability": 0.4606
+        },
+        {
+          "team": "New Zealand",
+          "countryCode": "NZL",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.5217,
+          "monteCarloAveragePosition": 3.7885,
+          "monteCarloAdvanceProbability": 0.0821,
+          "monteCarloTopTwoAdvanceProbability": 0.0335
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "differences": [
+        {
+          "team": "Spain",
+          "countryCode": "ESP",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.9684,
+          "monteCarloAveragePosition": 1.2783,
+          "monteCarloAdvanceProbability": 0.9842,
+          "monteCarloTopTwoAdvanceProbability": 0.947
+        },
+        {
+          "team": "Uruguay",
+          "countryCode": "URU",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8133,
+          "monteCarloAveragePosition": 2.602,
+          "monteCarloAdvanceProbability": 0.6779,
+          "monteCarloTopTwoAdvanceProbability": 0.4912
+        },
+        {
+          "team": "Saudi Arabia",
+          "countryCode": "KSA",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 4,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.619,
+          "monteCarloAveragePosition": 3.2476,
+          "monteCarloAdvanceProbability": 0.3533,
+          "monteCarloTopTwoAdvanceProbability": 0.2053
+        },
+        {
+          "team": "Cape Verde",
+          "countryCode": "CPV",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 3,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.6097,
+          "monteCarloAveragePosition": 2.8722,
+          "monteCarloAdvanceProbability": 0.551,
+          "monteCarloTopTwoAdvanceProbability": 0.3567
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "differences": [
+        {
+          "team": "France",
+          "countryCode": "FRA",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.9556,
+          "monteCarloAveragePosition": 2.0075,
+          "monteCarloAdvanceProbability": 0.853,
+          "monteCarloTopTwoAdvanceProbability": 0.7006
+        },
+        {
+          "team": "Senegal",
+          "countryCode": "SEN",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 3,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.8222,
+          "monteCarloAveragePosition": 2.6428,
+          "monteCarloAdvanceProbability": 0.6472,
+          "monteCarloTopTwoAdvanceProbability": 0.4313
+        },
+        {
+          "team": "Norway",
+          "countryCode": "NOR",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 2,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.7935,
+          "monteCarloAveragePosition": 2.0456,
+          "monteCarloAdvanceProbability": 0.8419,
+          "monteCarloTopTwoAdvanceProbability": 0.6849
+        },
+        {
+          "team": "Iraq",
+          "countryCode": "IRQ",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.6527,
+          "monteCarloAveragePosition": 3.3042,
+          "monteCarloAdvanceProbability": 0.3396,
+          "monteCarloTopTwoAdvanceProbability": 0.1832
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "differences": [
+        {
+          "team": "Argentina",
+          "countryCode": "ARG",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.9664,
+          "monteCarloAveragePosition": 1.7813,
+          "monteCarloAdvanceProbability": 0.9368,
+          "monteCarloTopTwoAdvanceProbability": 0.7854
+        },
+        {
+          "team": "Austria",
+          "countryCode": "AUT",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8154,
+          "monteCarloAveragePosition": 2.0722,
+          "monteCarloAdvanceProbability": 0.8779,
+          "monteCarloTopTwoAdvanceProbability": 0.6701
+        },
+        {
+          "team": "Algeria",
+          "countryCode": "ALG",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 3,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7452,
+          "monteCarloAveragePosition": 2.4759,
+          "monteCarloAdvanceProbability": 0.759,
+          "monteCarloTopTwoAdvanceProbability": 0.4771
+        },
+        {
+          "team": "Jordan",
+          "countryCode": "JOR",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.6484,
+          "monteCarloAveragePosition": 3.6706,
+          "monteCarloAdvanceProbability": 0.1477,
+          "monteCarloTopTwoAdvanceProbability": 0.0675
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "differences": [
+        {
+          "team": "Portugal",
+          "countryCode": "POR",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8976,
+          "monteCarloAveragePosition": 2.1362,
+          "monteCarloAdvanceProbability": 0.8004,
+          "monteCarloTopTwoAdvanceProbability": 0.6449
+        },
+        {
+          "team": "Colombia",
+          "countryCode": "COL",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8564,
+          "monteCarloAveragePosition": 2.4055,
+          "monteCarloAdvanceProbability": 0.7198,
+          "monteCarloTopTwoAdvanceProbability": 0.5363
+        },
+        {
+          "team": "Uzbekistan",
+          "countryCode": "UZB",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 4,
+          "positionDelta": 1,
+          "movement": "down",
+          "deterministicPredictionScore": 0.6794,
+          "monteCarloAveragePosition": 2.9539,
+          "monteCarloAdvanceProbability": 0.5007,
+          "monteCarloTopTwoAdvanceProbability": 0.322
+        },
+        {
+          "team": "DR Congo",
+          "countryCode": "COD",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 3,
+          "positionDelta": -1,
+          "movement": "up",
+          "deterministicPredictionScore": 0.6669,
+          "monteCarloAveragePosition": 2.5045,
+          "monteCarloAdvanceProbability": 0.6905,
+          "monteCarloTopTwoAdvanceProbability": 0.4969
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "differences": [
+        {
+          "team": "England",
+          "countryCode": "ENG",
+          "deterministicPosition": 1,
+          "monteCarloPosition": 1,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.9213,
+          "monteCarloAveragePosition": 1.5274,
+          "monteCarloAdvanceProbability": 0.9649,
+          "monteCarloTopTwoAdvanceProbability": 0.8851
+        },
+        {
+          "team": "Croatia",
+          "countryCode": "CRO",
+          "deterministicPosition": 2,
+          "monteCarloPosition": 2,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.8605,
+          "monteCarloAveragePosition": 2.0682,
+          "monteCarloAdvanceProbability": 0.875,
+          "monteCarloTopTwoAdvanceProbability": 0.7196
+        },
+        {
+          "team": "Panama",
+          "countryCode": "PAN",
+          "deterministicPosition": 3,
+          "monteCarloPosition": 3,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.7267,
+          "monteCarloAveragePosition": 2.9252,
+          "monteCarloAdvanceProbability": 0.5362,
+          "monteCarloTopTwoAdvanceProbability": 0.284
+        },
+        {
+          "team": "Ghana",
+          "countryCode": "GHA",
+          "deterministicPosition": 4,
+          "monteCarloPosition": 4,
+          "positionDelta": 0,
+          "movement": "same",
+          "deterministicPredictionScore": 0.5651,
+          "monteCarloAveragePosition": 3.4793,
+          "monteCarloAdvanceProbability": 0.2385,
+          "monteCarloTopTwoAdvanceProbability": 0.1114
+        }
+      ]
+    }
+  ]
+}
