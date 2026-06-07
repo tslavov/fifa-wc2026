@@ -1,0 +1,656 @@
+{
+  "datasetId": "world-cup-2026-rules",
+  "generatedAt": "2026-06-07",
+  "sources": [
+    {
+      "sourceId": "fifa-regulations-2026",
+      "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+      "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "notes": "Official FIFA regulations PDF, May 2026."
+    },
+    {
+      "sourceId": "fifa-rules-explainer-2026",
+      "sourceName": "FIFA World Cup 2026 groups: How teams qualify and tie-breakers",
+      "sourceUrl": "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "notes": "Official FIFA explanatory article."
+    },
+    {
+      "sourceId": "fifa-match-schedule-pdf-2026",
+      "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+      "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "notes": "Official FIFA match schedule PDF, 10 April 2026."
+    }
+  ],
+  "tournament": {
+    "name": {
+      "value": "FIFA World Cup 26",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Official competition name in FIFA regulations."
+    },
+    "startDate": {
+      "value": "2026-06-11",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 1.5 states the final competition is scheduled from 11 June to 19 July 2026."
+    },
+    "endDate": {
+      "value": "2026-07-19",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 1.5 states the final competition is scheduled from 11 June to 19 July 2026."
+    },
+    "hostCountries": [
+      {
+        "value": "Canada",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.3 lists Canada as a host country."
+      },
+      {
+        "value": "Mexico",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.3 lists Mexico as a host country."
+      },
+      {
+        "value": "United States",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.3 lists the USA as a host country."
+      }
+    ]
+  },
+  "format": {
+    "totalTeams": {
+      "value": 48,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.2."
+    },
+    "groupCount": {
+      "value": 12,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.2."
+    },
+    "teamsPerGroup": {
+      "value": 4,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.2."
+    },
+    "groupMatchesPerTeam": {
+      "value": 3,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Derived from Article 12.4 league system: each team plays each other team in a four-team group once."
+    },
+    "groupStageMatchCount": {
+      "value": 72,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Derived from 12 groups x 6 matches per four-team group under Article 12.4."
+    },
+    "stagesAfterGroup": [
+      {
+        "value": "Round of 32",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1 and 12.5."
+      },
+      {
+        "value": "Round of 16",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1."
+      },
+      {
+        "value": "Quarter-finals",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1."
+      },
+      {
+        "value": "Semi-finals",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1."
+      },
+      {
+        "value": "Third-place match",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1."
+      },
+      {
+        "value": "Final",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.1."
+      }
+    ]
+  },
+  "pointsSystem": {
+    "win": {
+      "value": 3,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.4."
+    },
+    "draw": {
+      "value": 1,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.4."
+    },
+    "loss": {
+      "value": 0,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.4."
+    }
+  },
+  "qualification": {
+    "topTeamsPerGroup": {
+      "value": 2,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.5."
+    },
+    "bestThirdPlaceTeams": {
+      "value": 8,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.5."
+    },
+    "qualifiedFromGroupsTotal": {
+      "value": 32,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.5 and 12.6."
+    },
+    "nextRound": {
+      "value": "Round of 32",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.5."
+    }
+  },
+  "groupRankingTiebreakers": [
+    {
+      "order": 1,
+      "key": "points_all_group_matches",
+      "label": "Greatest number of points obtained in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 12.4 and Article 13 introduction"
+    },
+    {
+      "order": 2,
+      "key": "head_to_head_points",
+      "label": "Greatest number of points obtained in group matches between tied teams",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 1(a)"
+    },
+    {
+      "order": 3,
+      "key": "head_to_head_goal_difference",
+      "label": "Superior goal difference in group matches between tied teams",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 1(b)"
+    },
+    {
+      "order": 4,
+      "key": "head_to_head_goals_scored",
+      "label": "Greatest number of goals scored in group matches between tied teams",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 1(c)"
+    },
+    {
+      "order": 5,
+      "key": "overall_group_goal_difference",
+      "label": "Superior goal difference in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 2(d)"
+    },
+    {
+      "order": 6,
+      "key": "overall_group_goals_scored",
+      "label": "Greatest number of goals scored in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 2(e)"
+    },
+    {
+      "order": 7,
+      "key": "team_conduct_score",
+      "label": "Highest team conduct score from yellow and red cards",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 2(f)"
+    },
+    {
+      "order": 8,
+      "key": "latest_fifa_mens_world_ranking",
+      "label": "Most recent published FIFA/Coca-Cola Men's World Ranking",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 3(g)"
+    },
+    {
+      "order": 9,
+      "key": "previous_fifa_mens_world_rankings",
+      "label": "Progressively older FIFA/Coca-Cola Men's World Rankings until separated",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, Step 3(h)"
+    }
+  ],
+  "thirdPlaceRankingTiebreakers": [
+    {
+      "order": 1,
+      "key": "points_all_group_matches",
+      "label": "Greatest number of points obtained in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (a)"
+    },
+    {
+      "order": 2,
+      "key": "goal_difference_all_group_matches",
+      "label": "Goal difference resulting from all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (b)"
+    },
+    {
+      "order": 3,
+      "key": "goals_scored_all_group_matches",
+      "label": "Greatest number of goals scored in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (c)"
+    },
+    {
+      "order": 4,
+      "key": "team_conduct_score",
+      "label": "Highest team conduct score from yellow and red cards in all group matches",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (d)"
+    },
+    {
+      "order": 5,
+      "key": "latest_fifa_mens_world_ranking",
+      "label": "Most recent published FIFA/Coca-Cola Men's World Ranking",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (e)"
+    },
+    {
+      "order": 6,
+      "key": "previous_fifa_mens_world_rankings",
+      "label": "Progressively older FIFA/Coca-Cola Men's World Rankings until separated",
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "sourceLocation": "Article 13, third-place criteria (f)"
+    }
+  ],
+  "fairPlayScoreRules": {
+    "yellowCard": {
+      "value": -1,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 13, Step 2(f)."
+    },
+    "indirectRedCardSecondYellow": {
+      "value": -3,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 13, Step 2(f)."
+    },
+    "directRedCard": {
+      "value": -4,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 13, Step 2(f)."
+    },
+    "yellowCardAndDirectRedCard": {
+      "value": -5,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 13, Step 2(f)."
+    },
+    "onlyOneDeductionPerPersonPerMatch": {
+      "value": true,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 13, Step 2(f)."
+    }
+  },
+  "matchScheduleMetadata": {
+    "lastGroupMatchesSimultaneous": {
+      "value": true,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.4 and Article 16.3."
+    },
+    "minimumRestDays": {
+      "value": 3,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 16.2."
+    },
+    "matchScheduleSubjectToChange": {
+      "value": true,
+      "source": {
+        "sourceId": "fifa-match-schedule-pdf-2026",
+        "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+        "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA match schedule PDF, 10 April 2026."
+      },
+      "notes": "The official match schedule PDF states the schedule is subject to change."
+    },
+    "annexeCThirdPlaceCombinationCount": {
+      "value": 495,
+      "source": {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      "notes": "Article 12.6 notes Annexe C includes 495 possible combinations."
+    }
+  }
+}

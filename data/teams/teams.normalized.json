@@ -1,0 +1,327 @@
+{
+  "datasetId": "teams-group-a-sample",
+  "generatedAt": "2026-06-07",
+  "scope": "Sample normalized output for Group A only",
+  "teams": [
+    {
+      "teamId": "mexico",
+      "name": {
+        "value": "Mexico",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "normalizedName": "Mexico",
+      "countryCode": {
+        "value": "MEX",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "groupPosition": {
+        "value": "A1",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Article 12.3 assigns Mexico to A1."
+        }
+      },
+      "strength": {
+        "fifaRanking": {
+          "rank": {
+            "value": 15,
+            "source": {
+              "sourceId": "fifa-ranking-mex-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+            }
+          },
+          "rankingDate": {
+            "value": "2026-04-01",
+            "source": {
+              "sourceId": "fifa-ranking-mex-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          },
+          "rankingSystem": {
+            "value": "FIFA/Coca-Cola Men's World Ranking",
+            "source": {
+              "sourceId": "fifa-ranking-mex-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          }
+        }
+      }
+    },
+    {
+      "teamId": "south-africa",
+      "name": {
+        "value": "South Africa",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "normalizedName": "South Africa",
+      "countryCode": {
+        "value": "RSA",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "groupPosition": {
+        "value": "A2",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+        }
+      },
+      "strength": {
+        "fifaRanking": {
+          "rank": {
+            "value": 60,
+            "source": {
+              "sourceId": "fifa-ranking-rsa-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+            }
+          },
+          "rankingDate": {
+            "value": "2026-04-01",
+            "source": {
+              "sourceId": "fifa-ranking-rsa-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          },
+          "rankingSystem": {
+            "value": "FIFA/Coca-Cola Men's World Ranking",
+            "source": {
+              "sourceId": "fifa-ranking-rsa-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          }
+        }
+      }
+    },
+    {
+      "teamId": "korea-republic",
+      "name": {
+        "value": "Korea Republic",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "normalizedName": "Korea Republic",
+      "countryCode": {
+        "value": "KOR",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "groupPosition": {
+        "value": "A3",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+        }
+      },
+      "strength": {
+        "fifaRanking": {
+          "rank": {
+            "value": 25,
+            "source": {
+              "sourceId": "fifa-ranking-kor-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+            }
+          },
+          "rankingDate": {
+            "value": "2026-04-01",
+            "source": {
+              "sourceId": "fifa-ranking-kor-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          },
+          "rankingSystem": {
+            "value": "FIFA/Coca-Cola Men's World Ranking",
+            "source": {
+              "sourceId": "fifa-ranking-kor-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+              "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          }
+        }
+      }
+    },
+    {
+      "teamId": "czechia",
+      "name": {
+        "value": "Czechia",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "normalizedName": "Czechia",
+      "countryCode": {
+        "value": "CZE",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high"
+        }
+      },
+      "groupPosition": {
+        "value": "A4",
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+        }
+      },
+      "strength": {
+        "fifaRanking": {
+          "rank": {
+            "value": 41,
+            "source": {
+              "sourceId": "fifa-ranking-cze-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+            }
+          },
+          "rankingDate": {
+            "value": "2026-04-01",
+            "source": {
+              "sourceId": "fifa-ranking-cze-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          },
+          "rankingSystem": {
+            "value": "FIFA/Coca-Cola Men's World Ranking",
+            "source": {
+              "sourceId": "fifa-ranking-cze-2026-04-01",
+              "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+              "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+              "collectedAt": "2026-06-07",
+              "confidence": "high"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

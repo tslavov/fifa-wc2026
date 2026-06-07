@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-06-07",
+  "sources": [
+    {
+      "id": "fifa-regulations-2026",
+      "name": "FIFA Regulations for the FIFA World Cup 26",
+      "url": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA PDF. Use sparingly as source reference; do not republish large excerpts.",
+      "robotsTxtNotes": "Collected manually from official PDF; no automated scraping.",
+      "notes": "Primary rules source, especially Articles 12, 13, 16 and Annexe C metadata."
+    },
+    {
+      "id": "fifa-rules-explainer-2026",
+      "name": "FIFA World Cup 2026 groups: How teams qualify and tie-breakers",
+      "url": "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA article used as a secondary rules explainer.",
+      "robotsTxtNotes": "Manual reference only; no crawler used.",
+      "notes": "Secondary rules reference."
+    },
+    {
+      "id": "fifa-match-schedule-2026",
+      "name": "FIFA World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA schedule page. Store only normalized facts and small raw snapshots.",
+      "robotsTxtNotes": "Manual low-volume snapshot; no aggressive scraping.",
+      "notes": "Fixture dates and venues source."
+    },
+    {
+      "id": "fifa-match-schedule-pdf-2026",
+      "name": "FIFA World Cup 26 Match Schedule PDF",
+      "url": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA schedule PDF. Use as verification source; do not republish large excerpts.",
+      "robotsTxtNotes": "Manual reference only.",
+      "notes": "Supports group assignments, team codes, match numbers, and schedule metadata."
+    },
+    {
+      "id": "fifa-ranking-mex-2026-04-01",
+      "name": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+      "url": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA ranking team page.",
+      "robotsTxtNotes": "Manual low-volume reference.",
+      "notes": "Rank only captured for sample Group A; points not collected."
+    },
+    {
+      "id": "fifa-ranking-kor-2026-04-01",
+      "name": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+      "url": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA ranking team page.",
+      "robotsTxtNotes": "Manual low-volume reference.",
+      "notes": "Rank only captured for sample Group A; points not collected."
+    },
+    {
+      "id": "fifa-ranking-cze-2026-04-01",
+      "name": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+      "url": "https://inside.fifa.com/fifa-world-ranking/CZE",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA ranking team page.",
+      "robotsTxtNotes": "Manual low-volume reference.",
+      "notes": "Rank only captured for sample Group A; points not collected."
+    },
+    {
+      "id": "fifa-ranking-rsa-2026-04-01",
+      "name": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+      "url": "https://inside.fifa.com/fifa-world-ranking/RSA",
+      "sourceType": "official",
+      "primary": true,
+      "collectedAt": "2026-06-07",
+      "confidence": "high",
+      "termsNotes": "Official FIFA ranking team page.",
+      "robotsTxtNotes": "Manual low-volume reference.",
+      "notes": "Rank only captured for sample Group A; points not collected."
+    }
+  ]
+}

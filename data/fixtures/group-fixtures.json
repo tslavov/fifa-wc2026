@@ -1,0 +1,733 @@
+{
+  "datasetId": "world-cup-2026-group-a-fixtures",
+  "generatedAt": "2026-06-07",
+  "scope": "Sample normalized output for Group A only",
+  "fixtures": [
+    {
+      "fixtureId": "fwc2026-m001",
+      "matchNumber": {
+        "value": 1,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 1,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-11",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "15:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "MEX",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "South Africa",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "RSA",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Mexico City Stadium",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    },
+    {
+      "fixtureId": "fwc2026-m002",
+      "matchNumber": {
+        "value": 2,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 1,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-11",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "22:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "Korea Republic",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "KOR",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "Czechia",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "CZE",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Estadio Guadalajara",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    },
+    {
+      "fixtureId": "fwc2026-m025",
+      "matchNumber": {
+        "value": 25,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 2,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-18",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "12:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "Czechia",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "CZE",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "South Africa",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "RSA",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Atlanta Stadium",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    },
+    {
+      "fixtureId": "fwc2026-m028",
+      "matchNumber": {
+        "value": 28,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 2,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-18",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "21:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "MEX",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "Korea Republic",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "KOR",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Estadio Guadalajara",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    },
+    {
+      "fixtureId": "fwc2026-m053",
+      "matchNumber": {
+        "value": 53,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 3,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-24",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "21:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "Czechia",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "CZE",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "MEX",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Mexico City Stadium",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    },
+    {
+      "fixtureId": "fwc2026-m054",
+      "matchNumber": {
+        "value": 54,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "group": {
+        "value": "A",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "matchDay": {
+        "value": 3,
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "date": {
+        "value": "2026-06-24",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        }
+      },
+      "timeEt": {
+        "value": "21:00",
+        "source": {
+          "sourceId": "fifa-match-schedule-2026",
+          "sourceName": "FIFA World Cup 2026 match schedule",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule page."
+        },
+        "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+      },
+      "homeTeam": {
+        "name": {
+          "value": "South Africa",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "RSA",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "awayTeam": {
+        "name": {
+          "value": "Korea Republic",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "countryCode": {
+          "value": "KOR",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "venue": {
+        "name": {
+          "value": "Estadio Monterrey",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        }
+      },
+      "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+    }
+  ]
+}

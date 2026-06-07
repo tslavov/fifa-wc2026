@@ -1,0 +1,2047 @@
+{
+  "generatedAt": "2026-06-07",
+  "rules": {
+    "datasetId": "world-cup-2026-rules",
+    "generatedAt": "2026-06-07",
+    "sources": [
+      {
+        "sourceId": "fifa-regulations-2026",
+        "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+        "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA regulations PDF, May 2026."
+      },
+      {
+        "sourceId": "fifa-rules-explainer-2026",
+        "sourceName": "FIFA World Cup 2026 groups: How teams qualify and tie-breakers",
+        "sourceUrl": "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA explanatory article."
+      },
+      {
+        "sourceId": "fifa-match-schedule-pdf-2026",
+        "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+        "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "notes": "Official FIFA match schedule PDF, 10 April 2026."
+      }
+    ],
+    "tournament": {
+      "name": {
+        "value": "FIFA World Cup 26",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Official competition name in FIFA regulations."
+      },
+      "startDate": {
+        "value": "2026-06-11",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 1.5 states the final competition is scheduled from 11 June to 19 July 2026."
+      },
+      "endDate": {
+        "value": "2026-07-19",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 1.5 states the final competition is scheduled from 11 June to 19 July 2026."
+      },
+      "hostCountries": [
+        {
+          "value": "Canada",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.3 lists Canada as a host country."
+        },
+        {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.3 lists Mexico as a host country."
+        },
+        {
+          "value": "United States",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.3 lists the USA as a host country."
+        }
+      ]
+    },
+    "format": {
+      "totalTeams": {
+        "value": 48,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.2."
+      },
+      "groupCount": {
+        "value": 12,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.2."
+      },
+      "teamsPerGroup": {
+        "value": 4,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.2."
+      },
+      "groupMatchesPerTeam": {
+        "value": 3,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Derived from Article 12.4 league system: each team plays each other team in a four-team group once."
+      },
+      "groupStageMatchCount": {
+        "value": 72,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Derived from 12 groups x 6 matches per four-team group under Article 12.4."
+      },
+      "stagesAfterGroup": [
+        {
+          "value": "Round of 32",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1 and 12.5."
+        },
+        {
+          "value": "Round of 16",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1."
+        },
+        {
+          "value": "Quarter-finals",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1."
+        },
+        {
+          "value": "Semi-finals",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1."
+        },
+        {
+          "value": "Third-place match",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1."
+        },
+        {
+          "value": "Final",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA regulations PDF, May 2026."
+          },
+          "notes": "Article 12.1."
+        }
+      ]
+    },
+    "pointsSystem": {
+      "win": {
+        "value": 3,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.4."
+      },
+      "draw": {
+        "value": 1,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.4."
+      },
+      "loss": {
+        "value": 0,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.4."
+      }
+    },
+    "qualification": {
+      "topTeamsPerGroup": {
+        "value": 2,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.5."
+      },
+      "bestThirdPlaceTeams": {
+        "value": 8,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.5."
+      },
+      "qualifiedFromGroupsTotal": {
+        "value": 32,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.5 and 12.6."
+      },
+      "nextRound": {
+        "value": "Round of 32",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.5."
+      }
+    },
+    "groupRankingTiebreakers": [
+      {
+        "order": 1,
+        "key": "points_all_group_matches",
+        "label": "Greatest number of points obtained in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 12.4 and Article 13 introduction"
+      },
+      {
+        "order": 2,
+        "key": "head_to_head_points",
+        "label": "Greatest number of points obtained in group matches between tied teams",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 1(a)"
+      },
+      {
+        "order": 3,
+        "key": "head_to_head_goal_difference",
+        "label": "Superior goal difference in group matches between tied teams",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 1(b)"
+      },
+      {
+        "order": 4,
+        "key": "head_to_head_goals_scored",
+        "label": "Greatest number of goals scored in group matches between tied teams",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 1(c)"
+      },
+      {
+        "order": 5,
+        "key": "overall_group_goal_difference",
+        "label": "Superior goal difference in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 2(d)"
+      },
+      {
+        "order": 6,
+        "key": "overall_group_goals_scored",
+        "label": "Greatest number of goals scored in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 2(e)"
+      },
+      {
+        "order": 7,
+        "key": "team_conduct_score",
+        "label": "Highest team conduct score from yellow and red cards",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 2(f)"
+      },
+      {
+        "order": 8,
+        "key": "latest_fifa_mens_world_ranking",
+        "label": "Most recent published FIFA/Coca-Cola Men's World Ranking",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 3(g)"
+      },
+      {
+        "order": 9,
+        "key": "previous_fifa_mens_world_rankings",
+        "label": "Progressively older FIFA/Coca-Cola Men's World Rankings until separated",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, Step 3(h)"
+      }
+    ],
+    "thirdPlaceRankingTiebreakers": [
+      {
+        "order": 1,
+        "key": "points_all_group_matches",
+        "label": "Greatest number of points obtained in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (a)"
+      },
+      {
+        "order": 2,
+        "key": "goal_difference_all_group_matches",
+        "label": "Goal difference resulting from all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (b)"
+      },
+      {
+        "order": 3,
+        "key": "goals_scored_all_group_matches",
+        "label": "Greatest number of goals scored in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (c)"
+      },
+      {
+        "order": 4,
+        "key": "team_conduct_score",
+        "label": "Highest team conduct score from yellow and red cards in all group matches",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (d)"
+      },
+      {
+        "order": 5,
+        "key": "latest_fifa_mens_world_ranking",
+        "label": "Most recent published FIFA/Coca-Cola Men's World Ranking",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (e)"
+      },
+      {
+        "order": 6,
+        "key": "previous_fifa_mens_world_rankings",
+        "label": "Progressively older FIFA/Coca-Cola Men's World Rankings until separated",
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "sourceLocation": "Article 13, third-place criteria (f)"
+      }
+    ],
+    "fairPlayScoreRules": {
+      "yellowCard": {
+        "value": -1,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 13, Step 2(f)."
+      },
+      "indirectRedCardSecondYellow": {
+        "value": -3,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 13, Step 2(f)."
+      },
+      "directRedCard": {
+        "value": -4,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 13, Step 2(f)."
+      },
+      "yellowCardAndDirectRedCard": {
+        "value": -5,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 13, Step 2(f)."
+      },
+      "onlyOneDeductionPerPersonPerMatch": {
+        "value": true,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 13, Step 2(f)."
+      }
+    },
+    "matchScheduleMetadata": {
+      "lastGroupMatchesSimultaneous": {
+        "value": true,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.4 and Article 16.3."
+      },
+      "minimumRestDays": {
+        "value": 3,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 16.2."
+      },
+      "matchScheduleSubjectToChange": {
+        "value": true,
+        "source": {
+          "sourceId": "fifa-match-schedule-pdf-2026",
+          "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+          "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA match schedule PDF, 10 April 2026."
+        },
+        "notes": "The official match schedule PDF states the schedule is subject to change."
+      },
+      "annexeCThirdPlaceCombinationCount": {
+        "value": 495,
+        "source": {
+          "sourceId": "fifa-regulations-2026",
+          "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+          "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA regulations PDF, May 2026."
+        },
+        "notes": "Article 12.6 notes Annexe C includes 495 possible combinations."
+      }
+    }
+  },
+  "teams": {
+    "datasetId": "teams-group-a-sample",
+    "generatedAt": "2026-06-07",
+    "scope": "Sample normalized output for Group A only",
+    "teams": [
+      {
+        "teamId": "mexico",
+        "name": {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "normalizedName": "Mexico",
+        "countryCode": {
+          "value": "MEX",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "groupPosition": {
+          "value": "A1",
+          "source": {
+            "sourceId": "fifa-regulations-2026",
+            "sourceName": "FIFA Regulations for the FIFA World Cup 26",
+            "sourceUrl": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Article 12.3 assigns Mexico to A1."
+          }
+        },
+        "strength": {
+          "fifaRanking": {
+            "rank": {
+              "value": 15,
+              "source": {
+                "sourceId": "fifa-ranking-mex-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+                "collectedAt": "2026-06-07",
+                "confidence": "high",
+                "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+              }
+            },
+            "rankingDate": {
+              "value": "2026-04-01",
+              "source": {
+                "sourceId": "fifa-ranking-mex-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            },
+            "rankingSystem": {
+              "value": "FIFA/Coca-Cola Men's World Ranking",
+              "source": {
+                "sourceId": "fifa-ranking-mex-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            }
+          }
+        }
+      },
+      {
+        "teamId": "south-africa",
+        "name": {
+          "value": "South Africa",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "normalizedName": "South Africa",
+        "countryCode": {
+          "value": "RSA",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "groupPosition": {
+          "value": "A2",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+          }
+        },
+        "strength": {
+          "fifaRanking": {
+            "rank": {
+              "value": 60,
+              "source": {
+                "sourceId": "fifa-ranking-rsa-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+                "collectedAt": "2026-06-07",
+                "confidence": "high",
+                "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+              }
+            },
+            "rankingDate": {
+              "value": "2026-04-01",
+              "source": {
+                "sourceId": "fifa-ranking-rsa-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            },
+            "rankingSystem": {
+              "value": "FIFA/Coca-Cola Men's World Ranking",
+              "source": {
+                "sourceId": "fifa-ranking-rsa-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            }
+          }
+        }
+      },
+      {
+        "teamId": "korea-republic",
+        "name": {
+          "value": "Korea Republic",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "normalizedName": "Korea Republic",
+        "countryCode": {
+          "value": "KOR",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "groupPosition": {
+          "value": "A3",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+          }
+        },
+        "strength": {
+          "fifaRanking": {
+            "rank": {
+              "value": 25,
+              "source": {
+                "sourceId": "fifa-ranking-kor-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+                "collectedAt": "2026-06-07",
+                "confidence": "high",
+                "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+              }
+            },
+            "rankingDate": {
+              "value": "2026-04-01",
+              "source": {
+                "sourceId": "fifa-ranking-kor-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            },
+            "rankingSystem": {
+              "value": "FIFA/Coca-Cola Men's World Ranking",
+              "source": {
+                "sourceId": "fifa-ranking-kor-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+                "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            }
+          }
+        }
+      },
+      {
+        "teamId": "czechia",
+        "name": {
+          "value": "Czechia",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "normalizedName": "Czechia",
+        "countryCode": {
+          "value": "CZE",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high"
+          }
+        },
+        "groupPosition": {
+          "value": "A4",
+          "source": {
+            "sourceId": "fifa-match-schedule-pdf-2026",
+            "sourceName": "FIFA World Cup 26 Match Schedule PDF",
+            "sourceUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Derived from FIFA's Article 12.4 group match pattern and the published Group A fixtures."
+          }
+        },
+        "strength": {
+          "fifaRanking": {
+            "rank": {
+              "value": 41,
+              "source": {
+                "sourceId": "fifa-ranking-cze-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+                "collectedAt": "2026-06-07",
+                "confidence": "high",
+                "notes": "Rank captured from official FIFA team ranking page; ranking points not collected."
+              }
+            },
+            "rankingDate": {
+              "value": "2026-04-01",
+              "source": {
+                "sourceId": "fifa-ranking-cze-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            },
+            "rankingSystem": {
+              "value": "FIFA/Coca-Cola Men's World Ranking",
+              "source": {
+                "sourceId": "fifa-ranking-cze-2026-04-01",
+                "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+                "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+                "collectedAt": "2026-06-07",
+                "confidence": "high"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "fifaRankings": {
+    "datasetId": "fifa-rankings-group-a-sample",
+    "generatedAt": "2026-06-07",
+    "scope": "Sample Group A FIFA rankings only; points were not collected from the public pages.",
+    "rankings": [
+      {
+        "teamId": "mexico",
+        "teamName": {
+          "value": "Mexico",
+          "source": {
+            "sourceId": "fifa-ranking-mex-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "countryCode": {
+          "value": "MEX",
+          "source": {
+            "sourceId": "fifa-ranking-mex-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingSystem": "fifa",
+        "rank": {
+          "value": 15,
+          "source": {
+            "sourceId": "fifa-ranking-mex-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingDate": {
+          "value": "2026-04-01",
+          "source": {
+            "sourceId": "fifa-ranking-mex-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          },
+          "notes": "Last official update shown by FIFA ranking page."
+        },
+        "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+      },
+      {
+        "teamId": "south-africa",
+        "teamName": {
+          "value": "South Africa",
+          "source": {
+            "sourceId": "fifa-ranking-rsa-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "countryCode": {
+          "value": "RSA",
+          "source": {
+            "sourceId": "fifa-ranking-rsa-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingSystem": "fifa",
+        "rank": {
+          "value": 60,
+          "source": {
+            "sourceId": "fifa-ranking-rsa-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingDate": {
+          "value": "2026-04-01",
+          "source": {
+            "sourceId": "fifa-ranking-rsa-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          },
+          "notes": "Last official update shown by FIFA ranking page."
+        },
+        "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+      },
+      {
+        "teamId": "korea-republic",
+        "teamName": {
+          "value": "Korea Republic",
+          "source": {
+            "sourceId": "fifa-ranking-kor-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "countryCode": {
+          "value": "KOR",
+          "source": {
+            "sourceId": "fifa-ranking-kor-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingSystem": "fifa",
+        "rank": {
+          "value": 25,
+          "source": {
+            "sourceId": "fifa-ranking-kor-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingDate": {
+          "value": "2026-04-01",
+          "source": {
+            "sourceId": "fifa-ranking-kor-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+            "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          },
+          "notes": "Last official update shown by FIFA ranking page."
+        },
+        "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+      },
+      {
+        "teamId": "czechia",
+        "teamName": {
+          "value": "Czechia",
+          "source": {
+            "sourceId": "fifa-ranking-cze-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "countryCode": {
+          "value": "CZE",
+          "source": {
+            "sourceId": "fifa-ranking-cze-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingSystem": "fifa",
+        "rank": {
+          "value": 41,
+          "source": {
+            "sourceId": "fifa-ranking-cze-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          }
+        },
+        "rankingDate": {
+          "value": "2026-04-01",
+          "source": {
+            "sourceId": "fifa-ranking-cze-2026-04-01",
+            "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+            "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+          },
+          "notes": "Last official update shown by FIFA ranking page."
+        },
+        "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+      }
+    ]
+  },
+  "eloRatings": {
+    "datasetId": "elo-ratings-not-collected",
+    "generatedAt": "2026-06-07",
+    "scope": "Elo ratings collector placeholder. No Elo values collected yet because an allowed source has not been configured.",
+    "rankings": []
+  },
+  "form": {
+    "datasetId": "team-form-not-collected",
+    "generatedAt": "2026-06-07",
+    "scope": "Current-form, tactical, and availability collector placeholder. No recent match, xG, injury, or suspension values collected yet.",
+    "currentForm": [],
+    "tacticalContext": [],
+    "availabilityRisk": []
+  },
+  "squads": {
+    "datasetId": "squad-quality-not-collected",
+    "generatedAt": "2026-06-07",
+    "scope": "Squad quality collector placeholder. Player lists, minutes, values, and key-player fields must be sourced before use.",
+    "squads": []
+  },
+  "fixtures": {
+    "datasetId": "world-cup-2026-group-a-fixtures",
+    "generatedAt": "2026-06-07",
+    "scope": "Sample normalized output for Group A only",
+    "fixtures": [
+      {
+        "fixtureId": "fwc2026-m001",
+        "matchNumber": {
+          "value": 1,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 1,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-11",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "15:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "Mexico",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "MEX",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "South Africa",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "RSA",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Mexico City Stadium",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      },
+      {
+        "fixtureId": "fwc2026-m002",
+        "matchNumber": {
+          "value": 2,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 1,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-11",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "22:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "Korea Republic",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "KOR",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "Czechia",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "CZE",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Estadio Guadalajara",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      },
+      {
+        "fixtureId": "fwc2026-m025",
+        "matchNumber": {
+          "value": 25,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 2,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-18",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "12:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "Czechia",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "CZE",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "South Africa",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "RSA",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Atlanta Stadium",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      },
+      {
+        "fixtureId": "fwc2026-m028",
+        "matchNumber": {
+          "value": 28,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 2,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-18",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "21:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "Mexico",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "MEX",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "Korea Republic",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "KOR",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Estadio Guadalajara",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      },
+      {
+        "fixtureId": "fwc2026-m053",
+        "matchNumber": {
+          "value": 53,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 3,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-24",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "21:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "Czechia",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "CZE",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "Mexico",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "MEX",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Mexico City Stadium",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      },
+      {
+        "fixtureId": "fwc2026-m054",
+        "matchNumber": {
+          "value": 54,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "group": {
+          "value": "A",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "matchDay": {
+          "value": 3,
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "date": {
+          "value": "2026-06-24",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          }
+        },
+        "timeEt": {
+          "value": "21:00",
+          "source": {
+            "sourceId": "fifa-match-schedule-2026",
+            "sourceName": "FIFA World Cup 2026 match schedule",
+            "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            "collectedAt": "2026-06-07",
+            "confidence": "high",
+            "notes": "Official FIFA match schedule page."
+          },
+          "notes": "Time captured from the saved schedule snapshot; verify timezone before production simulations."
+        },
+        "homeTeam": {
+          "name": {
+            "value": "South Africa",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "RSA",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "awayTeam": {
+          "name": {
+            "value": "Korea Republic",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          },
+          "countryCode": {
+            "value": "KOR",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "venue": {
+          "name": {
+            "value": "Estadio Monterrey",
+            "source": {
+              "sourceId": "fifa-match-schedule-2026",
+              "sourceName": "FIFA World Cup 2026 match schedule",
+              "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+              "collectedAt": "2026-06-07",
+              "confidence": "high",
+              "notes": "Official FIFA match schedule page."
+            }
+          }
+        },
+        "notes": "Fixture sample only. Add host-country/city/climate/rest/travel metrics in later collectors when sourced."
+      }
+    ]
+  },
+  "sources": {
+    "generatedAt": "2026-06-07",
+    "sources": [
+      {
+        "id": "fifa-regulations-2026",
+        "name": "FIFA Regulations for the FIFA World Cup 26",
+        "url": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA PDF. Use sparingly as source reference; do not republish large excerpts.",
+        "robotsTxtNotes": "Collected manually from official PDF; no automated scraping.",
+        "notes": "Primary rules source, especially Articles 12, 13, 16 and Annexe C metadata."
+      },
+      {
+        "id": "fifa-rules-explainer-2026",
+        "name": "FIFA World Cup 2026 groups: How teams qualify and tie-breakers",
+        "url": "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA article used as a secondary rules explainer.",
+        "robotsTxtNotes": "Manual reference only; no crawler used.",
+        "notes": "Secondary rules reference."
+      },
+      {
+        "id": "fifa-match-schedule-2026",
+        "name": "FIFA World Cup 2026 match schedule",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA schedule page. Store only normalized facts and small raw snapshots.",
+        "robotsTxtNotes": "Manual low-volume snapshot; no aggressive scraping.",
+        "notes": "Fixture dates and venues source."
+      },
+      {
+        "id": "fifa-match-schedule-pdf-2026",
+        "name": "FIFA World Cup 26 Match Schedule PDF",
+        "url": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA schedule PDF. Use as verification source; do not republish large excerpts.",
+        "robotsTxtNotes": "Manual reference only.",
+        "notes": "Supports group assignments, team codes, match numbers, and schedule metadata."
+      },
+      {
+        "id": "fifa-ranking-mex-2026-04-01",
+        "name": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+        "url": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA ranking team page.",
+        "robotsTxtNotes": "Manual low-volume reference.",
+        "notes": "Rank only captured for sample Group A; points not collected."
+      },
+      {
+        "id": "fifa-ranking-kor-2026-04-01",
+        "name": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+        "url": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA ranking team page.",
+        "robotsTxtNotes": "Manual low-volume reference.",
+        "notes": "Rank only captured for sample Group A; points not collected."
+      },
+      {
+        "id": "fifa-ranking-cze-2026-04-01",
+        "name": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+        "url": "https://inside.fifa.com/fifa-world-ranking/CZE",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA ranking team page.",
+        "robotsTxtNotes": "Manual low-volume reference.",
+        "notes": "Rank only captured for sample Group A; points not collected."
+      },
+      {
+        "id": "fifa-ranking-rsa-2026-04-01",
+        "name": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+        "url": "https://inside.fifa.com/fifa-world-ranking/RSA",
+        "sourceType": "official",
+        "primary": true,
+        "collectedAt": "2026-06-07",
+        "confidence": "high",
+        "termsNotes": "Official FIFA ranking team page.",
+        "robotsTxtNotes": "Manual low-volume reference.",
+        "notes": "Rank only captured for sample Group A; points not collected."
+      }
+    ]
+  }
+}

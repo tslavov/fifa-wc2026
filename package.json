@@ -1,0 +1,27 @@
+{
+  "name": "fifa-wc2026-data-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect:rules": "tsx src/collectors/collect-fifa-rules.ts",
+    "collect:fixtures": "tsx src/collectors/collect-fixtures.ts",
+    "collect:rankings": "tsx src/collectors/collect-fifa-rankings.ts",
+    "validate": "tsx src/validate.ts",
+    "export:json": "tsx src/output/export-json.ts",
+    "export:csv": "tsx src/output/export-csv.ts",
+    "typecheck": "tsc --noEmit",
+    "collect:elo": "tsx src/collectors/collect-elo-ratings.ts",
+    "collect:squads": "tsx src/collectors/collect-squad-quality.ts",
+    "collect:form": "tsx src/collectors/collect-current-form.ts",
+    "collect:all": "npm run collect:rules && npm run collect:fixtures && npm run collect:rankings && npm run collect:elo && npm run collect:squads && npm run collect:form"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

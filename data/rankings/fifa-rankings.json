@@ -1,0 +1,207 @@
+{
+  "datasetId": "fifa-rankings-group-a-sample",
+  "generatedAt": "2026-06-07",
+  "scope": "Sample Group A FIFA rankings only; points were not collected from the public pages.",
+  "rankings": [
+    {
+      "teamId": "mexico",
+      "teamName": {
+        "value": "Mexico",
+        "source": {
+          "sourceId": "fifa-ranking-mex-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "countryCode": {
+        "value": "MEX",
+        "source": {
+          "sourceId": "fifa-ranking-mex-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingSystem": "fifa",
+      "rank": {
+        "value": 15,
+        "source": {
+          "sourceId": "fifa-ranking-mex-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingDate": {
+        "value": "2026-04-01",
+        "source": {
+          "sourceId": "fifa-ranking-mex-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Mexico",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/MEX",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        },
+        "notes": "Last official update shown by FIFA ranking page."
+      },
+      "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+    },
+    {
+      "teamId": "south-africa",
+      "teamName": {
+        "value": "South Africa",
+        "source": {
+          "sourceId": "fifa-ranking-rsa-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "countryCode": {
+        "value": "RSA",
+        "source": {
+          "sourceId": "fifa-ranking-rsa-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingSystem": "fifa",
+      "rank": {
+        "value": 60,
+        "source": {
+          "sourceId": "fifa-ranking-rsa-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingDate": {
+        "value": "2026-04-01",
+        "source": {
+          "sourceId": "fifa-ranking-rsa-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - South Africa",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/RSA",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        },
+        "notes": "Last official update shown by FIFA ranking page."
+      },
+      "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+    },
+    {
+      "teamId": "korea-republic",
+      "teamName": {
+        "value": "Korea Republic",
+        "source": {
+          "sourceId": "fifa-ranking-kor-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "countryCode": {
+        "value": "KOR",
+        "source": {
+          "sourceId": "fifa-ranking-kor-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingSystem": "fifa",
+      "rank": {
+        "value": 25,
+        "source": {
+          "sourceId": "fifa-ranking-kor-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingDate": {
+        "value": "2026-04-01",
+        "source": {
+          "sourceId": "fifa-ranking-kor-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Korea Republic",
+          "sourceUrl": "https://football-technology.fifa.com/fifa-world-ranking/KOR",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        },
+        "notes": "Last official update shown by FIFA ranking page."
+      },
+      "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+    },
+    {
+      "teamId": "czechia",
+      "teamName": {
+        "value": "Czechia",
+        "source": {
+          "sourceId": "fifa-ranking-cze-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "countryCode": {
+        "value": "CZE",
+        "source": {
+          "sourceId": "fifa-ranking-cze-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingSystem": "fifa",
+      "rank": {
+        "value": 41,
+        "source": {
+          "sourceId": "fifa-ranking-cze-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        }
+      },
+      "rankingDate": {
+        "value": "2026-04-01",
+        "source": {
+          "sourceId": "fifa-ranking-cze-2026-04-01",
+          "sourceName": "FIFA/Coca-Cola Men's World Ranking - Czechia",
+          "sourceUrl": "https://inside.fifa.com/fifa-world-ranking/CZE",
+          "collectedAt": "2026-06-07",
+          "confidence": "high",
+          "notes": "Official FIFA ranking team page; rank captured manually for deterministic sample."
+        },
+        "notes": "Last official update shown by FIFA ranking page."
+      },
+      "notes": "Ranking points are intentionally omitted until collected from an allowed source."
+    }
+  ]
+}

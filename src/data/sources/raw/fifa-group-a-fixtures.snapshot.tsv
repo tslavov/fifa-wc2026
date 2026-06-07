@@ -1,0 +1,13 @@
+# FIFA Group A fixture snapshot
+# Source name: FIFA World Cup 2026 match schedule
+# Source URL: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums
+# Supporting PDF: https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf
+# Collected at: 2026-06-07
+# Notes: Manual, low-volume snapshot for deterministic collector example. Verify against FIFA before production modelling.
+matchNumber	date	group	homeTeam	homeCode	awayTeam	awayCode	venue	matchDay	timeEt
+1	2026-06-11	A	Mexico	MEX	South Africa	RSA	Mexico City Stadium	1	15:00
+2	2026-06-11	A	Korea Republic	KOR	Czechia	CZE	Estadio Guadalajara	1	22:00
+25	2026-06-18	A	Czechia	CZE	South Africa	RSA	Atlanta Stadium	2	12:00
+28	2026-06-18	A	Mexico	MEX	Korea Republic	KOR	Estadio Guadalajara	2	21:00
+53	2026-06-24	A	Czechia	CZE	Mexico	MEX	Mexico City Stadium	3	21:00
+54	2026-06-24	A	South Africa	RSA	Korea Republic	KOR	Estadio Monterrey	3	21:00
