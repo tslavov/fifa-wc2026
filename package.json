@@ -13,6 +13,7 @@
     "features:recent-form": "tsx src/features/recentForm.ts",
     "features:all": "npm run features:team-strength && npm run features:recent-form",
     "build:model-input": "tsx src/output/buildModelInput.ts",
+    "predict:groups": "tsx src/predict/groupStandings.ts",
     "validate": "tsx src/validate.ts"
   },
   "dependencies": {
