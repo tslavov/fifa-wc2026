@@ -14,6 +14,7 @@
     "features:all": "npm run features:team-strength && npm run features:recent-form",
     "build:model-input": "tsx src/output/buildModelInput.ts",
     "predict:groups": "tsx src/predict/groupStandings.ts",
+    "predict:monte-carlo": "tsx src/predict/monteCarloGroupStage.ts",
     "validate": "tsx src/validate.ts"
   },
   "dependencies": {
