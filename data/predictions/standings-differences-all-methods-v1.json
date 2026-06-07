@@ -1,0 +1,737 @@
+{
+  "noFutureUse": true,
+  "groups": [
+    {
+      "group": "A",
+      "standings": {
+        "deterministic": [
+          "Mexico",
+          "South Korea",
+          "Czechia",
+          "South Africa"
+        ],
+        "monteCarlo": [
+          "Mexico",
+          "Czechia",
+          "South Korea",
+          "South Africa"
+        ],
+        "markov": [
+          "Mexico",
+          "Czechia",
+          "South Korea",
+          "South Africa"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Mexico",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "South Korea",
+          "deterministic": 2,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Czechia",
+          "deterministic": 3,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "South Africa",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "standings": {
+        "deterministic": [
+          "Switzerland",
+          "Canada",
+          "Bosnia and Herzegovina",
+          "Qatar"
+        ],
+        "monteCarlo": [
+          "Switzerland",
+          "Canada",
+          "Bosnia and Herzegovina",
+          "Qatar"
+        ],
+        "markov": [
+          "Switzerland",
+          "Canada",
+          "Bosnia and Herzegovina",
+          "Qatar"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Switzerland",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Canada",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "deterministic": 3,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Qatar",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "standings": {
+        "deterministic": [
+          "Brazil",
+          "Morocco",
+          "Scotland",
+          "Haiti"
+        ],
+        "monteCarlo": [
+          "Morocco",
+          "Brazil",
+          "Scotland",
+          "Haiti"
+        ],
+        "markov": [
+          "Morocco",
+          "Brazil",
+          "Scotland",
+          "Haiti"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Brazil",
+          "deterministic": 1,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Morocco",
+          "deterministic": 2,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Scotland",
+          "deterministic": 3,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Haiti",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "standings": {
+        "deterministic": [
+          "Turkey",
+          "United States",
+          "Australia",
+          "Paraguay"
+        ],
+        "monteCarlo": [
+          "Turkey",
+          "Australia",
+          "United States",
+          "Paraguay"
+        ],
+        "markov": [
+          "Turkey",
+          "Australia",
+          "United States",
+          "Paraguay"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Turkey",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "United States",
+          "deterministic": 2,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Australia",
+          "deterministic": 3,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Paraguay",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "standings": {
+        "deterministic": [
+          "Germany",
+          "Ecuador",
+          "Ivory Coast",
+          "Curacao"
+        ],
+        "monteCarlo": [
+          "Germany",
+          "Ivory Coast",
+          "Ecuador",
+          "Curacao"
+        ],
+        "markov": [
+          "Germany",
+          "Ivory Coast",
+          "Ecuador",
+          "Curacao"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Germany",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Ecuador",
+          "deterministic": 2,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Ivory Coast",
+          "deterministic": 3,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Curacao",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "standings": {
+        "deterministic": [
+          "Netherlands",
+          "Japan",
+          "Sweden",
+          "Tunisia"
+        ],
+        "monteCarlo": [
+          "Netherlands",
+          "Japan",
+          "Tunisia",
+          "Sweden"
+        ],
+        "markov": [
+          "Netherlands",
+          "Japan",
+          "Tunisia",
+          "Sweden"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Netherlands",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Japan",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Sweden",
+          "deterministic": 3,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Tunisia",
+          "deterministic": 4,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "standings": {
+        "deterministic": [
+          "Belgium",
+          "Iran",
+          "Egypt",
+          "New Zealand"
+        ],
+        "monteCarlo": [
+          "Belgium",
+          "Iran",
+          "Egypt",
+          "New Zealand"
+        ],
+        "markov": [
+          "Belgium",
+          "Iran",
+          "Egypt",
+          "New Zealand"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Belgium",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Iran",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Egypt",
+          "deterministic": 3,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "New Zealand",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "standings": {
+        "deterministic": [
+          "Spain",
+          "Uruguay",
+          "Saudi Arabia",
+          "Cape Verde"
+        ],
+        "monteCarlo": [
+          "Spain",
+          "Uruguay",
+          "Cape Verde",
+          "Saudi Arabia"
+        ],
+        "markov": [
+          "Spain",
+          "Uruguay",
+          "Cape Verde",
+          "Saudi Arabia"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Spain",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Uruguay",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Saudi Arabia",
+          "deterministic": 3,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Cape Verde",
+          "deterministic": 4,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "standings": {
+        "deterministic": [
+          "France",
+          "Senegal",
+          "Norway",
+          "Iraq"
+        ],
+        "monteCarlo": [
+          "France",
+          "Norway",
+          "Senegal",
+          "Iraq"
+        ],
+        "markov": [
+          "France",
+          "Norway",
+          "Senegal",
+          "Iraq"
+        ]
+      },
+      "differences": [
+        {
+          "team": "France",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Senegal",
+          "deterministic": 2,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Norway",
+          "deterministic": 3,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Iraq",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "standings": {
+        "deterministic": [
+          "Argentina",
+          "Austria",
+          "Algeria",
+          "Jordan"
+        ],
+        "monteCarlo": [
+          "Argentina",
+          "Austria",
+          "Algeria",
+          "Jordan"
+        ],
+        "markov": [
+          "Argentina",
+          "Austria",
+          "Algeria",
+          "Jordan"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Argentina",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Austria",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Algeria",
+          "deterministic": 3,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Jordan",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "standings": {
+        "deterministic": [
+          "Portugal",
+          "Colombia",
+          "Uzbekistan",
+          "DR Congo"
+        ],
+        "monteCarlo": [
+          "Portugal",
+          "Colombia",
+          "DR Congo",
+          "Uzbekistan"
+        ],
+        "markov": [
+          "Portugal",
+          "Colombia",
+          "DR Congo",
+          "Uzbekistan"
+        ]
+      },
+      "differences": [
+        {
+          "team": "Portugal",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Colombia",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Uzbekistan",
+          "deterministic": 3,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 1,
+          "markovMinusDeterministic": 1,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "DR Congo",
+          "deterministic": 4,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": -1,
+          "markovMinusDeterministic": -1,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "standings": {
+        "deterministic": [
+          "England",
+          "Croatia",
+          "Panama",
+          "Ghana"
+        ],
+        "monteCarlo": [
+          "England",
+          "Croatia",
+          "Panama",
+          "Ghana"
+        ],
+        "markov": [
+          "England",
+          "Croatia",
+          "Panama",
+          "Ghana"
+        ]
+      },
+      "differences": [
+        {
+          "team": "England",
+          "deterministic": 1,
+          "monteCarlo": 1,
+          "markov": 1,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Croatia",
+          "deterministic": 2,
+          "monteCarlo": 2,
+          "markov": 2,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Panama",
+          "deterministic": 3,
+          "monteCarlo": 3,
+          "markov": 3,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        },
+        {
+          "team": "Ghana",
+          "deterministic": 4,
+          "monteCarlo": 4,
+          "markov": 4,
+          "monteCarloMinusDeterministic": 0,
+          "markovMinusDeterministic": 0,
+          "markovMinusMonteCarlo": 0
+        }
+      ]
+    }
+  ]
+}

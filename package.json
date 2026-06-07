@@ -17,6 +17,7 @@
     "predict:monte-carlo": "tsx src/predict/monteCarloGroupStage.ts",
     "predict:markov": "tsx src/predict/markovChainGroupStage.ts",
     "compare:predictions": "tsx src/predict/comparePredictionPositions.ts",
+    "compare:all-methods-simple": "tsx src/predict/compareAllMethodsSimple.ts",
     "validate": "tsx src/validate.ts"
   },
   "dependencies": {
