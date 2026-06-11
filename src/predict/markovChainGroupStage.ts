@@ -255,6 +255,7 @@ export async function runMarkovChainGroupStagePrediction(): Promise<void> {
       teamB: fixture.teamB,
       lambdaA: fixture.lambdaA,
       lambdaB: fixture.lambdaB,
+      scoreDistribution: fixture.scoreDistribution.map(({ goalsA, goalsB, probability }) => ({ goalsA, goalsB, probability })),
       mostLikelyScores: [...fixture.scoreDistribution]
         .sort((a, b) => b.probability - a.probability || a.goalsA - b.goalsA || a.goalsB - b.goalsB)
         .slice(0, 5)

@@ -16,6 +16,8 @@
     "predict:groups": "tsx src/predict/groupStandings.ts",
     "predict:monte-carlo": "tsx src/predict/monteCarloGroupStage.ts",
     "predict:markov": "tsx src/predict/markovChainGroupStage.ts",
+    "report:first-round-scores": "tsx src/predict/buildFirstRoundScoreReport.ts",
+    "test:score-metrics": "tsx src/predict/scoreDistributionMetrics.test.ts",
     "compare:predictions": "tsx src/predict/comparePredictionPositions.ts",
     "compare:all-methods-simple": "tsx src/predict/compareAllMethodsSimple.ts",
     "validate": "tsx src/validate.ts"
