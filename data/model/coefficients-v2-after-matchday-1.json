@@ -1,0 +1,175 @@
+{
+  "datasetId": "coefficients-v2-after-matchday-1",
+  "artifactKind": "model_coefficients",
+  "generatedAt": "2026-06-17T06:22:31.971Z",
+  "based_on": [
+    "data\\predictions\\group-stage-markov-chain-v1.json",
+    "reports\\world-cup-2026-first-round-score-predictions.md",
+    "data\\evaluation\\matchday-1-prediction-evaluation-v1.json"
+  ],
+  "update_date": "2026-06-17",
+  "source_result_file": "data\\results\\group-stage-matchday-1-results-v1.json",
+  "previous_coefficient_file": "embedded in src/predict/groupStandings.ts, src/predict/monteCarloGroupStage.ts, and src/predict/markovChainGroupStage.ts",
+  "update_method": "Conservative calibration update. The v1 coefficients remain dominant; completed Matchday 1 finals supply global goal-rate and favorite-spread correction signals with shrinkage and +/-5% movement caps. Sparse or unavailable dimensions remain unchanged.",
+  "caps_applied": {
+    "evidenceWeight": 0.1319,
+    "relativeCoefficientMoveCap": 0.05,
+    "notes": "Evidence weight is min(0.15, completed_fixtures / 144); each numeric movement is capped at +/-5% relative to its v1 value."
+  },
+  "previousCoefficients": {
+    "deterministicFeatureWeights": {
+      "fifaPoints": 0.35,
+      "fifaRank": 0.2,
+      "eloRating": 0.3,
+      "recentFormPointsRate": 0.1,
+      "recentGoalDifferencePerMatch": 0.05
+    },
+    "markovMonteCarlo": {
+      "qualityWeights": {
+        "fifaPoints": 0.35,
+        "fifaRank": 0.2,
+        "eloRating": 0.3,
+        "recentFormPointsRate": 0.15
+      },
+      "modelParameters": {
+        "baseGoalRateMultiplier": 1,
+        "qualityMultiplierScale": 0.65,
+        "lambdaMin": 0.15,
+        "lambdaMax": 4.25,
+        "stepsPerMatch": 90,
+        "pruneProbabilityBelow": 1e-14
+      }
+    },
+    "scoreSelection": {
+      "nearEqualRelativeBand": 0.05,
+      "nearEqualAbsoluteProbabilityBand": 0.03,
+      "higherScoreTiebreak": true,
+      "strongerTeamTiebreak": true,
+      "saferDrawFallback": true
+    },
+    "qualitativeOverlay": {
+      "llmWeight": 0,
+      "notes": "LLM reasoning explains and sanity-checks outputs only; it is not a numeric model input in the existing pipeline."
+    }
+  },
+  "coefficients": {
+    "deterministicFeatureWeights": {
+      "fifaPoints": 0.35,
+      "fifaRank": 0.2,
+      "eloRating": 0.3,
+      "recentFormPointsRate": 0.1,
+      "recentGoalDifferencePerMatch": 0.05
+    },
+    "markovMonteCarlo": {
+      "qualityWeights": {
+        "fifaPoints": 0.35,
+        "fifaRank": 0.2,
+        "eloRating": 0.3,
+        "recentFormPointsRate": 0.15
+      },
+      "modelParameters": {
+        "baseGoalRateMultiplier": 0.9923,
+        "qualityMultiplierScale": 0.6285,
+        "lambdaMin": 0.15,
+        "lambdaMax": 4.25,
+        "stepsPerMatch": 90,
+        "pruneProbabilityBelow": 1e-14
+      }
+    },
+    "scoreSelection": {
+      "nearEqualRelativeBand": 0.05,
+      "nearEqualAbsoluteProbabilityBand": 0.03,
+      "higherScoreTiebreak": true,
+      "strongerTeamTiebreak": true,
+      "saferDrawFallback": true
+    },
+    "qualitativeOverlay": {
+      "llmWeight": 0,
+      "notes": "LLM reasoning explains and sanity-checks outputs only; it is not a numeric model input in the existing pipeline."
+    }
+  },
+  "evidence": {
+    "completedFixtures": 19,
+    "exactScoreHits": 1,
+    "exactScoreHitRate": 0.0526,
+    "outcomeHits": 5,
+    "outcomeHitRate": 0.2632,
+    "averageGoalDifferenceError": 1.9474,
+    "averageTotalGoalsError": 1.4211,
+    "averageTeamAGoalsError": 1,
+    "averageTeamBGoalsError": 1.1579,
+    "selectedDifferedFromMostProbableCount": 16,
+    "actualGoalsPerMatch": 3.0526,
+    "predictedExpectedGoalsPerMatch": 3.2409,
+    "actualDrawRate": 0.4211,
+    "averagePredictedDrawProbability": 0.2089,
+    "favoriteWinRate": 0.4211,
+    "averageFavoriteWinProbability": 0.562
+  },
+  "changes": [
+    {
+      "coefficient": "markovMonteCarlo.modelParameters.baseGoalRateMultiplier",
+      "previous": 1,
+      "updated": 0.9923,
+      "relativeChange": -0.0077,
+      "status": "updated",
+      "rationale": "Completed Matchday 1 finals averaged 3.0526 actual goals per match versus 3.2409 expected by the v1 Markov distributions. The correction is shrunk by evidence weight 0.1319 and capped at +/-5%."
+    },
+    {
+      "coefficient": "markovMonteCarlo.modelParameters.qualityMultiplierScale",
+      "previous": 0.65,
+      "updated": 0.6285,
+      "relativeChange": -0.0331,
+      "status": "updated",
+      "rationale": "Favorites won 42.1% of completed fixtures against an average favorite win probability of 56.2%. The quality-spread correction is shrunk and capped to avoid overfitting."
+    },
+    {
+      "coefficient": "markovMonteCarlo.qualityWeights",
+      "previous": "v1 weights",
+      "updated": "unchanged",
+      "status": "unchanged",
+      "rationale": "Nineteen finals are not enough to identify separate FIFA-rank, FIFA-points, Elo, and form coefficients without fake precision."
+    },
+    {
+      "coefficient": "deterministicFeatureWeights",
+      "previous": "v1 weights",
+      "updated": "unchanged",
+      "status": "unchanged",
+      "rationale": "The deterministic rank-order model is not fixture-level calibrated; Matchday 1 evidence is applied to the score model instead."
+    },
+    {
+      "coefficient": "squadQuality",
+      "previous": "not collected",
+      "updated": "not collected",
+      "status": "not_available",
+      "rationale": "The repository's squad-quality file is a placeholder with no sourced squad rows, so no squad coefficient is introduced."
+    },
+    {
+      "coefficient": "venueHostAdvantage",
+      "previous": "not used",
+      "updated": "unchanged",
+      "status": "unchanged",
+      "rationale": "Venue/host effects are not in the Phase 1 model input. Host evidence is only three teams and is not enough for a sourced coefficient."
+    },
+    {
+      "coefficient": "marketImpliedProbability",
+      "previous": "not collected",
+      "updated": "not collected",
+      "status": "not_available",
+      "rationale": "No market/implied-probability source exists in the repository."
+    },
+    {
+      "coefficient": "qualitativeOverlay.llmWeight",
+      "previous": 0,
+      "updated": 0,
+      "relativeChange": 0,
+      "status": "unchanged",
+      "rationale": "The existing methodology uses LLM text as explanation only, not a numeric input."
+    }
+  ],
+  "notes": [
+    "Only FIFA-official final Matchday 1 fixtures are used as observations.",
+    "In-progress and scheduled Matchday 1 fixtures are stored but excluded from coefficient updates.",
+    "No team-level ratings are rewritten from one match; changes are global calibration terms only."
+  ]
+}

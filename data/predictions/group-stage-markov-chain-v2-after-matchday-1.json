@@ -1,0 +1,6121 @@
+{
+  "artifactKind": "prediction",
+  "predictionId": "group-stage-markov-chain-v2-after-matchday-1",
+  "predictionType": "markov_chain_fixture_distributions_after_matchday_1",
+  "generatedAt": "2026-06-17T06:22:31.971Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "doNotUseAsCollectedData": true,
+  "contaminationControl": {
+    "outputDirectory": "data\\predictions",
+    "builderInputPaths": [
+      "data\\model-input\\team-strength.json",
+      "data\\model-input\\recent-form.json",
+      "fifa-world-cup-2026-groups.md",
+      "data\\rules\\world-cup-2026-rules.json",
+      "data\\results\\group-stage-matchday-1-results-v1.json",
+      "data\\model\\coefficients-v2-after-matchday-1.json"
+    ],
+    "predictionDirectoryReadAsInput": false,
+    "notes": "Conditioned simulation uses official completed results and v2 coefficients; previous predictions are not used as inputs."
+  },
+  "method": {
+    "type": "discrete_time_markov_chain_score_distribution_with_matchday_1_calibration",
+    "modelParameters": {
+      "baseGoalRateMultiplier": 0.9923,
+      "qualityMultiplierScale": 0.6285,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14
+    },
+    "noInventedInputs": true,
+    "unavailableInputsOmitted": [
+      "fair play/team conduct",
+      "venue/host advantage",
+      "injuries",
+      "squad quality",
+      "xG",
+      "coach/tactics"
+    ]
+  },
+  "basedOnData": {
+    "results": {
+      "path": "data\\results\\group-stage-matchday-1-results-v1.json"
+    },
+    "coefficients": {
+      "path": "data\\model\\coefficients-v2-after-matchday-1.json"
+    },
+    "teamStrength": {
+      "path": "data\\model-input\\team-strength.json"
+    },
+    "recentForm": {
+      "path": "data\\model-input\\recent-form.json"
+    },
+    "officialFixtureApi": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Mexico",
+          "countryCode": "MEX",
+          "group": "A",
+          "averagePosition": 1.4566,
+          "averagePoints": 6.7036,
+          "averageGoalsFor": 5.4466,
+          "averageGoalsAgainst": 2.0411,
+          "averageGoalDifference": 3.4055,
+          "firstPlaceProbability": 0.6575,
+          "secondPlaceProbability": 0.239,
+          "thirdPlaceProbability": 0.0932,
+          "fourthPlaceProbability": 0.0104,
+          "topTwoAdvanceProbability": 0.8964,
+          "thirdPlaceFinishProbability": 0.0932,
+          "thirdPlaceAdvanceProbability": 0.0862,
+          "advanceProbability": 0.9826,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "South Korea",
+          "countryCode": "KOR",
+          "group": "A",
+          "averagePosition": 2.1605,
+          "averagePoints": 5.2558,
+          "averageGoalsFor": 4.6209,
+          "averageGoalsAgainst": 4.3728,
+          "averageGoalDifference": 0.2481,
+          "firstPlaceProbability": 0.2434,
+          "secondPlaceProbability": 0.4466,
+          "thirdPlaceProbability": 0.2163,
+          "fourthPlaceProbability": 0.0938,
+          "topTwoAdvanceProbability": 0.6899,
+          "thirdPlaceFinishProbability": 0.2163,
+          "thirdPlaceAdvanceProbability": 0.1684,
+          "advanceProbability": 0.8583,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Czechia",
+          "countryCode": "CZE",
+          "group": "A",
+          "averagePosition": 3.0439,
+          "averagePoints": 2.7576,
+          "averageGoalsFor": 4.0724,
+          "averageGoalsAgainst": 5.0301,
+          "averageGoalDifference": -0.9577,
+          "firstPlaceProbability": 0.0795,
+          "secondPlaceProbability": 0.155,
+          "thirdPlaceProbability": 0.4079,
+          "fourthPlaceProbability": 0.3578,
+          "topTwoAdvanceProbability": 0.2344,
+          "thirdPlaceFinishProbability": 0.4079,
+          "thirdPlaceAdvanceProbability": 0.2875,
+          "advanceProbability": 0.5219,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "South Africa",
+          "countryCode": "RSA",
+          "group": "A",
+          "averagePosition": 3.3391,
+          "averagePoints": 2.3493,
+          "averageGoalsFor": 2.9563,
+          "averageGoalsAgainst": 5.6521,
+          "averageGoalDifference": -2.6958,
+          "firstPlaceProbability": 0.0198,
+          "secondPlaceProbability": 0.1595,
+          "thirdPlaceProbability": 0.2827,
+          "fourthPlaceProbability": 0.5381,
+          "topTwoAdvanceProbability": 0.1793,
+          "thirdPlaceFinishProbability": 0.2827,
+          "thirdPlaceAdvanceProbability": 0.1796,
+          "advanceProbability": 0.3589,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Switzerland",
+          "countryCode": "SUI",
+          "group": "B",
+          "averagePosition": 2.0116,
+          "averagePoints": 4.313,
+          "averageGoalsFor": 4.3804,
+          "averageGoalsAgainst": 3.499,
+          "averageGoalDifference": 0.8815,
+          "firstPlaceProbability": 0.3813,
+          "secondPlaceProbability": 0.3233,
+          "thirdPlaceProbability": 0.1982,
+          "fourthPlaceProbability": 0.0974,
+          "topTwoAdvanceProbability": 0.7045,
+          "thirdPlaceFinishProbability": 0.1982,
+          "thirdPlaceAdvanceProbability": 0.0772,
+          "advanceProbability": 0.7817,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Canada",
+          "countryCode": "CAN",
+          "group": "B",
+          "averagePosition": 2.1202,
+          "averagePoints": 4.5207,
+          "averageGoalsFor": 3.9493,
+          "averageGoalsAgainst": 2.8162,
+          "averageGoalDifference": 1.1332,
+          "firstPlaceProbability": 0.3353,
+          "secondPlaceProbability": 0.3119,
+          "thirdPlaceProbability": 0.2504,
+          "fourthPlaceProbability": 0.1025,
+          "topTwoAdvanceProbability": 0.6471,
+          "thirdPlaceFinishProbability": 0.2504,
+          "thirdPlaceAdvanceProbability": 0.1877,
+          "advanceProbability": 0.8348,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Bosnia and Herzegovina",
+          "countryCode": "BIH",
+          "group": "B",
+          "averagePosition": 2.4514,
+          "averagePoints": 4.0444,
+          "averageGoalsFor": 4.5759,
+          "averageGoalsAgainst": 4.188,
+          "averageGoalDifference": 0.3878,
+          "firstPlaceProbability": 0.2405,
+          "secondPlaceProbability": 0.2537,
+          "thirdPlaceProbability": 0.3199,
+          "fourthPlaceProbability": 0.186,
+          "topTwoAdvanceProbability": 0.4942,
+          "thirdPlaceFinishProbability": 0.3199,
+          "thirdPlaceAdvanceProbability": 0.2627,
+          "advanceProbability": 0.7569,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Qatar",
+          "countryCode": "QAT",
+          "group": "B",
+          "averagePosition": 3.4169,
+          "averagePoints": 2.2323,
+          "averageGoalsFor": 2.6238,
+          "averageGoalsAgainst": 5.0262,
+          "averageGoalDifference": -2.4024,
+          "firstPlaceProbability": 0.0431,
+          "secondPlaceProbability": 0.1112,
+          "thirdPlaceProbability": 0.2316,
+          "fourthPlaceProbability": 0.6142,
+          "topTwoAdvanceProbability": 0.1543,
+          "thirdPlaceFinishProbability": 0.2316,
+          "thirdPlaceAdvanceProbability": 0.133,
+          "advanceProbability": 0.2872,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Morocco",
+          "countryCode": "MAR",
+          "group": "C",
+          "averagePosition": 1.8145,
+          "averagePoints": 5.4357,
+          "averageGoalsFor": 5.3185,
+          "averageGoalsAgainst": 2.6746,
+          "averageGoalDifference": 2.6439,
+          "firstPlaceProbability": 0.4453,
+          "secondPlaceProbability": 0.3409,
+          "thirdPlaceProbability": 0.1679,
+          "fourthPlaceProbability": 0.0459,
+          "topTwoAdvanceProbability": 0.7862,
+          "thirdPlaceFinishProbability": 0.1679,
+          "thirdPlaceAdvanceProbability": 0.1412,
+          "advanceProbability": 0.9275,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Brazil",
+          "countryCode": "BRA",
+          "group": "C",
+          "averagePosition": 2.1696,
+          "averagePoints": 4.7387,
+          "averageGoalsFor": 5.6343,
+          "averageGoalsAgainst": 4.0544,
+          "averageGoalDifference": 1.5799,
+          "firstPlaceProbability": 0.3038,
+          "secondPlaceProbability": 0.3296,
+          "thirdPlaceProbability": 0.2599,
+          "fourthPlaceProbability": 0.1068,
+          "topTwoAdvanceProbability": 0.6334,
+          "thirdPlaceFinishProbability": 0.2599,
+          "thirdPlaceAdvanceProbability": 0.2128,
+          "advanceProbability": 0.8461,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Scotland",
+          "countryCode": "SCO",
+          "group": "C",
+          "averagePosition": 2.2632,
+          "averagePoints": 4.8229,
+          "averageGoalsFor": 3.6854,
+          "averageGoalsAgainst": 4.2545,
+          "averageGoalDifference": -0.5691,
+          "firstPlaceProbability": 0.2374,
+          "secondPlaceProbability": 0.2841,
+          "thirdPlaceProbability": 0.4564,
+          "fourthPlaceProbability": 0.0221,
+          "topTwoAdvanceProbability": 0.5215,
+          "thirdPlaceFinishProbability": 0.4564,
+          "thirdPlaceAdvanceProbability": 0.3008,
+          "advanceProbability": 0.8223,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Haiti",
+          "countryCode": "HAI",
+          "group": "C",
+          "averagePosition": 3.7528,
+          "averagePoints": 1.2376,
+          "averageGoalsFor": 2.0436,
+          "averageGoalsAgainst": 5.6983,
+          "averageGoalDifference": -3.6547,
+          "firstPlaceProbability": 0.0136,
+          "secondPlaceProbability": 0.0454,
+          "thirdPlaceProbability": 0.1158,
+          "fourthPlaceProbability": 0.8253,
+          "topTwoAdvanceProbability": 0.059,
+          "thirdPlaceFinishProbability": 0.1158,
+          "thirdPlaceAdvanceProbability": 0.0745,
+          "advanceProbability": 0.1334,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Australia",
+          "countryCode": "AUS",
+          "group": "D",
+          "averagePosition": 1.7897,
+          "averagePoints": 5.9203,
+          "averageGoalsFor": 5.324,
+          "averageGoalsAgainst": 3.062,
+          "averageGoalDifference": 2.262,
+          "firstPlaceProbability": 0.4773,
+          "secondPlaceProbability": 0.3212,
+          "thirdPlaceProbability": 0.1363,
+          "fourthPlaceProbability": 0.0654,
+          "topTwoAdvanceProbability": 0.7984,
+          "thirdPlaceFinishProbability": 0.1363,
+          "thirdPlaceAdvanceProbability": 0.1218,
+          "advanceProbability": 0.9202,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "United States",
+          "countryCode": "USA",
+          "group": "D",
+          "averagePosition": 2.0056,
+          "averagePoints": 5.3052,
+          "averageGoalsFor": 7.5939,
+          "averageGoalsAgainst": 5.4981,
+          "averageGoalDifference": 2.0958,
+          "firstPlaceProbability": 0.3671,
+          "secondPlaceProbability": 0.3157,
+          "thirdPlaceProbability": 0.2615,
+          "fourthPlaceProbability": 0.0556,
+          "topTwoAdvanceProbability": 0.6829,
+          "thirdPlaceFinishProbability": 0.2615,
+          "thirdPlaceAdvanceProbability": 0.2293,
+          "advanceProbability": 0.9122,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Turkey",
+          "countryCode": "TUR",
+          "group": "D",
+          "averagePosition": 2.7731,
+          "averagePoints": 3.6245,
+          "averageGoalsFor": 4.7961,
+          "averageGoalsAgainst": 5.3504,
+          "averageGoalDifference": -0.5543,
+          "firstPlaceProbability": 0.1143,
+          "secondPlaceProbability": 0.2691,
+          "thirdPlaceProbability": 0.346,
+          "fourthPlaceProbability": 0.2707,
+          "topTwoAdvanceProbability": 0.3834,
+          "thirdPlaceFinishProbability": 0.346,
+          "thirdPlaceAdvanceProbability": 0.2524,
+          "advanceProbability": 0.6358,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Paraguay",
+          "countryCode": "PAR",
+          "group": "D",
+          "averagePosition": 3.4317,
+          "averagePoints": 2.2814,
+          "averageGoalsFor": 3.8185,
+          "averageGoalsAgainst": 7.6219,
+          "averageGoalDifference": -3.8034,
+          "firstPlaceProbability": 0.0413,
+          "secondPlaceProbability": 0.0941,
+          "thirdPlaceProbability": 0.2563,
+          "fourthPlaceProbability": 0.6083,
+          "topTwoAdvanceProbability": 0.1354,
+          "thirdPlaceFinishProbability": 0.2563,
+          "thirdPlaceAdvanceProbability": 0.1685,
+          "advanceProbability": 0.3038,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Germany",
+          "countryCode": "GER",
+          "group": "E",
+          "averagePosition": 1.4615,
+          "averagePoints": 6.6165,
+          "averageGoalsFor": 10.7017,
+          "averageGoalsAgainst": 3.4034,
+          "averageGoalDifference": 7.2983,
+          "firstPlaceProbability": 0.6375,
+          "secondPlaceProbability": 0.2727,
+          "thirdPlaceProbability": 0.0809,
+          "fourthPlaceProbability": 0.009,
+          "topTwoAdvanceProbability": 0.9101,
+          "thirdPlaceFinishProbability": 0.0809,
+          "thirdPlaceAdvanceProbability": 0.0792,
+          "advanceProbability": 0.9893,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Ivory Coast",
+          "countryCode": "CIV",
+          "group": "E",
+          "averagePosition": 1.9348,
+          "averagePoints": 5.9104,
+          "averageGoalsFor": 4.7288,
+          "averageGoalsAgainst": 3.4997,
+          "averageGoalDifference": 1.2291,
+          "firstPlaceProbability": 0.2992,
+          "secondPlaceProbability": 0.5182,
+          "thirdPlaceProbability": 0.1315,
+          "fourthPlaceProbability": 0.0512,
+          "topTwoAdvanceProbability": 0.8173,
+          "thirdPlaceFinishProbability": 0.1315,
+          "thirdPlaceAdvanceProbability": 0.102,
+          "advanceProbability": 0.9193,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Ecuador",
+          "countryCode": "ECU",
+          "group": "E",
+          "averagePosition": 3.0622,
+          "averagePoints": 2.7541,
+          "averageGoalsFor": 2.6576,
+          "averageGoalsAgainst": 3.6392,
+          "averageGoalDifference": -0.9816,
+          "firstPlaceProbability": 0.0516,
+          "secondPlaceProbability": 0.1313,
+          "thirdPlaceProbability": 0.5206,
+          "fourthPlaceProbability": 0.2966,
+          "topTwoAdvanceProbability": 0.1828,
+          "thirdPlaceFinishProbability": 0.5206,
+          "thirdPlaceAdvanceProbability": 0.331,
+          "advanceProbability": 0.5138,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Curacao",
+          "countryCode": "CUW",
+          "group": "E",
+          "averagePosition": 3.5416,
+          "averagePoints": 1.8211,
+          "averageGoalsFor": 3.4372,
+          "averageGoalsAgainst": 10.983,
+          "averageGoalDifference": -7.5458,
+          "firstPlaceProbability": 0.0119,
+          "secondPlaceProbability": 0.078,
+          "thirdPlaceProbability": 0.267,
+          "fourthPlaceProbability": 0.6433,
+          "topTwoAdvanceProbability": 0.0898,
+          "thirdPlaceFinishProbability": 0.267,
+          "thirdPlaceAdvanceProbability": 0.0964,
+          "advanceProbability": 0.1862,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Netherlands",
+          "countryCode": "NED",
+          "group": "F",
+          "averagePosition": 1.5763,
+          "averagePoints": 5.9478,
+          "averageGoalsFor": 8.2352,
+          "averageGoalsAgainst": 4.1035,
+          "averageGoalDifference": 4.1317,
+          "firstPlaceProbability": 0.5589,
+          "secondPlaceProbability": 0.3283,
+          "thirdPlaceProbability": 0.0906,
+          "fourthPlaceProbability": 0.0223,
+          "topTwoAdvanceProbability": 0.8872,
+          "thirdPlaceFinishProbability": 0.0906,
+          "thirdPlaceAdvanceProbability": 0.0808,
+          "advanceProbability": 0.9679,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Japan",
+          "countryCode": "JPN",
+          "group": "F",
+          "averagePosition": 1.8834,
+          "averagePoints": 5.541,
+          "averageGoalsFor": 7.0301,
+          "averageGoalsAgainst": 4.0111,
+          "averageGoalDifference": 3.019,
+          "firstPlaceProbability": 0.3444,
+          "secondPlaceProbability": 0.4717,
+          "thirdPlaceProbability": 0.1402,
+          "fourthPlaceProbability": 0.0438,
+          "topTwoAdvanceProbability": 0.8161,
+          "thirdPlaceFinishProbability": 0.1402,
+          "thirdPlaceAdvanceProbability": 0.1207,
+          "advanceProbability": 0.9368,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Sweden",
+          "countryCode": "SWE",
+          "group": "F",
+          "averagePosition": 2.6946,
+          "averagePoints": 3.8314,
+          "averageGoalsFor": 7.0691,
+          "averageGoalsAgainst": 7.1086,
+          "averageGoalDifference": -0.0395,
+          "firstPlaceProbability": 0.0857,
+          "secondPlaceProbability": 0.1671,
+          "thirdPlaceProbability": 0.7144,
+          "fourthPlaceProbability": 0.0329,
+          "topTwoAdvanceProbability": 0.2527,
+          "thirdPlaceFinishProbability": 0.7144,
+          "thirdPlaceAdvanceProbability": 0.5712,
+          "advanceProbability": 0.8239,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Tunisia",
+          "countryCode": "TUN",
+          "group": "F",
+          "averagePosition": 3.8458,
+          "averagePoints": 1.0905,
+          "averageGoalsFor": 3.0455,
+          "averageGoalsAgainst": 10.1567,
+          "averageGoalDifference": -7.1112,
+          "firstPlaceProbability": 0.0112,
+          "secondPlaceProbability": 0.033,
+          "thirdPlaceProbability": 0.0549,
+          "fourthPlaceProbability": 0.901,
+          "topTwoAdvanceProbability": 0.0441,
+          "thirdPlaceFinishProbability": 0.0549,
+          "thirdPlaceAdvanceProbability": 0.024,
+          "advanceProbability": 0.0681,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Belgium",
+          "countryCode": "BEL",
+          "group": "G",
+          "averagePosition": 1.4966,
+          "averagePoints": 5.7474,
+          "averageGoalsFor": 7.0573,
+          "averageGoalsAgainst": 2.8192,
+          "averageGoalDifference": 4.2381,
+          "firstPlaceProbability": 0.6571,
+          "secondPlaceProbability": 0.2018,
+          "thirdPlaceProbability": 0.1286,
+          "fourthPlaceProbability": 0.0125,
+          "topTwoAdvanceProbability": 0.8589,
+          "thirdPlaceFinishProbability": 0.1286,
+          "thirdPlaceAdvanceProbability": 0.1204,
+          "advanceProbability": 0.9792,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Egypt",
+          "countryCode": "EGY",
+          "group": "G",
+          "averagePosition": 2.38,
+          "averagePoints": 4.5105,
+          "averageGoalsFor": 4.2744,
+          "averageGoalsAgainst": 3.0297,
+          "averageGoalDifference": 1.2447,
+          "firstPlaceProbability": 0.1804,
+          "secondPlaceProbability": 0.3436,
+          "thirdPlaceProbability": 0.3918,
+          "fourthPlaceProbability": 0.0843,
+          "topTwoAdvanceProbability": 0.524,
+          "thirdPlaceFinishProbability": 0.3918,
+          "thirdPlaceAdvanceProbability": 0.324,
+          "advanceProbability": 0.848,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Iran",
+          "countryCode": "IRN",
+          "group": "G",
+          "averagePosition": 2.4061,
+          "averagePoints": 3.4257,
+          "averageGoalsFor": 4.5004,
+          "averageGoalsAgainst": 5.0534,
+          "averageGoalDifference": -0.553,
+          "firstPlaceProbability": 0.1552,
+          "secondPlaceProbability": 0.3914,
+          "thirdPlaceProbability": 0.3455,
+          "fourthPlaceProbability": 0.1079,
+          "topTwoAdvanceProbability": 0.5466,
+          "thirdPlaceFinishProbability": 0.3455,
+          "thirdPlaceAdvanceProbability": 0.0625,
+          "advanceProbability": 0.6091,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "New Zealand",
+          "countryCode": "NZL",
+          "group": "G",
+          "averagePosition": 3.7173,
+          "averagePoints": 1.5989,
+          "averageGoalsFor": 3.3484,
+          "averageGoalsAgainst": 8.2782,
+          "averageGoalDifference": -4.9298,
+          "firstPlaceProbability": 0.0074,
+          "secondPlaceProbability": 0.0632,
+          "thirdPlaceProbability": 0.1341,
+          "fourthPlaceProbability": 0.7953,
+          "topTwoAdvanceProbability": 0.0706,
+          "thirdPlaceFinishProbability": 0.1341,
+          "thirdPlaceAdvanceProbability": 0.0548,
+          "advanceProbability": 0.1254,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Spain",
+          "countryCode": "ESP",
+          "group": "H",
+          "averagePosition": 1.4174,
+          "averagePoints": 5.8533,
+          "averageGoalsFor": 5.3299,
+          "averageGoalsAgainst": 1.598,
+          "averageGoalDifference": 3.7319,
+          "firstPlaceProbability": 0.7114,
+          "secondPlaceProbability": 0.1815,
+          "thirdPlaceProbability": 0.0857,
+          "fourthPlaceProbability": 0.0216,
+          "topTwoAdvanceProbability": 0.8928,
+          "thirdPlaceFinishProbability": 0.0857,
+          "thirdPlaceAdvanceProbability": 0.0735,
+          "advanceProbability": 0.9663,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Uruguay",
+          "countryCode": "URU",
+          "group": "H",
+          "averagePosition": 2.6809,
+          "averagePoints": 3.101,
+          "averageGoalsFor": 3.3714,
+          "averageGoalsAgainst": 4.4871,
+          "averageGoalDifference": -1.1157,
+          "firstPlaceProbability": 0.1128,
+          "secondPlaceProbability": 0.3394,
+          "thirdPlaceProbability": 0.3021,
+          "fourthPlaceProbability": 0.2458,
+          "topTwoAdvanceProbability": 0.4522,
+          "thirdPlaceFinishProbability": 0.3021,
+          "thirdPlaceAdvanceProbability": 0.09,
+          "advanceProbability": 0.5421,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Cape Verde",
+          "countryCode": "CPV",
+          "group": "H",
+          "averagePosition": 2.6815,
+          "averagePoints": 3.8819,
+          "averageGoalsFor": 3.2679,
+          "averageGoalsAgainst": 3.0717,
+          "averageGoalDifference": 0.1962,
+          "firstPlaceProbability": 0.1316,
+          "secondPlaceProbability": 0.2806,
+          "thirdPlaceProbability": 0.3626,
+          "fourthPlaceProbability": 0.2252,
+          "topTwoAdvanceProbability": 0.4122,
+          "thirdPlaceFinishProbability": 0.3626,
+          "thirdPlaceAdvanceProbability": 0.2855,
+          "advanceProbability": 0.6976,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Saudi Arabia",
+          "countryCode": "KSA",
+          "group": "H",
+          "averagePosition": 3.2203,
+          "averagePoints": 2.4,
+          "averageGoalsFor": 3.2984,
+          "averageGoalsAgainst": 6.1108,
+          "averageGoalDifference": -2.8124,
+          "firstPlaceProbability": 0.0444,
+          "secondPlaceProbability": 0.1986,
+          "thirdPlaceProbability": 0.2496,
+          "fourthPlaceProbability": 0.5075,
+          "topTwoAdvanceProbability": 0.2429,
+          "thirdPlaceFinishProbability": 0.2496,
+          "thirdPlaceAdvanceProbability": 0.1153,
+          "advanceProbability": 0.3582,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "France",
+          "countryCode": "FRA",
+          "group": "I",
+          "averagePosition": 1.6118,
+          "averagePoints": 6.5329,
+          "averageGoalsFor": 6.9429,
+          "averageGoalsAgainst": 3.7375,
+          "averageGoalDifference": 3.2054,
+          "firstPlaceProbability": 0.4962,
+          "secondPlaceProbability": 0.4167,
+          "thirdPlaceProbability": 0.0665,
+          "fourthPlaceProbability": 0.0208,
+          "topTwoAdvanceProbability": 0.9128,
+          "thirdPlaceFinishProbability": 0.0665,
+          "thirdPlaceAdvanceProbability": 0.0603,
+          "advanceProbability": 0.9731,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Norway",
+          "countryCode": "NOR",
+          "group": "I",
+          "averagePosition": 1.7192,
+          "averagePoints": 6.1099,
+          "averageGoalsFor": 7.8267,
+          "averageGoalsAgainst": 4.3021,
+          "averageGoalDifference": 3.5247,
+          "firstPlaceProbability": 0.4556,
+          "secondPlaceProbability": 0.3846,
+          "thirdPlaceProbability": 0.145,
+          "fourthPlaceProbability": 0.0149,
+          "topTwoAdvanceProbability": 0.8402,
+          "thirdPlaceFinishProbability": 0.145,
+          "thirdPlaceAdvanceProbability": 0.1323,
+          "advanceProbability": 0.9724,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Senegal",
+          "countryCode": "SEN",
+          "group": "I",
+          "averagePosition": 3.0774,
+          "averagePoints": 2.819,
+          "averageGoalsFor": 4.2104,
+          "averageGoalsAgainst": 6.1891,
+          "averageGoalDifference": -1.9786,
+          "firstPlaceProbability": 0.0357,
+          "secondPlaceProbability": 0.1509,
+          "thirdPlaceProbability": 0.514,
+          "fourthPlaceProbability": 0.2995,
+          "topTwoAdvanceProbability": 0.1865,
+          "thirdPlaceFinishProbability": 0.514,
+          "thirdPlaceAdvanceProbability": 0.307,
+          "advanceProbability": 0.4935,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Iraq",
+          "countryCode": "IRQ",
+          "group": "I",
+          "averagePosition": 3.5917,
+          "averagePoints": 1.6683,
+          "averageGoalsFor": 3.0999,
+          "averageGoalsAgainst": 7.8512,
+          "averageGoalDifference": -4.7514,
+          "firstPlaceProbability": 0.0126,
+          "secondPlaceProbability": 0.048,
+          "thirdPlaceProbability": 0.2746,
+          "fourthPlaceProbability": 0.6649,
+          "topTwoAdvanceProbability": 0.0606,
+          "thirdPlaceFinishProbability": 0.2746,
+          "thirdPlaceAdvanceProbability": 0.1308,
+          "advanceProbability": 0.1914,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Argentina",
+          "countryCode": "ARG",
+          "group": "J",
+          "averagePosition": 1.3461,
+          "averagePoints": 7.109,
+          "averageGoalsFor": 7.297,
+          "averageGoalsAgainst": 1.8787,
+          "averageGoalDifference": 5.4184,
+          "firstPlaceProbability": 0.6949,
+          "secondPlaceProbability": 0.2734,
+          "thirdPlaceProbability": 0.0227,
+          "fourthPlaceProbability": 0.0092,
+          "topTwoAdvanceProbability": 0.9682,
+          "thirdPlaceFinishProbability": 0.0227,
+          "thirdPlaceAdvanceProbability": 0.0216,
+          "advanceProbability": 0.9898,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Austria",
+          "countryCode": "AUT",
+          "group": "J",
+          "averagePosition": 2.0873,
+          "averagePoints": 5.2056,
+          "averageGoalsFor": 5.3886,
+          "averageGoalsAgainst": 3.3812,
+          "averageGoalDifference": 2.0074,
+          "firstPlaceProbability": 0.2721,
+          "secondPlaceProbability": 0.4365,
+          "thirdPlaceProbability": 0.2235,
+          "fourthPlaceProbability": 0.068,
+          "topTwoAdvanceProbability": 0.7086,
+          "thirdPlaceFinishProbability": 0.2235,
+          "thirdPlaceAdvanceProbability": 0.171,
+          "advanceProbability": 0.8796,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Algeria",
+          "countryCode": "ALG",
+          "group": "J",
+          "averagePosition": 2.9297,
+          "averagePoints": 3.3227,
+          "averageGoalsFor": 3.3902,
+          "averageGoalsAgainst": 5.3951,
+          "averageGoalDifference": -2.0048,
+          "firstPlaceProbability": 0.0199,
+          "secondPlaceProbability": 0.2322,
+          "thirdPlaceProbability": 0.5463,
+          "fourthPlaceProbability": 0.2017,
+          "topTwoAdvanceProbability": 0.2521,
+          "thirdPlaceFinishProbability": 0.5463,
+          "thirdPlaceAdvanceProbability": 0.337,
+          "advanceProbability": 0.5891,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Jordan",
+          "countryCode": "JOR",
+          "group": "J",
+          "averagePosition": 3.637,
+          "averagePoints": 1.3892,
+          "averageGoalsFor": 2.8215,
+          "averageGoalsAgainst": 8.2425,
+          "averageGoalDifference": -5.4209,
+          "firstPlaceProbability": 0.0132,
+          "secondPlaceProbability": 0.058,
+          "thirdPlaceProbability": 0.2077,
+          "fourthPlaceProbability": 0.7212,
+          "topTwoAdvanceProbability": 0.0711,
+          "thirdPlaceFinishProbability": 0.2077,
+          "thirdPlaceAdvanceProbability": 0.0894,
+          "advanceProbability": 0.1605,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "Portugal",
+          "countryCode": "POR",
+          "group": "K",
+          "averagePosition": 2.134,
+          "averagePoints": 4.9138,
+          "averageGoalsFor": 5.4932,
+          "averageGoalsAgainst": 4.279,
+          "averageGoalDifference": 1.2142,
+          "firstPlaceProbability": 0.3734,
+          "secondPlaceProbability": 0.2705,
+          "thirdPlaceProbability": 0.2049,
+          "fourthPlaceProbability": 0.1513,
+          "topTwoAdvanceProbability": 0.6439,
+          "thirdPlaceFinishProbability": 0.2049,
+          "thirdPlaceAdvanceProbability": 0.159,
+          "advanceProbability": 0.8028,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Colombia",
+          "countryCode": "COL",
+          "group": "K",
+          "averagePosition": 2.4399,
+          "averagePoints": 4.2538,
+          "averageGoalsFor": 4.9315,
+          "averageGoalsAgainst": 4.7988,
+          "averageGoalDifference": 0.1328,
+          "firstPlaceProbability": 0.258,
+          "secondPlaceProbability": 0.2648,
+          "thirdPlaceProbability": 0.2567,
+          "fourthPlaceProbability": 0.2206,
+          "topTwoAdvanceProbability": 0.5228,
+          "thirdPlaceFinishProbability": 0.2567,
+          "thirdPlaceAdvanceProbability": 0.1868,
+          "advanceProbability": 0.7096,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "DR Congo",
+          "countryCode": "COD",
+          "group": "K",
+          "averagePosition": 2.4947,
+          "averagePoints": 4.1487,
+          "averageGoalsFor": 3.4755,
+          "averageGoalsAgainst": 3.399,
+          "averageGoalDifference": 0.0765,
+          "firstPlaceProbability": 0.2342,
+          "secondPlaceProbability": 0.2658,
+          "thirdPlaceProbability": 0.2713,
+          "fourthPlaceProbability": 0.2288,
+          "topTwoAdvanceProbability": 0.5,
+          "thirdPlaceFinishProbability": 0.2713,
+          "thirdPlaceAdvanceProbability": 0.1931,
+          "advanceProbability": 0.6931,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Uzbekistan",
+          "countryCode": "UZB",
+          "group": "K",
+          "averagePosition": 2.9316,
+          "averagePoints": 3.1711,
+          "averageGoalsFor": 3.4392,
+          "averageGoalsAgainst": 4.8626,
+          "averageGoalDifference": -1.4235,
+          "firstPlaceProbability": 0.1344,
+          "secondPlaceProbability": 0.199,
+          "thirdPlaceProbability": 0.2673,
+          "fourthPlaceProbability": 0.3994,
+          "topTwoAdvanceProbability": 0.3334,
+          "thirdPlaceFinishProbability": 0.2673,
+          "thirdPlaceAdvanceProbability": 0.1734,
+          "advanceProbability": 0.5068,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "predictedStandings": [
+        {
+          "predictedPosition": 1,
+          "team": "England",
+          "countryCode": "ENG",
+          "group": "L",
+          "averagePosition": 1.527,
+          "averagePoints": 6.6699,
+          "averageGoalsFor": 7.4175,
+          "averageGoalsAgainst": 3.0548,
+          "averageGoalDifference": 4.3627,
+          "firstPlaceProbability": 0.607,
+          "secondPlaceProbability": 0.2826,
+          "thirdPlaceProbability": 0.087,
+          "fourthPlaceProbability": 0.0235,
+          "topTwoAdvanceProbability": 0.8896,
+          "thirdPlaceFinishProbability": 0.087,
+          "thirdPlaceAdvanceProbability": 0.0744,
+          "advanceProbability": 0.964,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 2,
+          "team": "Croatia",
+          "countryCode": "CRO",
+          "group": "L",
+          "averagePosition": 2.0739,
+          "averagePoints": 5.2207,
+          "averageGoalsFor": 6.5007,
+          "averageGoalsAgainst": 4.5924,
+          "averageGoalDifference": 1.9083,
+          "firstPlaceProbability": 0.2884,
+          "secondPlaceProbability": 0.4242,
+          "thirdPlaceProbability": 0.2128,
+          "fourthPlaceProbability": 0.0748,
+          "topTwoAdvanceProbability": 0.7125,
+          "thirdPlaceFinishProbability": 0.2128,
+          "thirdPlaceAdvanceProbability": 0.1617,
+          "advanceProbability": 0.8742,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 3,
+          "team": "Panama",
+          "countryCode": "PAN",
+          "group": "L",
+          "averagePosition": 2.9292,
+          "averagePoints": 3.1883,
+          "averageGoalsFor": 4.8069,
+          "averageGoalsAgainst": 6.7248,
+          "averageGoalDifference": -1.9178,
+          "firstPlaceProbability": 0.0794,
+          "secondPlaceProbability": 0.2055,
+          "thirdPlaceProbability": 0.4217,
+          "fourthPlaceProbability": 0.2935,
+          "topTwoAdvanceProbability": 0.2849,
+          "thirdPlaceFinishProbability": 0.4217,
+          "thirdPlaceAdvanceProbability": 0.2534,
+          "advanceProbability": 0.5383,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        },
+        {
+          "predictedPosition": 4,
+          "team": "Ghana",
+          "countryCode": "GHA",
+          "group": "L",
+          "averagePosition": 3.47,
+          "averagePoints": 1.8526,
+          "averageGoalsFor": 3.3328,
+          "averageGoalsAgainst": 7.6858,
+          "averageGoalDifference": -4.353,
+          "firstPlaceProbability": 0.0253,
+          "secondPlaceProbability": 0.0879,
+          "thirdPlaceProbability": 0.2786,
+          "fourthPlaceProbability": 0.6083,
+          "topTwoAdvanceProbability": 0.1131,
+          "thirdPlaceFinishProbability": 0.2786,
+          "thirdPlaceAdvanceProbability": 0.1349,
+          "advanceProbability": 0.2481,
+          "predictionFlags": {
+            "isPrediction": true,
+            "excludeFromFuturePredictionInputs": true,
+            "doNotUseAsTrainingData": true
+          }
+        }
+      ]
+    }
+  ],
+  "thirdPlace": {
+    "predictedBestThirdPlaceTeams": [
+      {
+        "team": "Sweden",
+        "countryCode": "SWE",
+        "group": "F",
+        "averagePosition": 2.6946,
+        "averagePoints": 3.8314,
+        "averageGoalsFor": 7.0691,
+        "averageGoalsAgainst": 7.1086,
+        "averageGoalDifference": -0.0395,
+        "firstPlaceProbability": 0.0857,
+        "secondPlaceProbability": 0.1671,
+        "thirdPlaceProbability": 0.7144,
+        "fourthPlaceProbability": 0.0329,
+        "topTwoAdvanceProbability": 0.2527,
+        "thirdPlaceFinishProbability": 0.7144,
+        "thirdPlaceAdvanceProbability": 0.5712,
+        "advanceProbability": 0.8239,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Algeria",
+        "countryCode": "ALG",
+        "group": "J",
+        "averagePosition": 2.9297,
+        "averagePoints": 3.3227,
+        "averageGoalsFor": 3.3902,
+        "averageGoalsAgainst": 5.3951,
+        "averageGoalDifference": -2.0048,
+        "firstPlaceProbability": 0.0199,
+        "secondPlaceProbability": 0.2322,
+        "thirdPlaceProbability": 0.5463,
+        "fourthPlaceProbability": 0.2017,
+        "topTwoAdvanceProbability": 0.2521,
+        "thirdPlaceFinishProbability": 0.5463,
+        "thirdPlaceAdvanceProbability": 0.337,
+        "advanceProbability": 0.5891,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Ecuador",
+        "countryCode": "ECU",
+        "group": "E",
+        "averagePosition": 3.0622,
+        "averagePoints": 2.7541,
+        "averageGoalsFor": 2.6576,
+        "averageGoalsAgainst": 3.6392,
+        "averageGoalDifference": -0.9816,
+        "firstPlaceProbability": 0.0516,
+        "secondPlaceProbability": 0.1313,
+        "thirdPlaceProbability": 0.5206,
+        "fourthPlaceProbability": 0.2966,
+        "topTwoAdvanceProbability": 0.1828,
+        "thirdPlaceFinishProbability": 0.5206,
+        "thirdPlaceAdvanceProbability": 0.331,
+        "advanceProbability": 0.5138,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Egypt",
+        "countryCode": "EGY",
+        "group": "G",
+        "averagePosition": 2.38,
+        "averagePoints": 4.5105,
+        "averageGoalsFor": 4.2744,
+        "averageGoalsAgainst": 3.0297,
+        "averageGoalDifference": 1.2447,
+        "firstPlaceProbability": 0.1804,
+        "secondPlaceProbability": 0.3436,
+        "thirdPlaceProbability": 0.3918,
+        "fourthPlaceProbability": 0.0843,
+        "topTwoAdvanceProbability": 0.524,
+        "thirdPlaceFinishProbability": 0.3918,
+        "thirdPlaceAdvanceProbability": 0.324,
+        "advanceProbability": 0.848,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Senegal",
+        "countryCode": "SEN",
+        "group": "I",
+        "averagePosition": 3.0774,
+        "averagePoints": 2.819,
+        "averageGoalsFor": 4.2104,
+        "averageGoalsAgainst": 6.1891,
+        "averageGoalDifference": -1.9786,
+        "firstPlaceProbability": 0.0357,
+        "secondPlaceProbability": 0.1509,
+        "thirdPlaceProbability": 0.514,
+        "fourthPlaceProbability": 0.2995,
+        "topTwoAdvanceProbability": 0.1865,
+        "thirdPlaceFinishProbability": 0.514,
+        "thirdPlaceAdvanceProbability": 0.307,
+        "advanceProbability": 0.4935,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Scotland",
+        "countryCode": "SCO",
+        "group": "C",
+        "averagePosition": 2.2632,
+        "averagePoints": 4.8229,
+        "averageGoalsFor": 3.6854,
+        "averageGoalsAgainst": 4.2545,
+        "averageGoalDifference": -0.5691,
+        "firstPlaceProbability": 0.2374,
+        "secondPlaceProbability": 0.2841,
+        "thirdPlaceProbability": 0.4564,
+        "fourthPlaceProbability": 0.0221,
+        "topTwoAdvanceProbability": 0.5215,
+        "thirdPlaceFinishProbability": 0.4564,
+        "thirdPlaceAdvanceProbability": 0.3008,
+        "advanceProbability": 0.8223,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Czechia",
+        "countryCode": "CZE",
+        "group": "A",
+        "averagePosition": 3.0439,
+        "averagePoints": 2.7576,
+        "averageGoalsFor": 4.0724,
+        "averageGoalsAgainst": 5.0301,
+        "averageGoalDifference": -0.9577,
+        "firstPlaceProbability": 0.0795,
+        "secondPlaceProbability": 0.155,
+        "thirdPlaceProbability": 0.4079,
+        "fourthPlaceProbability": 0.3578,
+        "topTwoAdvanceProbability": 0.2344,
+        "thirdPlaceFinishProbability": 0.4079,
+        "thirdPlaceAdvanceProbability": 0.2875,
+        "advanceProbability": 0.5219,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Cape Verde",
+        "countryCode": "CPV",
+        "group": "H",
+        "averagePosition": 2.6815,
+        "averagePoints": 3.8819,
+        "averageGoalsFor": 3.2679,
+        "averageGoalsAgainst": 3.0717,
+        "averageGoalDifference": 0.1962,
+        "firstPlaceProbability": 0.1316,
+        "secondPlaceProbability": 0.2806,
+        "thirdPlaceProbability": 0.3626,
+        "fourthPlaceProbability": 0.2252,
+        "topTwoAdvanceProbability": 0.4122,
+        "thirdPlaceFinishProbability": 0.3626,
+        "thirdPlaceAdvanceProbability": 0.2855,
+        "advanceProbability": 0.6976,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      }
+    ],
+    "allThirdPlaceProbabilities": [
+      {
+        "team": "Sweden",
+        "countryCode": "SWE",
+        "group": "F",
+        "averagePosition": 2.6946,
+        "averagePoints": 3.8314,
+        "averageGoalsFor": 7.0691,
+        "averageGoalsAgainst": 7.1086,
+        "averageGoalDifference": -0.0395,
+        "firstPlaceProbability": 0.0857,
+        "secondPlaceProbability": 0.1671,
+        "thirdPlaceProbability": 0.7144,
+        "fourthPlaceProbability": 0.0329,
+        "topTwoAdvanceProbability": 0.2527,
+        "thirdPlaceFinishProbability": 0.7144,
+        "thirdPlaceAdvanceProbability": 0.5712,
+        "advanceProbability": 0.8239,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Algeria",
+        "countryCode": "ALG",
+        "group": "J",
+        "averagePosition": 2.9297,
+        "averagePoints": 3.3227,
+        "averageGoalsFor": 3.3902,
+        "averageGoalsAgainst": 5.3951,
+        "averageGoalDifference": -2.0048,
+        "firstPlaceProbability": 0.0199,
+        "secondPlaceProbability": 0.2322,
+        "thirdPlaceProbability": 0.5463,
+        "fourthPlaceProbability": 0.2017,
+        "topTwoAdvanceProbability": 0.2521,
+        "thirdPlaceFinishProbability": 0.5463,
+        "thirdPlaceAdvanceProbability": 0.337,
+        "advanceProbability": 0.5891,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Ecuador",
+        "countryCode": "ECU",
+        "group": "E",
+        "averagePosition": 3.0622,
+        "averagePoints": 2.7541,
+        "averageGoalsFor": 2.6576,
+        "averageGoalsAgainst": 3.6392,
+        "averageGoalDifference": -0.9816,
+        "firstPlaceProbability": 0.0516,
+        "secondPlaceProbability": 0.1313,
+        "thirdPlaceProbability": 0.5206,
+        "fourthPlaceProbability": 0.2966,
+        "topTwoAdvanceProbability": 0.1828,
+        "thirdPlaceFinishProbability": 0.5206,
+        "thirdPlaceAdvanceProbability": 0.331,
+        "advanceProbability": 0.5138,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Egypt",
+        "countryCode": "EGY",
+        "group": "G",
+        "averagePosition": 2.38,
+        "averagePoints": 4.5105,
+        "averageGoalsFor": 4.2744,
+        "averageGoalsAgainst": 3.0297,
+        "averageGoalDifference": 1.2447,
+        "firstPlaceProbability": 0.1804,
+        "secondPlaceProbability": 0.3436,
+        "thirdPlaceProbability": 0.3918,
+        "fourthPlaceProbability": 0.0843,
+        "topTwoAdvanceProbability": 0.524,
+        "thirdPlaceFinishProbability": 0.3918,
+        "thirdPlaceAdvanceProbability": 0.324,
+        "advanceProbability": 0.848,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Senegal",
+        "countryCode": "SEN",
+        "group": "I",
+        "averagePosition": 3.0774,
+        "averagePoints": 2.819,
+        "averageGoalsFor": 4.2104,
+        "averageGoalsAgainst": 6.1891,
+        "averageGoalDifference": -1.9786,
+        "firstPlaceProbability": 0.0357,
+        "secondPlaceProbability": 0.1509,
+        "thirdPlaceProbability": 0.514,
+        "fourthPlaceProbability": 0.2995,
+        "topTwoAdvanceProbability": 0.1865,
+        "thirdPlaceFinishProbability": 0.514,
+        "thirdPlaceAdvanceProbability": 0.307,
+        "advanceProbability": 0.4935,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Scotland",
+        "countryCode": "SCO",
+        "group": "C",
+        "averagePosition": 2.2632,
+        "averagePoints": 4.8229,
+        "averageGoalsFor": 3.6854,
+        "averageGoalsAgainst": 4.2545,
+        "averageGoalDifference": -0.5691,
+        "firstPlaceProbability": 0.2374,
+        "secondPlaceProbability": 0.2841,
+        "thirdPlaceProbability": 0.4564,
+        "fourthPlaceProbability": 0.0221,
+        "topTwoAdvanceProbability": 0.5215,
+        "thirdPlaceFinishProbability": 0.4564,
+        "thirdPlaceAdvanceProbability": 0.3008,
+        "advanceProbability": 0.8223,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Czechia",
+        "countryCode": "CZE",
+        "group": "A",
+        "averagePosition": 3.0439,
+        "averagePoints": 2.7576,
+        "averageGoalsFor": 4.0724,
+        "averageGoalsAgainst": 5.0301,
+        "averageGoalDifference": -0.9577,
+        "firstPlaceProbability": 0.0795,
+        "secondPlaceProbability": 0.155,
+        "thirdPlaceProbability": 0.4079,
+        "fourthPlaceProbability": 0.3578,
+        "topTwoAdvanceProbability": 0.2344,
+        "thirdPlaceFinishProbability": 0.4079,
+        "thirdPlaceAdvanceProbability": 0.2875,
+        "advanceProbability": 0.5219,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Cape Verde",
+        "countryCode": "CPV",
+        "group": "H",
+        "averagePosition": 2.6815,
+        "averagePoints": 3.8819,
+        "averageGoalsFor": 3.2679,
+        "averageGoalsAgainst": 3.0717,
+        "averageGoalDifference": 0.1962,
+        "firstPlaceProbability": 0.1316,
+        "secondPlaceProbability": 0.2806,
+        "thirdPlaceProbability": 0.3626,
+        "fourthPlaceProbability": 0.2252,
+        "topTwoAdvanceProbability": 0.4122,
+        "thirdPlaceFinishProbability": 0.3626,
+        "thirdPlaceAdvanceProbability": 0.2855,
+        "advanceProbability": 0.6976,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "countryCode": "BIH",
+        "group": "B",
+        "averagePosition": 2.4514,
+        "averagePoints": 4.0444,
+        "averageGoalsFor": 4.5759,
+        "averageGoalsAgainst": 4.188,
+        "averageGoalDifference": 0.3878,
+        "firstPlaceProbability": 0.2405,
+        "secondPlaceProbability": 0.2537,
+        "thirdPlaceProbability": 0.3199,
+        "fourthPlaceProbability": 0.186,
+        "topTwoAdvanceProbability": 0.4942,
+        "thirdPlaceFinishProbability": 0.3199,
+        "thirdPlaceAdvanceProbability": 0.2627,
+        "advanceProbability": 0.7569,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Panama",
+        "countryCode": "PAN",
+        "group": "L",
+        "averagePosition": 2.9292,
+        "averagePoints": 3.1883,
+        "averageGoalsFor": 4.8069,
+        "averageGoalsAgainst": 6.7248,
+        "averageGoalDifference": -1.9178,
+        "firstPlaceProbability": 0.0794,
+        "secondPlaceProbability": 0.2055,
+        "thirdPlaceProbability": 0.4217,
+        "fourthPlaceProbability": 0.2935,
+        "topTwoAdvanceProbability": 0.2849,
+        "thirdPlaceFinishProbability": 0.4217,
+        "thirdPlaceAdvanceProbability": 0.2534,
+        "advanceProbability": 0.5383,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Turkey",
+        "countryCode": "TUR",
+        "group": "D",
+        "averagePosition": 2.7731,
+        "averagePoints": 3.6245,
+        "averageGoalsFor": 4.7961,
+        "averageGoalsAgainst": 5.3504,
+        "averageGoalDifference": -0.5543,
+        "firstPlaceProbability": 0.1143,
+        "secondPlaceProbability": 0.2691,
+        "thirdPlaceProbability": 0.346,
+        "fourthPlaceProbability": 0.2707,
+        "topTwoAdvanceProbability": 0.3834,
+        "thirdPlaceFinishProbability": 0.346,
+        "thirdPlaceAdvanceProbability": 0.2524,
+        "advanceProbability": 0.6358,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "United States",
+        "countryCode": "USA",
+        "group": "D",
+        "averagePosition": 2.0056,
+        "averagePoints": 5.3052,
+        "averageGoalsFor": 7.5939,
+        "averageGoalsAgainst": 5.4981,
+        "averageGoalDifference": 2.0958,
+        "firstPlaceProbability": 0.3671,
+        "secondPlaceProbability": 0.3157,
+        "thirdPlaceProbability": 0.2615,
+        "fourthPlaceProbability": 0.0556,
+        "topTwoAdvanceProbability": 0.6829,
+        "thirdPlaceFinishProbability": 0.2615,
+        "thirdPlaceAdvanceProbability": 0.2293,
+        "advanceProbability": 0.9122,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Brazil",
+        "countryCode": "BRA",
+        "group": "C",
+        "averagePosition": 2.1696,
+        "averagePoints": 4.7387,
+        "averageGoalsFor": 5.6343,
+        "averageGoalsAgainst": 4.0544,
+        "averageGoalDifference": 1.5799,
+        "firstPlaceProbability": 0.3038,
+        "secondPlaceProbability": 0.3296,
+        "thirdPlaceProbability": 0.2599,
+        "fourthPlaceProbability": 0.1068,
+        "topTwoAdvanceProbability": 0.6334,
+        "thirdPlaceFinishProbability": 0.2599,
+        "thirdPlaceAdvanceProbability": 0.2128,
+        "advanceProbability": 0.8461,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "DR Congo",
+        "countryCode": "COD",
+        "group": "K",
+        "averagePosition": 2.4947,
+        "averagePoints": 4.1487,
+        "averageGoalsFor": 3.4755,
+        "averageGoalsAgainst": 3.399,
+        "averageGoalDifference": 0.0765,
+        "firstPlaceProbability": 0.2342,
+        "secondPlaceProbability": 0.2658,
+        "thirdPlaceProbability": 0.2713,
+        "fourthPlaceProbability": 0.2288,
+        "topTwoAdvanceProbability": 0.5,
+        "thirdPlaceFinishProbability": 0.2713,
+        "thirdPlaceAdvanceProbability": 0.1931,
+        "advanceProbability": 0.6931,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Canada",
+        "countryCode": "CAN",
+        "group": "B",
+        "averagePosition": 2.1202,
+        "averagePoints": 4.5207,
+        "averageGoalsFor": 3.9493,
+        "averageGoalsAgainst": 2.8162,
+        "averageGoalDifference": 1.1332,
+        "firstPlaceProbability": 0.3353,
+        "secondPlaceProbability": 0.3119,
+        "thirdPlaceProbability": 0.2504,
+        "fourthPlaceProbability": 0.1025,
+        "topTwoAdvanceProbability": 0.6471,
+        "thirdPlaceFinishProbability": 0.2504,
+        "thirdPlaceAdvanceProbability": 0.1877,
+        "advanceProbability": 0.8348,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Colombia",
+        "countryCode": "COL",
+        "group": "K",
+        "averagePosition": 2.4399,
+        "averagePoints": 4.2538,
+        "averageGoalsFor": 4.9315,
+        "averageGoalsAgainst": 4.7988,
+        "averageGoalDifference": 0.1328,
+        "firstPlaceProbability": 0.258,
+        "secondPlaceProbability": 0.2648,
+        "thirdPlaceProbability": 0.2567,
+        "fourthPlaceProbability": 0.2206,
+        "topTwoAdvanceProbability": 0.5228,
+        "thirdPlaceFinishProbability": 0.2567,
+        "thirdPlaceAdvanceProbability": 0.1868,
+        "advanceProbability": 0.7096,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "South Africa",
+        "countryCode": "RSA",
+        "group": "A",
+        "averagePosition": 3.3391,
+        "averagePoints": 2.3493,
+        "averageGoalsFor": 2.9563,
+        "averageGoalsAgainst": 5.6521,
+        "averageGoalDifference": -2.6958,
+        "firstPlaceProbability": 0.0198,
+        "secondPlaceProbability": 0.1595,
+        "thirdPlaceProbability": 0.2827,
+        "fourthPlaceProbability": 0.5381,
+        "topTwoAdvanceProbability": 0.1793,
+        "thirdPlaceFinishProbability": 0.2827,
+        "thirdPlaceAdvanceProbability": 0.1796,
+        "advanceProbability": 0.3589,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Uzbekistan",
+        "countryCode": "UZB",
+        "group": "K",
+        "averagePosition": 2.9316,
+        "averagePoints": 3.1711,
+        "averageGoalsFor": 3.4392,
+        "averageGoalsAgainst": 4.8626,
+        "averageGoalDifference": -1.4235,
+        "firstPlaceProbability": 0.1344,
+        "secondPlaceProbability": 0.199,
+        "thirdPlaceProbability": 0.2673,
+        "fourthPlaceProbability": 0.3994,
+        "topTwoAdvanceProbability": 0.3334,
+        "thirdPlaceFinishProbability": 0.2673,
+        "thirdPlaceAdvanceProbability": 0.1734,
+        "advanceProbability": 0.5068,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Austria",
+        "countryCode": "AUT",
+        "group": "J",
+        "averagePosition": 2.0873,
+        "averagePoints": 5.2056,
+        "averageGoalsFor": 5.3886,
+        "averageGoalsAgainst": 3.3812,
+        "averageGoalDifference": 2.0074,
+        "firstPlaceProbability": 0.2721,
+        "secondPlaceProbability": 0.4365,
+        "thirdPlaceProbability": 0.2235,
+        "fourthPlaceProbability": 0.068,
+        "topTwoAdvanceProbability": 0.7086,
+        "thirdPlaceFinishProbability": 0.2235,
+        "thirdPlaceAdvanceProbability": 0.171,
+        "advanceProbability": 0.8796,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Paraguay",
+        "countryCode": "PAR",
+        "group": "D",
+        "averagePosition": 3.4317,
+        "averagePoints": 2.2814,
+        "averageGoalsFor": 3.8185,
+        "averageGoalsAgainst": 7.6219,
+        "averageGoalDifference": -3.8034,
+        "firstPlaceProbability": 0.0413,
+        "secondPlaceProbability": 0.0941,
+        "thirdPlaceProbability": 0.2563,
+        "fourthPlaceProbability": 0.6083,
+        "topTwoAdvanceProbability": 0.1354,
+        "thirdPlaceFinishProbability": 0.2563,
+        "thirdPlaceAdvanceProbability": 0.1685,
+        "advanceProbability": 0.3038,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "South Korea",
+        "countryCode": "KOR",
+        "group": "A",
+        "averagePosition": 2.1605,
+        "averagePoints": 5.2558,
+        "averageGoalsFor": 4.6209,
+        "averageGoalsAgainst": 4.3728,
+        "averageGoalDifference": 0.2481,
+        "firstPlaceProbability": 0.2434,
+        "secondPlaceProbability": 0.4466,
+        "thirdPlaceProbability": 0.2163,
+        "fourthPlaceProbability": 0.0938,
+        "topTwoAdvanceProbability": 0.6899,
+        "thirdPlaceFinishProbability": 0.2163,
+        "thirdPlaceAdvanceProbability": 0.1684,
+        "advanceProbability": 0.8583,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Croatia",
+        "countryCode": "CRO",
+        "group": "L",
+        "averagePosition": 2.0739,
+        "averagePoints": 5.2207,
+        "averageGoalsFor": 6.5007,
+        "averageGoalsAgainst": 4.5924,
+        "averageGoalDifference": 1.9083,
+        "firstPlaceProbability": 0.2884,
+        "secondPlaceProbability": 0.4242,
+        "thirdPlaceProbability": 0.2128,
+        "fourthPlaceProbability": 0.0748,
+        "topTwoAdvanceProbability": 0.7125,
+        "thirdPlaceFinishProbability": 0.2128,
+        "thirdPlaceAdvanceProbability": 0.1617,
+        "advanceProbability": 0.8742,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Portugal",
+        "countryCode": "POR",
+        "group": "K",
+        "averagePosition": 2.134,
+        "averagePoints": 4.9138,
+        "averageGoalsFor": 5.4932,
+        "averageGoalsAgainst": 4.279,
+        "averageGoalDifference": 1.2142,
+        "firstPlaceProbability": 0.3734,
+        "secondPlaceProbability": 0.2705,
+        "thirdPlaceProbability": 0.2049,
+        "fourthPlaceProbability": 0.1513,
+        "topTwoAdvanceProbability": 0.6439,
+        "thirdPlaceFinishProbability": 0.2049,
+        "thirdPlaceAdvanceProbability": 0.159,
+        "advanceProbability": 0.8028,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Morocco",
+        "countryCode": "MAR",
+        "group": "C",
+        "averagePosition": 1.8145,
+        "averagePoints": 5.4357,
+        "averageGoalsFor": 5.3185,
+        "averageGoalsAgainst": 2.6746,
+        "averageGoalDifference": 2.6439,
+        "firstPlaceProbability": 0.4453,
+        "secondPlaceProbability": 0.3409,
+        "thirdPlaceProbability": 0.1679,
+        "fourthPlaceProbability": 0.0459,
+        "topTwoAdvanceProbability": 0.7862,
+        "thirdPlaceFinishProbability": 0.1679,
+        "thirdPlaceAdvanceProbability": 0.1412,
+        "advanceProbability": 0.9275,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Ghana",
+        "countryCode": "GHA",
+        "group": "L",
+        "averagePosition": 3.47,
+        "averagePoints": 1.8526,
+        "averageGoalsFor": 3.3328,
+        "averageGoalsAgainst": 7.6858,
+        "averageGoalDifference": -4.353,
+        "firstPlaceProbability": 0.0253,
+        "secondPlaceProbability": 0.0879,
+        "thirdPlaceProbability": 0.2786,
+        "fourthPlaceProbability": 0.6083,
+        "topTwoAdvanceProbability": 0.1131,
+        "thirdPlaceFinishProbability": 0.2786,
+        "thirdPlaceAdvanceProbability": 0.1349,
+        "advanceProbability": 0.2481,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Qatar",
+        "countryCode": "QAT",
+        "group": "B",
+        "averagePosition": 3.4169,
+        "averagePoints": 2.2323,
+        "averageGoalsFor": 2.6238,
+        "averageGoalsAgainst": 5.0262,
+        "averageGoalDifference": -2.4024,
+        "firstPlaceProbability": 0.0431,
+        "secondPlaceProbability": 0.1112,
+        "thirdPlaceProbability": 0.2316,
+        "fourthPlaceProbability": 0.6142,
+        "topTwoAdvanceProbability": 0.1543,
+        "thirdPlaceFinishProbability": 0.2316,
+        "thirdPlaceAdvanceProbability": 0.133,
+        "advanceProbability": 0.2872,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Norway",
+        "countryCode": "NOR",
+        "group": "I",
+        "averagePosition": 1.7192,
+        "averagePoints": 6.1099,
+        "averageGoalsFor": 7.8267,
+        "averageGoalsAgainst": 4.3021,
+        "averageGoalDifference": 3.5247,
+        "firstPlaceProbability": 0.4556,
+        "secondPlaceProbability": 0.3846,
+        "thirdPlaceProbability": 0.145,
+        "fourthPlaceProbability": 0.0149,
+        "topTwoAdvanceProbability": 0.8402,
+        "thirdPlaceFinishProbability": 0.145,
+        "thirdPlaceAdvanceProbability": 0.1323,
+        "advanceProbability": 0.9724,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Iraq",
+        "countryCode": "IRQ",
+        "group": "I",
+        "averagePosition": 3.5917,
+        "averagePoints": 1.6683,
+        "averageGoalsFor": 3.0999,
+        "averageGoalsAgainst": 7.8512,
+        "averageGoalDifference": -4.7514,
+        "firstPlaceProbability": 0.0126,
+        "secondPlaceProbability": 0.048,
+        "thirdPlaceProbability": 0.2746,
+        "fourthPlaceProbability": 0.6649,
+        "topTwoAdvanceProbability": 0.0606,
+        "thirdPlaceFinishProbability": 0.2746,
+        "thirdPlaceAdvanceProbability": 0.1308,
+        "advanceProbability": 0.1914,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Australia",
+        "countryCode": "AUS",
+        "group": "D",
+        "averagePosition": 1.7897,
+        "averagePoints": 5.9203,
+        "averageGoalsFor": 5.324,
+        "averageGoalsAgainst": 3.062,
+        "averageGoalDifference": 2.262,
+        "firstPlaceProbability": 0.4773,
+        "secondPlaceProbability": 0.3212,
+        "thirdPlaceProbability": 0.1363,
+        "fourthPlaceProbability": 0.0654,
+        "topTwoAdvanceProbability": 0.7984,
+        "thirdPlaceFinishProbability": 0.1363,
+        "thirdPlaceAdvanceProbability": 0.1218,
+        "advanceProbability": 0.9202,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Japan",
+        "countryCode": "JPN",
+        "group": "F",
+        "averagePosition": 1.8834,
+        "averagePoints": 5.541,
+        "averageGoalsFor": 7.0301,
+        "averageGoalsAgainst": 4.0111,
+        "averageGoalDifference": 3.019,
+        "firstPlaceProbability": 0.3444,
+        "secondPlaceProbability": 0.4717,
+        "thirdPlaceProbability": 0.1402,
+        "fourthPlaceProbability": 0.0438,
+        "topTwoAdvanceProbability": 0.8161,
+        "thirdPlaceFinishProbability": 0.1402,
+        "thirdPlaceAdvanceProbability": 0.1207,
+        "advanceProbability": 0.9368,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Belgium",
+        "countryCode": "BEL",
+        "group": "G",
+        "averagePosition": 1.4966,
+        "averagePoints": 5.7474,
+        "averageGoalsFor": 7.0573,
+        "averageGoalsAgainst": 2.8192,
+        "averageGoalDifference": 4.2381,
+        "firstPlaceProbability": 0.6571,
+        "secondPlaceProbability": 0.2018,
+        "thirdPlaceProbability": 0.1286,
+        "fourthPlaceProbability": 0.0125,
+        "topTwoAdvanceProbability": 0.8589,
+        "thirdPlaceFinishProbability": 0.1286,
+        "thirdPlaceAdvanceProbability": 0.1204,
+        "advanceProbability": 0.9792,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Saudi Arabia",
+        "countryCode": "KSA",
+        "group": "H",
+        "averagePosition": 3.2203,
+        "averagePoints": 2.4,
+        "averageGoalsFor": 3.2984,
+        "averageGoalsAgainst": 6.1108,
+        "averageGoalDifference": -2.8124,
+        "firstPlaceProbability": 0.0444,
+        "secondPlaceProbability": 0.1986,
+        "thirdPlaceProbability": 0.2496,
+        "fourthPlaceProbability": 0.5075,
+        "topTwoAdvanceProbability": 0.2429,
+        "thirdPlaceFinishProbability": 0.2496,
+        "thirdPlaceAdvanceProbability": 0.1153,
+        "advanceProbability": 0.3582,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Ivory Coast",
+        "countryCode": "CIV",
+        "group": "E",
+        "averagePosition": 1.9348,
+        "averagePoints": 5.9104,
+        "averageGoalsFor": 4.7288,
+        "averageGoalsAgainst": 3.4997,
+        "averageGoalDifference": 1.2291,
+        "firstPlaceProbability": 0.2992,
+        "secondPlaceProbability": 0.5182,
+        "thirdPlaceProbability": 0.1315,
+        "fourthPlaceProbability": 0.0512,
+        "topTwoAdvanceProbability": 0.8173,
+        "thirdPlaceFinishProbability": 0.1315,
+        "thirdPlaceAdvanceProbability": 0.102,
+        "advanceProbability": 0.9193,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Curacao",
+        "countryCode": "CUW",
+        "group": "E",
+        "averagePosition": 3.5416,
+        "averagePoints": 1.8211,
+        "averageGoalsFor": 3.4372,
+        "averageGoalsAgainst": 10.983,
+        "averageGoalDifference": -7.5458,
+        "firstPlaceProbability": 0.0119,
+        "secondPlaceProbability": 0.078,
+        "thirdPlaceProbability": 0.267,
+        "fourthPlaceProbability": 0.6433,
+        "topTwoAdvanceProbability": 0.0898,
+        "thirdPlaceFinishProbability": 0.267,
+        "thirdPlaceAdvanceProbability": 0.0964,
+        "advanceProbability": 0.1862,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Uruguay",
+        "countryCode": "URU",
+        "group": "H",
+        "averagePosition": 2.6809,
+        "averagePoints": 3.101,
+        "averageGoalsFor": 3.3714,
+        "averageGoalsAgainst": 4.4871,
+        "averageGoalDifference": -1.1157,
+        "firstPlaceProbability": 0.1128,
+        "secondPlaceProbability": 0.3394,
+        "thirdPlaceProbability": 0.3021,
+        "fourthPlaceProbability": 0.2458,
+        "topTwoAdvanceProbability": 0.4522,
+        "thirdPlaceFinishProbability": 0.3021,
+        "thirdPlaceAdvanceProbability": 0.09,
+        "advanceProbability": 0.5421,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Jordan",
+        "countryCode": "JOR",
+        "group": "J",
+        "averagePosition": 3.637,
+        "averagePoints": 1.3892,
+        "averageGoalsFor": 2.8215,
+        "averageGoalsAgainst": 8.2425,
+        "averageGoalDifference": -5.4209,
+        "firstPlaceProbability": 0.0132,
+        "secondPlaceProbability": 0.058,
+        "thirdPlaceProbability": 0.2077,
+        "fourthPlaceProbability": 0.7212,
+        "topTwoAdvanceProbability": 0.0711,
+        "thirdPlaceFinishProbability": 0.2077,
+        "thirdPlaceAdvanceProbability": 0.0894,
+        "advanceProbability": 0.1605,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Mexico",
+        "countryCode": "MEX",
+        "group": "A",
+        "averagePosition": 1.4566,
+        "averagePoints": 6.7036,
+        "averageGoalsFor": 5.4466,
+        "averageGoalsAgainst": 2.0411,
+        "averageGoalDifference": 3.4055,
+        "firstPlaceProbability": 0.6575,
+        "secondPlaceProbability": 0.239,
+        "thirdPlaceProbability": 0.0932,
+        "fourthPlaceProbability": 0.0104,
+        "topTwoAdvanceProbability": 0.8964,
+        "thirdPlaceFinishProbability": 0.0932,
+        "thirdPlaceAdvanceProbability": 0.0862,
+        "advanceProbability": 0.9826,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Netherlands",
+        "countryCode": "NED",
+        "group": "F",
+        "averagePosition": 1.5763,
+        "averagePoints": 5.9478,
+        "averageGoalsFor": 8.2352,
+        "averageGoalsAgainst": 4.1035,
+        "averageGoalDifference": 4.1317,
+        "firstPlaceProbability": 0.5589,
+        "secondPlaceProbability": 0.3283,
+        "thirdPlaceProbability": 0.0906,
+        "fourthPlaceProbability": 0.0223,
+        "topTwoAdvanceProbability": 0.8872,
+        "thirdPlaceFinishProbability": 0.0906,
+        "thirdPlaceAdvanceProbability": 0.0808,
+        "advanceProbability": 0.9679,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Germany",
+        "countryCode": "GER",
+        "group": "E",
+        "averagePosition": 1.4615,
+        "averagePoints": 6.6165,
+        "averageGoalsFor": 10.7017,
+        "averageGoalsAgainst": 3.4034,
+        "averageGoalDifference": 7.2983,
+        "firstPlaceProbability": 0.6375,
+        "secondPlaceProbability": 0.2727,
+        "thirdPlaceProbability": 0.0809,
+        "fourthPlaceProbability": 0.009,
+        "topTwoAdvanceProbability": 0.9101,
+        "thirdPlaceFinishProbability": 0.0809,
+        "thirdPlaceAdvanceProbability": 0.0792,
+        "advanceProbability": 0.9893,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Switzerland",
+        "countryCode": "SUI",
+        "group": "B",
+        "averagePosition": 2.0116,
+        "averagePoints": 4.313,
+        "averageGoalsFor": 4.3804,
+        "averageGoalsAgainst": 3.499,
+        "averageGoalDifference": 0.8815,
+        "firstPlaceProbability": 0.3813,
+        "secondPlaceProbability": 0.3233,
+        "thirdPlaceProbability": 0.1982,
+        "fourthPlaceProbability": 0.0974,
+        "topTwoAdvanceProbability": 0.7045,
+        "thirdPlaceFinishProbability": 0.1982,
+        "thirdPlaceAdvanceProbability": 0.0772,
+        "advanceProbability": 0.7817,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Haiti",
+        "countryCode": "HAI",
+        "group": "C",
+        "averagePosition": 3.7528,
+        "averagePoints": 1.2376,
+        "averageGoalsFor": 2.0436,
+        "averageGoalsAgainst": 5.6983,
+        "averageGoalDifference": -3.6547,
+        "firstPlaceProbability": 0.0136,
+        "secondPlaceProbability": 0.0454,
+        "thirdPlaceProbability": 0.1158,
+        "fourthPlaceProbability": 0.8253,
+        "topTwoAdvanceProbability": 0.059,
+        "thirdPlaceFinishProbability": 0.1158,
+        "thirdPlaceAdvanceProbability": 0.0745,
+        "advanceProbability": 0.1334,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "England",
+        "countryCode": "ENG",
+        "group": "L",
+        "averagePosition": 1.527,
+        "averagePoints": 6.6699,
+        "averageGoalsFor": 7.4175,
+        "averageGoalsAgainst": 3.0548,
+        "averageGoalDifference": 4.3627,
+        "firstPlaceProbability": 0.607,
+        "secondPlaceProbability": 0.2826,
+        "thirdPlaceProbability": 0.087,
+        "fourthPlaceProbability": 0.0235,
+        "topTwoAdvanceProbability": 0.8896,
+        "thirdPlaceFinishProbability": 0.087,
+        "thirdPlaceAdvanceProbability": 0.0744,
+        "advanceProbability": 0.964,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Spain",
+        "countryCode": "ESP",
+        "group": "H",
+        "averagePosition": 1.4174,
+        "averagePoints": 5.8533,
+        "averageGoalsFor": 5.3299,
+        "averageGoalsAgainst": 1.598,
+        "averageGoalDifference": 3.7319,
+        "firstPlaceProbability": 0.7114,
+        "secondPlaceProbability": 0.1815,
+        "thirdPlaceProbability": 0.0857,
+        "fourthPlaceProbability": 0.0216,
+        "topTwoAdvanceProbability": 0.8928,
+        "thirdPlaceFinishProbability": 0.0857,
+        "thirdPlaceAdvanceProbability": 0.0735,
+        "advanceProbability": 0.9663,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Iran",
+        "countryCode": "IRN",
+        "group": "G",
+        "averagePosition": 2.4061,
+        "averagePoints": 3.4257,
+        "averageGoalsFor": 4.5004,
+        "averageGoalsAgainst": 5.0534,
+        "averageGoalDifference": -0.553,
+        "firstPlaceProbability": 0.1552,
+        "secondPlaceProbability": 0.3914,
+        "thirdPlaceProbability": 0.3455,
+        "fourthPlaceProbability": 0.1079,
+        "topTwoAdvanceProbability": 0.5466,
+        "thirdPlaceFinishProbability": 0.3455,
+        "thirdPlaceAdvanceProbability": 0.0625,
+        "advanceProbability": 0.6091,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "France",
+        "countryCode": "FRA",
+        "group": "I",
+        "averagePosition": 1.6118,
+        "averagePoints": 6.5329,
+        "averageGoalsFor": 6.9429,
+        "averageGoalsAgainst": 3.7375,
+        "averageGoalDifference": 3.2054,
+        "firstPlaceProbability": 0.4962,
+        "secondPlaceProbability": 0.4167,
+        "thirdPlaceProbability": 0.0665,
+        "fourthPlaceProbability": 0.0208,
+        "topTwoAdvanceProbability": 0.9128,
+        "thirdPlaceFinishProbability": 0.0665,
+        "thirdPlaceAdvanceProbability": 0.0603,
+        "advanceProbability": 0.9731,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "New Zealand",
+        "countryCode": "NZL",
+        "group": "G",
+        "averagePosition": 3.7173,
+        "averagePoints": 1.5989,
+        "averageGoalsFor": 3.3484,
+        "averageGoalsAgainst": 8.2782,
+        "averageGoalDifference": -4.9298,
+        "firstPlaceProbability": 0.0074,
+        "secondPlaceProbability": 0.0632,
+        "thirdPlaceProbability": 0.1341,
+        "fourthPlaceProbability": 0.7953,
+        "topTwoAdvanceProbability": 0.0706,
+        "thirdPlaceFinishProbability": 0.1341,
+        "thirdPlaceAdvanceProbability": 0.0548,
+        "advanceProbability": 0.1254,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Tunisia",
+        "countryCode": "TUN",
+        "group": "F",
+        "averagePosition": 3.8458,
+        "averagePoints": 1.0905,
+        "averageGoalsFor": 3.0455,
+        "averageGoalsAgainst": 10.1567,
+        "averageGoalDifference": -7.1112,
+        "firstPlaceProbability": 0.0112,
+        "secondPlaceProbability": 0.033,
+        "thirdPlaceProbability": 0.0549,
+        "fourthPlaceProbability": 0.901,
+        "topTwoAdvanceProbability": 0.0441,
+        "thirdPlaceFinishProbability": 0.0549,
+        "thirdPlaceAdvanceProbability": 0.024,
+        "advanceProbability": 0.0681,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      },
+      {
+        "team": "Argentina",
+        "countryCode": "ARG",
+        "group": "J",
+        "averagePosition": 1.3461,
+        "averagePoints": 7.109,
+        "averageGoalsFor": 7.297,
+        "averageGoalsAgainst": 1.8787,
+        "averageGoalDifference": 5.4184,
+        "firstPlaceProbability": 0.6949,
+        "secondPlaceProbability": 0.2734,
+        "thirdPlaceProbability": 0.0227,
+        "fourthPlaceProbability": 0.0092,
+        "topTwoAdvanceProbability": 0.9682,
+        "thirdPlaceFinishProbability": 0.0227,
+        "thirdPlaceAdvanceProbability": 0.0216,
+        "advanceProbability": 0.9898,
+        "predictionFlags": {
+          "isPrediction": true,
+          "excludeFromFuturePredictionInputs": true,
+          "doNotUseAsTrainingData": true
+        }
+      }
+    ]
+  },
+  "fixtureDistributions": [
+    {
+      "group": "A",
+      "teamA": "Mexico",
+      "teamB": "South Africa",
+      "lambdaA": 1.803,
+      "lambdaB": 0.8626,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1251
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1138
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.109
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0991
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0683
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "teamA": "South Korea",
+      "teamB": "Czechia",
+      "lambdaA": 1.5079,
+      "lambdaB": 1.9875,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0917
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0913
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0696
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0692
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0608
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Canada",
+      "teamB": "Bosnia and Herzegovina",
+      "lambdaA": 1.4575,
+      "lambdaB": 1.0217,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1261
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.122
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0923
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0893
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0851
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "United States",
+      "teamB": "Paraguay",
+      "lambdaA": 1.7578,
+      "lambdaB": 1.7305,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0934
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0828
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0815
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0722
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0529
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Haiti",
+      "teamB": "Scotland",
+      "lambdaA": 1.3857,
+      "lambdaB": 2.0332,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0953
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0927
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0677
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0663
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0658
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "Australia",
+      "teamB": "Turkey",
+      "lambdaA": 1.5781,
+      "lambdaB": 2.0676,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0894
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0854
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.071
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0678
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0616
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Brazil",
+      "teamB": "Morocco",
+      "lambdaA": 1.1487,
+      "lambdaB": 1.9266,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1028
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.1001
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0884
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.086
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0642
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Qatar",
+      "teamB": "Switzerland",
+      "lambdaA": 0.8107,
+      "lambdaB": 2.662,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.1105
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.0988
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0904
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0815
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0808
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Ivory Coast",
+      "teamB": "Ecuador",
+      "lambdaA": 1.1788,
+      "lambdaB": 1.1137,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1341
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1189
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1122
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0995
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0792
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Germany",
+      "teamB": "Curacao",
+      "lambdaA": 3.1074,
+      "lambdaB": 1.247,
+      "mostLikelyScores": [
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0819
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0781
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0648
+        },
+        {
+          "goalsA": 4,
+          "goalsB": 1,
+          "probability": 0.0637
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0618
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Netherlands",
+      "teamB": "Japan",
+      "lambdaA": 1.6781,
+      "lambdaB": 1.414,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1086
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0918
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0771
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0756
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0652
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Sweden",
+      "teamB": "Tunisia",
+      "lambdaA": 1.7229,
+      "lambdaB": 2.0042,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0844
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0833
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0733
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0723
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0564
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Saudi Arabia",
+      "teamB": "Uruguay",
+      "lambdaA": 1.1555,
+      "lambdaB": 1.7486,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1116
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0984
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0953
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0841
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0646
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Spain",
+      "teamB": "Cape Verde",
+      "lambdaA": 2.8417,
+      "lambdaB": 0.8994,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0961
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0919
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0873
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0835
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0662
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "Iran",
+      "teamB": "New Zealand",
+      "lambdaA": 2.6061,
+      "lambdaB": 0.6905,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1265
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.1106
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0953
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.088
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.077
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "Belgium",
+      "teamB": "Egypt",
+      "lambdaA": 2.0522,
+      "lambdaB": 1.0066,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.1012
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0994
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0974
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0957
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0693
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "France",
+      "teamB": "Senegal",
+      "lambdaA": 2.016,
+      "lambdaB": 1.4268,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0942
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0924
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0675
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0662
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.065
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "Iraq",
+      "teamB": "Norway",
+      "lambdaA": 1.014,
+      "lambdaB": 2.1634,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.1006
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0981
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0918
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0895
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0727
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Argentina",
+      "teamB": "Algeria",
+      "lambdaA": 1.3892,
+      "lambdaB": 0.8563,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1472
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1272
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.1043
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1027
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0902
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Austria",
+      "teamB": "Jordan",
+      "lambdaA": 2.9129,
+      "lambdaB": 0.9875,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0859
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0858
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0843
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0842
+        },
+        {
+          "goalsA": 4,
+          "goalsB": 0,
+          "probability": 0.0613
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "Ghana",
+      "teamB": "Panama",
+      "lambdaA": 1.5047,
+      "lambdaB": 2.2218,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0908
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0806
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0687
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0674
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.061
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "England",
+      "teamB": "Croatia",
+      "lambdaA": 1.9383,
+      "lambdaB": 1.2741,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0979
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0774
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0758
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0639
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "Portugal",
+      "teamB": "DR Congo",
+      "lambdaA": 1.3274,
+      "lambdaB": 1.1463,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1296
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1116
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0962
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0863
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0828
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "Uzbekistan",
+      "teamB": "Colombia",
+      "lambdaA": 1.3456,
+      "lambdaB": 1.8286,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1036
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0956
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0758
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.07
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.07
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "teamA": "Czechia",
+      "teamB": "South Africa",
+      "lambdaA": 1.9652,
+      "lambdaB": 1.3921,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0958
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0951
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0677
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0673
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.067
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Switzerland",
+      "teamB": "Bosnia and Herzegovina",
+      "lambdaA": 2.1474,
+      "lambdaB": 1.387,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0948
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0871
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.068
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0673
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.066
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Canada",
+      "teamB": "Qatar",
+      "lambdaA": 1.8068,
+      "lambdaB": 0.5972,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1632
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1488
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0981
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0895
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0894
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "teamA": "Mexico",
+      "teamB": "South Korea",
+      "lambdaA": 1.8235,
+      "lambdaB": 0.9344,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1153
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1089
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1061
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.1002
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0644
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Brazil",
+      "teamB": "Haiti",
+      "lambdaA": 2.4508,
+      "lambdaB": 1.3155,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0928
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0762
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0745
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0695
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0613
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Scotland",
+      "teamB": "Morocco",
+      "lambdaA": 0.953,
+      "lambdaB": 2.0293,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.105
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1023
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.1011
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.071
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "Turkey",
+      "teamB": "Paraguay",
+      "lambdaA": 2.1156,
+      "lambdaB": 1.4819,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0923
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0861
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0687
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0651
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0642
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "United States",
+      "teamB": "Australia",
+      "lambdaA": 1.718,
+      "lambdaB": 1.8429,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0903
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.084
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0782
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0728
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0516
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Germany",
+      "teamB": "Ivory Coast",
+      "lambdaA": 2.0939,
+      "lambdaB": 1.3989,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0948
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0894
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0667
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0666
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0662
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Ecuador",
+      "teamB": "Curacao",
+      "lambdaA": 1.6528,
+      "lambdaB": 1.0508,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1173
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1103
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0977
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0919
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0697
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Netherlands",
+      "teamB": "Sweden",
+      "lambdaA": 3.3742,
+      "lambdaB": 1.062,
+      "mostLikelyScores": [
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0823
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0766
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.072
+        },
+        {
+          "goalsA": 4,
+          "goalsB": 1,
+          "probability": 0.0697
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.067
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Tunisia",
+      "teamB": "Japan",
+      "lambdaA": 0.9968,
+      "lambdaB": 2.2939,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0992
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0853
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0846
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0761
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Uruguay",
+      "teamB": "Cape Verde",
+      "lambdaA": 1.5704,
+      "lambdaB": 1.3288,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1159
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0916
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0859
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0773
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0725
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Spain",
+      "teamB": "Saudi Arabia",
+      "lambdaA": 3.1642,
+      "lambdaB": 0.7821,
+      "mostLikelyScores": [
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.1034
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0968
+        },
+        {
+          "goalsA": 4,
+          "goalsB": 0,
+          "probability": 0.082
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0816
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0763
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "Belgium",
+      "teamB": "Iran",
+      "lambdaA": 1.9836,
+      "lambdaB": 1.1909,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0996
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0993
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0825
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0823
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0658
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "New Zealand",
+      "teamB": "Egypt",
+      "lambdaA": 0.7144,
+      "lambdaB": 2.2029,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.1323
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1185
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.0974
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0953
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0853
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "Norway",
+      "teamB": "Senegal",
+      "lambdaA": 2.0591,
+      "lambdaB": 1.4851,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0924
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0887
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.069
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0662
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0634
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "France",
+      "teamB": "Iraq",
+      "lambdaA": 2.1181,
+      "lambdaB": 0.9742,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1024
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.1009
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0955
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0941
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0724
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Argentina",
+      "teamB": "Austria",
+      "lambdaA": 1.3301,
+      "lambdaB": 1.0661,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1305
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.121
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0967
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0896
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0871
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Jordan",
+      "teamB": "Algeria",
+      "lambdaA": 1.0313,
+      "lambdaB": 2.3397,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0986
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0945
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.083
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0795
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0772
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "England",
+      "teamB": "Ghana",
+      "lambdaA": 2.779,
+      "lambdaB": 0.7435,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1145
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.1071
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0859
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0808
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0803
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "Panama",
+      "teamB": "Croatia",
+      "lambdaA": 1.5496,
+      "lambdaB": 2.5786,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0841
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0728
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0656
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0641
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 3,
+          "probability": 0.0567
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "Portugal",
+      "teamB": "Uzbekistan",
+      "lambdaA": 1.9531,
+      "lambdaB": 1.2502,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0998
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0787
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0777
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0641
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "Colombia",
+      "teamB": "DR Congo",
+      "lambdaA": 1.2428,
+      "lambdaB": 1.2337,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1302
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1041
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1033
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0826
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0811
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Scotland",
+      "teamB": "Brazil",
+      "lambdaA": 1.7334,
+      "lambdaB": 2.2008,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0832
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0746
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0727
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0652
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0612
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teamA": "Morocco",
+      "teamB": "Haiti",
+      "lambdaA": 2.2598,
+      "lambdaB": 0.7233,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.1303
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1137
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.095
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0829
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Switzerland",
+      "teamB": "Canada",
+      "lambdaA": 1.2313,
+      "lambdaB": 1.1345,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1326
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.1154
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1062
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0924
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0818
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teamA": "Bosnia and Herzegovina",
+      "teamB": "Qatar",
+      "lambdaA": 2.2089,
+      "lambdaB": 1.0415,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.1001
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.095
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0894
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0849
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0739
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "teamA": "Czechia",
+      "teamB": "Mexico",
+      "lambdaA": 1.0986,
+      "lambdaB": 1.6266,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1182
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1062
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0968
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.087
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0713
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "teamA": "South Africa",
+      "teamB": "South Korea",
+      "lambdaA": 1.5606,
+      "lambdaB": 1.6714,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1037
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0873
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0814
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0686
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0653
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Curacao",
+      "teamB": "Ivory Coast",
+      "lambdaA": 1.3847,
+      "lambdaB": 2.3052,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0933
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0798
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.072
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0664
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0649
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teamA": "Ecuador",
+      "teamB": "Germany",
+      "lambdaA": 1.003,
+      "lambdaB": 1.589,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1204
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1187
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0963
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.095
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0745
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Japan",
+      "teamB": "Sweden",
+      "lambdaA": 2.7049,
+      "lambdaB": 1.0104,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0913
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0893
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0829
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0812
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0662
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teamA": "Tunisia",
+      "teamB": "Netherlands",
+      "lambdaA": 1.0478,
+      "lambdaB": 2.8616,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0871
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0839
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0822
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.0792
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 4,
+          "probability": 0.0599
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "Turkey",
+      "teamB": "United States",
+      "lambdaA": 2.6525,
+      "lambdaB": 1.8873,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0716
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0682
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0638
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 2,
+          "probability": 0.0608
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.053
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teamA": "Paraguay",
+      "teamB": "Australia",
+      "lambdaA": 1.3489,
+      "lambdaB": 1.4699,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1194
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0882
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.0872
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0809
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0799
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "Norway",
+      "teamB": "France",
+      "lambdaA": 1.7831,
+      "lambdaB": 1.8172,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0889
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0815
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0799
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0733
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0493
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teamA": "Senegal",
+      "teamB": "Iraq",
+      "lambdaA": 1.731,
+      "lambdaB": 1.125,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1129
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0991
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0865
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.064
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "Egypt",
+      "teamB": "Iran",
+      "lambdaA": 1.0756,
+      "lambdaB": 1.3164,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1309
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1202
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0979
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.09
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0864
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teamA": "New Zealand",
+      "teamB": "Belgium",
+      "lambdaA": 0.6463,
+      "lambdaB": 4.0626,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 4,
+          "probability": 0.1044
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.1016
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 5,
+          "probability": 0.0849
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0732
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 4,
+          "probability": 0.068
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Cape Verde",
+      "teamB": "Saudi Arabia",
+      "lambdaA": 1.944,
+      "lambdaB": 1.5181,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.093
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0914
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.071
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0697
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0602
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teamA": "Uruguay",
+      "teamB": "Spain",
+      "lambdaA": 0.809,
+      "lambdaB": 2.1629,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.1207
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1101
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0985
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0899
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.0872
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "Panama",
+      "teamB": "England",
+      "lambdaA": 1.0565,
+      "lambdaB": 2.6744,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0919
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.0859
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0825
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.0772
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0674
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teamA": "Croatia",
+      "teamB": "Ghana",
+      "lambdaA": 2.6794,
+      "lambdaB": 1.0905,
+      "mostLikelyScores": [
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0915
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0829
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 1,
+          "probability": 0.0824
+        },
+        {
+          "goalsA": 3,
+          "goalsB": 0,
+          "probability": 0.0746
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.067
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Algeria",
+      "teamB": "Austria",
+      "lambdaA": 1.0517,
+      "lambdaB": 1.3675,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1293
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1215
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.0931
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0888
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.0875
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teamA": "Jordan",
+      "teamB": "Argentina",
+      "lambdaA": 0.804,
+      "lambdaB": 2.9591,
+      "mostLikelyScores": [
+        {
+          "goalsA": 0,
+          "goalsB": 2,
+          "probability": 0.1019
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 3,
+          "probability": 0.1016
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0826
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0824
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 4,
+          "probability": 0.0751
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "Colombia",
+      "teamB": "Portugal",
+      "lambdaA": 1.9021,
+      "lambdaB": 2.1865,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 2,
+          "probability": 0.0771
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 2,
+          "probability": 0.0741
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.0696
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 1,
+          "probability": 0.0669
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 3,
+          "probability": 0.0563
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teamA": "DR Congo",
+      "teamB": "Uzbekistan",
+      "lambdaA": 1.102,
+      "lambdaB": 0.8169,
+      "mostLikelyScores": [
+        {
+          "goalsA": 1,
+          "goalsB": 0,
+          "probability": 0.162
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 0,
+          "probability": 0.1452
+        },
+        {
+          "goalsA": 1,
+          "goalsB": 1,
+          "probability": 0.1336
+        },
+        {
+          "goalsA": 0,
+          "goalsB": 1,
+          "probability": 0.1197
+        },
+        {
+          "goalsA": 2,
+          "goalsB": 0,
+          "probability": 0.0894
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "team": "Argentina",
+      "countryCode": "ARG",
+      "group": "J",
+      "averagePosition": 1.3461,
+      "averagePoints": 7.109,
+      "averageGoalsFor": 7.297,
+      "averageGoalsAgainst": 1.8787,
+      "averageGoalDifference": 5.4184,
+      "firstPlaceProbability": 0.6949,
+      "secondPlaceProbability": 0.2734,
+      "thirdPlaceProbability": 0.0227,
+      "fourthPlaceProbability": 0.0092,
+      "topTwoAdvanceProbability": 0.9682,
+      "thirdPlaceFinishProbability": 0.0227,
+      "thirdPlaceAdvanceProbability": 0.0216,
+      "advanceProbability": 0.9898,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Germany",
+      "countryCode": "GER",
+      "group": "E",
+      "averagePosition": 1.4615,
+      "averagePoints": 6.6165,
+      "averageGoalsFor": 10.7017,
+      "averageGoalsAgainst": 3.4034,
+      "averageGoalDifference": 7.2983,
+      "firstPlaceProbability": 0.6375,
+      "secondPlaceProbability": 0.2727,
+      "thirdPlaceProbability": 0.0809,
+      "fourthPlaceProbability": 0.009,
+      "topTwoAdvanceProbability": 0.9101,
+      "thirdPlaceFinishProbability": 0.0809,
+      "thirdPlaceAdvanceProbability": 0.0792,
+      "advanceProbability": 0.9893,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Mexico",
+      "countryCode": "MEX",
+      "group": "A",
+      "averagePosition": 1.4566,
+      "averagePoints": 6.7036,
+      "averageGoalsFor": 5.4466,
+      "averageGoalsAgainst": 2.0411,
+      "averageGoalDifference": 3.4055,
+      "firstPlaceProbability": 0.6575,
+      "secondPlaceProbability": 0.239,
+      "thirdPlaceProbability": 0.0932,
+      "fourthPlaceProbability": 0.0104,
+      "topTwoAdvanceProbability": 0.8964,
+      "thirdPlaceFinishProbability": 0.0932,
+      "thirdPlaceAdvanceProbability": 0.0862,
+      "advanceProbability": 0.9826,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Belgium",
+      "countryCode": "BEL",
+      "group": "G",
+      "averagePosition": 1.4966,
+      "averagePoints": 5.7474,
+      "averageGoalsFor": 7.0573,
+      "averageGoalsAgainst": 2.8192,
+      "averageGoalDifference": 4.2381,
+      "firstPlaceProbability": 0.6571,
+      "secondPlaceProbability": 0.2018,
+      "thirdPlaceProbability": 0.1286,
+      "fourthPlaceProbability": 0.0125,
+      "topTwoAdvanceProbability": 0.8589,
+      "thirdPlaceFinishProbability": 0.1286,
+      "thirdPlaceAdvanceProbability": 0.1204,
+      "advanceProbability": 0.9792,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "France",
+      "countryCode": "FRA",
+      "group": "I",
+      "averagePosition": 1.6118,
+      "averagePoints": 6.5329,
+      "averageGoalsFor": 6.9429,
+      "averageGoalsAgainst": 3.7375,
+      "averageGoalDifference": 3.2054,
+      "firstPlaceProbability": 0.4962,
+      "secondPlaceProbability": 0.4167,
+      "thirdPlaceProbability": 0.0665,
+      "fourthPlaceProbability": 0.0208,
+      "topTwoAdvanceProbability": 0.9128,
+      "thirdPlaceFinishProbability": 0.0665,
+      "thirdPlaceAdvanceProbability": 0.0603,
+      "advanceProbability": 0.9731,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Norway",
+      "countryCode": "NOR",
+      "group": "I",
+      "averagePosition": 1.7192,
+      "averagePoints": 6.1099,
+      "averageGoalsFor": 7.8267,
+      "averageGoalsAgainst": 4.3021,
+      "averageGoalDifference": 3.5247,
+      "firstPlaceProbability": 0.4556,
+      "secondPlaceProbability": 0.3846,
+      "thirdPlaceProbability": 0.145,
+      "fourthPlaceProbability": 0.0149,
+      "topTwoAdvanceProbability": 0.8402,
+      "thirdPlaceFinishProbability": 0.145,
+      "thirdPlaceAdvanceProbability": 0.1323,
+      "advanceProbability": 0.9724,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Netherlands",
+      "countryCode": "NED",
+      "group": "F",
+      "averagePosition": 1.5763,
+      "averagePoints": 5.9478,
+      "averageGoalsFor": 8.2352,
+      "averageGoalsAgainst": 4.1035,
+      "averageGoalDifference": 4.1317,
+      "firstPlaceProbability": 0.5589,
+      "secondPlaceProbability": 0.3283,
+      "thirdPlaceProbability": 0.0906,
+      "fourthPlaceProbability": 0.0223,
+      "topTwoAdvanceProbability": 0.8872,
+      "thirdPlaceFinishProbability": 0.0906,
+      "thirdPlaceAdvanceProbability": 0.0808,
+      "advanceProbability": 0.9679,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Spain",
+      "countryCode": "ESP",
+      "group": "H",
+      "averagePosition": 1.4174,
+      "averagePoints": 5.8533,
+      "averageGoalsFor": 5.3299,
+      "averageGoalsAgainst": 1.598,
+      "averageGoalDifference": 3.7319,
+      "firstPlaceProbability": 0.7114,
+      "secondPlaceProbability": 0.1815,
+      "thirdPlaceProbability": 0.0857,
+      "fourthPlaceProbability": 0.0216,
+      "topTwoAdvanceProbability": 0.8928,
+      "thirdPlaceFinishProbability": 0.0857,
+      "thirdPlaceAdvanceProbability": 0.0735,
+      "advanceProbability": 0.9663,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "England",
+      "countryCode": "ENG",
+      "group": "L",
+      "averagePosition": 1.527,
+      "averagePoints": 6.6699,
+      "averageGoalsFor": 7.4175,
+      "averageGoalsAgainst": 3.0548,
+      "averageGoalDifference": 4.3627,
+      "firstPlaceProbability": 0.607,
+      "secondPlaceProbability": 0.2826,
+      "thirdPlaceProbability": 0.087,
+      "fourthPlaceProbability": 0.0235,
+      "topTwoAdvanceProbability": 0.8896,
+      "thirdPlaceFinishProbability": 0.087,
+      "thirdPlaceAdvanceProbability": 0.0744,
+      "advanceProbability": 0.964,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Japan",
+      "countryCode": "JPN",
+      "group": "F",
+      "averagePosition": 1.8834,
+      "averagePoints": 5.541,
+      "averageGoalsFor": 7.0301,
+      "averageGoalsAgainst": 4.0111,
+      "averageGoalDifference": 3.019,
+      "firstPlaceProbability": 0.3444,
+      "secondPlaceProbability": 0.4717,
+      "thirdPlaceProbability": 0.1402,
+      "fourthPlaceProbability": 0.0438,
+      "topTwoAdvanceProbability": 0.8161,
+      "thirdPlaceFinishProbability": 0.1402,
+      "thirdPlaceAdvanceProbability": 0.1207,
+      "advanceProbability": 0.9368,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Morocco",
+      "countryCode": "MAR",
+      "group": "C",
+      "averagePosition": 1.8145,
+      "averagePoints": 5.4357,
+      "averageGoalsFor": 5.3185,
+      "averageGoalsAgainst": 2.6746,
+      "averageGoalDifference": 2.6439,
+      "firstPlaceProbability": 0.4453,
+      "secondPlaceProbability": 0.3409,
+      "thirdPlaceProbability": 0.1679,
+      "fourthPlaceProbability": 0.0459,
+      "topTwoAdvanceProbability": 0.7862,
+      "thirdPlaceFinishProbability": 0.1679,
+      "thirdPlaceAdvanceProbability": 0.1412,
+      "advanceProbability": 0.9275,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Australia",
+      "countryCode": "AUS",
+      "group": "D",
+      "averagePosition": 1.7897,
+      "averagePoints": 5.9203,
+      "averageGoalsFor": 5.324,
+      "averageGoalsAgainst": 3.062,
+      "averageGoalDifference": 2.262,
+      "firstPlaceProbability": 0.4773,
+      "secondPlaceProbability": 0.3212,
+      "thirdPlaceProbability": 0.1363,
+      "fourthPlaceProbability": 0.0654,
+      "topTwoAdvanceProbability": 0.7984,
+      "thirdPlaceFinishProbability": 0.1363,
+      "thirdPlaceAdvanceProbability": 0.1218,
+      "advanceProbability": 0.9202,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Ivory Coast",
+      "countryCode": "CIV",
+      "group": "E",
+      "averagePosition": 1.9348,
+      "averagePoints": 5.9104,
+      "averageGoalsFor": 4.7288,
+      "averageGoalsAgainst": 3.4997,
+      "averageGoalDifference": 1.2291,
+      "firstPlaceProbability": 0.2992,
+      "secondPlaceProbability": 0.5182,
+      "thirdPlaceProbability": 0.1315,
+      "fourthPlaceProbability": 0.0512,
+      "topTwoAdvanceProbability": 0.8173,
+      "thirdPlaceFinishProbability": 0.1315,
+      "thirdPlaceAdvanceProbability": 0.102,
+      "advanceProbability": 0.9193,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "United States",
+      "countryCode": "USA",
+      "group": "D",
+      "averagePosition": 2.0056,
+      "averagePoints": 5.3052,
+      "averageGoalsFor": 7.5939,
+      "averageGoalsAgainst": 5.4981,
+      "averageGoalDifference": 2.0958,
+      "firstPlaceProbability": 0.3671,
+      "secondPlaceProbability": 0.3157,
+      "thirdPlaceProbability": 0.2615,
+      "fourthPlaceProbability": 0.0556,
+      "topTwoAdvanceProbability": 0.6829,
+      "thirdPlaceFinishProbability": 0.2615,
+      "thirdPlaceAdvanceProbability": 0.2293,
+      "advanceProbability": 0.9122,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Austria",
+      "countryCode": "AUT",
+      "group": "J",
+      "averagePosition": 2.0873,
+      "averagePoints": 5.2056,
+      "averageGoalsFor": 5.3886,
+      "averageGoalsAgainst": 3.3812,
+      "averageGoalDifference": 2.0074,
+      "firstPlaceProbability": 0.2721,
+      "secondPlaceProbability": 0.4365,
+      "thirdPlaceProbability": 0.2235,
+      "fourthPlaceProbability": 0.068,
+      "topTwoAdvanceProbability": 0.7086,
+      "thirdPlaceFinishProbability": 0.2235,
+      "thirdPlaceAdvanceProbability": 0.171,
+      "advanceProbability": 0.8796,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Croatia",
+      "countryCode": "CRO",
+      "group": "L",
+      "averagePosition": 2.0739,
+      "averagePoints": 5.2207,
+      "averageGoalsFor": 6.5007,
+      "averageGoalsAgainst": 4.5924,
+      "averageGoalDifference": 1.9083,
+      "firstPlaceProbability": 0.2884,
+      "secondPlaceProbability": 0.4242,
+      "thirdPlaceProbability": 0.2128,
+      "fourthPlaceProbability": 0.0748,
+      "topTwoAdvanceProbability": 0.7125,
+      "thirdPlaceFinishProbability": 0.2128,
+      "thirdPlaceAdvanceProbability": 0.1617,
+      "advanceProbability": 0.8742,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "South Korea",
+      "countryCode": "KOR",
+      "group": "A",
+      "averagePosition": 2.1605,
+      "averagePoints": 5.2558,
+      "averageGoalsFor": 4.6209,
+      "averageGoalsAgainst": 4.3728,
+      "averageGoalDifference": 0.2481,
+      "firstPlaceProbability": 0.2434,
+      "secondPlaceProbability": 0.4466,
+      "thirdPlaceProbability": 0.2163,
+      "fourthPlaceProbability": 0.0938,
+      "topTwoAdvanceProbability": 0.6899,
+      "thirdPlaceFinishProbability": 0.2163,
+      "thirdPlaceAdvanceProbability": 0.1684,
+      "advanceProbability": 0.8583,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Egypt",
+      "countryCode": "EGY",
+      "group": "G",
+      "averagePosition": 2.38,
+      "averagePoints": 4.5105,
+      "averageGoalsFor": 4.2744,
+      "averageGoalsAgainst": 3.0297,
+      "averageGoalDifference": 1.2447,
+      "firstPlaceProbability": 0.1804,
+      "secondPlaceProbability": 0.3436,
+      "thirdPlaceProbability": 0.3918,
+      "fourthPlaceProbability": 0.0843,
+      "topTwoAdvanceProbability": 0.524,
+      "thirdPlaceFinishProbability": 0.3918,
+      "thirdPlaceAdvanceProbability": 0.324,
+      "advanceProbability": 0.848,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Brazil",
+      "countryCode": "BRA",
+      "group": "C",
+      "averagePosition": 2.1696,
+      "averagePoints": 4.7387,
+      "averageGoalsFor": 5.6343,
+      "averageGoalsAgainst": 4.0544,
+      "averageGoalDifference": 1.5799,
+      "firstPlaceProbability": 0.3038,
+      "secondPlaceProbability": 0.3296,
+      "thirdPlaceProbability": 0.2599,
+      "fourthPlaceProbability": 0.1068,
+      "topTwoAdvanceProbability": 0.6334,
+      "thirdPlaceFinishProbability": 0.2599,
+      "thirdPlaceAdvanceProbability": 0.2128,
+      "advanceProbability": 0.8461,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Canada",
+      "countryCode": "CAN",
+      "group": "B",
+      "averagePosition": 2.1202,
+      "averagePoints": 4.5207,
+      "averageGoalsFor": 3.9493,
+      "averageGoalsAgainst": 2.8162,
+      "averageGoalDifference": 1.1332,
+      "firstPlaceProbability": 0.3353,
+      "secondPlaceProbability": 0.3119,
+      "thirdPlaceProbability": 0.2504,
+      "fourthPlaceProbability": 0.1025,
+      "topTwoAdvanceProbability": 0.6471,
+      "thirdPlaceFinishProbability": 0.2504,
+      "thirdPlaceAdvanceProbability": 0.1877,
+      "advanceProbability": 0.8348,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Sweden",
+      "countryCode": "SWE",
+      "group": "F",
+      "averagePosition": 2.6946,
+      "averagePoints": 3.8314,
+      "averageGoalsFor": 7.0691,
+      "averageGoalsAgainst": 7.1086,
+      "averageGoalDifference": -0.0395,
+      "firstPlaceProbability": 0.0857,
+      "secondPlaceProbability": 0.1671,
+      "thirdPlaceProbability": 0.7144,
+      "fourthPlaceProbability": 0.0329,
+      "topTwoAdvanceProbability": 0.2527,
+      "thirdPlaceFinishProbability": 0.7144,
+      "thirdPlaceAdvanceProbability": 0.5712,
+      "advanceProbability": 0.8239,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Scotland",
+      "countryCode": "SCO",
+      "group": "C",
+      "averagePosition": 2.2632,
+      "averagePoints": 4.8229,
+      "averageGoalsFor": 3.6854,
+      "averageGoalsAgainst": 4.2545,
+      "averageGoalDifference": -0.5691,
+      "firstPlaceProbability": 0.2374,
+      "secondPlaceProbability": 0.2841,
+      "thirdPlaceProbability": 0.4564,
+      "fourthPlaceProbability": 0.0221,
+      "topTwoAdvanceProbability": 0.5215,
+      "thirdPlaceFinishProbability": 0.4564,
+      "thirdPlaceAdvanceProbability": 0.3008,
+      "advanceProbability": 0.8223,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Portugal",
+      "countryCode": "POR",
+      "group": "K",
+      "averagePosition": 2.134,
+      "averagePoints": 4.9138,
+      "averageGoalsFor": 5.4932,
+      "averageGoalsAgainst": 4.279,
+      "averageGoalDifference": 1.2142,
+      "firstPlaceProbability": 0.3734,
+      "secondPlaceProbability": 0.2705,
+      "thirdPlaceProbability": 0.2049,
+      "fourthPlaceProbability": 0.1513,
+      "topTwoAdvanceProbability": 0.6439,
+      "thirdPlaceFinishProbability": 0.2049,
+      "thirdPlaceAdvanceProbability": 0.159,
+      "advanceProbability": 0.8028,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Switzerland",
+      "countryCode": "SUI",
+      "group": "B",
+      "averagePosition": 2.0116,
+      "averagePoints": 4.313,
+      "averageGoalsFor": 4.3804,
+      "averageGoalsAgainst": 3.499,
+      "averageGoalDifference": 0.8815,
+      "firstPlaceProbability": 0.3813,
+      "secondPlaceProbability": 0.3233,
+      "thirdPlaceProbability": 0.1982,
+      "fourthPlaceProbability": 0.0974,
+      "topTwoAdvanceProbability": 0.7045,
+      "thirdPlaceFinishProbability": 0.1982,
+      "thirdPlaceAdvanceProbability": 0.0772,
+      "advanceProbability": 0.7817,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "countryCode": "BIH",
+      "group": "B",
+      "averagePosition": 2.4514,
+      "averagePoints": 4.0444,
+      "averageGoalsFor": 4.5759,
+      "averageGoalsAgainst": 4.188,
+      "averageGoalDifference": 0.3878,
+      "firstPlaceProbability": 0.2405,
+      "secondPlaceProbability": 0.2537,
+      "thirdPlaceProbability": 0.3199,
+      "fourthPlaceProbability": 0.186,
+      "topTwoAdvanceProbability": 0.4942,
+      "thirdPlaceFinishProbability": 0.3199,
+      "thirdPlaceAdvanceProbability": 0.2627,
+      "advanceProbability": 0.7569,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Colombia",
+      "countryCode": "COL",
+      "group": "K",
+      "averagePosition": 2.4399,
+      "averagePoints": 4.2538,
+      "averageGoalsFor": 4.9315,
+      "averageGoalsAgainst": 4.7988,
+      "averageGoalDifference": 0.1328,
+      "firstPlaceProbability": 0.258,
+      "secondPlaceProbability": 0.2648,
+      "thirdPlaceProbability": 0.2567,
+      "fourthPlaceProbability": 0.2206,
+      "topTwoAdvanceProbability": 0.5228,
+      "thirdPlaceFinishProbability": 0.2567,
+      "thirdPlaceAdvanceProbability": 0.1868,
+      "advanceProbability": 0.7096,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Cape Verde",
+      "countryCode": "CPV",
+      "group": "H",
+      "averagePosition": 2.6815,
+      "averagePoints": 3.8819,
+      "averageGoalsFor": 3.2679,
+      "averageGoalsAgainst": 3.0717,
+      "averageGoalDifference": 0.1962,
+      "firstPlaceProbability": 0.1316,
+      "secondPlaceProbability": 0.2806,
+      "thirdPlaceProbability": 0.3626,
+      "fourthPlaceProbability": 0.2252,
+      "topTwoAdvanceProbability": 0.4122,
+      "thirdPlaceFinishProbability": 0.3626,
+      "thirdPlaceAdvanceProbability": 0.2855,
+      "advanceProbability": 0.6976,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "DR Congo",
+      "countryCode": "COD",
+      "group": "K",
+      "averagePosition": 2.4947,
+      "averagePoints": 4.1487,
+      "averageGoalsFor": 3.4755,
+      "averageGoalsAgainst": 3.399,
+      "averageGoalDifference": 0.0765,
+      "firstPlaceProbability": 0.2342,
+      "secondPlaceProbability": 0.2658,
+      "thirdPlaceProbability": 0.2713,
+      "fourthPlaceProbability": 0.2288,
+      "topTwoAdvanceProbability": 0.5,
+      "thirdPlaceFinishProbability": 0.2713,
+      "thirdPlaceAdvanceProbability": 0.1931,
+      "advanceProbability": 0.6931,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Turkey",
+      "countryCode": "TUR",
+      "group": "D",
+      "averagePosition": 2.7731,
+      "averagePoints": 3.6245,
+      "averageGoalsFor": 4.7961,
+      "averageGoalsAgainst": 5.3504,
+      "averageGoalDifference": -0.5543,
+      "firstPlaceProbability": 0.1143,
+      "secondPlaceProbability": 0.2691,
+      "thirdPlaceProbability": 0.346,
+      "fourthPlaceProbability": 0.2707,
+      "topTwoAdvanceProbability": 0.3834,
+      "thirdPlaceFinishProbability": 0.346,
+      "thirdPlaceAdvanceProbability": 0.2524,
+      "advanceProbability": 0.6358,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Iran",
+      "countryCode": "IRN",
+      "group": "G",
+      "averagePosition": 2.4061,
+      "averagePoints": 3.4257,
+      "averageGoalsFor": 4.5004,
+      "averageGoalsAgainst": 5.0534,
+      "averageGoalDifference": -0.553,
+      "firstPlaceProbability": 0.1552,
+      "secondPlaceProbability": 0.3914,
+      "thirdPlaceProbability": 0.3455,
+      "fourthPlaceProbability": 0.1079,
+      "topTwoAdvanceProbability": 0.5466,
+      "thirdPlaceFinishProbability": 0.3455,
+      "thirdPlaceAdvanceProbability": 0.0625,
+      "advanceProbability": 0.6091,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Algeria",
+      "countryCode": "ALG",
+      "group": "J",
+      "averagePosition": 2.9297,
+      "averagePoints": 3.3227,
+      "averageGoalsFor": 3.3902,
+      "averageGoalsAgainst": 5.3951,
+      "averageGoalDifference": -2.0048,
+      "firstPlaceProbability": 0.0199,
+      "secondPlaceProbability": 0.2322,
+      "thirdPlaceProbability": 0.5463,
+      "fourthPlaceProbability": 0.2017,
+      "topTwoAdvanceProbability": 0.2521,
+      "thirdPlaceFinishProbability": 0.5463,
+      "thirdPlaceAdvanceProbability": 0.337,
+      "advanceProbability": 0.5891,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Uruguay",
+      "countryCode": "URU",
+      "group": "H",
+      "averagePosition": 2.6809,
+      "averagePoints": 3.101,
+      "averageGoalsFor": 3.3714,
+      "averageGoalsAgainst": 4.4871,
+      "averageGoalDifference": -1.1157,
+      "firstPlaceProbability": 0.1128,
+      "secondPlaceProbability": 0.3394,
+      "thirdPlaceProbability": 0.3021,
+      "fourthPlaceProbability": 0.2458,
+      "topTwoAdvanceProbability": 0.4522,
+      "thirdPlaceFinishProbability": 0.3021,
+      "thirdPlaceAdvanceProbability": 0.09,
+      "advanceProbability": 0.5421,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Panama",
+      "countryCode": "PAN",
+      "group": "L",
+      "averagePosition": 2.9292,
+      "averagePoints": 3.1883,
+      "averageGoalsFor": 4.8069,
+      "averageGoalsAgainst": 6.7248,
+      "averageGoalDifference": -1.9178,
+      "firstPlaceProbability": 0.0794,
+      "secondPlaceProbability": 0.2055,
+      "thirdPlaceProbability": 0.4217,
+      "fourthPlaceProbability": 0.2935,
+      "topTwoAdvanceProbability": 0.2849,
+      "thirdPlaceFinishProbability": 0.4217,
+      "thirdPlaceAdvanceProbability": 0.2534,
+      "advanceProbability": 0.5383,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Czechia",
+      "countryCode": "CZE",
+      "group": "A",
+      "averagePosition": 3.0439,
+      "averagePoints": 2.7576,
+      "averageGoalsFor": 4.0724,
+      "averageGoalsAgainst": 5.0301,
+      "averageGoalDifference": -0.9577,
+      "firstPlaceProbability": 0.0795,
+      "secondPlaceProbability": 0.155,
+      "thirdPlaceProbability": 0.4079,
+      "fourthPlaceProbability": 0.3578,
+      "topTwoAdvanceProbability": 0.2344,
+      "thirdPlaceFinishProbability": 0.4079,
+      "thirdPlaceAdvanceProbability": 0.2875,
+      "advanceProbability": 0.5219,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Ecuador",
+      "countryCode": "ECU",
+      "group": "E",
+      "averagePosition": 3.0622,
+      "averagePoints": 2.7541,
+      "averageGoalsFor": 2.6576,
+      "averageGoalsAgainst": 3.6392,
+      "averageGoalDifference": -0.9816,
+      "firstPlaceProbability": 0.0516,
+      "secondPlaceProbability": 0.1313,
+      "thirdPlaceProbability": 0.5206,
+      "fourthPlaceProbability": 0.2966,
+      "topTwoAdvanceProbability": 0.1828,
+      "thirdPlaceFinishProbability": 0.5206,
+      "thirdPlaceAdvanceProbability": 0.331,
+      "advanceProbability": 0.5138,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Uzbekistan",
+      "countryCode": "UZB",
+      "group": "K",
+      "averagePosition": 2.9316,
+      "averagePoints": 3.1711,
+      "averageGoalsFor": 3.4392,
+      "averageGoalsAgainst": 4.8626,
+      "averageGoalDifference": -1.4235,
+      "firstPlaceProbability": 0.1344,
+      "secondPlaceProbability": 0.199,
+      "thirdPlaceProbability": 0.2673,
+      "fourthPlaceProbability": 0.3994,
+      "topTwoAdvanceProbability": 0.3334,
+      "thirdPlaceFinishProbability": 0.2673,
+      "thirdPlaceAdvanceProbability": 0.1734,
+      "advanceProbability": 0.5068,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Senegal",
+      "countryCode": "SEN",
+      "group": "I",
+      "averagePosition": 3.0774,
+      "averagePoints": 2.819,
+      "averageGoalsFor": 4.2104,
+      "averageGoalsAgainst": 6.1891,
+      "averageGoalDifference": -1.9786,
+      "firstPlaceProbability": 0.0357,
+      "secondPlaceProbability": 0.1509,
+      "thirdPlaceProbability": 0.514,
+      "fourthPlaceProbability": 0.2995,
+      "topTwoAdvanceProbability": 0.1865,
+      "thirdPlaceFinishProbability": 0.514,
+      "thirdPlaceAdvanceProbability": 0.307,
+      "advanceProbability": 0.4935,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "South Africa",
+      "countryCode": "RSA",
+      "group": "A",
+      "averagePosition": 3.3391,
+      "averagePoints": 2.3493,
+      "averageGoalsFor": 2.9563,
+      "averageGoalsAgainst": 5.6521,
+      "averageGoalDifference": -2.6958,
+      "firstPlaceProbability": 0.0198,
+      "secondPlaceProbability": 0.1595,
+      "thirdPlaceProbability": 0.2827,
+      "fourthPlaceProbability": 0.5381,
+      "topTwoAdvanceProbability": 0.1793,
+      "thirdPlaceFinishProbability": 0.2827,
+      "thirdPlaceAdvanceProbability": 0.1796,
+      "advanceProbability": 0.3589,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Saudi Arabia",
+      "countryCode": "KSA",
+      "group": "H",
+      "averagePosition": 3.2203,
+      "averagePoints": 2.4,
+      "averageGoalsFor": 3.2984,
+      "averageGoalsAgainst": 6.1108,
+      "averageGoalDifference": -2.8124,
+      "firstPlaceProbability": 0.0444,
+      "secondPlaceProbability": 0.1986,
+      "thirdPlaceProbability": 0.2496,
+      "fourthPlaceProbability": 0.5075,
+      "topTwoAdvanceProbability": 0.2429,
+      "thirdPlaceFinishProbability": 0.2496,
+      "thirdPlaceAdvanceProbability": 0.1153,
+      "advanceProbability": 0.3582,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Paraguay",
+      "countryCode": "PAR",
+      "group": "D",
+      "averagePosition": 3.4317,
+      "averagePoints": 2.2814,
+      "averageGoalsFor": 3.8185,
+      "averageGoalsAgainst": 7.6219,
+      "averageGoalDifference": -3.8034,
+      "firstPlaceProbability": 0.0413,
+      "secondPlaceProbability": 0.0941,
+      "thirdPlaceProbability": 0.2563,
+      "fourthPlaceProbability": 0.6083,
+      "topTwoAdvanceProbability": 0.1354,
+      "thirdPlaceFinishProbability": 0.2563,
+      "thirdPlaceAdvanceProbability": 0.1685,
+      "advanceProbability": 0.3038,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Qatar",
+      "countryCode": "QAT",
+      "group": "B",
+      "averagePosition": 3.4169,
+      "averagePoints": 2.2323,
+      "averageGoalsFor": 2.6238,
+      "averageGoalsAgainst": 5.0262,
+      "averageGoalDifference": -2.4024,
+      "firstPlaceProbability": 0.0431,
+      "secondPlaceProbability": 0.1112,
+      "thirdPlaceProbability": 0.2316,
+      "fourthPlaceProbability": 0.6142,
+      "topTwoAdvanceProbability": 0.1543,
+      "thirdPlaceFinishProbability": 0.2316,
+      "thirdPlaceAdvanceProbability": 0.133,
+      "advanceProbability": 0.2872,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Ghana",
+      "countryCode": "GHA",
+      "group": "L",
+      "averagePosition": 3.47,
+      "averagePoints": 1.8526,
+      "averageGoalsFor": 3.3328,
+      "averageGoalsAgainst": 7.6858,
+      "averageGoalDifference": -4.353,
+      "firstPlaceProbability": 0.0253,
+      "secondPlaceProbability": 0.0879,
+      "thirdPlaceProbability": 0.2786,
+      "fourthPlaceProbability": 0.6083,
+      "topTwoAdvanceProbability": 0.1131,
+      "thirdPlaceFinishProbability": 0.2786,
+      "thirdPlaceAdvanceProbability": 0.1349,
+      "advanceProbability": 0.2481,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Iraq",
+      "countryCode": "IRQ",
+      "group": "I",
+      "averagePosition": 3.5917,
+      "averagePoints": 1.6683,
+      "averageGoalsFor": 3.0999,
+      "averageGoalsAgainst": 7.8512,
+      "averageGoalDifference": -4.7514,
+      "firstPlaceProbability": 0.0126,
+      "secondPlaceProbability": 0.048,
+      "thirdPlaceProbability": 0.2746,
+      "fourthPlaceProbability": 0.6649,
+      "topTwoAdvanceProbability": 0.0606,
+      "thirdPlaceFinishProbability": 0.2746,
+      "thirdPlaceAdvanceProbability": 0.1308,
+      "advanceProbability": 0.1914,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Curacao",
+      "countryCode": "CUW",
+      "group": "E",
+      "averagePosition": 3.5416,
+      "averagePoints": 1.8211,
+      "averageGoalsFor": 3.4372,
+      "averageGoalsAgainst": 10.983,
+      "averageGoalDifference": -7.5458,
+      "firstPlaceProbability": 0.0119,
+      "secondPlaceProbability": 0.078,
+      "thirdPlaceProbability": 0.267,
+      "fourthPlaceProbability": 0.6433,
+      "topTwoAdvanceProbability": 0.0898,
+      "thirdPlaceFinishProbability": 0.267,
+      "thirdPlaceAdvanceProbability": 0.0964,
+      "advanceProbability": 0.1862,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Jordan",
+      "countryCode": "JOR",
+      "group": "J",
+      "averagePosition": 3.637,
+      "averagePoints": 1.3892,
+      "averageGoalsFor": 2.8215,
+      "averageGoalsAgainst": 8.2425,
+      "averageGoalDifference": -5.4209,
+      "firstPlaceProbability": 0.0132,
+      "secondPlaceProbability": 0.058,
+      "thirdPlaceProbability": 0.2077,
+      "fourthPlaceProbability": 0.7212,
+      "topTwoAdvanceProbability": 0.0711,
+      "thirdPlaceFinishProbability": 0.2077,
+      "thirdPlaceAdvanceProbability": 0.0894,
+      "advanceProbability": 0.1605,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Haiti",
+      "countryCode": "HAI",
+      "group": "C",
+      "averagePosition": 3.7528,
+      "averagePoints": 1.2376,
+      "averageGoalsFor": 2.0436,
+      "averageGoalsAgainst": 5.6983,
+      "averageGoalDifference": -3.6547,
+      "firstPlaceProbability": 0.0136,
+      "secondPlaceProbability": 0.0454,
+      "thirdPlaceProbability": 0.1158,
+      "fourthPlaceProbability": 0.8253,
+      "topTwoAdvanceProbability": 0.059,
+      "thirdPlaceFinishProbability": 0.1158,
+      "thirdPlaceAdvanceProbability": 0.0745,
+      "advanceProbability": 0.1334,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "New Zealand",
+      "countryCode": "NZL",
+      "group": "G",
+      "averagePosition": 3.7173,
+      "averagePoints": 1.5989,
+      "averageGoalsFor": 3.3484,
+      "averageGoalsAgainst": 8.2782,
+      "averageGoalDifference": -4.9298,
+      "firstPlaceProbability": 0.0074,
+      "secondPlaceProbability": 0.0632,
+      "thirdPlaceProbability": 0.1341,
+      "fourthPlaceProbability": 0.7953,
+      "topTwoAdvanceProbability": 0.0706,
+      "thirdPlaceFinishProbability": 0.1341,
+      "thirdPlaceAdvanceProbability": 0.0548,
+      "advanceProbability": 0.1254,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    },
+    {
+      "team": "Tunisia",
+      "countryCode": "TUN",
+      "group": "F",
+      "averagePosition": 3.8458,
+      "averagePoints": 1.0905,
+      "averageGoalsFor": 3.0455,
+      "averageGoalsAgainst": 10.1567,
+      "averageGoalDifference": -7.1112,
+      "firstPlaceProbability": 0.0112,
+      "secondPlaceProbability": 0.033,
+      "thirdPlaceProbability": 0.0549,
+      "fourthPlaceProbability": 0.901,
+      "topTwoAdvanceProbability": 0.0441,
+      "thirdPlaceFinishProbability": 0.0549,
+      "thirdPlaceAdvanceProbability": 0.024,
+      "advanceProbability": 0.0681,
+      "predictionFlags": {
+        "isPrediction": true,
+        "excludeFromFuturePredictionInputs": true,
+        "doNotUseAsTrainingData": true
+      }
+    }
+  ]
+}

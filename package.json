@@ -17,10 +17,13 @@
     "predict:monte-carlo": "tsx src/predict/monteCarloGroupStage.ts",
     "predict:markov": "tsx src/predict/markovChainGroupStage.ts",
     "report:first-round-scores": "tsx src/predict/buildFirstRoundScoreReport.ts",
+    "report:second-round-scores": "tsx src/predict/buildSecondRoundScoreReport.ts",
+    "update:after-matchday1": "tsx src/predict/updateAfterMatchday1.ts",
     "test:score-metrics": "tsx src/predict/scoreDistributionMetrics.test.ts",
     "compare:predictions": "tsx src/predict/comparePredictionPositions.ts",
     "compare:all-methods-simple": "tsx src/predict/compareAllMethodsSimple.ts",
-    "validate": "tsx src/validate.ts"
+    "validate": "tsx src/validate.ts",
+    "validate:matchday1-update": "tsx src/validateMatchday1Update.ts"
   },
   "dependencies": {
     "zod": "^3.25.76"
