@@ -19,6 +19,7 @@
     "report:first-round-scores": "tsx src/predict/buildFirstRoundScoreReport.ts",
     "report:second-round-scores": "tsx src/predict/buildSecondRoundScoreReport.ts",
     "update:after-matchday1": "tsx src/predict/updateAfterMatchday1.ts",
+    "update:after-matchday2": "node scripts/updateAfterMatchday2.mjs",
     "test:score-metrics": "tsx src/predict/scoreDistributionMetrics.test.ts",
     "compare:predictions": "tsx src/predict/comparePredictionPositions.ts",
     "compare:all-methods-simple": "tsx src/predict/compareAllMethodsSimple.ts",

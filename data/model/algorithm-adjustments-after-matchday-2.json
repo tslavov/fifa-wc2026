@@ -1,0 +1,83 @@
+{
+  "datasetId": "algorithm-adjustments-after-matchday-2",
+  "artifactKind": "model_adjustment",
+  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "basedOnEvaluation": "data\\evaluation\\prediction-performance-after-matchday-2.json",
+  "contaminationControl": {
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true,
+    "notes": "The adjustment uses aggregate calibration diagnostics only; no previous predicted scores become team features."
+  },
+  "evidenceWeight": 0.25,
+  "previousParameters": {
+    "markovMonteCarlo": {
+      "baseGoalRateMultiplier": 0.9923,
+      "qualityMultiplierScale": 0.6285,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14
+    },
+    "scoreSelection": {
+      "nearEqualRelativeBand": 0.05,
+      "nearEqualAbsoluteProbabilityBand": 0.03,
+      "higherScoreTiebreak": true,
+      "strongerTeamTiebreak": true,
+      "saferDrawFallback": true
+    },
+    "qualitativeOverlay": {
+      "llmWeight": 0
+    }
+  },
+  "updatedParameters": {
+    "llmOnlyPredictions": {
+      "llmWeight": 0,
+      "change": "unchanged",
+      "rationale": "The project already treats LLM reasoning as explanation only. The evaluation does not justify adding an unsourced numeric LLM layer."
+    },
+    "monteCarloGroupSimulations": {
+      "conditionOnCompletedMatchday1And2Results": true,
+      "modelParameterChanges": {
+        "baseGoalRateMultiplier": 0.9761,
+        "qualityMultiplierScale": 0.6285
+      },
+      "rationale": "Conditioning on official completed results is necessary for current standings. Numeric moves remain global and capped because two team-level observations are still sparse."
+    },
+    "markovChainScorePredictions": {
+      "modelParameters": {
+        "baseGoalRateMultiplier": 0.9761,
+        "qualityMultiplierScale": 0.6285,
+        "lambdaMin": 0.15,
+        "lambdaMax": 4.25,
+        "stepsPerMatch": 90,
+        "pruneProbabilityBelow": 1e-14
+      },
+      "scoreSelection": {
+        "nearEqualRelativeBand": 0.02,
+        "nearEqualAbsoluteProbabilityBand": 0.015,
+        "higherScoreTiebreak": false,
+        "strongerTeamTiebreak": true,
+        "saferDrawFallback": true,
+        "defaultToMostProbableScore": true
+      },
+      "rationale": "Exact-score and outcome performance showed the earlier high-scoring near-equal override was too aggressive. Matchday 3 selected scores default to the probability leader unless an alternative is nearly indistinguishable."
+    }
+  },
+  "changes": [
+    {
+      "area": "LLM-only predictions",
+      "status": "unchanged",
+      "explanation": "No invented squad, lineup, injury, weather, tactical, xG, or market signal is introduced; LLM remains narrative only."
+    },
+    {
+      "area": "Monte Carlo group simulations",
+      "status": "small_adjustment",
+      "explanation": "Simulations should start from official Matchday 1-2 standings and use the same capped global goal/quality calibration as Markov."
+    },
+    {
+      "area": "Markov-chain score predictions",
+      "status": "small_adjustment",
+      "explanation": "The score-selection override is tightened and global goal/quality parameters move only within a small cap."
+    }
+  ]
+}

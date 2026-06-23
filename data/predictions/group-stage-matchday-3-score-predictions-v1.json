@@ -1,0 +1,2601 @@
+{
+  "artifactKind": "prediction",
+  "predictionId": "group-stage-matchday-3-score-predictions-v1",
+  "predictionType": "matchday_3_score_predictions_after_matchday_2",
+  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "doNotUseAsCollectedData": true,
+  "contaminationControl": {
+    "outputDirectory": "data\\predictions",
+    "builderInputPaths": [
+      "data\\results\\group-stage-matchday-1-and-2-results-v1.json",
+      "data\\model\\group-performance-metrics-after-matchday-2.json",
+      "data\\model\\algorithm-adjustments-after-matchday-2.json",
+      "data\\model-input\\team-strength.json",
+      "data\\model-input\\recent-form.json",
+      "fifa-world-cup-2026-groups.md",
+      "data\\rules\\world-cup-2026-rules.json"
+    ],
+    "predictionDirectoryReadAsInputForPrediction": false,
+    "predictionDirectoryReadForEvaluationOnly": true,
+    "notes": "Previous prediction artifacts were used only to build the evaluation file. Matchday 3 score generation uses official results, current metrics, algorithm adjustments, and collected model inputs."
+  },
+  "basedOnData": {
+    "results": {
+      "path": "data\\results\\group-stage-matchday-1-and-2-results-v1.json"
+    },
+    "performanceMetrics": {
+      "path": "data\\model\\group-performance-metrics-after-matchday-2.json"
+    },
+    "algorithmAdjustments": {
+      "path": "data\\model\\algorithm-adjustments-after-matchday-2.json"
+    },
+    "teamStrength": {
+      "path": "data\\model-input\\team-strength.json"
+    },
+    "recentForm": {
+      "path": "data\\model-input\\recent-form.json"
+    },
+    "officialFixtureApi": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023"
+  },
+  "method": {
+    "type": "v3_markov_score_distribution_after_matchday_2",
+    "modelParameters": {
+      "baseGoalRateMultiplier": 0.9761,
+      "qualityMultiplierScale": 0.6285,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14,
+      "baseGoalsPerTeamMatch": 1.8458
+    },
+    "scoreSelection": {
+      "nearEqualRelativeBand": 0.02,
+      "nearEqualAbsoluteProbabilityBand": 0.015,
+      "higherScoreTiebreak": false,
+      "strongerTeamTiebreak": true,
+      "saferDrawFallback": true,
+      "defaultToMostProbableScore": true
+    },
+    "noInventedInputs": true,
+    "unavailableInputsOmitted": [
+      "injuries",
+      "lineups",
+      "weather forecast",
+      "xG",
+      "market odds",
+      "squad changes",
+      "coach/tactics"
+    ]
+  },
+  "scope": {
+    "includedMatchdays": [
+      3
+    ],
+    "fixtureSelector": "FIFA match numbers 49-72",
+    "completedMatchday1And2ResultsUsed": true
+  },
+  "matches": [
+    {
+      "matchId": "400021455",
+      "matchNumber": 49,
+      "group": "C",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "utcDateTime": "2026-06-24T22:00:00Z",
+      "localDateTime": "2026-06-24T18:00:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "country": "USA",
+      "homeTeam": "Scotland",
+      "awayTeam": "Brazil",
+      "selectedScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0846,
+        "expectedFantasyPoints": 2.2975
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0846,
+        "expectedFantasyPoints": 2.2975
+      },
+      "expectedPoints": 2.2975,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.0846,
+      "mostProbableScoreProbability": 0.0846,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0846,
+          "expectedFantasyPoints": 2.2975
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0771,
+          "expectedFantasyPoints": 1.4115
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0727,
+          "expectedFantasyPoints": 1.3786
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0662,
+          "expectedFantasyPoints": 1.6315
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0611,
+          "expectedFantasyPoints": 2.1519
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3059,
+        "draw": 0.2071,
+        "awayWin": 0.4869
+      },
+      "expectedGoals": {
+        "home": 1.7039,
+        "away": 2.1637
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3
+        }
+      },
+      "reasoningNote": "Current points Scotland 3, Brazil 4. Brazil has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021452",
+      "matchNumber": 50,
+      "group": "C",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "utcDateTime": "2026-06-24T22:00:00Z",
+      "localDateTime": "2026-06-24T18:00:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "homeTeam": "Morocco",
+      "awayTeam": "Haiti",
+      "selectedScore": {
+        "home": 2,
+        "away": 0
+      },
+      "selectedMostProbableScore": {
+        "home": 2,
+        "away": 0,
+        "probability": 0.1324,
+        "expectedFantasyPoints": 3.321
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 0,
+        "probability": 0.1324,
+        "expectedFantasyPoints": 3.321
+      },
+      "expectedPoints": 3.321,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 2,
+        "away": 0
+      },
+      "selectedScoreProbability": 0.1324,
+      "mostProbableScoreProbability": 0.1324,
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.1324,
+          "expectedFantasyPoints": 3.321
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1175,
+          "expectedFantasyPoints": 3.2459
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0984,
+          "expectedFantasyPoints": 3.1493
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.095,
+          "expectedFantasyPoints": 3.0703
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0843,
+          "expectedFantasyPoints": 1.3718
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.7213,
+        "draw": 0.176,
+        "awayWin": 0.1028
+      },
+      "expectedGoals": {
+        "home": 2.2224,
+        "away": 0.711
+      },
+      "confidenceLevel": "High",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
+        },
+        "away": {
+          "position": 4,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 4,
+          "goalDifference": -4
+        }
+      },
+      "reasoningNote": "Current points Morocco 4, Haiti 0. Morocco has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021451",
+      "matchNumber": 51,
+      "group": "B",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "utcDateTime": "2026-06-24T19:00:00Z",
+      "localDateTime": "2026-06-24T12:00:00Z",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "CAN",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Canada",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1333,
+        "expectedFantasyPoints": 1.9759
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 0,
+        "probability": 0.118,
+        "expectedFantasyPoints": 2.1905
+      },
+      "expectedPoints": 2.1905,
+      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.1905) than the most probable 1-1 (1.9759).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1333,
+      "mostProbableScoreProbability": 0.1333,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1333,
+          "expectedFantasyPoints": 1.9759
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.118,
+          "expectedFantasyPoints": 2.1905
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1086,
+          "expectedFantasyPoints": 1.995
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0961,
+          "expectedFantasyPoints": 1.7548
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0809,
+          "expectedFantasyPoints": 1.9789
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3828,
+        "draw": 0.2819,
+        "awayWin": 0.3354
+      },
+      "expectedGoals": {
+        "home": 1.211,
+        "away": 1.1145
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6
+        }
+      },
+      "reasoningNote": "Current points Switzerland 4, Canada 4. Switzerland has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021448",
+      "matchNumber": 52,
+      "group": "B",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "utcDateTime": "2026-06-24T19:00:00Z",
+      "localDateTime": "2026-06-24T12:00:00Z",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "USA",
+      "homeTeam": "Bosnia and Herzegovina",
+      "awayTeam": "Qatar",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.1005,
+        "expectedFantasyPoints": 2.8546
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.1005,
+        "expectedFantasyPoints": 2.8546
+      },
+      "expectedPoints": 2.8546,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1005,
+      "mostProbableScoreProbability": 0.1005,
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.1005,
+          "expectedFantasyPoints": 2.8546
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.097,
+          "expectedFantasyPoints": 2.8313
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0913,
+          "expectedFantasyPoints": 1.4808
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0881,
+          "expectedFantasyPoints": 2.7797
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0729,
+          "expectedFantasyPoints": 2.6972
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.6372,
+        "draw": 0.1968,
+        "awayWin": 0.166
+      },
+      "expectedGoals": {
+        "home": 2.1716,
+        "away": 1.0246
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        },
+        "away": {
+          "position": 4,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6
+        }
+      },
+      "reasoningNote": "Current points Bosnia and Herzegovina 1, Qatar 1. Bosnia and Herzegovina has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021444",
+      "matchNumber": 53,
+      "group": "A",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T01:00:00Z",
+      "localDateTime": "2026-06-24T19:00:00Z",
+      "venue": "Mexico City Stadium",
+      "city": "Mexico City",
+      "country": "MEX",
+      "homeTeam": "Czechia",
+      "awayTeam": "Mexico",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1195,
+        "expectedFantasyPoints": 1.8009
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1093,
+        "expectedFantasyPoints": 2.4741
+      },
+      "expectedPoints": 2.4741,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.4741) than the most probable 1-1 (1.8009).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1195,
+      "mostProbableScoreProbability": 0.1195,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1195,
+          "expectedFantasyPoints": 1.8009
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1093,
+          "expectedFantasyPoints": 2.4741
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0963,
+          "expectedFantasyPoints": 2.4036
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.088,
+          "expectedFantasyPoints": 2.3471
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0734,
+          "expectedFantasyPoints": 1.554
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.2554,
+        "draw": 0.2497,
+        "awayWin": 0.4949
+      },
+      "expectedGoals": {
+        "home": 1.0796,
+        "away": 1.5998
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3
+        }
+      },
+      "reasoningNote": "Current points Czechia 1, Mexico 6. Mexico has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021445",
+      "matchNumber": 54,
+      "group": "A",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T01:00:00Z",
+      "localDateTime": "2026-06-24T19:00:00Z",
+      "venue": "Monterrey Stadium",
+      "city": "Monterrey",
+      "country": "MEX",
+      "homeTeam": "South Africa",
+      "awayTeam": "South Korea",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1058,
+        "expectedFantasyPoints": 1.6763
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0876,
+        "expectedFantasyPoints": 2.0756
+      },
+      "expectedPoints": 2.0756,
+      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0756) than the most probable 1-1 (1.6763).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1058,
+      "mostProbableScoreProbability": 0.1058,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1058,
+          "expectedFantasyPoints": 1.6763
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0876,
+          "expectedFantasyPoints": 2.0756
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0817,
+          "expectedFantasyPoints": 1.896
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0677,
+          "expectedFantasyPoints": 1.9509
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0677,
+          "expectedFantasyPoints": 1.4316
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3585,
+        "draw": 0.236,
+        "awayWin": 0.4055
+      },
+      "expectedGoals": {
+        "home": 1.5341,
+        "away": 1.6434
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points South Africa 1, South Korea 3. South Korea has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021468",
+      "matchNumber": 55,
+      "group": "E",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T20:00:00Z",
+      "localDateTime": "2026-06-25T16:00:00Z",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "USA",
+      "homeTeam": "Curacao",
+      "awayTeam": "Ivory Coast",
+      "selectedScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0944,
+        "expectedFantasyPoints": 2.6433
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0944,
+        "expectedFantasyPoints": 2.6433
+      },
+      "expectedPoints": 2.6433,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.0944,
+      "mostProbableScoreProbability": 0.0944,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0944,
+          "expectedFantasyPoints": 2.6433
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.082,
+          "expectedFantasyPoints": 1.4271
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0715,
+          "expectedFantasyPoints": 2.5093
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0682,
+          "expectedFantasyPoints": 2.4676
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0645,
+          "expectedFantasyPoints": 1.299
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.2212,
+        "draw": 0.1988,
+        "awayWin": 0.58
+      },
+      "expectedGoals": {
+        "home": 1.3611,
+        "away": 2.2659
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Curacao 1, Ivory Coast 3. Ivory Coast has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021466",
+      "matchNumber": 56,
+      "group": "E",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T20:00:00Z",
+      "localDateTime": "2026-06-25T16:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "country": "USA",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Germany",
+      "selectedScore": {
+        "home": 0,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1219,
+        "expectedFantasyPoints": 2.5903
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1219,
+        "expectedFantasyPoints": 2.5903
+      },
+      "expectedPoints": 2.5903,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 0,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1219,
+      "mostProbableScoreProbability": 0.1219,
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1219,
+          "expectedFantasyPoints": 2.5903
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1216,
+          "expectedFantasyPoints": 1.8254
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0959,
+          "expectedFantasyPoints": 2.4421
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0956,
+          "expectedFantasyPoints": 2.4403
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0766,
+          "expectedFantasyPoints": 1.5694
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.2376,
+        "draw": 0.254,
+        "awayWin": 0.5084
+      },
+      "expectedGoals": {
+        "home": 0.986,
+        "away": 1.5632
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 9,
+          "goalsAgainst": 2,
+          "goalDifference": 7
+        }
+      },
+      "reasoningNote": "Current points Ecuador 1, Germany 6. Germany has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021471",
+      "matchNumber": 57,
+      "group": "F",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T23:00:00Z",
+      "localDateTime": "2026-06-25T18:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "country": "USA",
+      "homeTeam": "Japan",
+      "awayTeam": "Sweden",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0924,
+        "expectedFantasyPoints": 3.0896
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0924,
+        "expectedFantasyPoints": 3.0896
+      },
+      "expectedPoints": 3.0896,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0924,
+      "mostProbableScoreProbability": 0.0924,
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0924,
+          "expectedFantasyPoints": 3.0896
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.092,
+          "expectedFantasyPoints": 3.0867
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0825,
+          "expectedFantasyPoints": 3.0336
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0821,
+          "expectedFantasyPoints": 3.0307
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0681,
+          "expectedFantasyPoints": 1.2224
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.7309,
+        "draw": 0.1546,
+        "awayWin": 0.1145
+      },
+      "expectedGoals": {
+        "home": 2.6592,
+        "away": 0.9926
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4
+        },
+        "away": {
+          "position": 3,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Japan 4, Sweden 3. Japan has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021473",
+      "matchNumber": 58,
+      "group": "F",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "utcDateTime": "2026-06-25T23:00:00Z",
+      "localDateTime": "2026-06-25T18:00:00Z",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Netherlands",
+      "selectedScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0885,
+        "expectedFantasyPoints": 3.1147
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0885,
+        "expectedFantasyPoints": 3.1147
+      },
+      "expectedPoints": 3.1147,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.0885,
+      "mostProbableScoreProbability": 0.0885,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0885,
+          "expectedFantasyPoints": 3.1147
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0849,
+          "expectedFantasyPoints": 3.0888
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0838,
+          "expectedFantasyPoints": 3.0879
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0804,
+          "expectedFantasyPoints": 3.0625
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0615,
+          "expectedFantasyPoints": 1.1562
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.1082,
+        "draw": 0.1451,
+        "awayWin": 0.7467
+      },
+      "expectedGoals": {
+        "home": 1.0292,
+        "away": 2.8132
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 9,
+          "goalDifference": -8
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
+        }
+      },
+      "reasoningNote": "Current points Tunisia 0, Netherlands 4. Netherlands has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021459",
+      "matchNumber": 59,
+      "group": "D",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "utcDateTime": "2026-06-26T02:00:00Z",
+      "localDateTime": "2026-06-25T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "country": "USA",
+      "homeTeam": "Turkey",
+      "awayTeam": "United States",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0734,
+        "expectedFantasyPoints": 2.3969
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0734,
+        "expectedFantasyPoints": 2.3969
+      },
+      "expectedPoints": 2.3969,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0734,
+      "mostProbableScoreProbability": 0.0734,
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0734,
+          "expectedFantasyPoints": 2.3969
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0688,
+          "expectedFantasyPoints": 1.2881
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0643,
+          "expectedFantasyPoints": 2.3383
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0603,
+          "expectedFantasyPoints": 2.308
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0553,
+          "expectedFantasyPoints": 1.2036
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.5445,
+        "draw": 0.1856,
+        "awayWin": 0.2699
+      },
+      "expectedGoals": {
+        "home": 2.6085,
+        "away": 1.8564
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 3,
+          "goalDifference": -3
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5
+        }
+      },
+      "reasoningNote": "Current points Turkey 0, United States 6. Turkey has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021461",
+      "matchNumber": 60,
+      "group": "D",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "utcDateTime": "2026-06-26T02:00:00Z",
+      "localDateTime": "2026-06-25T19:00:00Z",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "country": "USA",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.121,
+        "expectedFantasyPoints": 1.8229
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.0899,
+        "expectedFantasyPoints": 2.0744
+      },
+      "expectedPoints": 2.0744,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.0744) than the most probable 1-1 (1.8229).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.121,
+      "mostProbableScoreProbability": 0.121,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.121,
+          "expectedFantasyPoints": 1.8229
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0899,
+          "expectedFantasyPoints": 2.0744
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0879,
+          "expectedFantasyPoints": 2.0661
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0824,
+          "expectedFantasyPoints": 1.8702
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0806,
+          "expectedFantasyPoints": 1.8558
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3454,
+        "draw": 0.2546,
+        "awayWin": 0.3999
+      },
+      "expectedGoals": {
+        "home": 1.3262,
+        "away": 1.4446
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Paraguay 3, Australia 3. Australia has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021489",
+      "matchNumber": 61,
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "utcDateTime": "2026-06-26T19:00:00Z",
+      "localDateTime": "2026-06-26T15:00:00Z",
+      "venue": "Boston Stadium",
+      "city": "Boston",
+      "country": "USA",
+      "homeTeam": "Norway",
+      "awayTeam": "France",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.0912,
+        "expectedFantasyPoints": 1.5453
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0823,
+        "expectedFantasyPoints": 2.0085
+      },
+      "expectedPoints": 2.0085,
+      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0085) than the most probable 1-1 (1.5453).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0912,
+      "mostProbableScoreProbability": 0.0912,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0912,
+          "expectedFantasyPoints": 1.5453
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0823,
+          "expectedFantasyPoints": 2.0085
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0807,
+          "expectedFantasyPoints": 1.9563
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0728,
+          "expectedFantasyPoints": 1.4257
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.051,
+          "expectedFantasyPoints": 1.8098
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3818,
+        "draw": 0.2226,
+        "awayWin": 0.3957
+      },
+      "expectedGoals": {
+        "home": 1.7544,
+        "away": 1.7869
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5
+        }
+      },
+      "reasoningNote": "Current points Norway 6, France 6. France has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021493",
+      "matchNumber": 62,
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "utcDateTime": "2026-06-26T19:00:00Z",
+      "localDateTime": "2026-06-26T15:00:00Z",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "CAN",
+      "homeTeam": "Senegal",
+      "awayTeam": "Iraq",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1145,
+        "expectedFantasyPoints": 1.744
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1022,
+        "expectedFantasyPoints": 2.4887
+      },
+      "expectedPoints": 2.4887,
+      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.4887) than the most probable 1-1 (1.744).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1145,
+      "mostProbableScoreProbability": 0.1145,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1145,
+          "expectedFantasyPoints": 1.744
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1022,
+          "expectedFantasyPoints": 2.4887
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0982,
+          "expectedFantasyPoints": 2.472
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0877,
+          "expectedFantasyPoints": 2.4011
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0659,
+          "expectedFantasyPoints": 1.4812
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.5141,
+        "draw": 0.2404,
+        "awayWin": 0.2454
+      },
+      "expectedGoals": {
+        "home": 1.7023,
+        "away": 1.1051
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3
+        },
+        "away": {
+          "position": 4,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6
+        }
+      },
+      "reasoningNote": "Current points Senegal 0, Iraq 0. Senegal has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021479",
+      "matchNumber": 63,
+      "group": "G",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T03:00:00Z",
+      "localDateTime": "2026-06-26T20:00:00Z",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "USA",
+      "homeTeam": "Egypt",
+      "awayTeam": "Iran",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1317,
+        "expectedFantasyPoints": 1.9552
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.123,
+        "expectedFantasyPoints": 2.328
+      },
+      "expectedPoints": 2.328,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.328) than the most probable 1-1 (1.9552).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1317,
+      "mostProbableScoreProbability": 0.1317,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1317,
+          "expectedFantasyPoints": 1.9552
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.123,
+          "expectedFantasyPoints": 2.328
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1002,
+          "expectedFantasyPoints": 1.85
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0936,
+          "expectedFantasyPoints": 1.7315
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0855,
+          "expectedFantasyPoints": 2.1146
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3029,
+        "draw": 0.2781,
+        "awayWin": 0.4191
+      },
+      "expectedGoals": {
+        "home": 1.0573,
+        "away": 1.2939
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 1,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Egypt 4, Iran 2. Iran has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021481",
+      "matchNumber": 64,
+      "group": "G",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T03:00:00Z",
+      "localDateTime": "2026-06-26T20:00:00Z",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "CAN",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Belgium",
+      "selectedScore": {
+        "home": 0,
+        "away": 4
+      },
+      "selectedMostProbableScore": {
+        "home": 0,
+        "away": 4,
+        "probability": 0.1056,
+        "expectedFantasyPoints": 3.8193
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 4,
+        "probability": 0.1056,
+        "expectedFantasyPoints": 3.8193
+      },
+      "expectedPoints": 3.8193,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 0,
+        "away": 4
+      },
+      "selectedScoreProbability": 0.1056,
+      "mostProbableScoreProbability": 0.1056,
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.1056,
+          "expectedFantasyPoints": 3.8193
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.1045,
+          "expectedFantasyPoints": 3.8139
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.0844,
+          "expectedFantasyPoints": 3.7156
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0767,
+          "expectedFantasyPoints": 3.6778
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "probability": 0.0676,
+          "expectedFantasyPoints": 3.515
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.022,
+        "draw": 0.0533,
+        "awayWin": 0.9247
+      },
+      "expectedGoals": {
+        "home": 0.6353,
+        "away": 3.994
+      },
+      "confidenceLevel": "High",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        "away": {
+          "position": 3,
+          "played": 2,
+          "points": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points New Zealand 1, Belgium 2. Belgium has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021485",
+      "matchNumber": 65,
+      "group": "H",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T00:00:00Z",
+      "localDateTime": "2026-06-26T19:00:00Z",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "homeTeam": "Cape Verde",
+      "awayTeam": "Saudi Arabia",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.0953,
+        "expectedFantasyPoints": 1.5736
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.092,
+        "expectedFantasyPoints": 2.3141
+      },
+      "expectedPoints": 2.3141,
+      "reasonForDifference": "Different scoreline: 2-1 has higher probability-weighted fantasy value (2.3141) than the most probable 1-1 (1.5736).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0953,
+      "mostProbableScoreProbability": 0.0953,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0953,
+          "expectedFantasyPoints": 1.5736
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.092,
+          "expectedFantasyPoints": 2.3141
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0715,
+          "expectedFantasyPoints": 1.6549
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0691,
+          "expectedFantasyPoints": 1.4012
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0627,
+          "expectedFantasyPoints": 2.1206
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.4759,
+        "draw": 0.2226,
+        "awayWin": 0.3015
+      },
+      "expectedGoals": {
+        "home": 1.9103,
+        "away": 1.4926
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        "away": {
+          "position": 4,
+          "played": 2,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4
+        }
+      },
+      "reasoningNote": "Current points Cape Verde 2, Saudi Arabia 1. Cape Verde has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021484",
+      "matchNumber": 66,
+      "group": "H",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T00:00:00Z",
+      "localDateTime": "2026-06-26T18:00:00Z",
+      "venue": "Guadalajara Stadium",
+      "city": "Guadalajara",
+      "country": "MEX",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Spain",
+      "selectedScore": {
+        "home": 0,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1227,
+        "expectedFantasyPoints": 3.1406
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1227,
+        "expectedFantasyPoints": 3.1406
+      },
+      "expectedPoints": 3.1406,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 0,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.1227,
+      "mostProbableScoreProbability": 0.1227,
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.1227,
+          "expectedFantasyPoints": 3.1406
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1139,
+          "expectedFantasyPoints": 3.0945
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0984,
+          "expectedFantasyPoints": 2.9792
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0913,
+          "expectedFantasyPoints": 1.4603
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0871,
+          "expectedFantasyPoints": 2.9551
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.126,
+        "draw": 0.1907,
+        "awayWin": 0.6833
+      },
+      "expectedGoals": {
+        "home": 0.794,
+        "away": 2.1266
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 2,
+          "points": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "goalDifference": 4
+        }
+      },
+      "reasoningNote": "Current points Uruguay 2, Spain 4. Spain has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021508",
+      "matchNumber": 67,
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T21:00:00Z",
+      "localDateTime": "2026-06-27T17:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "country": "USA",
+      "homeTeam": "Panama",
+      "awayTeam": "England",
+      "selectedScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.093,
+        "expectedFantasyPoints": 3.0502
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.093,
+        "expectedFantasyPoints": 3.0502
+      },
+      "expectedPoints": 3.0502,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.093,
+      "mostProbableScoreProbability": 0.093,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.093,
+          "expectedFantasyPoints": 3.0502
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0884,
+          "expectedFantasyPoints": 3.0182
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0821,
+          "expectedFantasyPoints": 2.9881
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0781,
+          "expectedFantasyPoints": 2.9579
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0694,
+          "expectedFantasyPoints": 1.2439
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.124,
+        "draw": 0.1593,
+        "awayWin": 0.7166
+      },
+      "expectedGoals": {
+        "home": 1.0376,
+        "away": 2.6299
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 1,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1
+        },
+        "away": {
+          "position": 1,
+          "played": 1,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2
+        }
+      },
+      "reasoningNote": "Current points Panama 0, England 3. England has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021509",
+      "matchNumber": 68,
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T21:00:00Z",
+      "localDateTime": "2026-06-27T17:00:00Z",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "USA",
+      "homeTeam": "Croatia",
+      "awayTeam": "Ghana",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0928,
+        "expectedFantasyPoints": 3.0294
+      },
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0928,
+        "expectedFantasyPoints": 3.0294
+      },
+      "expectedPoints": 3.0294,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0928,
+      "mostProbableScoreProbability": 0.0928,
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0928,
+          "expectedFantasyPoints": 3.0294
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0855,
+          "expectedFantasyPoints": 2.9784
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.082,
+          "expectedFantasyPoints": 2.9682
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0755,
+          "expectedFantasyPoints": 2.9196
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.069,
+          "expectedFantasyPoints": 1.2457
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.7102,
+        "draw": 0.1608,
+        "awayWin": 0.129
+      },
+      "expectedGoals": {
+        "home": 2.6345,
+        "away": 1.0712
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 1,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        "away": {
+          "position": 2,
+          "played": 1,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1
+        }
+      },
+      "reasoningNote": "Current points Croatia 0, Ghana 3. Croatia has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021497",
+      "matchNumber": 69,
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "utcDateTime": "2026-06-28T02:00:00Z",
+      "localDateTime": "2026-06-27T21:00:00Z",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "homeTeam": "Algeria",
+      "awayTeam": "Austria",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1303,
+        "expectedFantasyPoints": 1.9361
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1244,
+        "expectedFantasyPoints": 2.3951
+      },
+      "expectedPoints": 2.3951,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.3951) than the most probable 1-1 (1.9361).",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1303,
+      "mostProbableScoreProbability": 0.1303,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1303,
+          "expectedFantasyPoints": 1.9361
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1244,
+          "expectedFantasyPoints": 2.3951
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0953,
+          "expectedFantasyPoints": 1.7744
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0911,
+          "expectedFantasyPoints": 1.7079
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0879,
+          "expectedFantasyPoints": 2.1874
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.2869,
+        "draw": 0.2744,
+        "awayWin": 0.4387
+      },
+      "expectedGoals": {
+        "home": 1.0337,
+        "away": 1.3438
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 3,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Algeria 3, Austria 3. Austria has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021495",
+      "matchNumber": 70,
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "utcDateTime": "2026-06-28T02:00:00Z",
+      "localDateTime": "2026-06-27T21:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "country": "USA",
+      "homeTeam": "Jordan",
+      "awayTeam": "Argentina",
+      "selectedScore": {
+        "home": 0,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1049,
+        "expectedFantasyPoints": 3.4204
+      },
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1049,
+        "expectedFantasyPoints": 3.4204
+      },
+      "expectedPoints": 3.4204,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 0,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.1049,
+      "mostProbableScoreProbability": 0.1049,
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.1049,
+          "expectedFantasyPoints": 3.4204
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.1028,
+          "expectedFantasyPoints": 3.4093
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0837,
+          "expectedFantasyPoints": 3.2655
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.082,
+          "expectedFantasyPoints": 3.2556
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.0747,
+          "expectedFantasyPoints": 3.2629
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.0704,
+        "draw": 0.1224,
+        "awayWin": 0.8072
+      },
+      "expectedGoals": {
+        "home": 0.7902,
+        "away": 2.9098
+      },
+      "confidenceLevel": "High",
+      "currentGroupContext": {
+        "home": {
+          "position": 4,
+          "played": 2,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        },
+        "away": {
+          "position": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5
+        }
+      },
+      "reasoningNote": "Current points Jordan 0, Argentina 6. Argentina has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021505",
+      "matchNumber": 71,
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T23:30:00Z",
+      "localDateTime": "2026-06-27T19:30:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "country": "USA",
+      "homeTeam": "Colombia",
+      "awayTeam": "Portugal",
+      "selectedScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0785,
+        "expectedFantasyPoints": 2.1499
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0785,
+        "expectedFantasyPoints": 2.1499
+      },
+      "expectedPoints": 2.1499,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.0785,
+      "mostProbableScoreProbability": 0.0785,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0785,
+          "expectedFantasyPoints": 2.1499
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0742,
+          "expectedFantasyPoints": 1.3864
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0721,
+          "expectedFantasyPoints": 1.3737
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0681,
+          "expectedFantasyPoints": 1.7546
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0564,
+          "expectedFantasyPoints": 2.0069
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.3425,
+        "draw": 0.2063,
+        "awayWin": 0.4512
+      },
+      "expectedGoals": {
+        "home": 1.8694,
+        "away": 2.1495
+      },
+      "confidenceLevel": "Low",
+      "currentGroupContext": {
+        "home": {
+          "position": 1,
+          "played": 1,
+          "points": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2
+        },
+        "away": {
+          "position": 3,
+          "played": 1,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        }
+      },
+      "reasoningNote": "Current points Colombia 3, Portugal 1. Portugal has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    },
+    {
+      "matchId": "400021500",
+      "matchNumber": 72,
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "utcDateTime": "2026-06-27T23:30:00Z",
+      "localDateTime": "2026-06-27T19:30:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "homeTeam": "DR Congo",
+      "awayTeam": "Uzbekistan",
+      "selectedScore": {
+        "home": 1,
+        "away": 0
+      },
+      "selectedMostProbableScore": {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1645,
+        "expectedFantasyPoints": 2.5623
+      },
+      "selectedExpectedPointsScore": {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1645,
+        "expectedFantasyPoints": 2.5623
+      },
+      "expectedPoints": 2.5623,
+      "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
+      "mostProbableScore": {
+        "home": 1,
+        "away": 0
+      },
+      "selectedScoreProbability": 0.1645,
+      "mostProbableScoreProbability": 0.1645,
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1645,
+          "expectedFantasyPoints": 2.5623
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.1499,
+          "expectedFantasyPoints": 2.1777
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1334,
+          "expectedFantasyPoints": 2.0765
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1215,
+          "expectedFantasyPoints": 1.8633
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0892,
+          "expectedFantasyPoints": 2.1674
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.4178,
+        "draw": 0.3152,
+        "awayWin": 0.267
+      },
+      "expectedGoals": {
+        "home": 1.083,
+        "away": 0.8026
+      },
+      "confidenceLevel": "Medium",
+      "currentGroupContext": {
+        "home": {
+          "position": 2,
+          "played": 1,
+          "points": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        "away": {
+          "position": 4,
+          "played": 1,
+          "points": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2
+        }
+      },
+      "reasoningNote": "Current points DR Congo 1, Uzbekistan 0. DR Congo has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+    }
+  ]
+}

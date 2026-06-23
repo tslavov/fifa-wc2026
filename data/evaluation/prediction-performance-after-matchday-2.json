@@ -1,0 +1,2709 @@
+{
+  "datasetId": "prediction-performance-after-matchday-2",
+  "artifactKind": "evaluation",
+  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "sourceResultFile": "data\\results\\group-stage-matchday-1-and-2-results-v1.json",
+  "predictionSources": {
+    "firstRoundSelectedScoreReport": "reports\\world-cup-2026-first-round-score-predictions.md",
+    "matchday2SelectedScorePrediction": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+    "firstRoundMarkovChainPrediction": "data\\predictions\\group-stage-markov-chain-v1.json",
+    "matchday2MarkovChainPrediction": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+    "monteCarloAfterMatchday1": "data\\predictions\\group-stage-monte-carlo-v2-after-matchday-1.json"
+  },
+  "contaminationControl": {
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true,
+    "notes": "Previous predictions are compared with official results only. They are not joined into team metrics or feature inputs."
+  },
+  "evaluatedFixtureCount": 44,
+  "incompleteMatchday1And2FixtureCount": 4,
+  "summary": {
+    "llmOnlyOrSelectedScore": {
+      "evaluatedFixtures": 44,
+      "exactScoreHits": 3,
+      "exactScoreHitRate": 0.0682,
+      "outcomeHits": 23,
+      "outcomeHitRate": 0.5227,
+      "teamGoalHits": 29,
+      "teamGoalsEvaluated": 88,
+      "teamGoalsHitRate": 0.3295,
+      "averageTotalGoalsError": 1.4773,
+      "averageGoalDifferenceError": 1.5227,
+      "averageHomeGoalsError": 0.9773,
+      "averageAwayGoalsError": 0.9545
+    },
+    "markovMostProbableScore": {
+      "evaluatedFixtures": 44,
+      "exactScoreHits": 8,
+      "exactScoreHitRate": 0.1818,
+      "outcomeHits": 28,
+      "outcomeHitRate": 0.6364,
+      "teamGoalHits": 36,
+      "teamGoalsEvaluated": 88,
+      "teamGoalsHitRate": 0.4091,
+      "averageTotalGoalsError": 1.4091,
+      "averageGoalDifferenceError": 1.4091,
+      "averageHomeGoalsError": 1.1364,
+      "averageAwayGoalsError": 0.6364,
+      "averagePredictedGoalsPerMatch": 3.2586
+    },
+    "monteCarloGroupSimulation": {
+      "available": true,
+      "actualTopTwoCoveredByPredictedTopTwo": 21,
+      "actualTopTwoSlotsEvaluated": 24,
+      "actualTopTwoCoveredByPredictedTopTwoRate": 0.875,
+      "averageAbsolutePositionError": 0.4167,
+      "groups": [
+        {
+          "group": "A",
+          "actualTopTwo": [
+            "Mexico",
+            "South Korea"
+          ],
+          "predictedTopTwo": [
+            "Mexico",
+            "South Korea"
+          ]
+        },
+        {
+          "group": "B",
+          "actualTopTwo": [
+            "Canada",
+            "Switzerland"
+          ],
+          "predictedTopTwo": [
+            "Switzerland",
+            "Canada"
+          ]
+        },
+        {
+          "group": "C",
+          "actualTopTwo": [
+            "Brazil",
+            "Morocco"
+          ],
+          "predictedTopTwo": [
+            "Morocco",
+            "Brazil"
+          ]
+        },
+        {
+          "group": "D",
+          "actualTopTwo": [
+            "United States",
+            "Australia"
+          ],
+          "predictedTopTwo": [
+            "Australia",
+            "United States"
+          ]
+        },
+        {
+          "group": "E",
+          "actualTopTwo": [
+            "Germany",
+            "Ivory Coast"
+          ],
+          "predictedTopTwo": [
+            "Germany",
+            "Ivory Coast"
+          ]
+        },
+        {
+          "group": "F",
+          "actualTopTwo": [
+            "Netherlands",
+            "Japan"
+          ],
+          "predictedTopTwo": [
+            "Netherlands",
+            "Japan"
+          ]
+        },
+        {
+          "group": "G",
+          "actualTopTwo": [
+            "Egypt",
+            "Iran"
+          ],
+          "predictedTopTwo": [
+            "Belgium",
+            "Egypt"
+          ]
+        },
+        {
+          "group": "H",
+          "actualTopTwo": [
+            "Spain",
+            "Uruguay"
+          ],
+          "predictedTopTwo": [
+            "Spain",
+            "Uruguay"
+          ]
+        },
+        {
+          "group": "I",
+          "actualTopTwo": [
+            "France",
+            "Norway"
+          ],
+          "predictedTopTwo": [
+            "France",
+            "Norway"
+          ]
+        },
+        {
+          "group": "J",
+          "actualTopTwo": [
+            "Argentina",
+            "Austria"
+          ],
+          "predictedTopTwo": [
+            "Argentina",
+            "Austria"
+          ]
+        },
+        {
+          "group": "K",
+          "actualTopTwo": [
+            "Colombia",
+            "DR Congo"
+          ],
+          "predictedTopTwo": [
+            "Portugal",
+            "Colombia"
+          ]
+        },
+        {
+          "group": "L",
+          "actualTopTwo": [
+            "England",
+            "Ghana"
+          ],
+          "predictedTopTwo": [
+            "England",
+            "Croatia"
+          ]
+        }
+      ]
+    },
+    "actualGoalsPerMatch": 3.0455,
+    "actualDrawRate": 0.2955
+  },
+  "methodNotes": {
+    "llmOnlyOrSelectedScore": "This is the report-selected score. In the existing project, LLM reasoning explains and sanity-checks model outputs rather than acting as a separate numeric model.",
+    "markovMostProbableScore": "For Matchday 1, this uses v1 Markov fixture distributions; for Matchday 2, it uses the post-Matchday-1 score artifact's most probable score.",
+    "monteCarloGroupSimulation": "Monte Carlo is evaluated as group-table positioning/progression signal, not exact score prediction."
+  },
+  "matches": [
+    {
+      "matchId": "400021443",
+      "matchNumber": 1,
+      "group": "A",
+      "matchday": 1,
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "actualScore": {
+        "home": 2,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.8238,
+          "away": 0.8655
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.8238,
+        "away": 0.8655
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021441",
+      "matchNumber": 2,
+      "group": "A",
+      "matchday": 1,
+      "homeTeam": "South Korea",
+      "awayTeam": "Czechia",
+      "actualScore": {
+        "home": 2,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.5189,
+          "away": 1.9991
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.5189,
+        "away": 1.9991
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021449",
+      "matchNumber": 3,
+      "group": "B",
+      "matchday": 1,
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia and Herzegovina",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.4719,
+          "away": 1.025
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.4719,
+        "away": 1.025
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021458",
+      "matchNumber": 4,
+      "group": "D",
+      "matchday": 1,
+      "homeTeam": "United States",
+      "awayTeam": "Paraguay",
+      "actualScore": {
+        "home": 4,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 3,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.773,
+          "away": 1.7399
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.773,
+        "away": 1.7399
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021453",
+      "matchNumber": 5,
+      "group": "C",
+      "matchday": 1,
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "actualScore": {
+        "home": 0,
+        "away": 1
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.3898,
+          "away": 2.0541
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.3898,
+        "away": 2.0541
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021463",
+      "matchNumber": 6,
+      "group": "D",
+      "matchday": 1,
+      "homeTeam": "Australia",
+      "awayTeam": "Turkey",
+      "actualScore": {
+        "home": 2,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 4,
+        "homeGoalsError": 1,
+        "awayGoalsError": 3
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 1,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 1.5868,
+          "away": 2.0856
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.5868,
+        "away": 2.0856
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021456",
+      "matchNumber": 7,
+      "group": "C",
+      "matchday": 1,
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.1568,
+          "away": 1.939
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.1568,
+        "away": 1.939
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021447",
+      "matchNumber": 8,
+      "group": "B",
+      "matchday": 1,
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 0.8111,
+          "away": 2.6944
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 0.8111,
+        "away": 2.6944
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021467",
+      "matchNumber": 9,
+      "group": "E",
+      "matchday": 1,
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "actualScore": {
+        "home": 1,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.1861,
+          "away": 1.1227
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.1861,
+        "away": 1.1227
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021464",
+      "matchNumber": 10,
+      "group": "E",
+      "matchday": 1,
+      "homeTeam": "Germany",
+      "awayTeam": "Curacao",
+      "actualScore": {
+        "home": 7,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 3,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 4,
+        "goalDifferenceError": 4,
+        "homeGoalsError": 4,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 3.1551,
+          "away": 1.2464
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 3.1551,
+        "away": 1.2464
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021470",
+      "matchNumber": 11,
+      "group": "F",
+      "matchday": 1,
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "actualScore": {
+        "home": 2,
+        "away": 2
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.6918,
+          "away": 1.4234
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.6918,
+        "away": 1.4234
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021474",
+      "matchNumber": 12,
+      "group": "F",
+      "matchday": 1,
+      "homeTeam": "Sweden",
+      "awayTeam": "Tunisia",
+      "actualScore": {
+        "home": 5,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 6,
+        "homeGoalsError": 4,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 5,
+        "homeGoalsError": 4,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.7367,
+          "away": 2.0174
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.7367,
+        "away": 2.0174
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021486",
+      "matchNumber": 13,
+      "group": "H",
+      "matchday": 1,
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.1594,
+          "away": 1.7679
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.1594,
+        "away": 1.7679
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021482",
+      "matchNumber": 14,
+      "group": "H",
+      "matchday": 1,
+      "homeTeam": "Spain",
+      "awayTeam": "Cape Verde",
+      "actualScore": {
+        "home": 0,
+        "away": 0
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 4,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 3,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.8846,
+          "away": 0.8988
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.8846,
+        "away": 0.8988
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021476",
+      "matchNumber": 15,
+      "group": "G",
+      "matchday": 1,
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "actualScore": {
+        "home": 2,
+        "away": 2
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 1,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 2.6398,
+          "away": 0.6909
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.6398,
+        "away": 0.6909
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021478",
+      "matchNumber": 16,
+      "group": "G",
+      "matchday": 1,
+      "homeTeam": "Belgium",
+      "awayTeam": "Egypt",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.0753,
+          "away": 1.01
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.0753,
+        "away": 1.01
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021490",
+      "matchNumber": 17,
+      "group": "I",
+      "matchday": 1,
+      "homeTeam": "France",
+      "awayTeam": "Senegal",
+      "actualScore": {
+        "home": 3,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.0349,
+          "away": 1.4314
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.0349,
+        "away": 1.4314
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021488",
+      "matchNumber": 18,
+      "group": "I",
+      "matchday": 1,
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "actualScore": {
+        "home": 1,
+        "away": 4
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 1.0184,
+          "away": 2.1858
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.0184,
+        "away": 2.1858
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021496",
+      "matchNumber": 19,
+      "group": "J",
+      "matchday": 1,
+      "homeTeam": "Argentina",
+      "awayTeam": "Algeria",
+      "actualScore": {
+        "home": 3,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.4064,
+          "away": 0.8594
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.4064,
+        "away": 0.8594
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021498",
+      "matchNumber": 20,
+      "group": "J",
+      "matchday": 1,
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "actualScore": {
+        "home": 3,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.9462,
+          "away": 0.9894
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.9462,
+        "away": 0.9894
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021510",
+      "matchNumber": 21,
+      "group": "L",
+      "matchday": 1,
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "actualScore": {
+        "home": 1,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 0,
+        "awayGoalsError": 3
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 1.5106,
+          "away": 2.2466
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.5106,
+        "away": 2.2466
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021507",
+      "matchNumber": 22,
+      "group": "L",
+      "matchday": 1,
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "actualScore": {
+        "home": 4,
+        "away": 2
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 4,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 3,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.9548,
+          "away": 1.282
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.9548,
+        "away": 1.282
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021502",
+      "matchNumber": 23,
+      "group": "K",
+      "matchday": 1,
+      "homeTeam": "Portugal",
+      "awayTeam": "DR Congo",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.343,
+          "away": 1.1487
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.343,
+        "away": 1.1487
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021504",
+      "matchNumber": 24,
+      "group": "K",
+      "matchday": 1,
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "actualScore": {
+        "home": 1,
+        "away": 3
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 1.3504,
+          "away": 1.8494
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.3504,
+        "away": 1.8494
+      },
+      "predictionSources": {
+        "selectedScore": "reports\\world-cup-2026-first-round-score-predictions.md",
+        "markovMostProbableScore": "data\\predictions\\group-stage-markov-chain-v1.json"
+      }
+    },
+    {
+      "matchId": "400021440",
+      "matchNumber": 25,
+      "group": "A",
+      "matchday": 2,
+      "homeTeam": "Czechia",
+      "awayTeam": "South Africa",
+      "actualScore": {
+        "home": 1,
+        "away": 1
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.9638,
+          "away": 1.3901
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.9638,
+        "away": 1.3901
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021446",
+      "matchNumber": 26,
+      "group": "B",
+      "matchday": 2,
+      "homeTeam": "Switzerland",
+      "awayTeam": "Bosnia and Herzegovina",
+      "actualScore": {
+        "home": 4,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.1473,
+          "away": 1.3859
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.1473,
+        "away": 1.3859
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021450",
+      "matchNumber": 27,
+      "group": "B",
+      "matchday": 2,
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "actualScore": {
+        "home": 6,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 4,
+        "goalDifferenceError": 4,
+        "homeGoalsError": 4,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 5,
+        "goalDifferenceError": 5,
+        "homeGoalsError": 5,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.8055,
+          "away": 0.5974
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.8055,
+        "away": 0.5974
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021442",
+      "matchNumber": 28,
+      "group": "A",
+      "matchday": 2,
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "actualScore": {
+        "home": 1,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.8224,
+          "away": 0.9344
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.8224,
+        "away": 0.9344
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021457",
+      "matchNumber": 29,
+      "group": "C",
+      "matchday": 2,
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "actualScore": {
+        "home": 3,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 2.4486,
+          "away": 1.315
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.4486,
+        "away": 1.315
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021454",
+      "matchNumber": 30,
+      "group": "C",
+      "matchday": 2,
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "actualScore": {
+        "home": 0,
+        "away": 1
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 0.9515,
+          "away": 2.0281
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 0.9515,
+        "away": 2.0281
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021460",
+      "matchNumber": 31,
+      "group": "D",
+      "matchday": 2,
+      "homeTeam": "Turkey",
+      "awayTeam": "Paraguay",
+      "actualScore": {
+        "home": 0,
+        "away": 1
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 3,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.1143,
+          "away": 1.4807
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.1143,
+        "away": 1.4807
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021462",
+      "matchNumber": 32,
+      "group": "D",
+      "matchday": 2,
+      "homeTeam": "United States",
+      "awayTeam": "Australia",
+      "actualScore": {
+        "home": 2,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 0,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.7161,
+          "away": 1.8413
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.7161,
+        "away": 1.8413
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021469",
+      "matchNumber": 33,
+      "group": "E",
+      "matchday": 2,
+      "homeTeam": "Germany",
+      "awayTeam": "Ivory Coast",
+      "actualScore": {
+        "home": 2,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.0922,
+          "away": 1.3969
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.0922,
+        "away": 1.3969
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021465",
+      "matchNumber": 34,
+      "group": "E",
+      "matchday": 2,
+      "homeTeam": "Ecuador",
+      "awayTeam": "Curacao",
+      "actualScore": {
+        "home": 0,
+        "away": 0
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.6521,
+          "away": 1.0505
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.6521,
+        "away": 1.0505
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021472",
+      "matchNumber": 35,
+      "group": "F",
+      "matchday": 2,
+      "homeTeam": "Netherlands",
+      "awayTeam": "Sweden",
+      "actualScore": {
+        "home": 5,
+        "away": 1
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 3.3713,
+          "away": 1.0604
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 3.3713,
+        "away": 1.0604
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021475",
+      "matchNumber": 36,
+      "group": "F",
+      "matchday": 2,
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "actualScore": {
+        "home": 0,
+        "away": 4
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 1,
+        "awayGoalsError": 2,
+        "expectedGoals": {
+          "home": 0.9964,
+          "away": 2.2922
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 0.9964,
+        "away": 2.2922
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021487",
+      "matchNumber": 37,
+      "group": "H",
+      "matchday": 2,
+      "homeTeam": "Uruguay",
+      "awayTeam": "Cape Verde",
+      "actualScore": {
+        "home": 2,
+        "away": 2
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "draw",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.569,
+          "away": 1.3286
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.569,
+        "away": 1.3286
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021483",
+      "matchNumber": 38,
+      "group": "H",
+      "matchday": 2,
+      "homeTeam": "Spain",
+      "awayTeam": "Saudi Arabia",
+      "actualScore": {
+        "home": 4,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 4,
+          "away": 0
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 3.1614,
+          "away": 0.7807
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 3.1614,
+        "away": 0.7807
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021477",
+      "matchNumber": 39,
+      "group": "G",
+      "matchday": 2,
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "actualScore": {
+        "home": 0,
+        "away": 0
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 2,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.9839,
+          "away": 1.1899
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.9839,
+        "away": 1.1899
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021480",
+      "matchNumber": 40,
+      "group": "G",
+      "matchday": 2,
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "actualScore": {
+        "home": 1,
+        "away": 3
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 0.7137,
+          "away": 2.2015
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 0.7137,
+        "away": 2.2015
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021491",
+      "matchNumber": 41,
+      "group": "I",
+      "matchday": 2,
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "actualScore": {
+        "home": 3,
+        "away": 2
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 2.0569,
+          "away": 1.4839
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.0569,
+        "away": 1.4839
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021492",
+      "matchNumber": 42,
+      "group": "I",
+      "matchday": 2,
+      "homeTeam": "France",
+      "awayTeam": "Iraq",
+      "actualScore": {
+        "home": 3,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 1,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.1173,
+          "away": 0.9734
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.1173,
+        "away": 0.9734
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021494",
+      "matchNumber": 43,
+      "group": "J",
+      "matchday": 2,
+      "homeTeam": "Argentina",
+      "awayTeam": "Austria",
+      "actualScore": {
+        "home": 2,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.3287,
+          "away": 1.0652
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.3287,
+        "away": 1.0652
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021499",
+      "matchNumber": 44,
+      "group": "J",
+      "matchday": 2,
+      "homeTeam": "Jordan",
+      "awayTeam": "Algeria",
+      "actualScore": {
+        "home": 1,
+        "away": 2
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": true,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 2,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 0,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 0,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 1.0306,
+          "away": 2.3395
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.0306,
+        "away": 2.3395
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    }
+  ]
+}
