@@ -1,0 +1,2188 @@
+{
+  "datasetId": "group-stage-standings-after-group-stage-v1",
+  "artifactKind": "standings",
+  "generatedAt": "2026-06-27T22:50:41.062Z",
+  "sourceResultFile": "data\\results\\group-stage-results-v1.json",
+  "status": "provisional",
+  "qualificationRules": {
+    "groupWinnersAndRunnersUp": 24,
+    "bestThirdPlaceTeams": 8,
+    "qualifiedFromGroupsTotal": 32,
+    "tiebreakersApplied": [
+      "points",
+      "head-to-head points",
+      "head-to-head goal difference",
+      "head-to-head goals scored",
+      "overall goal difference",
+      "overall goals scored",
+      "FIFA rank fallback"
+    ],
+    "thirdPlaceTiebreakersApplied": [
+      "points",
+      "goal difference",
+      "goals scored",
+      "FIFA rank fallback"
+    ]
+  },
+  "completionStatus": {
+    "expectedFixtures": 72,
+    "completedFixtures": 66,
+    "incompleteFixtures": 6,
+    "allGroupStageFixturesFinal": false
+  },
+  "groups": [
+    {
+      "group": "A",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Mexico",
+          "group": "A",
+          "countryCode": "MEX",
+          "fifaRank": 14,
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 0,
+          "goalDifference": 6,
+          "points": 9
+        },
+        {
+          "position": 2,
+          "team": "South Africa",
+          "group": "A",
+          "countryCode": "RSA",
+          "fifaRank": 55,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "South Korea",
+          "group": "A",
+          "countryCode": "KOR",
+          "fifaRank": 23,
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Czechia",
+          "group": "A",
+          "countryCode": "CZE",
+          "fifaRank": 39,
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4,
+          "points": 1
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Mexico",
+          "group": "A",
+          "route": "top_two",
+          "position": 1,
+          "points": 9,
+          "goalDifference": 6,
+          "goalsFor": 6,
+          "fifaRank": 14
+        },
+        {
+          "team": "South Africa",
+          "group": "A",
+          "route": "top_two",
+          "position": 2,
+          "points": 4,
+          "goalDifference": -1,
+          "goalsFor": 2,
+          "fifaRank": 55
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "South Korea",
+        "group": "A",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": -1,
+        "goalsFor": 2,
+        "fifaRank": 23
+      },
+      "eliminated": [
+        {
+          "team": "Czechia",
+          "group": "A",
+          "route": "eliminated",
+          "position": 4,
+          "points": 1,
+          "goalDifference": -4,
+          "goalsFor": 2,
+          "fifaRank": 39
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Switzerland",
+          "group": "B",
+          "countryCode": "SUI",
+          "fifaRank": 17,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Canada",
+          "group": "B",
+          "countryCode": "CAN",
+          "fifaRank": 26,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Bosnia and Herzegovina",
+          "group": "B",
+          "countryCode": "BIH",
+          "fifaRank": 73,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Qatar",
+          "group": "B",
+          "countryCode": "QAT",
+          "fifaRank": 53,
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8,
+          "points": 1
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Switzerland",
+          "group": "B",
+          "route": "top_two",
+          "position": 1,
+          "points": 7,
+          "goalDifference": 4,
+          "goalsFor": 7,
+          "fifaRank": 17
+        },
+        {
+          "team": "Canada",
+          "group": "B",
+          "route": "top_two",
+          "position": 2,
+          "points": 4,
+          "goalDifference": 5,
+          "goalsFor": 8,
+          "fifaRank": 26
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Bosnia and Herzegovina",
+        "group": "B",
+        "route": "third_place",
+        "position": 3,
+        "points": 4,
+        "goalDifference": -1,
+        "goalsFor": 5,
+        "fifaRank": 73
+      },
+      "eliminated": [
+        {
+          "team": "Qatar",
+          "group": "B",
+          "route": "eliminated",
+          "position": 4,
+          "points": 1,
+          "goalDifference": -8,
+          "goalsFor": 2,
+          "fifaRank": 53
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Brazil",
+          "group": "C",
+          "countryCode": "BRA",
+          "fifaRank": 6,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Morocco",
+          "group": "C",
+          "countryCode": "MAR",
+          "fifaRank": 11,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "goalDifference": 3,
+          "points": 7
+        },
+        {
+          "position": 3,
+          "team": "Scotland",
+          "group": "C",
+          "countryCode": "SCO",
+          "fifaRank": 43,
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Haiti",
+          "group": "C",
+          "countryCode": "HAI",
+          "fifaRank": 87,
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 8,
+          "goalDifference": -6,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Brazil",
+          "group": "C",
+          "route": "top_two",
+          "position": 1,
+          "points": 7,
+          "goalDifference": 6,
+          "goalsFor": 7,
+          "fifaRank": 6
+        },
+        {
+          "team": "Morocco",
+          "group": "C",
+          "route": "top_two",
+          "position": 2,
+          "points": 7,
+          "goalDifference": 3,
+          "goalsFor": 6,
+          "fifaRank": 11
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Scotland",
+        "group": "C",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": -3,
+        "goalsFor": 1,
+        "fifaRank": 43
+      },
+      "eliminated": [
+        {
+          "team": "Haiti",
+          "group": "C",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -6,
+          "goalsFor": 2,
+          "fifaRank": 87
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "United States",
+          "group": "D",
+          "countryCode": "USA",
+          "fifaRank": 16,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "goalDifference": 4,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Australia",
+          "group": "D",
+          "countryCode": "AUS",
+          "fifaRank": 25,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Paraguay",
+          "group": "D",
+          "countryCode": "PAR",
+          "fifaRank": 37,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Turkey",
+          "group": "D",
+          "countryCode": "TUR",
+          "fifaRank": 27,
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
+          "points": 3
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "United States",
+          "group": "D",
+          "route": "top_two",
+          "position": 1,
+          "points": 6,
+          "goalDifference": 4,
+          "goalsFor": 8,
+          "fifaRank": 16
+        },
+        {
+          "team": "Australia",
+          "group": "D",
+          "route": "top_two",
+          "position": 2,
+          "points": 4,
+          "goalDifference": 0,
+          "goalsFor": 2,
+          "fifaRank": 25
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Paraguay",
+        "group": "D",
+        "route": "third_place",
+        "position": 3,
+        "points": 4,
+        "goalDifference": -2,
+        "goalsFor": 2,
+        "fifaRank": 37
+      },
+      "eliminated": [
+        {
+          "team": "Turkey",
+          "group": "D",
+          "route": "eliminated",
+          "position": 4,
+          "points": 3,
+          "goalDifference": -2,
+          "goalsFor": 3,
+          "fifaRank": 27
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Germany",
+          "group": "E",
+          "countryCode": "GER",
+          "fifaRank": 12,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Ivory Coast",
+          "group": "E",
+          "countryCode": "CIV",
+          "fifaRank": 44,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 6
+        },
+        {
+          "position": 3,
+          "team": "Ecuador",
+          "group": "E",
+          "countryCode": "ECU",
+          "fifaRank": 24,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Curacao",
+          "group": "E",
+          "countryCode": "CUW",
+          "fifaRank": 84,
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 9,
+          "goalDifference": -8,
+          "points": 1
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Germany",
+          "group": "E",
+          "route": "top_two",
+          "position": 1,
+          "points": 6,
+          "goalDifference": 6,
+          "goalsFor": 10,
+          "fifaRank": 12
+        },
+        {
+          "team": "Ivory Coast",
+          "group": "E",
+          "route": "top_two",
+          "position": 2,
+          "points": 6,
+          "goalDifference": 2,
+          "goalsFor": 4,
+          "fifaRank": 44
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Ecuador",
+        "group": "E",
+        "route": "third_place",
+        "position": 3,
+        "points": 4,
+        "goalDifference": 0,
+        "goalsFor": 2,
+        "fifaRank": 24
+      },
+      "eliminated": [
+        {
+          "team": "Curacao",
+          "group": "E",
+          "route": "eliminated",
+          "position": 4,
+          "points": 1,
+          "goalDifference": -8,
+          "goalsFor": 1,
+          "fifaRank": 84
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Netherlands",
+          "group": "F",
+          "countryCode": "NED",
+          "fifaRank": 7,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Japan",
+          "group": "F",
+          "countryCode": "JPN",
+          "fifaRank": 19,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 5
+        },
+        {
+          "position": 3,
+          "team": "Sweden",
+          "group": "F",
+          "countryCode": "SWE",
+          "fifaRank": 32,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 7,
+          "goalDifference": 0,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Tunisia",
+          "group": "F",
+          "countryCode": "TUN",
+          "fifaRank": 46,
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 12,
+          "goalDifference": -10,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Netherlands",
+          "group": "F",
+          "route": "top_two",
+          "position": 1,
+          "points": 7,
+          "goalDifference": 6,
+          "goalsFor": 10,
+          "fifaRank": 7
+        },
+        {
+          "team": "Japan",
+          "group": "F",
+          "route": "top_two",
+          "position": 2,
+          "points": 5,
+          "goalDifference": 4,
+          "goalsFor": 7,
+          "fifaRank": 19
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Sweden",
+        "group": "F",
+        "route": "third_place",
+        "position": 3,
+        "points": 4,
+        "goalDifference": 0,
+        "goalsFor": 7,
+        "fifaRank": 32
+      },
+      "eliminated": [
+        {
+          "team": "Tunisia",
+          "group": "F",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -10,
+          "goalsFor": 2,
+          "fifaRank": 46
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Belgium",
+          "group": "G",
+          "countryCode": "BEL",
+          "fifaRank": 8,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 5
+        },
+        {
+          "position": 2,
+          "team": "Egypt",
+          "group": "G",
+          "countryCode": "EGY",
+          "fifaRank": 35,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 3,
+          "goalDifference": 2,
+          "points": 5
+        },
+        {
+          "position": 3,
+          "team": "Iran",
+          "group": "G",
+          "countryCode": "IRN",
+          "fifaRank": 21,
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "New Zealand",
+          "group": "G",
+          "countryCode": "NZL",
+          "fifaRank": 83,
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
+          "goalDifference": -6,
+          "points": 1
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Belgium",
+          "group": "G",
+          "route": "top_two",
+          "position": 1,
+          "points": 5,
+          "goalDifference": 4,
+          "goalsFor": 6,
+          "fifaRank": 8
+        },
+        {
+          "team": "Egypt",
+          "group": "G",
+          "route": "top_two",
+          "position": 2,
+          "points": 5,
+          "goalDifference": 2,
+          "goalsFor": 5,
+          "fifaRank": 35
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Iran",
+        "group": "G",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": 0,
+        "goalsFor": 3,
+        "fifaRank": 21
+      },
+      "eliminated": [
+        {
+          "team": "New Zealand",
+          "group": "G",
+          "route": "eliminated",
+          "position": 4,
+          "points": 1,
+          "goalDifference": -6,
+          "goalsFor": 4,
+          "fifaRank": 83
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Spain",
+          "group": "H",
+          "countryCode": "ESP",
+          "fifaRank": 1,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Cape Verde",
+          "group": "H",
+          "countryCode": "CPV",
+          "fifaRank": 70,
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3
+        },
+        {
+          "position": 3,
+          "team": "Uruguay",
+          "group": "H",
+          "countryCode": "URU",
+          "fifaRank": 15,
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1,
+          "points": 2
+        },
+        {
+          "position": 4,
+          "team": "Saudi Arabia",
+          "group": "H",
+          "countryCode": "KSA",
+          "fifaRank": 59,
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 2
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Spain",
+          "group": "H",
+          "route": "top_two",
+          "position": 1,
+          "points": 7,
+          "goalDifference": 5,
+          "goalsFor": 5,
+          "fifaRank": 1
+        },
+        {
+          "team": "Cape Verde",
+          "group": "H",
+          "route": "top_two",
+          "position": 2,
+          "points": 3,
+          "goalDifference": 0,
+          "goalsFor": 2,
+          "fifaRank": 70
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Uruguay",
+        "group": "H",
+        "route": "third_place",
+        "position": 3,
+        "points": 2,
+        "goalDifference": -1,
+        "goalsFor": 3,
+        "fifaRank": 15
+      },
+      "eliminated": [
+        {
+          "team": "Saudi Arabia",
+          "group": "H",
+          "route": "eliminated",
+          "position": 4,
+          "points": 2,
+          "goalDifference": -4,
+          "goalsFor": 1,
+          "fifaRank": 59
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "status": "final",
+      "incompleteFixtures": [],
+      "standings": [
+        {
+          "position": 1,
+          "team": "France",
+          "group": "I",
+          "countryCode": "FRA",
+          "fifaRank": 2,
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 2,
+          "goalDifference": 8,
+          "points": 9
+        },
+        {
+          "position": 2,
+          "team": "Norway",
+          "group": "I",
+          "countryCode": "NOR",
+          "fifaRank": 31,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
+          "goalDifference": 1,
+          "points": 6
+        },
+        {
+          "position": 3,
+          "team": "Senegal",
+          "group": "I",
+          "countryCode": "SEN",
+          "fifaRank": 18,
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Iraq",
+          "group": "I",
+          "countryCode": "IRQ",
+          "fifaRank": 58,
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goalsFor": 1,
+          "goalsAgainst": 12,
+          "goalDifference": -11,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "France",
+          "group": "I",
+          "route": "top_two",
+          "position": 1,
+          "points": 9,
+          "goalDifference": 8,
+          "goalsFor": 10,
+          "fifaRank": 2
+        },
+        {
+          "team": "Norway",
+          "group": "I",
+          "route": "top_two",
+          "position": 2,
+          "points": 6,
+          "goalDifference": 1,
+          "goalsFor": 8,
+          "fifaRank": 31
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Senegal",
+        "group": "I",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": 2,
+        "goalsFor": 8,
+        "fifaRank": 18
+      },
+      "eliminated": [
+        {
+          "team": "Iraq",
+          "group": "I",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -11,
+          "goalsFor": 1,
+          "fifaRank": 58
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "status": "provisional",
+      "incompleteFixtures": [
+        {
+          "matchId": "400021497",
+          "matchNumber": 69,
+          "stage": "First Stage",
+          "group": "J",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-28",
+          "utcDateTime": "2026-06-28T02:00:00Z",
+          "localDateTime": "2026-06-27T21:00:00Z",
+          "venue": "Kansas City Stadium",
+          "city": "Kansas City",
+          "country": "USA",
+          "homeTeam": "Algeria",
+          "awayTeam": "Austria",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 1,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "scheduled"
+          },
+          "status": "scheduled"
+        },
+        {
+          "matchId": "400021495",
+          "matchNumber": 70,
+          "stage": "First Stage",
+          "group": "J",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-28",
+          "utcDateTime": "2026-06-28T02:00:00Z",
+          "localDateTime": "2026-06-27T21:00:00Z",
+          "venue": "Dallas Stadium",
+          "city": "Dallas",
+          "country": "USA",
+          "homeTeam": "Jordan",
+          "awayTeam": "Argentina",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 1,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "scheduled"
+          },
+          "status": "scheduled"
+        }
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Argentina",
+          "group": "J",
+          "countryCode": "ARG",
+          "fifaRank": 3,
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Austria",
+          "group": "J",
+          "countryCode": "AUT",
+          "fifaRank": 22,
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3
+        },
+        {
+          "position": 3,
+          "team": "Algeria",
+          "group": "J",
+          "countryCode": "ALG",
+          "fifaRank": 38,
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Jordan",
+          "group": "J",
+          "countryCode": "JOR",
+          "fifaRank": 62,
+          "played": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Argentina",
+          "group": "J",
+          "route": "top_two",
+          "position": 1,
+          "points": 6,
+          "goalDifference": 5,
+          "goalsFor": 5,
+          "fifaRank": 3
+        },
+        {
+          "team": "Austria",
+          "group": "J",
+          "route": "top_two",
+          "position": 2,
+          "points": 3,
+          "goalDifference": 0,
+          "goalsFor": 3,
+          "fifaRank": 22
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Algeria",
+        "group": "J",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": -2,
+        "goalsFor": 2,
+        "fifaRank": 38
+      },
+      "eliminated": [
+        {
+          "team": "Jordan",
+          "group": "J",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -3,
+          "goalsFor": 2,
+          "fifaRank": 62
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "status": "provisional",
+      "incompleteFixtures": [
+        {
+          "matchId": "400021505",
+          "matchNumber": 71,
+          "stage": "First Stage",
+          "group": "K",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-27",
+          "utcDateTime": "2026-06-27T23:30:00Z",
+          "localDateTime": "2026-06-27T19:30:00Z",
+          "venue": "Miami Stadium",
+          "city": "Miami",
+          "country": "USA",
+          "homeTeam": "Colombia",
+          "awayTeam": "Portugal",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 1,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "scheduled"
+          },
+          "status": "scheduled"
+        },
+        {
+          "matchId": "400021500",
+          "matchNumber": 72,
+          "stage": "First Stage",
+          "group": "K",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-27",
+          "utcDateTime": "2026-06-27T23:30:00Z",
+          "localDateTime": "2026-06-27T19:30:00Z",
+          "venue": "Atlanta Stadium",
+          "city": "Atlanta",
+          "country": "USA",
+          "homeTeam": "DR Congo",
+          "awayTeam": "Uzbekistan",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 1,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "scheduled"
+          },
+          "status": "scheduled"
+        }
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Colombia",
+          "group": "K",
+          "countryCode": "COL",
+          "fifaRank": 13,
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Portugal",
+          "group": "K",
+          "countryCode": "POR",
+          "fifaRank": 5,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "DR Congo",
+          "group": "K",
+          "countryCode": "COD",
+          "fifaRank": 60,
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": "Uzbekistan",
+          "group": "K",
+          "countryCode": "UZB",
+          "fifaRank": 54,
+          "played": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 8,
+          "goalDifference": -7,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "Colombia",
+          "group": "K",
+          "route": "top_two",
+          "position": 1,
+          "points": 6,
+          "goalDifference": 3,
+          "goalsFor": 4,
+          "fifaRank": 13
+        },
+        {
+          "team": "Portugal",
+          "group": "K",
+          "route": "top_two",
+          "position": 2,
+          "points": 4,
+          "goalDifference": 5,
+          "goalsFor": 6,
+          "fifaRank": 5
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "DR Congo",
+        "group": "K",
+        "route": "third_place",
+        "position": 3,
+        "points": 1,
+        "goalDifference": -1,
+        "goalsFor": 1,
+        "fifaRank": 60
+      },
+      "eliminated": [
+        {
+          "team": "Uzbekistan",
+          "group": "K",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -7,
+          "goalsFor": 1,
+          "fifaRank": 54
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "status": "provisional",
+      "incompleteFixtures": [
+        {
+          "matchId": "400021508",
+          "matchNumber": 67,
+          "stage": "First Stage",
+          "group": "L",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-27",
+          "utcDateTime": "2026-06-27T21:00:00Z",
+          "localDateTime": "2026-06-27T17:00:00Z",
+          "venue": "New York/New Jersey Stadium",
+          "city": "New Jersey",
+          "country": "USA",
+          "homeTeam": "Panama",
+          "awayTeam": "England",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 3,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "in_progress"
+          },
+          "status": "in_progress",
+          "scoreAtFetch": {
+            "home": 0,
+            "away": 2
+          }
+        },
+        {
+          "matchId": "400021509",
+          "matchNumber": 68,
+          "stage": "First Stage",
+          "group": "L",
+          "round": "group_stage",
+          "matchday": 3,
+          "date": "2026-06-27",
+          "utcDateTime": "2026-06-27T21:00:00Z",
+          "localDateTime": "2026-06-27T17:00:00Z",
+          "venue": "Philadelphia Stadium",
+          "city": "Philadelphia",
+          "country": "USA",
+          "homeTeam": "Croatia",
+          "awayTeam": "Ghana",
+          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "officialStatus": {
+            "matchStatus": 3,
+            "resultType": 0,
+            "officialityStatus": 0,
+            "statusLabel": "in_progress"
+          },
+          "status": "in_progress",
+          "scoreAtFetch": {
+            "home": 2,
+            "away": 1
+          }
+        }
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": "England",
+          "group": "L",
+          "countryCode": "ENG",
+          "fifaRank": 4,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 4
+        },
+        {
+          "position": 2,
+          "team": "Ghana",
+          "group": "L",
+          "countryCode": "GHA",
+          "fifaRank": 75,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Croatia",
+          "group": "L",
+          "countryCode": "CRO",
+          "fifaRank": 9,
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Panama",
+          "group": "L",
+          "countryCode": "PAN",
+          "fifaRank": 29,
+          "played": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0
+        }
+      ],
+      "qualifiedTopTwo": [
+        {
+          "team": "England",
+          "group": "L",
+          "route": "top_two",
+          "position": 1,
+          "points": 4,
+          "goalDifference": 2,
+          "goalsFor": 4,
+          "fifaRank": 4
+        },
+        {
+          "team": "Ghana",
+          "group": "L",
+          "route": "top_two",
+          "position": 2,
+          "points": 4,
+          "goalDifference": 1,
+          "goalsFor": 1,
+          "fifaRank": 75
+        }
+      ],
+      "thirdPlaceCandidate": {
+        "team": "Croatia",
+        "group": "L",
+        "route": "third_place",
+        "position": 3,
+        "points": 3,
+        "goalDifference": -1,
+        "goalsFor": 3,
+        "fifaRank": 9
+      },
+      "eliminated": [
+        {
+          "team": "Panama",
+          "group": "L",
+          "route": "eliminated",
+          "position": 4,
+          "points": 0,
+          "goalDifference": -2,
+          "goalsFor": 0,
+          "fifaRank": 29
+        }
+      ]
+    }
+  ],
+  "thirdPlaceRanking": [
+    {
+      "rank": 1,
+      "advances": true,
+      "position": 3,
+      "team": "Sweden",
+      "group": "F",
+      "countryCode": "SWE",
+      "fifaRank": 32,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 7,
+      "goalDifference": 0,
+      "points": 4
+    },
+    {
+      "rank": 2,
+      "advances": true,
+      "position": 3,
+      "team": "Ecuador",
+      "group": "E",
+      "countryCode": "ECU",
+      "fifaRank": 24,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDifference": 0,
+      "points": 4
+    },
+    {
+      "rank": 3,
+      "advances": true,
+      "position": 3,
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "countryCode": "BIH",
+      "fifaRank": 73,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "goalDifference": -1,
+      "points": 4
+    },
+    {
+      "rank": 4,
+      "advances": true,
+      "position": 3,
+      "team": "Paraguay",
+      "group": "D",
+      "countryCode": "PAR",
+      "fifaRank": 37,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDifference": -2,
+      "points": 4
+    },
+    {
+      "rank": 5,
+      "advances": true,
+      "position": 3,
+      "team": "Senegal",
+      "group": "I",
+      "countryCode": "SEN",
+      "fifaRank": 18,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
+      "goalDifference": 2,
+      "points": 3
+    },
+    {
+      "rank": 6,
+      "advances": true,
+      "position": 3,
+      "team": "Iran",
+      "group": "G",
+      "countryCode": "IRN",
+      "fifaRank": 21,
+      "played": 3,
+      "wins": 0,
+      "draws": 3,
+      "losses": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalDifference": 0,
+      "points": 3
+    },
+    {
+      "rank": 7,
+      "advances": true,
+      "position": 3,
+      "team": "Croatia",
+      "group": "L",
+      "countryCode": "CRO",
+      "fifaRank": 9,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalDifference": -1,
+      "points": 3
+    },
+    {
+      "rank": 8,
+      "advances": true,
+      "position": 3,
+      "team": "South Korea",
+      "group": "A",
+      "countryCode": "KOR",
+      "fifaRank": 23,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 3,
+      "goalDifference": -1,
+      "points": 3
+    },
+    {
+      "rank": 9,
+      "advances": false,
+      "position": 3,
+      "team": "Algeria",
+      "group": "J",
+      "countryCode": "ALG",
+      "fifaRank": 38,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDifference": -2,
+      "points": 3
+    },
+    {
+      "rank": 10,
+      "advances": false,
+      "position": 3,
+      "team": "Scotland",
+      "group": "C",
+      "countryCode": "SCO",
+      "fifaRank": 43,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goalsFor": 1,
+      "goalsAgainst": 4,
+      "goalDifference": -3,
+      "points": 3
+    },
+    {
+      "rank": 11,
+      "advances": false,
+      "position": 3,
+      "team": "Uruguay",
+      "group": "H",
+      "countryCode": "URU",
+      "fifaRank": 15,
+      "played": 3,
+      "wins": 0,
+      "draws": 2,
+      "losses": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalDifference": -1,
+      "points": 2
+    },
+    {
+      "rank": 12,
+      "advances": false,
+      "position": 3,
+      "team": "DR Congo",
+      "group": "K",
+      "countryCode": "COD",
+      "fifaRank": 60,
+      "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 1
+    }
+  ],
+  "qualifiedTeams": [
+    {
+      "team": "Mexico",
+      "group": "A",
+      "route": "top_two",
+      "position": 1,
+      "points": 9,
+      "goalDifference": 6,
+      "goalsFor": 6,
+      "fifaRank": 14
+    },
+    {
+      "team": "South Africa",
+      "group": "A",
+      "route": "top_two",
+      "position": 2,
+      "points": 4,
+      "goalDifference": -1,
+      "goalsFor": 2,
+      "fifaRank": 55
+    },
+    {
+      "team": "South Korea",
+      "group": "A",
+      "route": "best_third",
+      "position": 3,
+      "points": 3,
+      "goalDifference": -1,
+      "goalsFor": 2,
+      "fifaRank": 23
+    },
+    {
+      "team": "Switzerland",
+      "group": "B",
+      "route": "top_two",
+      "position": 1,
+      "points": 7,
+      "goalDifference": 4,
+      "goalsFor": 7,
+      "fifaRank": 17
+    },
+    {
+      "team": "Canada",
+      "group": "B",
+      "route": "top_two",
+      "position": 2,
+      "points": 4,
+      "goalDifference": 5,
+      "goalsFor": 8,
+      "fifaRank": 26
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": -1,
+      "goalsFor": 5,
+      "fifaRank": 73
+    },
+    {
+      "team": "Brazil",
+      "group": "C",
+      "route": "top_two",
+      "position": 1,
+      "points": 7,
+      "goalDifference": 6,
+      "goalsFor": 7,
+      "fifaRank": 6
+    },
+    {
+      "team": "Morocco",
+      "group": "C",
+      "route": "top_two",
+      "position": 2,
+      "points": 7,
+      "goalDifference": 3,
+      "goalsFor": 6,
+      "fifaRank": 11
+    },
+    {
+      "team": "United States",
+      "group": "D",
+      "route": "top_two",
+      "position": 1,
+      "points": 6,
+      "goalDifference": 4,
+      "goalsFor": 8,
+      "fifaRank": 16
+    },
+    {
+      "team": "Australia",
+      "group": "D",
+      "route": "top_two",
+      "position": 2,
+      "points": 4,
+      "goalDifference": 0,
+      "goalsFor": 2,
+      "fifaRank": 25
+    },
+    {
+      "team": "Paraguay",
+      "group": "D",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": -2,
+      "goalsFor": 2,
+      "fifaRank": 37
+    },
+    {
+      "team": "Germany",
+      "group": "E",
+      "route": "top_two",
+      "position": 1,
+      "points": 6,
+      "goalDifference": 6,
+      "goalsFor": 10,
+      "fifaRank": 12
+    },
+    {
+      "team": "Ivory Coast",
+      "group": "E",
+      "route": "top_two",
+      "position": 2,
+      "points": 6,
+      "goalDifference": 2,
+      "goalsFor": 4,
+      "fifaRank": 44
+    },
+    {
+      "team": "Ecuador",
+      "group": "E",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": 0,
+      "goalsFor": 2,
+      "fifaRank": 24
+    },
+    {
+      "team": "Netherlands",
+      "group": "F",
+      "route": "top_two",
+      "position": 1,
+      "points": 7,
+      "goalDifference": 6,
+      "goalsFor": 10,
+      "fifaRank": 7
+    },
+    {
+      "team": "Japan",
+      "group": "F",
+      "route": "top_two",
+      "position": 2,
+      "points": 5,
+      "goalDifference": 4,
+      "goalsFor": 7,
+      "fifaRank": 19
+    },
+    {
+      "team": "Sweden",
+      "group": "F",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": 0,
+      "goalsFor": 7,
+      "fifaRank": 32
+    },
+    {
+      "team": "Belgium",
+      "group": "G",
+      "route": "top_two",
+      "position": 1,
+      "points": 5,
+      "goalDifference": 4,
+      "goalsFor": 6,
+      "fifaRank": 8
+    },
+    {
+      "team": "Egypt",
+      "group": "G",
+      "route": "top_two",
+      "position": 2,
+      "points": 5,
+      "goalDifference": 2,
+      "goalsFor": 5,
+      "fifaRank": 35
+    },
+    {
+      "team": "Iran",
+      "group": "G",
+      "route": "best_third",
+      "position": 3,
+      "points": 3,
+      "goalDifference": 0,
+      "goalsFor": 3,
+      "fifaRank": 21
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "route": "top_two",
+      "position": 1,
+      "points": 7,
+      "goalDifference": 5,
+      "goalsFor": 5,
+      "fifaRank": 1
+    },
+    {
+      "team": "Cape Verde",
+      "group": "H",
+      "route": "top_two",
+      "position": 2,
+      "points": 3,
+      "goalDifference": 0,
+      "goalsFor": 2,
+      "fifaRank": 70
+    },
+    {
+      "team": "France",
+      "group": "I",
+      "route": "top_two",
+      "position": 1,
+      "points": 9,
+      "goalDifference": 8,
+      "goalsFor": 10,
+      "fifaRank": 2
+    },
+    {
+      "team": "Norway",
+      "group": "I",
+      "route": "top_two",
+      "position": 2,
+      "points": 6,
+      "goalDifference": 1,
+      "goalsFor": 8,
+      "fifaRank": 31
+    },
+    {
+      "team": "Senegal",
+      "group": "I",
+      "route": "best_third",
+      "position": 3,
+      "points": 3,
+      "goalDifference": 2,
+      "goalsFor": 8,
+      "fifaRank": 18
+    },
+    {
+      "team": "Argentina",
+      "group": "J",
+      "route": "top_two",
+      "position": 1,
+      "points": 6,
+      "goalDifference": 5,
+      "goalsFor": 5,
+      "fifaRank": 3
+    },
+    {
+      "team": "Austria",
+      "group": "J",
+      "route": "top_two",
+      "position": 2,
+      "points": 3,
+      "goalDifference": 0,
+      "goalsFor": 3,
+      "fifaRank": 22
+    },
+    {
+      "team": "Colombia",
+      "group": "K",
+      "route": "top_two",
+      "position": 1,
+      "points": 6,
+      "goalDifference": 3,
+      "goalsFor": 4,
+      "fifaRank": 13
+    },
+    {
+      "team": "Portugal",
+      "group": "K",
+      "route": "top_two",
+      "position": 2,
+      "points": 4,
+      "goalDifference": 5,
+      "goalsFor": 6,
+      "fifaRank": 5
+    },
+    {
+      "team": "England",
+      "group": "L",
+      "route": "top_two",
+      "position": 1,
+      "points": 4,
+      "goalDifference": 2,
+      "goalsFor": 4,
+      "fifaRank": 4
+    },
+    {
+      "team": "Ghana",
+      "group": "L",
+      "route": "top_two",
+      "position": 2,
+      "points": 4,
+      "goalDifference": 1,
+      "goalsFor": 1,
+      "fifaRank": 75
+    },
+    {
+      "team": "Croatia",
+      "group": "L",
+      "route": "best_third",
+      "position": 3,
+      "points": 3,
+      "goalDifference": -1,
+      "goalsFor": 3,
+      "fifaRank": 9
+    }
+  ],
+  "eliminatedTeams": [
+    {
+      "team": "Czechia",
+      "group": "A",
+      "route": "eliminated",
+      "position": 4,
+      "points": 1,
+      "goalDifference": -4,
+      "goalsFor": 2,
+      "fifaRank": 39
+    },
+    {
+      "team": "Qatar",
+      "group": "B",
+      "route": "eliminated",
+      "position": 4,
+      "points": 1,
+      "goalDifference": -8,
+      "goalsFor": 2,
+      "fifaRank": 53
+    },
+    {
+      "team": "Haiti",
+      "group": "C",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -6,
+      "goalsFor": 2,
+      "fifaRank": 87
+    },
+    {
+      "team": "Turkey",
+      "group": "D",
+      "route": "eliminated",
+      "position": 4,
+      "points": 3,
+      "goalDifference": -2,
+      "goalsFor": 3,
+      "fifaRank": 27
+    },
+    {
+      "team": "Curacao",
+      "group": "E",
+      "route": "eliminated",
+      "position": 4,
+      "points": 1,
+      "goalDifference": -8,
+      "goalsFor": 1,
+      "fifaRank": 84
+    },
+    {
+      "team": "Tunisia",
+      "group": "F",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -10,
+      "goalsFor": 2,
+      "fifaRank": 46
+    },
+    {
+      "team": "New Zealand",
+      "group": "G",
+      "route": "eliminated",
+      "position": 4,
+      "points": 1,
+      "goalDifference": -6,
+      "goalsFor": 4,
+      "fifaRank": 83
+    },
+    {
+      "team": "Saudi Arabia",
+      "group": "H",
+      "route": "eliminated",
+      "position": 4,
+      "points": 2,
+      "goalDifference": -4,
+      "goalsFor": 1,
+      "fifaRank": 59
+    },
+    {
+      "team": "Iraq",
+      "group": "I",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -11,
+      "goalsFor": 1,
+      "fifaRank": 58
+    },
+    {
+      "team": "Jordan",
+      "group": "J",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -3,
+      "goalsFor": 2,
+      "fifaRank": 62
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "K",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -7,
+      "goalsFor": 1,
+      "fifaRank": 54
+    },
+    {
+      "team": "Panama",
+      "group": "L",
+      "route": "eliminated",
+      "position": 4,
+      "points": 0,
+      "goalDifference": -2,
+      "goalsFor": 0,
+      "fifaRank": 29
+    }
+  ],
+  "warnings": [
+    "FIFA official feed had 6 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.",
+    "Best third-place qualifiers are provisional until all group-stage fixtures are final."
+  ]
+}
