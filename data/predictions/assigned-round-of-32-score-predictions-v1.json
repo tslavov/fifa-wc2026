@@ -1,0 +1,914 @@
+{
+  "artifactKind": "prediction",
+  "predictionId": "assigned-round-of-32-score-predictions-v1",
+  "predictionType": "round_of_32_assigned_fixture_score_predictions",
+  "generatedAt": "2026-06-27T22:58:04.908Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "contaminationControl": {
+    "builderInputPaths": [
+      "data\\knockout\\round-of-32-readiness-v1.json",
+      "data\\model\\group-stage-standings-after-group-stage-v1.json",
+      "data\\model-input\\team-strength.json",
+      "data\\model\\algorithm-adjustments-after-matchday-2.json"
+    ],
+    "predictionDirectoryReadAsInputForPrediction": false,
+    "notes": "Predictions use assigned FIFA knockout fixtures, current group-stage standings, collected team-strength inputs, and existing global calibration only."
+  },
+  "groupStageStatus": "provisional",
+  "completionStatus": {
+    "expectedFixtures": 72,
+    "completedFixtures": 66,
+    "incompleteFixtures": 6,
+    "allGroupStageFixturesFinal": false
+  },
+  "scope": {
+    "stage": "Round of 32",
+    "assignedFixturesOnly": true,
+    "predictedFixtureCount": 9,
+    "skippedUnassignedFixtures": 7
+  },
+  "method": {
+    "type": "knockout_markov_score_distribution_from_group_stage_stats",
+    "modelParameters": {
+      "baseGoalRateMultiplier": 0.9675,
+      "qualityMultiplierScale": 0.6285,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14,
+      "baseGoalsPerTeamMatch": 2.0463
+    },
+    "scoreSelection": {
+      "nearEqualRelativeBand": 0.02,
+      "nearEqualAbsoluteProbabilityBand": 0.015,
+      "higherScoreTiebreak": false,
+      "strongerTeamTiebreak": true,
+      "saferDrawFallback": true,
+      "defaultToMostProbableScore": true
+    },
+    "ninetyMinuteOnly": true,
+    "notes": "Knockout extra time and penalties are not modeled; draw probability is reported as draw-through-90."
+  },
+  "matches": [
+    {
+      "matchId": "400021518",
+      "matchNumber": 73,
+      "stage": "Round of 32",
+      "date": "2026-06-28",
+      "utcDateTime": "2026-06-28T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "homeTeam": "South Africa",
+      "awayTeam": "Canada",
+      "selectedScore": {
+        "home": 0,
+        "away": 2
+      },
+      "mostProbableScore": {
+        "home": 0,
+        "away": 2
+      },
+      "selectedScoreProbability": 0.1044,
+      "mostProbableScoreProbability": 0.1044,
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1044,
+        "expectedFantasyPoints": 3.2218
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.1009,
+        "drawThrough90": 0.1515,
+        "awayWin": 0.7476
+      },
+      "advancementLeanThrough90": "away",
+      "expectedGoals": {
+        "home": 0.8784,
+        "away": 2.6107
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.1044,
+          "expectedFantasyPoints": 3.2218
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0928,
+          "expectedFantasyPoints": 3.1411
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0916,
+          "expectedFantasyPoints": 3.1524
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0813,
+          "expectedFantasyPoints": 3.0758
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0784,
+          "expectedFantasyPoints": 3.0813
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "A",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 4,
+          "goalDifference": -1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "fifaRank": 55,
+          "eloRating": 1528
+        },
+        "away": {
+          "group": "B",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 4,
+          "goalDifference": 5,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "fifaRank": 26,
+          "eloRating": 1788
+        }
+      },
+      "reasoningNote": "South Africa group form 4 pts/-1 GD vs Canada 4 pts/5 GD; 90-minute lean is away."
+    },
+    {
+      "matchId": "400021513",
+      "matchNumber": 74,
+      "stage": "Round of 32",
+      "date": "2026-06-29",
+      "utcDateTime": "2026-06-29T20:30:00Z",
+      "venue": "Boston Stadium",
+      "city": "Boston",
+      "homeTeam": "Germany",
+      "awayTeam": "Paraguay",
+      "selectedScore": {
+        "home": 3,
+        "away": 0
+      },
+      "mostProbableScore": {
+        "home": 3,
+        "away": 0
+      },
+      "selectedScoreProbability": 0.082,
+      "mostProbableScoreProbability": 0.082,
+      "selectedExpectedPointsScore": {
+        "home": 3,
+        "away": 0,
+        "probability": 0.082,
+        "expectedFantasyPoints": 3.3638
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.8414,
+        "drawThrough90": 0.097,
+        "awayWin": 0.0616
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 3.5096,
+        "away": 0.9757
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.082,
+          "expectedFantasyPoints": 3.3638
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0809,
+          "expectedFantasyPoints": 3.3556
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0724,
+          "expectedFantasyPoints": 3.3094
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0714,
+          "expectedFantasyPoints": 3.3015
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0689,
+          "expectedFantasyPoints": 3.2896
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "E",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 6,
+          "goalDifference": 6,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "fifaRank": 12,
+          "eloRating": 1932
+        },
+        "away": {
+          "group": "D",
+          "groupPosition": 3,
+          "qualificationRoute": "best_third",
+          "points": 4,
+          "goalDifference": -2,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "fifaRank": 37,
+          "eloRating": 1833
+        }
+      },
+      "reasoningNote": "Germany group form 6 pts/6 GD vs Paraguay 4 pts/-2 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021522",
+      "matchNumber": 75,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T01:00:00Z",
+      "venue": "Monterrey Stadium",
+      "city": "Monterrey",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0694,
+      "mostProbableScoreProbability": 0.0694,
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0694,
+        "expectedFantasyPoints": 2.2928
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.519,
+        "drawThrough90": 0.1869,
+        "awayWin": 0.2941
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 2.5969,
+        "away": 1.9758
+      },
+      "confidenceLevel": "Low",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0694,
+          "expectedFantasyPoints": 2.2928
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0694,
+          "expectedFantasyPoints": 1.2967
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0605,
+          "expectedFantasyPoints": 2.2333
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0604,
+          "expectedFantasyPoints": 2.2329
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0525,
+          "expectedFantasyPoints": 1.1838
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "F",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 7,
+          "goalDifference": 6,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "fifaRank": 7,
+          "eloRating": 1944
+        },
+        "away": {
+          "group": "C",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 7,
+          "goalDifference": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "fifaRank": 11,
+          "eloRating": 1824
+        }
+      },
+      "reasoningNote": "Netherlands group form 7 pts/6 GD vs Morocco 7 pts/3 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021516",
+      "matchNumber": 76,
+      "stage": "Round of 32",
+      "date": "2026-06-29",
+      "utcDateTime": "2026-06-29T17:00:00Z",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "homeTeam": "Brazil",
+      "awayTeam": "Japan",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0992,
+      "mostProbableScoreProbability": 0.0992,
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0992,
+        "expectedFantasyPoints": 2.9312
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.6651,
+        "drawThrough90": 0.1852,
+        "awayWin": 0.1496
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 2.2979,
+        "away": 1.0093
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0992,
+          "expectedFantasyPoints": 2.9312
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0971,
+          "expectedFantasyPoints": 2.9171
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.085,
+          "expectedFantasyPoints": 1.4105
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0832,
+          "expectedFantasyPoints": 2.837
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0763,
+          "expectedFantasyPoints": 2.8006
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "C",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 7,
+          "goalDifference": 6,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "fifaRank": 6,
+          "eloRating": 1991
+        },
+        "away": {
+          "group": "F",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 5,
+          "goalDifference": 4,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "fifaRank": 19,
+          "eloRating": 1906
+        }
+      },
+      "reasoningNote": "Brazil group form 7 pts/6 GD vs Japan 5 pts/4 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021523",
+      "matchNumber": 77,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T21:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "homeTeam": "France",
+      "awayTeam": "Sweden",
+      "selectedScore": {
+        "home": 4,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 4,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0731,
+      "mostProbableScoreProbability": 0.0731,
+      "selectedExpectedPointsScore": {
+        "home": 4,
+        "away": 1,
+        "probability": 0.0731,
+        "expectedFantasyPoints": 3.4543
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.8893,
+        "drawThrough90": 0.0682,
+        "awayWin": 0.0425
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 4.2497,
+        "away": 1.078
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0731,
+          "expectedFantasyPoints": 3.4543
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0678,
+          "expectedFantasyPoints": 3.4238
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.067,
+          "expectedFantasyPoints": 3.405
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0623,
+          "expectedFantasyPoints": 3.3927
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0621,
+          "expectedFantasyPoints": 3.3757
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "I",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 9,
+          "goalDifference": 8,
+          "goalsFor": 10,
+          "goalsAgainst": 2,
+          "fifaRank": 2,
+          "eloRating": 2062
+        },
+        "away": {
+          "group": "F",
+          "groupPosition": 3,
+          "qualificationRoute": "best_third",
+          "points": 4,
+          "goalDifference": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 7,
+          "fifaRank": 32,
+          "eloRating": 1712
+        }
+      },
+      "reasoningNote": "France group form 9 pts/8 GD vs Sweden 4 pts/0 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021514",
+      "matchNumber": 78,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T17:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Norway",
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0776,
+      "mostProbableScoreProbability": 0.0776,
+      "selectedExpectedPointsScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0776,
+        "expectedFantasyPoints": 2.1213
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.4436,
+        "drawThrough90": 0.2063,
+        "awayWin": 0.3501
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 2.1358,
+        "away": 1.8944
+      },
+      "confidenceLevel": "Low",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0776,
+          "expectedFantasyPoints": 2.1213
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0744,
+          "expectedFantasyPoints": 1.3881
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0717,
+          "expectedFantasyPoints": 1.3708
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0687,
+          "expectedFantasyPoints": 1.7815
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0554,
+          "expectedFantasyPoints": 1.9767
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "E",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 6,
+          "goalDifference": 2,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "fifaRank": 44,
+          "eloRating": 1695
+        },
+        "away": {
+          "group": "I",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 6,
+          "goalDifference": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
+          "fifaRank": 31,
+          "eloRating": 1917
+        }
+      },
+      "reasoningNote": "Ivory Coast group form 6 pts/2 GD vs Norway 6 pts/1 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021524",
+      "matchNumber": 81,
+      "stage": "Round of 32",
+      "date": "2026-07-02",
+      "utcDateTime": "2026-07-02T00:00:00Z",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "homeTeam": "United States",
+      "awayTeam": "Bosnia and Herzegovina",
+      "selectedScore": {
+        "home": 4,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 4,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.0681,
+      "mostProbableScoreProbability": 0.0681,
+      "selectedExpectedPointsScore": {
+        "home": 4,
+        "away": 1,
+        "probability": 0.0681,
+        "expectedFantasyPoints": 3.2224
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.8256,
+        "drawThrough90": 0.0946,
+        "awayWin": 0.0797
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 4.0803,
+        "away": 1.4538
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0681,
+          "expectedFantasyPoints": 3.2224
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0659,
+          "expectedFantasyPoints": 3.2092
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0557,
+          "expectedFantasyPoints": 3.1487
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0498,
+          "expectedFantasyPoints": 3.0755
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0482,
+          "expectedFantasyPoints": 3.0641
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "D",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 6,
+          "goalDifference": 4,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "fifaRank": 16,
+          "eloRating": 1726
+        },
+        "away": {
+          "group": "B",
+          "groupPosition": 3,
+          "qualificationRoute": "best_third",
+          "points": 4,
+          "goalDifference": -1,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "fifaRank": 73,
+          "eloRating": 1595
+        }
+      },
+      "reasoningNote": "United States group form 6 pts/4 GD vs Bosnia and Herzegovina 4 pts/-1 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021521",
+      "matchNumber": 86,
+      "stage": "Round of 32",
+      "date": "2026-07-03",
+      "utcDateTime": "2026-07-03T22:00:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "homeTeam": "Argentina",
+      "awayTeam": "Cape Verde",
+      "selectedScore": {
+        "home": 3,
+        "away": 0
+      },
+      "mostProbableScore": {
+        "home": 3,
+        "away": 0
+      },
+      "selectedScoreProbability": 0.1717,
+      "mostProbableScoreProbability": 0.1717,
+      "selectedExpectedPointsScore": {
+        "home": 3,
+        "away": 0,
+        "probability": 0.1717,
+        "expectedFantasyPoints": 4.2284
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.9106,
+        "drawThrough90": 0.0727,
+        "awayWin": 0.0166
+      },
+      "advancementLeanThrough90": "home",
+      "expectedGoals": {
+        "home": 3.0262,
+        "away": 0.2818
+      },
+      "confidenceLevel": "High",
+      "topScorelines": [
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.1717,
+          "expectedFantasyPoints": 4.2284
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.1681,
+          "expectedFantasyPoints": 4.2129
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.1301,
+          "expectedFantasyPoints": 4.0484
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1085,
+          "expectedFantasyPoints": 3.9549
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "probability": 0.0779,
+          "expectedFantasyPoints": 3.8228
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "J",
+          "groupPosition": 1,
+          "qualificationRoute": "top_two",
+          "points": 6,
+          "goalDifference": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "fifaRank": 3,
+          "eloRating": 2114
+        },
+        "away": {
+          "group": "H",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 3,
+          "goalDifference": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "fifaRank": 70,
+          "eloRating": 1578
+        }
+      },
+      "reasoningNote": "Argentina group form 6 pts/5 GD vs Cape Verde 3 pts/0 GD; 90-minute lean is home."
+    },
+    {
+      "matchId": "400021515",
+      "matchNumber": 88,
+      "stage": "Round of 32",
+      "date": "2026-07-03",
+      "utcDateTime": "2026-07-03T18:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Australia",
+      "awayTeam": "Egypt",
+      "selectedScore": {
+        "home": 1,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 1,
+        "away": 1
+      },
+      "selectedScoreProbability": 0.1292,
+      "mostProbableScoreProbability": 0.1292,
+      "selectedExpectedPointsScore": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1174,
+        "expectedFantasyPoints": 2.332
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.2979,
+        "drawThrough90": 0.2706,
+        "awayWin": 0.4315
+      },
+      "advancementLeanThrough90": "away",
+      "expectedGoals": {
+        "home": 1.0863,
+        "away": 1.3629
+      },
+      "confidenceLevel": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1292,
+          "expectedFantasyPoints": 1.9184
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1174,
+          "expectedFantasyPoints": 2.332
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0933,
+          "expectedFantasyPoints": 1.7952
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0885,
+          "expectedFantasyPoints": 2.1686
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0848,
+          "expectedFantasyPoints": 1.654
+        }
+      ],
+      "teamContext": {
+        "home": {
+          "group": "D",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 4,
+          "goalDifference": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "fifaRank": 25,
+          "eloRating": 1777
+        },
+        "away": {
+          "group": "G",
+          "groupPosition": 2,
+          "qualificationRoute": "top_two",
+          "points": 5,
+          "goalDifference": 2,
+          "goalsFor": 5,
+          "goalsAgainst": 3,
+          "fifaRank": 35,
+          "eloRating": 1696
+        }
+      },
+      "reasoningNote": "Australia group form 4 pts/0 GD vs Egypt 5 pts/2 GD; 90-minute lean is away."
+    }
+  ],
+  "warnings": [
+    "Group stage is not fully final; predictions cover only currently assigned Round of 32 fixtures.",
+    "Knockout advancement after extra time/penalties is not modeled."
+  ]
+}

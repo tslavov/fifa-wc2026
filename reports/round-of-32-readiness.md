@@ -1,6 +1,6 @@
 # Round of 32 Readiness
 
-Generated: 2026-06-27T22:50:41.062Z
+Generated: 2026-06-27T22:57:59.501Z
 
 ## Group Stage Data
 
@@ -13,7 +13,7 @@ Generated: 2026-06-27T22:50:41.062Z
 
 | Match | Group | Date | Fixture | Status |
 | ---: | --- | --- | --- | --- |
-| 67 | L | 2026-06-27 | Panama vs England | in_progress |
+| 67 | L | 2026-06-27 | Panama vs England | provisional_result |
 | 68 | L | 2026-06-27 | Croatia vs Ghana | in_progress |
 | 69 | J | 2026-06-28 | Algeria vs Austria | scheduled |
 | 70 | J | 2026-06-28 | Jordan vs Argentina | scheduled |

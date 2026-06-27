@@ -1,12 +1,12 @@
 {
   "datasetId": "round-of-32-readiness-v1",
   "artifactKind": "knockout_readiness",
-  "generatedAt": "2026-06-27T22:50:41.062Z",
+  "generatedAt": "2026-06-27T22:57:59.501Z",
   "source": {
     "sourceName": "FIFA World Cup 2026 scores and fixtures",
     "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
     "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-    "fetchedAt": "2026-06-27T22:50:41.062Z"
+    "fetchedAt": "2026-06-27T22:57:59.501Z"
   },
   "groupStageStatus": "provisional",
   "completionStatus": {

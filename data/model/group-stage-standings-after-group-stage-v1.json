@@ -1,7 +1,7 @@
 {
   "datasetId": "group-stage-standings-after-group-stage-v1",
   "artifactKind": "standings",
-  "generatedAt": "2026-06-27T22:50:41.062Z",
+  "generatedAt": "2026-06-27T22:57:59.501Z",
   "sourceResultFile": "data\\results\\group-stage-results-v1.json",
   "status": "provisional",
   "qualificationRules": {
@@ -1051,7 +1051,7 @@
           "awayTeam": "Austria",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
             "matchStatus": 1,
             "resultType": 0,
@@ -1077,7 +1077,7 @@
           "awayTeam": "Argentina",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
             "matchStatus": 1,
             "resultType": 0,
@@ -1215,7 +1215,7 @@
           "awayTeam": "Portugal",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
             "matchStatus": 1,
             "resultType": 0,
@@ -1241,7 +1241,7 @@
           "awayTeam": "Uzbekistan",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
             "matchStatus": 1,
             "resultType": 0,
@@ -1379,14 +1379,14 @@
           "awayTeam": "England",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
-            "matchStatus": 3,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "in_progress"
+            "matchStatus": 0,
+            "resultType": 1,
+            "officialityStatus": 2,
+            "statusLabel": "provisional_result"
           },
-          "status": "in_progress",
+          "status": "provisional_result",
           "scoreAtFetch": {
             "home": 0,
             "away": 2
@@ -1409,7 +1409,7 @@
           "awayTeam": "Ghana",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:50:41.062Z",
+          "fetchedAt": "2026-06-27T22:57:59.501Z",
           "officialStatus": {
             "matchStatus": 3,
             "resultType": 0,
