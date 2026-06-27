@@ -2,7 +2,7 @@
   "artifactKind": "prediction",
   "predictionId": "group-stage-matchday-3-score-predictions-v1",
   "predictionType": "matchday_3_score_predictions_after_matchday_2",
-  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "generatedAt": "2026-06-27T22:36:08.920Z",
   "excludeFromFuturePredictionInputs": true,
   "doNotUseAsTrainingData": true,
   "doNotUseAsCollectedData": true,
@@ -42,7 +42,7 @@
   "method": {
     "type": "v3_markov_score_distribution_after_matchday_2",
     "modelParameters": {
-      "baseGoalRateMultiplier": 0.9761,
+      "baseGoalRateMultiplier": 0.9675,
       "qualityMultiplierScale": 0.6285,
       "lambdaMin": 0.15,
       "lambdaMax": 4.25,
@@ -97,63 +97,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0846,
-        "expectedFantasyPoints": 2.2975
+        "probability": 0.0853,
+        "expectedFantasyPoints": 2.2992
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0846,
-        "expectedFantasyPoints": 2.2975
+        "probability": 0.0853,
+        "expectedFantasyPoints": 2.2992
       },
-      "expectedPoints": 2.2975,
+      "expectedPoints": 2.2992,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 2
       },
-      "selectedScoreProbability": 0.0846,
-      "mostProbableScoreProbability": 0.0846,
+      "selectedScoreProbability": 0.0853,
+      "mostProbableScoreProbability": 0.0853,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0846,
-          "expectedFantasyPoints": 2.2975
+          "probability": 0.0853,
+          "expectedFantasyPoints": 2.2992
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0771,
-          "expectedFantasyPoints": 1.4115
+          "probability": 0.0783,
+          "expectedFantasyPoints": 1.4235
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0727,
-          "expectedFantasyPoints": 1.3786
+          "probability": 0.0725,
+          "expectedFantasyPoints": 1.3815
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0662,
-          "expectedFantasyPoints": 1.6315
+          "probability": 0.0667,
+          "expectedFantasyPoints": 1.6342
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
-          "probability": 0.0611,
-          "expectedFantasyPoints": 2.1519
+          "probability": 0.061,
+          "expectedFantasyPoints": 2.1493
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3059,
-        "draw": 0.2071,
-        "awayWin": 0.4869
+        "homeWin": 0.3056,
+        "draw": 0.2083,
+        "awayWin": 0.4861
       },
       "expectedGoals": {
-        "home": 1.7039,
-        "away": 2.1637
+        "home": 1.6883,
+        "away": 2.1452
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
@@ -202,63 +202,63 @@
       "selectedMostProbableScore": {
         "home": 2,
         "away": 0,
-        "probability": 0.1324,
-        "expectedFantasyPoints": 3.321
+        "probability": 0.1335,
+        "expectedFantasyPoints": 3.3222
       },
       "selectedExpectedPointsScore": {
         "home": 2,
         "away": 0,
-        "probability": 0.1324,
-        "expectedFantasyPoints": 3.321
+        "probability": 0.1335,
+        "expectedFantasyPoints": 3.3222
       },
-      "expectedPoints": 3.321,
+      "expectedPoints": 3.3222,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 2,
         "away": 0
       },
-      "selectedScoreProbability": 0.1324,
-      "mostProbableScoreProbability": 0.1324,
+      "selectedScoreProbability": 0.1335,
+      "mostProbableScoreProbability": 0.1335,
       "topScorelines": [
         {
           "homeGoals": 2,
           "awayGoals": 0,
-          "probability": 0.1324,
-          "expectedFantasyPoints": 3.321
+          "probability": 0.1335,
+          "expectedFantasyPoints": 3.3222
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.1175,
-          "expectedFantasyPoints": 3.2459
+          "probability": 0.1196,
+          "expectedFantasyPoints": 3.2523
         },
         {
           "homeGoals": 3,
           "awayGoals": 0,
-          "probability": 0.0984,
-          "expectedFantasyPoints": 3.1493
+          "probability": 0.0983,
+          "expectedFantasyPoints": 3.1452
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.095,
-          "expectedFantasyPoints": 3.0703
+          "probability": 0.0949,
+          "expectedFantasyPoints": 3.0642
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0843,
-          "expectedFantasyPoints": 1.3718
+          "probability": 0.085,
+          "expectedFantasyPoints": 1.3807
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.7213,
-        "draw": 0.176,
-        "awayWin": 0.1028
+        "homeWin": 0.7194,
+        "draw": 0.1775,
+        "awayWin": 0.1031
       },
       "expectedGoals": {
-        "home": 2.2224,
-        "away": 0.711
+        "home": 2.202,
+        "away": 0.7047
       },
       "confidenceLevel": "High",
       "currentGroupContext": {
@@ -307,63 +307,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1333,
-        "expectedFantasyPoints": 1.9759
+        "probability": 0.1338,
+        "expectedFantasyPoints": 1.9828
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 0,
-        "probability": 0.118,
-        "expectedFantasyPoints": 2.1905
+        "probability": 0.1194,
+        "expectedFantasyPoints": 2.1961
       },
-      "expectedPoints": 2.1905,
-      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.1905) than the most probable 1-1 (1.9759).",
+      "expectedPoints": 2.1961,
+      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.1961) than the most probable 1-1 (1.9828).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1333,
-      "mostProbableScoreProbability": 0.1333,
+      "selectedScoreProbability": 0.1338,
+      "mostProbableScoreProbability": 0.1338,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1333,
-          "expectedFantasyPoints": 1.9759
+          "probability": 0.1338,
+          "expectedFantasyPoints": 1.9828
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.118,
-          "expectedFantasyPoints": 2.1905
+          "probability": 0.1194,
+          "expectedFantasyPoints": 2.1961
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1086,
-          "expectedFantasyPoints": 1.995
+          "probability": 0.1099,
+          "expectedFantasyPoints": 2.0011
         },
         {
           "homeGoals": 0,
           "awayGoals": 0,
-          "probability": 0.0961,
-          "expectedFantasyPoints": 1.7548
+          "probability": 0.0981,
+          "expectedFantasyPoints": 1.7717
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0809,
-          "expectedFantasyPoints": 1.9789
+          "probability": 0.0804,
+          "expectedFantasyPoints": 1.9736
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3828,
-        "draw": 0.2819,
-        "awayWin": 0.3354
+        "homeWin": 0.3819,
+        "draw": 0.2833,
+        "awayWin": 0.3348
       },
       "expectedGoals": {
-        "home": 1.211,
-        "away": 1.1145
+        "home": 1.1999,
+        "away": 1.1048
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -412,63 +412,63 @@
       "selectedMostProbableScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.1005,
-        "expectedFantasyPoints": 2.8546
+        "probability": 0.1007,
+        "expectedFantasyPoints": 2.8515
       },
       "selectedExpectedPointsScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.1005,
-        "expectedFantasyPoints": 2.8546
+        "probability": 0.1007,
+        "expectedFantasyPoints": 2.8515
       },
-      "expectedPoints": 2.8546,
+      "expectedPoints": 2.8515,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 2,
         "away": 1
       },
-      "selectedScoreProbability": 0.1005,
-      "mostProbableScoreProbability": 0.1005,
+      "selectedScoreProbability": 0.1007,
+      "mostProbableScoreProbability": 0.1007,
       "topScorelines": [
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.1005,
-          "expectedFantasyPoints": 2.8546
+          "probability": 0.1007,
+          "expectedFantasyPoints": 2.8515
         },
         {
           "homeGoals": 2,
           "awayGoals": 0,
-          "probability": 0.097,
-          "expectedFantasyPoints": 2.8313
+          "probability": 0.098,
+          "expectedFantasyPoints": 2.8335
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0913,
-          "expectedFantasyPoints": 1.4808
+          "probability": 0.0923,
+          "expectedFantasyPoints": 1.4908
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.0881,
-          "expectedFantasyPoints": 2.7797
+          "probability": 0.0898,
+          "expectedFantasyPoints": 2.7864
         },
         {
           "homeGoals": 3,
           "awayGoals": 1,
-          "probability": 0.0729,
-          "expectedFantasyPoints": 2.6972
+          "probability": 0.0724,
+          "expectedFantasyPoints": 2.6904
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.6372,
-        "draw": 0.1968,
-        "awayWin": 0.166
+        "homeWin": 0.6358,
+        "draw": 0.1981,
+        "awayWin": 0.1661
       },
       "expectedGoals": {
-        "home": 2.1716,
-        "away": 1.0246
+        "home": 2.1531,
+        "away": 1.0146
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -517,65 +517,65 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1195,
-        "expectedFantasyPoints": 1.8009
+        "probability": 0.1203,
+        "expectedFantasyPoints": 1.8091
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.1093,
-        "expectedFantasyPoints": 2.4741
+        "probability": 0.111,
+        "expectedFantasyPoints": 2.4801
       },
-      "expectedPoints": 2.4741,
-      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.4741) than the most probable 1-1 (1.8009).",
+      "expectedPoints": 2.4801,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.4801) than the most probable 1-1 (1.8091).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1195,
-      "mostProbableScoreProbability": 0.1195,
+      "selectedScoreProbability": 0.1203,
+      "mostProbableScoreProbability": 0.1203,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1195,
-          "expectedFantasyPoints": 1.8009
+          "probability": 0.1203,
+          "expectedFantasyPoints": 1.8091
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1093,
-          "expectedFantasyPoints": 2.4741
+          "probability": 0.111,
+          "expectedFantasyPoints": 2.4801
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0963,
-          "expectedFantasyPoints": 2.4036
+          "probability": 0.096,
+          "expectedFantasyPoints": 2.3979
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.088,
-          "expectedFantasyPoints": 2.3471
+          "probability": 0.0886,
+          "expectedFantasyPoints": 2.3472
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.0734,
-          "expectedFantasyPoints": 1.554
+          "probability": 0.0745,
+          "expectedFantasyPoints": 1.5599
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.2554,
-        "draw": 0.2497,
-        "awayWin": 0.4949
+        "homeWin": 0.2552,
+        "draw": 0.2511,
+        "awayWin": 0.4936
       },
       "expectedGoals": {
-        "home": 1.0796,
-        "away": 1.5998
+        "home": 1.0708,
+        "away": 1.5861
       },
-      "confidenceLevel": "Low",
+      "confidenceLevel": "Medium",
       "currentGroupContext": {
         "home": {
           "position": 3,
@@ -622,63 +622,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1058,
-        "expectedFantasyPoints": 1.6763
+        "probability": 0.1069,
+        "expectedFantasyPoints": 1.686
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0876,
-        "expectedFantasyPoints": 2.0756
+        "probability": 0.0877,
+        "expectedFantasyPoints": 2.0747
       },
-      "expectedPoints": 2.0756,
-      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0756) than the most probable 1-1 (1.6763).",
+      "expectedPoints": 2.0747,
+      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0747) than the most probable 1-1 (1.686).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1058,
-      "mostProbableScoreProbability": 0.1058,
+      "selectedScoreProbability": 0.1069,
+      "mostProbableScoreProbability": 0.1069,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1058,
-          "expectedFantasyPoints": 1.6763
+          "probability": 0.1069,
+          "expectedFantasyPoints": 1.686
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0876,
-          "expectedFantasyPoints": 2.0756
+          "probability": 0.0877,
+          "expectedFantasyPoints": 2.0747
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0817,
-          "expectedFantasyPoints": 1.896
+          "probability": 0.0818,
+          "expectedFantasyPoints": 1.8956
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.0677,
-          "expectedFantasyPoints": 1.9509
+          "probability": 0.0691,
+          "expectedFantasyPoints": 1.9584
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0677,
-          "expectedFantasyPoints": 1.4316
+          "probability": 0.0671,
+          "expectedFantasyPoints": 1.4308
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3585,
-        "draw": 0.236,
-        "awayWin": 0.4055
+        "homeWin": 0.358,
+        "draw": 0.237,
+        "awayWin": 0.405
       },
       "expectedGoals": {
-        "home": 1.5341,
-        "away": 1.6434
+        "home": 1.5203,
+        "away": 1.6287
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
@@ -727,63 +727,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0944,
-        "expectedFantasyPoints": 2.6433
+        "probability": 0.0949,
+        "expectedFantasyPoints": 2.6432
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0944,
-        "expectedFantasyPoints": 2.6433
+        "probability": 0.0949,
+        "expectedFantasyPoints": 2.6432
       },
-      "expectedPoints": 2.6433,
+      "expectedPoints": 2.6432,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 2
       },
-      "selectedScoreProbability": 0.0944,
-      "mostProbableScoreProbability": 0.0944,
+      "selectedScoreProbability": 0.0949,
+      "mostProbableScoreProbability": 0.0949,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0944,
-          "expectedFantasyPoints": 2.6433
+          "probability": 0.0949,
+          "expectedFantasyPoints": 2.6432
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.082,
-          "expectedFantasyPoints": 1.4271
+          "probability": 0.0832,
+          "expectedFantasyPoints": 1.4381
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
-          "probability": 0.0715,
-          "expectedFantasyPoints": 2.5093
+          "probability": 0.0713,
+          "expectedFantasyPoints": 2.5053
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.0682,
-          "expectedFantasyPoints": 2.4676
+          "probability": 0.0692,
+          "expectedFantasyPoints": 2.4709
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0645,
-          "expectedFantasyPoints": 1.299
+          "probability": 0.0643,
+          "expectedFantasyPoints": 1.3012
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.2212,
-        "draw": 0.1988,
-        "awayWin": 0.58
+        "homeWin": 0.2211,
+        "draw": 0.2,
+        "awayWin": 0.5789
       },
       "expectedGoals": {
-        "home": 1.3611,
-        "away": 2.2659
+        "home": 1.3489,
+        "away": 2.2478
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -832,63 +832,63 @@
       "selectedMostProbableScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.1219,
-        "expectedFantasyPoints": 2.5903
+        "probability": 0.1236,
+        "expectedFantasyPoints": 2.5962
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.1219,
-        "expectedFantasyPoints": 2.5903
+        "probability": 0.1236,
+        "expectedFantasyPoints": 2.5962
       },
-      "expectedPoints": 2.5903,
+      "expectedPoints": 2.5962,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 0,
         "away": 1
       },
-      "selectedScoreProbability": 0.1219,
-      "mostProbableScoreProbability": 0.1219,
+      "selectedScoreProbability": 0.1236,
+      "mostProbableScoreProbability": 0.1236,
       "topScorelines": [
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1219,
-          "expectedFantasyPoints": 2.5903
+          "probability": 0.1236,
+          "expectedFantasyPoints": 2.5962
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1216,
-          "expectedFantasyPoints": 1.8254
+          "probability": 0.1222,
+          "expectedFantasyPoints": 1.8341
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.0959,
-          "expectedFantasyPoints": 2.4421
+          "probability": 0.0963,
+          "expectedFantasyPoints": 2.4414
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0956,
-          "expectedFantasyPoints": 2.4403
+          "probability": 0.0952,
+          "expectedFantasyPoints": 2.4337
         },
         {
           "homeGoals": 0,
           "awayGoals": 0,
-          "probability": 0.0766,
-          "expectedFantasyPoints": 1.5694
+          "probability": 0.0784,
+          "expectedFantasyPoints": 1.5863
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.2376,
-        "draw": 0.254,
-        "awayWin": 0.5084
+        "homeWin": 0.2375,
+        "draw": 0.2557,
+        "awayWin": 0.5069
       },
       "expectedGoals": {
-        "home": 0.986,
-        "away": 1.5632
+        "home": 0.9768,
+        "away": 1.5484
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -932,68 +932,68 @@
       "awayTeam": "Sweden",
       "selectedScore": {
         "home": 2,
-        "away": 1
+        "away": 0
       },
       "selectedMostProbableScore": {
         "home": 2,
-        "away": 1,
-        "probability": 0.0924,
-        "expectedFantasyPoints": 3.0896
+        "away": 0,
+        "probability": 0.0932,
+        "expectedFantasyPoints": 3.0892
       },
       "selectedExpectedPointsScore": {
         "home": 2,
-        "away": 1,
-        "probability": 0.0924,
-        "expectedFantasyPoints": 3.0896
+        "away": 0,
+        "probability": 0.0932,
+        "expectedFantasyPoints": 3.0892
       },
-      "expectedPoints": 3.0896,
+      "expectedPoints": 3.0892,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 2,
-        "away": 1
+        "away": 0
       },
-      "selectedScoreProbability": 0.0924,
-      "mostProbableScoreProbability": 0.0924,
+      "selectedScoreProbability": 0.0932,
+      "mostProbableScoreProbability": 0.0932,
       "topScorelines": [
         {
           "homeGoals": 2,
-          "awayGoals": 1,
-          "probability": 0.0924,
-          "expectedFantasyPoints": 3.0896
+          "awayGoals": 0,
+          "probability": 0.0932,
+          "expectedFantasyPoints": 3.0892
         },
         {
           "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0929,
+          "expectedFantasyPoints": 3.0868
+        },
+        {
+          "homeGoals": 3,
           "awayGoals": 0,
-          "probability": 0.092,
-          "expectedFantasyPoints": 3.0867
+          "probability": 0.0826,
+          "expectedFantasyPoints": 3.0287
         },
         {
           "homeGoals": 3,
           "awayGoals": 1,
-          "probability": 0.0825,
-          "expectedFantasyPoints": 3.0336
-        },
-        {
-          "homeGoals": 3,
-          "awayGoals": 0,
-          "probability": 0.0821,
-          "expectedFantasyPoints": 3.0307
+          "probability": 0.0822,
+          "expectedFantasyPoints": 3.026
         },
         {
           "homeGoals": 1,
-          "awayGoals": 1,
-          "probability": 0.0681,
-          "expectedFantasyPoints": 1.2224
+          "awayGoals": 0,
+          "probability": 0.0694,
+          "expectedFantasyPoints": 2.9537
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.7309,
-        "draw": 0.1546,
-        "awayWin": 0.1145
+        "homeWin": 0.729,
+        "draw": 0.1557,
+        "awayWin": 0.1152
       },
       "expectedGoals": {
-        "home": 2.6592,
-        "away": 0.9926
+        "home": 2.6374,
+        "away": 0.9852
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1042,63 +1042,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0885,
-        "expectedFantasyPoints": 3.1147
+        "probability": 0.0892,
+        "expectedFantasyPoints": 3.1129
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0885,
-        "expectedFantasyPoints": 3.1147
+        "probability": 0.0892,
+        "expectedFantasyPoints": 3.1129
       },
-      "expectedPoints": 3.1147,
+      "expectedPoints": 3.1129,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 2
       },
-      "selectedScoreProbability": 0.0885,
-      "mostProbableScoreProbability": 0.0885,
+      "selectedScoreProbability": 0.0892,
+      "mostProbableScoreProbability": 0.0892,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0885,
-          "expectedFantasyPoints": 3.1147
+          "probability": 0.0892,
+          "expectedFantasyPoints": 3.1129
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.0849,
-          "expectedFantasyPoints": 3.0888
+          "probability": 0.0863,
+          "expectedFantasyPoints": 3.0923
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
-          "probability": 0.0838,
-          "expectedFantasyPoints": 3.0879
+          "probability": 0.0837,
+          "expectedFantasyPoints": 3.0816
         },
         {
           "homeGoals": 0,
           "awayGoals": 3,
-          "probability": 0.0804,
-          "expectedFantasyPoints": 3.0625
+          "probability": 0.081,
+          "expectedFantasyPoints": 3.0615
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0615,
-          "expectedFantasyPoints": 1.1562
+          "probability": 0.0626,
+          "expectedFantasyPoints": 1.1665
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.1082,
-        "draw": 0.1451,
-        "awayWin": 0.7467
+        "homeWin": 0.1088,
+        "draw": 0.1464,
+        "awayWin": 0.7448
       },
       "expectedGoals": {
-        "home": 1.0292,
-        "away": 2.8132
+        "home": 1.0201,
+        "away": 2.7875
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1147,63 +1147,63 @@
       "selectedMostProbableScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.0734,
-        "expectedFantasyPoints": 2.3969
+        "probability": 0.0744,
+        "expectedFantasyPoints": 2.4008
       },
       "selectedExpectedPointsScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.0734,
-        "expectedFantasyPoints": 2.3969
+        "probability": 0.0744,
+        "expectedFantasyPoints": 2.4008
       },
-      "expectedPoints": 2.3969,
+      "expectedPoints": 2.4008,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 2,
         "away": 1
       },
-      "selectedScoreProbability": 0.0734,
-      "mostProbableScoreProbability": 0.0734,
+      "selectedScoreProbability": 0.0744,
+      "mostProbableScoreProbability": 0.0744,
       "topScorelines": [
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0734,
-          "expectedFantasyPoints": 2.3969
+          "probability": 0.0744,
+          "expectedFantasyPoints": 2.4008
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0688,
-          "expectedFantasyPoints": 1.2881
+          "probability": 0.0691,
+          "expectedFantasyPoints": 1.2933
         },
         {
           "homeGoals": 3,
           "awayGoals": 1,
-          "probability": 0.0643,
-          "expectedFantasyPoints": 2.3383
+          "probability": 0.0646,
+          "expectedFantasyPoints": 2.338
         },
         {
           "homeGoals": 3,
           "awayGoals": 2,
-          "probability": 0.0603,
-          "expectedFantasyPoints": 2.308
+          "probability": 0.06,
+          "expectedFantasyPoints": 2.3033
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0553,
-          "expectedFantasyPoints": 1.2036
+          "probability": 0.0565,
+          "expectedFantasyPoints": 1.2153
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.5445,
-        "draw": 0.1856,
+        "homeWin": 0.5435,
+        "draw": 0.1866,
         "awayWin": 0.2699
       },
       "expectedGoals": {
-        "home": 2.6085,
-        "away": 1.8564
+        "home": 2.5841,
+        "away": 1.8381
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1252,63 +1252,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.121,
-        "expectedFantasyPoints": 1.8229
+        "probability": 0.1219,
+        "expectedFantasyPoints": 1.832
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.0899,
-        "expectedFantasyPoints": 2.0744
+        "probability": 0.0913,
+        "expectedFantasyPoints": 2.0808
       },
-      "expectedPoints": 2.0744,
-      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.0744) than the most probable 1-1 (1.8229).",
+      "expectedPoints": 2.0808,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.0808) than the most probable 1-1 (1.832).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.121,
-      "mostProbableScoreProbability": 0.121,
+      "selectedScoreProbability": 0.1219,
+      "mostProbableScoreProbability": 0.1219,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.121,
-          "expectedFantasyPoints": 1.8229
+          "probability": 0.1219,
+          "expectedFantasyPoints": 1.832
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.0899,
-          "expectedFantasyPoints": 2.0744
+          "probability": 0.0913,
+          "expectedFantasyPoints": 2.0808
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0879,
-          "expectedFantasyPoints": 2.0661
+          "probability": 0.0877,
+          "expectedFantasyPoints": 2.0627
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.0824,
-          "expectedFantasyPoints": 1.8702
+          "probability": 0.0837,
+          "expectedFantasyPoints": 1.8761
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0806,
-          "expectedFantasyPoints": 1.8558
+          "probability": 0.0804,
+          "expectedFantasyPoints": 1.8532
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3454,
-        "draw": 0.2546,
-        "awayWin": 0.3999
+        "homeWin": 0.3448,
+        "draw": 0.256,
+        "awayWin": 0.3992
       },
       "expectedGoals": {
-        "home": 1.3262,
-        "away": 1.4446
+        "home": 1.3149,
+        "away": 1.4328
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1357,63 +1357,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.0912,
-        "expectedFantasyPoints": 1.5453
+        "probability": 0.0925,
+        "expectedFantasyPoints": 1.5569
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0823,
-        "expectedFantasyPoints": 2.0085
+        "probability": 0.0827,
+        "expectedFantasyPoints": 2.0097
       },
-      "expectedPoints": 2.0085,
-      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0085) than the most probable 1-1 (1.5453).",
+      "expectedPoints": 2.0097,
+      "reasonForDifference": "Different scoreline: 1-2 has higher probability-weighted fantasy value (2.0097) than the most probable 1-1 (1.5569).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.0912,
-      "mostProbableScoreProbability": 0.0912,
+      "selectedScoreProbability": 0.0925,
+      "mostProbableScoreProbability": 0.0925,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0912,
-          "expectedFantasyPoints": 1.5453
+          "probability": 0.0925,
+          "expectedFantasyPoints": 1.5569
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0823,
-          "expectedFantasyPoints": 2.0085
+          "probability": 0.0827,
+          "expectedFantasyPoints": 2.0097
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0807,
-          "expectedFantasyPoints": 1.9563
+          "probability": 0.0811,
+          "expectedFantasyPoints": 1.9573
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0728,
-          "expectedFantasyPoints": 1.4257
+          "probability": 0.0725,
+          "expectedFantasyPoints": 1.427
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.051,
-          "expectedFantasyPoints": 1.8098
+          "probability": 0.0522,
+          "expectedFantasyPoints": 1.8167
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3818,
-        "draw": 0.2226,
-        "awayWin": 0.3957
+        "homeWin": 0.3812,
+        "draw": 0.2237,
+        "awayWin": 0.3951
       },
       "expectedGoals": {
-        "home": 1.7544,
-        "away": 1.7869
+        "home": 1.737,
+        "away": 1.7711
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
@@ -1462,63 +1462,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1145,
-        "expectedFantasyPoints": 1.744
+        "probability": 0.1154,
+        "expectedFantasyPoints": 1.753
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 0,
-        "probability": 0.1022,
-        "expectedFantasyPoints": 2.4887
+        "probability": 0.1039,
+        "expectedFantasyPoints": 2.4947
       },
-      "expectedPoints": 2.4887,
-      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.4887) than the most probable 1-1 (1.744).",
+      "expectedPoints": 2.4947,
+      "reasonForDifference": "Different scoreline: 1-0 has higher probability-weighted fantasy value (2.4947) than the most probable 1-1 (1.753).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1145,
-      "mostProbableScoreProbability": 0.1145,
+      "selectedScoreProbability": 0.1154,
+      "mostProbableScoreProbability": 0.1154,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1145,
-          "expectedFantasyPoints": 1.744
+          "probability": 0.1154,
+          "expectedFantasyPoints": 1.753
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.1022,
-          "expectedFantasyPoints": 2.4887
+          "probability": 0.1039,
+          "expectedFantasyPoints": 2.4947
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0982,
-          "expectedFantasyPoints": 2.472
+          "probability": 0.098,
+          "expectedFantasyPoints": 2.467
         },
         {
           "homeGoals": 2,
           "awayGoals": 0,
-          "probability": 0.0877,
-          "expectedFantasyPoints": 2.4011
+          "probability": 0.0883,
+          "expectedFantasyPoints": 2.4014
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.0659,
-          "expectedFantasyPoints": 1.4812
+          "probability": 0.067,
+          "expectedFantasyPoints": 1.4878
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.5141,
-        "draw": 0.2404,
+        "homeWin": 0.5128,
+        "draw": 0.2418,
         "awayWin": 0.2454
       },
       "expectedGoals": {
-        "home": 1.7023,
-        "away": 1.1051
+        "home": 1.687,
+        "away": 1.095
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
@@ -1567,63 +1567,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1317,
-        "expectedFantasyPoints": 1.9552
+        "probability": 0.1321,
+        "expectedFantasyPoints": 1.9617
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.123,
-        "expectedFantasyPoints": 2.328
+        "probability": 0.1245,
+        "expectedFantasyPoints": 2.3344
       },
-      "expectedPoints": 2.328,
-      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.328) than the most probable 1-1 (1.9552).",
+      "expectedPoints": 2.3344,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.3344) than the most probable 1-1 (1.9617).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1317,
-      "mostProbableScoreProbability": 0.1317,
+      "selectedScoreProbability": 0.1321,
+      "mostProbableScoreProbability": 0.1321,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1317,
-          "expectedFantasyPoints": 1.9552
+          "probability": 0.1321,
+          "expectedFantasyPoints": 1.9617
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.123,
-          "expectedFantasyPoints": 2.328
+          "probability": 0.1245,
+          "expectedFantasyPoints": 2.3344
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.1002,
-          "expectedFantasyPoints": 1.85
+          "probability": 0.1014,
+          "expectedFantasyPoints": 1.8554
         },
         {
           "homeGoals": 0,
           "awayGoals": 0,
-          "probability": 0.0936,
-          "expectedFantasyPoints": 1.7315
+          "probability": 0.0956,
+          "expectedFantasyPoints": 1.7479
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0855,
-          "expectedFantasyPoints": 2.1146
+          "probability": 0.085,
+          "expectedFantasyPoints": 2.1097
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3029,
-        "draw": 0.2781,
-        "awayWin": 0.4191
+        "homeWin": 0.3023,
+        "draw": 0.2794,
+        "awayWin": 0.4183
       },
       "expectedGoals": {
-        "home": 1.0573,
-        "away": 1.2939
+        "home": 1.0476,
+        "away": 1.2829
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1672,63 +1672,63 @@
       "selectedMostProbableScore": {
         "home": 0,
         "away": 4,
-        "probability": 0.1056,
-        "expectedFantasyPoints": 3.8193
+        "probability": 0.1062,
+        "expectedFantasyPoints": 3.8201
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 4,
-        "probability": 0.1056,
-        "expectedFantasyPoints": 3.8193
+        "probability": 0.1062,
+        "expectedFantasyPoints": 3.8201
       },
-      "expectedPoints": 3.8193,
+      "expectedPoints": 3.8201,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 0,
         "away": 4
       },
-      "selectedScoreProbability": 0.1056,
-      "mostProbableScoreProbability": 0.1056,
+      "selectedScoreProbability": 0.1062,
+      "mostProbableScoreProbability": 0.1062,
       "topScorelines": [
         {
           "homeGoals": 0,
           "awayGoals": 4,
-          "probability": 0.1056,
-          "expectedFantasyPoints": 3.8193
+          "probability": 0.1062,
+          "expectedFantasyPoints": 3.8201
         },
         {
           "homeGoals": 0,
           "awayGoals": 3,
-          "probability": 0.1045,
-          "expectedFantasyPoints": 3.8139
+          "probability": 0.106,
+          "expectedFantasyPoints": 3.8192
         },
         {
           "homeGoals": 0,
           "awayGoals": 5,
-          "probability": 0.0844,
-          "expectedFantasyPoints": 3.7156
+          "probability": 0.0841,
+          "expectedFantasyPoints": 3.712
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.0767,
-          "expectedFantasyPoints": 3.6778
+          "probability": 0.0785,
+          "expectedFantasyPoints": 3.6847
         },
         {
           "homeGoals": 1,
           "awayGoals": 4,
-          "probability": 0.0676,
-          "expectedFantasyPoints": 3.515
+          "probability": 0.0674,
+          "expectedFantasyPoints": 3.5092
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.022,
-        "draw": 0.0533,
-        "awayWin": 0.9247
+        "homeWin": 0.0223,
+        "draw": 0.0544,
+        "awayWin": 0.9233
       },
       "expectedGoals": {
-        "home": 0.6353,
-        "away": 3.994
+        "home": 0.6293,
+        "away": 3.9599
       },
       "confidenceLevel": "High",
       "currentGroupContext": {
@@ -1777,63 +1777,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.0953,
-        "expectedFantasyPoints": 1.5736
+        "probability": 0.0965,
+        "expectedFantasyPoints": 1.5844
       },
       "selectedExpectedPointsScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.092,
-        "expectedFantasyPoints": 2.3141
+        "probability": 0.0923,
+        "expectedFantasyPoints": 2.3139
       },
-      "expectedPoints": 2.3141,
-      "reasonForDifference": "Different scoreline: 2-1 has higher probability-weighted fantasy value (2.3141) than the most probable 1-1 (1.5736).",
+      "expectedPoints": 2.3139,
+      "reasonForDifference": "Different scoreline: 2-1 has higher probability-weighted fantasy value (2.3139) than the most probable 1-1 (1.5844).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.0953,
-      "mostProbableScoreProbability": 0.0953,
+      "selectedScoreProbability": 0.0965,
+      "mostProbableScoreProbability": 0.0965,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0953,
-          "expectedFantasyPoints": 1.5736
+          "probability": 0.0965,
+          "expectedFantasyPoints": 1.5844
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.092,
-          "expectedFantasyPoints": 2.3141
+          "probability": 0.0923,
+          "expectedFantasyPoints": 2.3139
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0715,
-          "expectedFantasyPoints": 1.6549
+          "probability": 0.0718,
+          "expectedFantasyPoints": 1.6562
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
-          "probability": 0.0691,
-          "expectedFantasyPoints": 1.4012
+          "probability": 0.0687,
+          "expectedFantasyPoints": 1.402
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.0627,
-          "expectedFantasyPoints": 2.1206
+          "probability": 0.0641,
+          "expectedFantasyPoints": 2.1278
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.4759,
-        "draw": 0.2226,
-        "awayWin": 0.3015
+        "homeWin": 0.4751,
+        "draw": 0.2237,
+        "awayWin": 0.3012
       },
       "expectedGoals": {
-        "home": 1.9103,
-        "away": 1.4926
+        "home": 1.8933,
+        "away": 1.4786
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
@@ -1882,63 +1882,63 @@
       "selectedMostProbableScore": {
         "home": 0,
         "away": 2,
-        "probability": 0.1227,
-        "expectedFantasyPoints": 3.1406
+        "probability": 0.1236,
+        "expectedFantasyPoints": 3.1407
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 2,
-        "probability": 0.1227,
-        "expectedFantasyPoints": 3.1406
+        "probability": 0.1236,
+        "expectedFantasyPoints": 3.1407
       },
-      "expectedPoints": 3.1406,
+      "expectedPoints": 3.1407,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 0,
         "away": 2
       },
-      "selectedScoreProbability": 0.1227,
-      "mostProbableScoreProbability": 0.1227,
+      "selectedScoreProbability": 0.1236,
+      "mostProbableScoreProbability": 0.1236,
       "topScorelines": [
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.1227,
-          "expectedFantasyPoints": 3.1406
+          "probability": 0.1236,
+          "expectedFantasyPoints": 3.1407
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1139,
-          "expectedFantasyPoints": 3.0945
+          "probability": 0.1157,
+          "expectedFantasyPoints": 3.0996
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0984,
-          "expectedFantasyPoints": 2.9792
+          "probability": 0.0983,
+          "expectedFantasyPoints": 2.9723
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0913,
-          "expectedFantasyPoints": 1.4603
+          "probability": 0.0921,
+          "expectedFantasyPoints": 1.4694
         },
         {
           "homeGoals": 0,
           "awayGoals": 3,
-          "probability": 0.0871,
-          "expectedFantasyPoints": 2.9551
+          "probability": 0.087,
+          "expectedFantasyPoints": 2.9501
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.126,
-        "draw": 0.1907,
-        "awayWin": 0.6833
+        "homeWin": 0.1265,
+        "draw": 0.1923,
+        "awayWin": 0.6813
       },
       "expectedGoals": {
-        "home": 0.794,
-        "away": 2.1266
+        "home": 0.7872,
+        "away": 2.1079
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -1987,90 +1987,90 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.093,
-        "expectedFantasyPoints": 3.0502
+        "probability": 0.0935,
+        "expectedFantasyPoints": 3.0476
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.093,
-        "expectedFantasyPoints": 3.0502
+        "probability": 0.0935,
+        "expectedFantasyPoints": 3.0476
       },
-      "expectedPoints": 3.0502,
+      "expectedPoints": 3.0476,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 2
       },
-      "selectedScoreProbability": 0.093,
-      "mostProbableScoreProbability": 0.093,
+      "selectedScoreProbability": 0.0935,
+      "mostProbableScoreProbability": 0.0935,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.093,
-          "expectedFantasyPoints": 3.0502
+          "probability": 0.0935,
+          "expectedFantasyPoints": 3.0476
         },
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.0884,
-          "expectedFantasyPoints": 3.0182
+          "probability": 0.0897,
+          "expectedFantasyPoints": 3.0215
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
-          "probability": 0.0821,
-          "expectedFantasyPoints": 2.9881
+          "probability": 0.0818,
+          "expectedFantasyPoints": 2.9809
         },
         {
           "homeGoals": 0,
           "awayGoals": 3,
-          "probability": 0.0781,
-          "expectedFantasyPoints": 2.9579
+          "probability": 0.0785,
+          "expectedFantasyPoints": 2.9563
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0694,
-          "expectedFantasyPoints": 1.2439
+          "probability": 0.0704,
+          "expectedFantasyPoints": 1.2536
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.124,
-        "draw": 0.1593,
-        "awayWin": 0.7166
+        "homeWin": 0.1246,
+        "draw": 0.1607,
+        "awayWin": 0.7148
       },
       "expectedGoals": {
-        "home": 1.0376,
-        "away": 2.6299
+        "home": 1.0283,
+        "away": 2.6066
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
         "home": {
-          "position": 3,
-          "played": 1,
+          "position": 4,
+          "played": 2,
           "points": 0,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
+          "goalsAgainst": 2,
+          "goalDifference": -2
         },
         "away": {
           "position": 1,
-          "played": 1,
-          "points": 3,
+          "played": 2,
+          "points": 4,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2
         }
       },
-      "reasoningNote": "Current points Panama 0, England 3. England has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+      "reasoningNote": "Current points Panama 0, England 4. England has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
     },
     {
       "matchId": "400021509",
@@ -2092,90 +2092,90 @@
       "selectedMostProbableScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.0928,
-        "expectedFantasyPoints": 3.0294
+        "probability": 0.0933,
+        "expectedFantasyPoints": 3.0268
       },
       "selectedExpectedPointsScore": {
         "home": 2,
         "away": 1,
-        "probability": 0.0928,
-        "expectedFantasyPoints": 3.0294
+        "probability": 0.0933,
+        "expectedFantasyPoints": 3.0268
       },
-      "expectedPoints": 3.0294,
+      "expectedPoints": 3.0268,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 2,
         "away": 1
       },
-      "selectedScoreProbability": 0.0928,
-      "mostProbableScoreProbability": 0.0928,
+      "selectedScoreProbability": 0.0933,
+      "mostProbableScoreProbability": 0.0933,
       "topScorelines": [
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0928,
-          "expectedFantasyPoints": 3.0294
+          "probability": 0.0933,
+          "expectedFantasyPoints": 3.0268
         },
         {
           "homeGoals": 2,
           "awayGoals": 0,
-          "probability": 0.0855,
-          "expectedFantasyPoints": 2.9784
+          "probability": 0.0867,
+          "expectedFantasyPoints": 2.9808
         },
         {
           "homeGoals": 3,
           "awayGoals": 1,
-          "probability": 0.082,
-          "expectedFantasyPoints": 2.9682
+          "probability": 0.0818,
+          "expectedFantasyPoints": 2.9612
         },
         {
           "homeGoals": 3,
           "awayGoals": 0,
-          "probability": 0.0755,
-          "expectedFantasyPoints": 2.9196
+          "probability": 0.076,
+          "expectedFantasyPoints": 2.9176
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.069,
-          "expectedFantasyPoints": 1.2457
+          "probability": 0.0701,
+          "expectedFantasyPoints": 1.2558
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.7102,
-        "draw": 0.1608,
-        "awayWin": 0.129
+        "homeWin": 0.7083,
+        "draw": 0.1621,
+        "awayWin": 0.1296
       },
       "expectedGoals": {
-        "home": 2.6345,
-        "away": 1.0712
+        "home": 2.6119,
+        "away": 1.0621
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
         "home": {
-          "position": 4,
-          "played": 1,
-          "points": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2
-        },
-        "away": {
-          "position": 2,
-          "played": 1,
+          "position": 3,
+          "played": 2,
           "points": 3,
           "wins": 1,
           "draws": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1
+        },
+        "away": {
+          "position": 2,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1
         }
       },
-      "reasoningNote": "Current points Croatia 0, Ghana 3. Croatia has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+      "reasoningNote": "Current points Croatia 3, Ghana 4. Croatia has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
     },
     {
       "matchId": "400021497",
@@ -2197,63 +2197,63 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 1,
-        "probability": 0.1303,
-        "expectedFantasyPoints": 1.9361
+        "probability": 0.1306,
+        "expectedFantasyPoints": 1.942
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 1,
-        "probability": 0.1244,
-        "expectedFantasyPoints": 2.3951
+        "probability": 0.1259,
+        "expectedFantasyPoints": 2.4007
       },
-      "expectedPoints": 2.3951,
-      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.3951) than the most probable 1-1 (1.9361).",
+      "expectedPoints": 2.4007,
+      "reasonForDifference": "Different scoreline: 0-1 has higher probability-weighted fantasy value (2.4007) than the most probable 1-1 (1.942).",
       "mostProbableScore": {
         "home": 1,
         "away": 1
       },
-      "selectedScoreProbability": 0.1303,
-      "mostProbableScoreProbability": 0.1303,
+      "selectedScoreProbability": 0.1306,
+      "mostProbableScoreProbability": 0.1306,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1303,
-          "expectedFantasyPoints": 1.9361
+          "probability": 0.1306,
+          "expectedFantasyPoints": 1.942
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1244,
-          "expectedFantasyPoints": 2.3951
+          "probability": 0.1259,
+          "expectedFantasyPoints": 2.4007
         },
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.0953,
-          "expectedFantasyPoints": 1.7744
+          "probability": 0.0965,
+          "expectedFantasyPoints": 1.7799
         },
         {
           "homeGoals": 0,
           "awayGoals": 0,
-          "probability": 0.0911,
-          "expectedFantasyPoints": 1.7079
+          "probability": 0.0931,
+          "expectedFantasyPoints": 1.7241
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0879,
-          "expectedFantasyPoints": 2.1874
+          "probability": 0.0874,
+          "expectedFantasyPoints": 2.1817
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.2869,
-        "draw": 0.2744,
-        "awayWin": 0.4387
+        "homeWin": 0.2865,
+        "draw": 0.2757,
+        "awayWin": 0.4377
       },
       "expectedGoals": {
-        "home": 1.0337,
-        "away": 1.3438
+        "home": 1.0243,
+        "away": 1.3331
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
@@ -2302,63 +2302,63 @@
       "selectedMostProbableScore": {
         "home": 0,
         "away": 2,
-        "probability": 0.1049,
-        "expectedFantasyPoints": 3.4204
+        "probability": 0.1066,
+        "expectedFantasyPoints": 3.4254
       },
       "selectedExpectedPointsScore": {
         "home": 0,
         "away": 2,
-        "probability": 0.1049,
-        "expectedFantasyPoints": 3.4204
+        "probability": 0.1066,
+        "expectedFantasyPoints": 3.4254
       },
-      "expectedPoints": 3.4204,
+      "expectedPoints": 3.4254,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 0,
         "away": 2
       },
-      "selectedScoreProbability": 0.1049,
-      "mostProbableScoreProbability": 0.1049,
+      "selectedScoreProbability": 0.1066,
+      "mostProbableScoreProbability": 0.1066,
       "topScorelines": [
         {
           "homeGoals": 0,
           "awayGoals": 2,
-          "probability": 0.1049,
-          "expectedFantasyPoints": 3.4204
+          "probability": 0.1066,
+          "expectedFantasyPoints": 3.4254
         },
         {
           "homeGoals": 0,
           "awayGoals": 3,
-          "probability": 0.1028,
-          "expectedFantasyPoints": 3.4093
+          "probability": 0.1035,
+          "expectedFantasyPoints": 3.4094
         },
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0837,
-          "expectedFantasyPoints": 3.2655
+          "probability": 0.0843,
+          "expectedFantasyPoints": 3.2633
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
-          "probability": 0.082,
-          "expectedFantasyPoints": 3.2556
+          "probability": 0.0819,
+          "expectedFantasyPoints": 3.2494
         },
         {
           "homeGoals": 0,
           "awayGoals": 4,
-          "probability": 0.0747,
-          "expectedFantasyPoints": 3.2629
+          "probability": 0.0746,
+          "expectedFantasyPoints": 3.259
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.0704,
-        "draw": 0.1224,
-        "awayWin": 0.8072
+        "homeWin": 0.0708,
+        "draw": 0.1237,
+        "awayWin": 0.8055
       },
       "expectedGoals": {
-        "home": 0.7902,
-        "away": 2.9098
+        "home": 0.7823,
+        "away": 2.8834
       },
       "confidenceLevel": "High",
       "currentGroupContext": {
@@ -2407,90 +2407,90 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0785,
-        "expectedFantasyPoints": 2.1499
+        "probability": 0.0792,
+        "expectedFantasyPoints": 2.1529
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 2,
-        "probability": 0.0785,
-        "expectedFantasyPoints": 2.1499
+        "probability": 0.0792,
+        "expectedFantasyPoints": 2.1529
       },
-      "expectedPoints": 2.1499,
+      "expectedPoints": 2.1529,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 2
       },
-      "selectedScoreProbability": 0.0785,
-      "mostProbableScoreProbability": 0.0785,
+      "selectedScoreProbability": 0.0792,
+      "mostProbableScoreProbability": 0.0792,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 2,
-          "probability": 0.0785,
-          "expectedFantasyPoints": 2.1499
+          "probability": 0.0792,
+          "expectedFantasyPoints": 2.1529
         },
         {
           "homeGoals": 2,
           "awayGoals": 2,
           "probability": 0.0742,
-          "expectedFantasyPoints": 1.3864
+          "expectedFantasyPoints": 1.3889
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.0721,
-          "expectedFantasyPoints": 1.3737
+          "probability": 0.0734,
+          "expectedFantasyPoints": 1.3847
         },
         {
           "homeGoals": 2,
           "awayGoals": 1,
-          "probability": 0.0681,
-          "expectedFantasyPoints": 1.7546
+          "probability": 0.0687,
+          "expectedFantasyPoints": 1.7576
         },
         {
           "homeGoals": 1,
           "awayGoals": 3,
           "probability": 0.0564,
-          "expectedFantasyPoints": 2.0069
+          "expectedFantasyPoints": 2.0059
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.3425,
-        "draw": 0.2063,
-        "awayWin": 0.4512
+        "homeWin": 0.3422,
+        "draw": 0.2071,
+        "awayWin": 0.4506
       },
       "expectedGoals": {
-        "home": 1.8694,
-        "away": 2.1495
+        "home": 1.8526,
+        "away": 2.1312
       },
       "confidenceLevel": "Low",
       "currentGroupContext": {
         "home": {
           "position": 1,
-          "played": 1,
-          "points": 3,
-          "wins": 1,
+          "played": 2,
+          "points": 6,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 3,
+          "goalsFor": 4,
           "goalsAgainst": 1,
-          "goalDifference": 2
+          "goalDifference": 3
         },
         "away": {
-          "position": 3,
-          "played": 1,
-          "points": 1,
-          "wins": 0,
+          "position": 2,
+          "played": 2,
+          "points": 4,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "goalsFor": 1,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalDifference": 5
         }
       },
-      "reasoningNote": "Current points Colombia 3, Portugal 1. Portugal has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
+      "reasoningNote": "Current points Colombia 6, Portugal 4. Portugal has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."
     },
     {
       "matchId": "400021500",
@@ -2512,87 +2512,87 @@
       "selectedMostProbableScore": {
         "home": 1,
         "away": 0,
-        "probability": 0.1645,
-        "expectedFantasyPoints": 2.5623
+        "probability": 0.1658,
+        "expectedFantasyPoints": 2.5654
       },
       "selectedExpectedPointsScore": {
         "home": 1,
         "away": 0,
-        "probability": 0.1645,
-        "expectedFantasyPoints": 2.5623
+        "probability": 0.1658,
+        "expectedFantasyPoints": 2.5654
       },
-      "expectedPoints": 2.5623,
+      "expectedPoints": 2.5654,
       "reasonForDifference": "Same scoreline: the most probable exact score also maximizes expected fantasy points among the top scorelines.",
       "mostProbableScore": {
         "home": 1,
         "away": 0
       },
-      "selectedScoreProbability": 0.1645,
-      "mostProbableScoreProbability": 0.1645,
+      "selectedScoreProbability": 0.1658,
+      "mostProbableScoreProbability": 0.1658,
       "topScorelines": [
         {
           "homeGoals": 1,
           "awayGoals": 0,
-          "probability": 0.1645,
-          "expectedFantasyPoints": 2.5623
+          "probability": 0.1658,
+          "expectedFantasyPoints": 2.5654
         },
         {
           "homeGoals": 0,
           "awayGoals": 0,
-          "probability": 0.1499,
-          "expectedFantasyPoints": 2.1777
+          "probability": 0.1525,
+          "expectedFantasyPoints": 2.1972
         },
         {
           "homeGoals": 1,
           "awayGoals": 1,
-          "probability": 0.1334,
-          "expectedFantasyPoints": 2.0765
+          "probability": 0.1332,
+          "expectedFantasyPoints": 2.0807
         },
         {
           "homeGoals": 0,
           "awayGoals": 1,
-          "probability": 0.1215,
-          "expectedFantasyPoints": 1.8633
+          "probability": 0.1225,
+          "expectedFantasyPoints": 1.8677
         },
         {
           "homeGoals": 2,
           "awayGoals": 0,
-          "probability": 0.0892,
-          "expectedFantasyPoints": 2.1674
+          "probability": 0.0891,
+          "expectedFantasyPoints": 2.1645
         }
       ],
       "outcomeProbabilities": {
-        "homeWin": 0.4178,
-        "draw": 0.3152,
-        "awayWin": 0.267
+        "homeWin": 0.4165,
+        "draw": 0.317,
+        "awayWin": 0.2666
       },
       "expectedGoals": {
-        "home": 1.083,
-        "away": 0.8026
+        "home": 1.0733,
+        "away": 0.7958
       },
       "confidenceLevel": "Medium",
       "currentGroupContext": {
         "home": {
-          "position": 2,
-          "played": 1,
+          "position": 3,
+          "played": 2,
           "points": 1,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
+          "losses": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalsAgainst": 2,
+          "goalDifference": -1
         },
         "away": {
           "position": 4,
-          "played": 1,
+          "played": 2,
           "points": 0,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalsAgainst": 8,
+          "goalDifference": -7
         }
       },
       "reasoningNote": "Current points DR Congo 1, Uzbekistan 0. DR Congo has the strongest outcome bucket; selected score uses the tightened post-MD2 probability-leader rule."

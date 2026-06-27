@@ -1,7 +1,7 @@
 {
   "datasetId": "group-performance-metrics-after-matchday-2",
   "artifactKind": "model_metrics",
-  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "generatedAt": "2026-06-27T22:36:08.920Z",
   "sourceResultFile": "data\\results\\group-stage-matchday-1-and-2-results-v1.json",
   "contaminationControl": {
     "builderInputPaths": [
@@ -15,8 +15,8 @@
     "notes": "Metrics use collected official results and existing collected model inputs only; previous predictions are not used."
   },
   "scope": {
-    "completedMatchday1And2Fixtures": 44,
-    "incompleteMatchday1And2Fixtures": 4
+    "completedMatchday1And2Fixtures": 48,
+    "incompleteMatchday1And2Fixtures": 0
   },
   "groupStandings": [
     {
@@ -1757,24 +1757,30 @@
           "team": "Colombia",
           "countryCode": "COL",
           "group": "K",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 3,
+          "goalsFor": 4,
           "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 3,
-          "goalsForPerMatch": 3,
-          "goalsAgainstPerMatch": 1,
+          "goalDifference": 3,
+          "points": 6,
+          "goalsForPerMatch": 2,
+          "goalsAgainstPerMatch": 0.5,
           "pointsPerMatch": 3,
-          "cleanSheets": 0,
+          "cleanSheets": 1,
           "failedToScore": 0,
           "tournamentForm": [
             {
               "opponent": "Uzbekistan",
               "goalsFor": 3,
               "goalsAgainst": 1,
+              "result": "W"
+            },
+            {
+              "opponent": "DR Congo",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": "W"
             }
           ],
@@ -1790,57 +1796,21 @@
         },
         {
           "position": 2,
-          "team": "DR Congo",
-          "countryCode": "COD",
-          "group": "K",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "goalsForPerMatch": 1,
-          "goalsAgainstPerMatch": 1,
-          "pointsPerMatch": 1,
-          "cleanSheets": 0,
-          "failedToScore": 0,
-          "tournamentForm": [
-            {
-              "opponent": "Portugal",
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "result": "D"
-            }
-          ],
-          "modelRelevantIndicators": {
-            "fifaRank": 60,
-            "fifaPoints": 1407.6,
-            "eloRank": 54,
-            "eloRating": 1661,
-            "recentFormPointsRate": 0.7,
-            "recentGoalsForPerMatch": 1.1,
-            "recentGoalsAgainstPerMatch": 0.3
-          }
-        },
-        {
-          "position": 3,
           "team": "Portugal",
           "countryCode": "POR",
           "group": "K",
-          "played": 1,
-          "wins": 0,
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "goalsFor": 1,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "goalsForPerMatch": 1,
-          "goalsAgainstPerMatch": 1,
-          "pointsPerMatch": 1,
-          "cleanSheets": 0,
+          "goalDifference": 5,
+          "points": 4,
+          "goalsForPerMatch": 3,
+          "goalsAgainstPerMatch": 0.5,
+          "pointsPerMatch": 2,
+          "cleanSheets": 1,
           "failedToScore": 0,
           "tournamentForm": [
             {
@@ -1848,6 +1818,12 @@
               "goalsFor": 1,
               "goalsAgainst": 1,
               "result": "D"
+            },
+            {
+              "opponent": "Uzbekistan",
+              "goalsFor": 5,
+              "goalsAgainst": 0,
+              "result": "W"
             }
           ],
           "modelRelevantIndicators": {
@@ -1861,28 +1837,76 @@
           }
         },
         {
+          "position": 3,
+          "team": "DR Congo",
+          "countryCode": "COD",
+          "group": "K",
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1,
+          "goalsForPerMatch": 0.5,
+          "goalsAgainstPerMatch": 1,
+          "pointsPerMatch": 0.5,
+          "cleanSheets": 0,
+          "failedToScore": 1,
+          "tournamentForm": [
+            {
+              "opponent": "Portugal",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "result": "D"
+            },
+            {
+              "opponent": "Colombia",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L"
+            }
+          ],
+          "modelRelevantIndicators": {
+            "fifaRank": 60,
+            "fifaPoints": 1407.6,
+            "eloRank": 54,
+            "eloRating": 1661,
+            "recentFormPointsRate": 0.7,
+            "recentGoalsForPerMatch": 1.1,
+            "recentGoalsAgainstPerMatch": 0.3
+          }
+        },
+        {
           "position": 4,
           "team": "Uzbekistan",
           "countryCode": "UZB",
           "group": "K",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2,
+          "goalsAgainst": 8,
+          "goalDifference": -7,
           "points": 0,
-          "goalsForPerMatch": 1,
-          "goalsAgainstPerMatch": 3,
+          "goalsForPerMatch": 0.5,
+          "goalsAgainstPerMatch": 4,
           "pointsPerMatch": 0,
           "cleanSheets": 0,
-          "failedToScore": 0,
+          "failedToScore": 1,
           "tournamentForm": [
             {
               "opponent": "Colombia",
               "goalsFor": 1,
               "goalsAgainst": 3,
+              "result": "L"
+            },
+            {
+              "opponent": "Portugal",
+              "goalsFor": 0,
+              "goalsAgainst": 5,
               "result": "L"
             }
           ],
@@ -1906,25 +1930,31 @@
           "team": "England",
           "countryCode": "ENG",
           "group": "L",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2,
-          "points": 3,
-          "goalsForPerMatch": 4,
-          "goalsAgainstPerMatch": 2,
-          "pointsPerMatch": 3,
-          "cleanSheets": 0,
-          "failedToScore": 0,
+          "points": 4,
+          "goalsForPerMatch": 2,
+          "goalsAgainstPerMatch": 1,
+          "pointsPerMatch": 2,
+          "cleanSheets": 1,
+          "failedToScore": 1,
           "tournamentForm": [
             {
               "opponent": "Croatia",
               "goalsFor": 4,
               "goalsAgainst": 2,
               "result": "W"
+            },
+            {
+              "opponent": "Ghana",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D"
             }
           ],
           "modelRelevantIndicators": {
@@ -1942,25 +1972,31 @@
           "team": "Ghana",
           "countryCode": "GHA",
           "group": "L",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1,
-          "points": 3,
-          "goalsForPerMatch": 1,
+          "points": 4,
+          "goalsForPerMatch": 0.5,
           "goalsAgainstPerMatch": 0,
-          "pointsPerMatch": 3,
-          "cleanSheets": 1,
-          "failedToScore": 0,
+          "pointsPerMatch": 2,
+          "cleanSheets": 2,
+          "failedToScore": 1,
           "tournamentForm": [
             {
               "opponent": "Panama",
               "goalsFor": 1,
               "goalsAgainst": 0,
               "result": "W"
+            },
+            {
+              "opponent": "England",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D"
             }
           ],
           "modelRelevantIndicators": {
@@ -1975,25 +2011,73 @@
         },
         {
           "position": 3,
+          "team": "Croatia",
+          "countryCode": "CRO",
+          "group": "L",
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1,
+          "points": 3,
+          "goalsForPerMatch": 1.5,
+          "goalsAgainstPerMatch": 2,
+          "pointsPerMatch": 1.5,
+          "cleanSheets": 1,
+          "failedToScore": 0,
+          "tournamentForm": [
+            {
+              "opponent": "England",
+              "goalsFor": 2,
+              "goalsAgainst": 4,
+              "result": "L"
+            },
+            {
+              "opponent": "Panama",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W"
+            }
+          ],
+          "modelRelevantIndicators": {
+            "fifaRank": 9,
+            "fifaPoints": 1714.2,
+            "eloRank": 13,
+            "eloRating": 1908,
+            "recentFormPointsRate": 0.7333,
+            "recentGoalsForPerMatch": 2.2,
+            "recentGoalsAgainstPerMatch": 1
+          }
+        },
+        {
+          "position": 4,
           "team": "Panama",
           "countryCode": "PAN",
           "group": "L",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
           "points": 0,
           "goalsForPerMatch": 0,
           "goalsAgainstPerMatch": 1,
           "pointsPerMatch": 0,
           "cleanSheets": 0,
-          "failedToScore": 1,
+          "failedToScore": 2,
           "tournamentForm": [
             {
               "opponent": "Ghana",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L"
+            },
+            {
+              "opponent": "Croatia",
               "goalsFor": 0,
               "goalsAgainst": 1,
               "result": "L"
@@ -2007,42 +2091,6 @@
             "recentFormPointsRate": 0.5333,
             "recentGoalsForPerMatch": 1.8,
             "recentGoalsAgainstPerMatch": 1.6
-          }
-        },
-        {
-          "position": 4,
-          "team": "Croatia",
-          "countryCode": "CRO",
-          "group": "L",
-          "played": 1,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "goalDifference": -2,
-          "points": 0,
-          "goalsForPerMatch": 2,
-          "goalsAgainstPerMatch": 4,
-          "pointsPerMatch": 0,
-          "cleanSheets": 0,
-          "failedToScore": 0,
-          "tournamentForm": [
-            {
-              "opponent": "England",
-              "goalsFor": 2,
-              "goalsAgainst": 4,
-              "result": "L"
-            }
-          ],
-          "modelRelevantIndicators": {
-            "fifaRank": 9,
-            "fifaPoints": 1714.2,
-            "eloRank": 13,
-            "eloRating": 1908,
-            "recentFormPointsRate": 0.7333,
-            "recentGoalsForPerMatch": 2.2,
-            "recentGoalsAgainstPerMatch": 1
           }
         }
       ]
@@ -3734,24 +3782,30 @@
       "team": "Colombia",
       "countryCode": "COL",
       "group": "K",
-      "played": 1,
-      "wins": 1,
+      "played": 2,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 3,
+      "goalsFor": 4,
       "goalsAgainst": 1,
-      "goalDifference": 2,
-      "points": 3,
-      "goalsForPerMatch": 3,
-      "goalsAgainstPerMatch": 1,
+      "goalDifference": 3,
+      "points": 6,
+      "goalsForPerMatch": 2,
+      "goalsAgainstPerMatch": 0.5,
       "pointsPerMatch": 3,
-      "cleanSheets": 0,
+      "cleanSheets": 1,
       "failedToScore": 0,
       "tournamentForm": [
         {
           "opponent": "Uzbekistan",
           "goalsFor": 3,
           "goalsAgainst": 1,
+          "result": "W"
+        },
+        {
+          "opponent": "DR Congo",
+          "goalsFor": 1,
+          "goalsAgainst": 0,
           "result": "W"
         }
       ],
@@ -3767,57 +3821,21 @@
     },
     {
       "position": 2,
-      "team": "DR Congo",
-      "countryCode": "COD",
-      "group": "K",
-      "played": 1,
-      "wins": 0,
-      "draws": 1,
-      "losses": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalDifference": 0,
-      "points": 1,
-      "goalsForPerMatch": 1,
-      "goalsAgainstPerMatch": 1,
-      "pointsPerMatch": 1,
-      "cleanSheets": 0,
-      "failedToScore": 0,
-      "tournamentForm": [
-        {
-          "opponent": "Portugal",
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "result": "D"
-        }
-      ],
-      "modelRelevantIndicators": {
-        "fifaRank": 60,
-        "fifaPoints": 1407.6,
-        "eloRank": 54,
-        "eloRating": 1661,
-        "recentFormPointsRate": 0.7,
-        "recentGoalsForPerMatch": 1.1,
-        "recentGoalsAgainstPerMatch": 0.3
-      }
-    },
-    {
-      "position": 3,
       "team": "Portugal",
       "countryCode": "POR",
       "group": "K",
-      "played": 1,
-      "wins": 0,
+      "played": 2,
+      "wins": 1,
       "draws": 1,
       "losses": 0,
-      "goalsFor": 1,
+      "goalsFor": 6,
       "goalsAgainst": 1,
-      "goalDifference": 0,
-      "points": 1,
-      "goalsForPerMatch": 1,
-      "goalsAgainstPerMatch": 1,
-      "pointsPerMatch": 1,
-      "cleanSheets": 0,
+      "goalDifference": 5,
+      "points": 4,
+      "goalsForPerMatch": 3,
+      "goalsAgainstPerMatch": 0.5,
+      "pointsPerMatch": 2,
+      "cleanSheets": 1,
       "failedToScore": 0,
       "tournamentForm": [
         {
@@ -3825,6 +3843,12 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "result": "D"
+        },
+        {
+          "opponent": "Uzbekistan",
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "result": "W"
         }
       ],
       "modelRelevantIndicators": {
@@ -3838,28 +3862,76 @@
       }
     },
     {
+      "position": 3,
+      "team": "DR Congo",
+      "countryCode": "COD",
+      "group": "K",
+      "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 1,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 1,
+      "pointsPerMatch": 0.5,
+      "cleanSheets": 0,
+      "failedToScore": 1,
+      "tournamentForm": [
+        {
+          "opponent": "Portugal",
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "result": "D"
+        },
+        {
+          "opponent": "Colombia",
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "result": "L"
+        }
+      ],
+      "modelRelevantIndicators": {
+        "fifaRank": 60,
+        "fifaPoints": 1407.6,
+        "eloRank": 54,
+        "eloRating": 1661,
+        "recentFormPointsRate": 0.7,
+        "recentGoalsForPerMatch": 1.1,
+        "recentGoalsAgainstPerMatch": 0.3
+      }
+    },
+    {
       "position": 4,
       "team": "Uzbekistan",
       "countryCode": "UZB",
       "group": "K",
-      "played": 1,
+      "played": 2,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 1,
-      "goalsAgainst": 3,
-      "goalDifference": -2,
+      "goalsAgainst": 8,
+      "goalDifference": -7,
       "points": 0,
-      "goalsForPerMatch": 1,
-      "goalsAgainstPerMatch": 3,
+      "goalsForPerMatch": 0.5,
+      "goalsAgainstPerMatch": 4,
       "pointsPerMatch": 0,
       "cleanSheets": 0,
-      "failedToScore": 0,
+      "failedToScore": 1,
       "tournamentForm": [
         {
           "opponent": "Colombia",
           "goalsFor": 1,
           "goalsAgainst": 3,
+          "result": "L"
+        },
+        {
+          "opponent": "Portugal",
+          "goalsFor": 0,
+          "goalsAgainst": 5,
           "result": "L"
         }
       ],
@@ -3878,25 +3950,31 @@
       "team": "England",
       "countryCode": "ENG",
       "group": "L",
-      "played": 1,
+      "played": 2,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
       "goalsFor": 4,
       "goalsAgainst": 2,
       "goalDifference": 2,
-      "points": 3,
-      "goalsForPerMatch": 4,
-      "goalsAgainstPerMatch": 2,
-      "pointsPerMatch": 3,
-      "cleanSheets": 0,
-      "failedToScore": 0,
+      "points": 4,
+      "goalsForPerMatch": 2,
+      "goalsAgainstPerMatch": 1,
+      "pointsPerMatch": 2,
+      "cleanSheets": 1,
+      "failedToScore": 1,
       "tournamentForm": [
         {
           "opponent": "Croatia",
           "goalsFor": 4,
           "goalsAgainst": 2,
           "result": "W"
+        },
+        {
+          "opponent": "Ghana",
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D"
         }
       ],
       "modelRelevantIndicators": {
@@ -3914,25 +3992,31 @@
       "team": "Ghana",
       "countryCode": "GHA",
       "group": "L",
-      "played": 1,
+      "played": 2,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
       "goalsFor": 1,
       "goalsAgainst": 0,
       "goalDifference": 1,
-      "points": 3,
-      "goalsForPerMatch": 1,
+      "points": 4,
+      "goalsForPerMatch": 0.5,
       "goalsAgainstPerMatch": 0,
-      "pointsPerMatch": 3,
-      "cleanSheets": 1,
-      "failedToScore": 0,
+      "pointsPerMatch": 2,
+      "cleanSheets": 2,
+      "failedToScore": 1,
       "tournamentForm": [
         {
           "opponent": "Panama",
           "goalsFor": 1,
           "goalsAgainst": 0,
           "result": "W"
+        },
+        {
+          "opponent": "England",
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D"
         }
       ],
       "modelRelevantIndicators": {
@@ -3947,25 +4031,73 @@
     },
     {
       "position": 3,
+      "team": "Croatia",
+      "countryCode": "CRO",
+      "group": "L",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalDifference": -1,
+      "points": 3,
+      "goalsForPerMatch": 1.5,
+      "goalsAgainstPerMatch": 2,
+      "pointsPerMatch": 1.5,
+      "cleanSheets": 1,
+      "failedToScore": 0,
+      "tournamentForm": [
+        {
+          "opponent": "England",
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "result": "L"
+        },
+        {
+          "opponent": "Panama",
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "result": "W"
+        }
+      ],
+      "modelRelevantIndicators": {
+        "fifaRank": 9,
+        "fifaPoints": 1714.2,
+        "eloRank": 13,
+        "eloRating": 1908,
+        "recentFormPointsRate": 0.7333,
+        "recentGoalsForPerMatch": 2.2,
+        "recentGoalsAgainstPerMatch": 1
+      }
+    },
+    {
+      "position": 4,
       "team": "Panama",
       "countryCode": "PAN",
       "group": "L",
-      "played": 1,
+      "played": 2,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalDifference": -1,
+      "goalsAgainst": 2,
+      "goalDifference": -2,
       "points": 0,
       "goalsForPerMatch": 0,
       "goalsAgainstPerMatch": 1,
       "pointsPerMatch": 0,
       "cleanSheets": 0,
-      "failedToScore": 1,
+      "failedToScore": 2,
       "tournamentForm": [
         {
           "opponent": "Ghana",
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "result": "L"
+        },
+        {
+          "opponent": "Croatia",
           "goalsFor": 0,
           "goalsAgainst": 1,
           "result": "L"
@@ -3979,42 +4111,6 @@
         "recentFormPointsRate": 0.5333,
         "recentGoalsForPerMatch": 1.8,
         "recentGoalsAgainstPerMatch": 1.6
-      }
-    },
-    {
-      "position": 4,
-      "team": "Croatia",
-      "countryCode": "CRO",
-      "group": "L",
-      "played": 1,
-      "wins": 0,
-      "draws": 0,
-      "losses": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 4,
-      "goalDifference": -2,
-      "points": 0,
-      "goalsForPerMatch": 2,
-      "goalsAgainstPerMatch": 4,
-      "pointsPerMatch": 0,
-      "cleanSheets": 0,
-      "failedToScore": 0,
-      "tournamentForm": [
-        {
-          "opponent": "England",
-          "goalsFor": 2,
-          "goalsAgainst": 4,
-          "result": "L"
-        }
-      ],
-      "modelRelevantIndicators": {
-        "fifaRank": 9,
-        "fifaPoints": 1714.2,
-        "eloRank": 13,
-        "eloRating": 1908,
-        "recentFormPointsRate": 0.7333,
-        "recentGoalsForPerMatch": 2.2,
-        "recentGoalsAgainstPerMatch": 1
       }
     }
   ]

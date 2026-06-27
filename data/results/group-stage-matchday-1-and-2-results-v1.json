@@ -1,12 +1,12 @@
 {
   "datasetId": "group-stage-matchday-1-and-2-results-v1",
   "artifactKind": "collected_results",
-  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "generatedAt": "2026-06-27T22:36:08.920Z",
   "source": {
     "sourceName": "FIFA World Cup 2026 scores and fixtures",
     "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
     "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-    "fetchedAt": "2026-06-23T17:28:18.956Z",
+    "fetchedAt": "2026-06-27T22:36:08.920Z",
     "notes": "Official FIFA match calendar API. Matchdays 1 and 2 selected by official match numbers 1-48."
   },
   "matchdayDefinition": {
@@ -20,9 +20,9 @@
   },
   "completionStatus": {
     "expectedFixtures": 48,
-    "completedFixtures": 44,
-    "incompleteFixtures": 4,
-    "allMatchday1And2FixturesFinal": false
+    "completedFixtures": 48,
+    "incompleteFixtures": 0,
+    "allMatchday1And2FixturesFinal": true
   },
   "results": [
     {
@@ -43,7 +43,7 @@
       "teamB": "South Africa",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -77,7 +77,7 @@
       "teamB": "Czechia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -111,7 +111,7 @@
       "teamB": "Bosnia and Herzegovina",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -145,7 +145,7 @@
       "teamB": "Paraguay",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -179,7 +179,7 @@
       "teamB": "Scotland",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -213,7 +213,7 @@
       "teamB": "Turkey",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -247,7 +247,7 @@
       "teamB": "Morocco",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -281,7 +281,7 @@
       "teamB": "Switzerland",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -315,7 +315,7 @@
       "teamB": "Ecuador",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -349,7 +349,7 @@
       "teamB": "Curacao",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -383,7 +383,7 @@
       "teamB": "Japan",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -417,7 +417,7 @@
       "teamB": "Tunisia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -451,7 +451,7 @@
       "teamB": "Uruguay",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -485,7 +485,7 @@
       "teamB": "Cape Verde",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -519,7 +519,7 @@
       "teamB": "New Zealand",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -553,7 +553,7 @@
       "teamB": "Egypt",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -587,7 +587,7 @@
       "teamB": "Senegal",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -621,7 +621,7 @@
       "teamB": "Norway",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -655,7 +655,7 @@
       "teamB": "Algeria",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -689,7 +689,7 @@
       "teamB": "Jordan",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -723,7 +723,7 @@
       "teamB": "Panama",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -757,7 +757,7 @@
       "teamB": "Croatia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -791,7 +791,7 @@
       "teamB": "DR Congo",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -825,7 +825,7 @@
       "teamB": "Colombia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -859,7 +859,7 @@
       "teamB": "South Africa",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -893,7 +893,7 @@
       "teamB": "Bosnia and Herzegovina",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -927,7 +927,7 @@
       "teamB": "Qatar",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -961,7 +961,7 @@
       "teamB": "South Korea",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -995,7 +995,7 @@
       "teamB": "Haiti",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1029,7 +1029,7 @@
       "teamB": "Morocco",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1063,7 +1063,7 @@
       "teamB": "Paraguay",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1097,7 +1097,7 @@
       "teamB": "Australia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1131,7 +1131,7 @@
       "teamB": "Ivory Coast",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1165,7 +1165,7 @@
       "teamB": "Curacao",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1199,7 +1199,7 @@
       "teamB": "Sweden",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1233,7 +1233,7 @@
       "teamB": "Japan",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1267,7 +1267,7 @@
       "teamB": "Cape Verde",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1301,7 +1301,7 @@
       "teamB": "Saudi Arabia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1335,7 +1335,7 @@
       "teamB": "Iran",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1369,7 +1369,7 @@
       "teamB": "Egypt",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1403,7 +1403,7 @@
       "teamB": "Senegal",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1437,7 +1437,7 @@
       "teamB": "Iraq",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1471,7 +1471,7 @@
       "teamB": "Austria",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1505,7 +1505,7 @@
       "teamB": "Algeria",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
         "matchStatus": 0,
         "resultType": 1,
@@ -1520,9 +1520,7 @@
       },
       "outcome": "away_win",
       "goalDifference": -1
-    }
-  ],
-  "incompleteFixtures": [
+    },
     {
       "matchId": "400021506",
       "matchNumber": 45,
@@ -1541,14 +1539,21 @@
       "teamB": "Ghana",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
-        "matchStatus": 1,
-        "resultType": 0,
-        "officialityStatus": 0,
-        "statusLabel": "scheduled"
+        "matchStatus": 0,
+        "resultType": 1,
+        "officialityStatus": 1,
+        "statusLabel": "final"
       },
-      "status": "scheduled"
+      "finalScore": {
+        "home": 0,
+        "away": 0,
+        "teamA": 0,
+        "teamB": 0
+      },
+      "outcome": "draw",
+      "goalDifference": 0
     },
     {
       "matchId": "400021511",
@@ -1568,14 +1573,21 @@
       "teamB": "Croatia",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
-        "matchStatus": 1,
-        "resultType": 0,
-        "officialityStatus": 0,
-        "statusLabel": "scheduled"
+        "matchStatus": 0,
+        "resultType": 1,
+        "officialityStatus": 1,
+        "statusLabel": "final"
       },
-      "status": "scheduled"
+      "finalScore": {
+        "home": 0,
+        "away": 1,
+        "teamA": 0,
+        "teamB": 1
+      },
+      "outcome": "away_win",
+      "goalDifference": -1
     },
     {
       "matchId": "400021503",
@@ -1595,20 +1607,21 @@
       "teamB": "Uzbekistan",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
-        "matchStatus": 3,
-        "resultType": 0,
-        "officialityStatus": 0,
-        "statusLabel": "in_progress"
+        "matchStatus": 0,
+        "resultType": 1,
+        "officialityStatus": 1,
+        "statusLabel": "final"
       },
-      "status": "in_progress",
-      "scoreAtFetch": {
-        "home": 2,
+      "finalScore": {
+        "home": 5,
         "away": 0,
-        "teamA": 2,
+        "teamA": 5,
         "teamB": 0
-      }
+      },
+      "outcome": "home_win",
+      "goalDifference": 5
     },
     {
       "matchId": "400021501",
@@ -1628,17 +1641,23 @@
       "teamB": "DR Congo",
       "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
       "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-      "fetchedAt": "2026-06-23T17:28:18.956Z",
+      "fetchedAt": "2026-06-27T22:36:08.920Z",
       "officialStatus": {
-        "matchStatus": 1,
-        "resultType": 0,
-        "officialityStatus": 0,
-        "statusLabel": "scheduled"
+        "matchStatus": 0,
+        "resultType": 1,
+        "officialityStatus": 1,
+        "statusLabel": "final"
       },
-      "status": "scheduled"
+      "finalScore": {
+        "home": 1,
+        "away": 0,
+        "teamA": 1,
+        "teamB": 0
+      },
+      "outcome": "home_win",
+      "goalDifference": 1
     }
   ],
-  "warnings": [
-    "FIFA official feed had 4 Matchday 1-2 fixtures not final at fetch time; downstream metrics use only official finals."
-  ]
+  "incompleteFixtures": [],
+  "warnings": []
 }

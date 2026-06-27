@@ -1,7 +1,7 @@
 {
   "datasetId": "prediction-performance-after-matchday-2",
   "artifactKind": "evaluation",
-  "generatedAt": "2026-06-23T17:28:18.956Z",
+  "generatedAt": "2026-06-27T22:36:08.920Z",
   "sourceResultFile": "data\\results\\group-stage-matchday-1-and-2-results-v1.json",
   "predictionSources": {
     "firstRoundSelectedScoreReport": "reports\\world-cup-2026-first-round-score-predictions.md",
@@ -15,44 +15,44 @@
     "doNotUsePreviousPredictionsAsTrainingData": true,
     "notes": "Previous predictions are compared with official results only. They are not joined into team metrics or feature inputs."
   },
-  "evaluatedFixtureCount": 44,
-  "incompleteMatchday1And2FixtureCount": 4,
+  "evaluatedFixtureCount": 48,
+  "incompleteMatchday1And2FixtureCount": 0,
   "summary": {
     "llmOnlyOrSelectedScore": {
-      "evaluatedFixtures": 44,
+      "evaluatedFixtures": 48,
       "exactScoreHits": 3,
-      "exactScoreHitRate": 0.0682,
-      "outcomeHits": 23,
-      "outcomeHitRate": 0.5227,
-      "teamGoalHits": 29,
-      "teamGoalsEvaluated": 88,
-      "teamGoalsHitRate": 0.3295,
-      "averageTotalGoalsError": 1.4773,
-      "averageGoalDifferenceError": 1.5227,
-      "averageHomeGoalsError": 0.9773,
-      "averageAwayGoalsError": 0.9545
+      "exactScoreHitRate": 0.0625,
+      "outcomeHits": 25,
+      "outcomeHitRate": 0.5208,
+      "teamGoalHits": 31,
+      "teamGoalsEvaluated": 96,
+      "teamGoalsHitRate": 0.3229,
+      "averageTotalGoalsError": 1.5625,
+      "averageGoalDifferenceError": 1.5625,
+      "averageHomeGoalsError": 1.0625,
+      "averageAwayGoalsError": 0.9583
     },
     "markovMostProbableScore": {
-      "evaluatedFixtures": 44,
+      "evaluatedFixtures": 48,
       "exactScoreHits": 8,
-      "exactScoreHitRate": 0.1818,
-      "outcomeHits": 28,
-      "outcomeHitRate": 0.6364,
-      "teamGoalHits": 36,
-      "teamGoalsEvaluated": 88,
-      "teamGoalsHitRate": 0.4091,
-      "averageTotalGoalsError": 1.4091,
-      "averageGoalDifferenceError": 1.4091,
-      "averageHomeGoalsError": 1.1364,
-      "averageAwayGoalsError": 0.6364,
-      "averagePredictedGoalsPerMatch": 3.2586
+      "exactScoreHitRate": 0.1667,
+      "outcomeHits": 29,
+      "outcomeHitRate": 0.6042,
+      "teamGoalHits": 38,
+      "teamGoalsEvaluated": 96,
+      "teamGoalsHitRate": 0.3958,
+      "averageTotalGoalsError": 1.4583,
+      "averageGoalDifferenceError": 1.4583,
+      "averageHomeGoalsError": 1.1875,
+      "averageAwayGoalsError": 0.6458,
+      "averagePredictedGoalsPerMatch": 3.2645
     },
     "monteCarloGroupSimulation": {
       "available": true,
-      "actualTopTwoCoveredByPredictedTopTwo": 21,
+      "actualTopTwoCoveredByPredictedTopTwo": 22,
       "actualTopTwoSlotsEvaluated": 24,
-      "actualTopTwoCoveredByPredictedTopTwoRate": 0.875,
-      "averageAbsolutePositionError": 0.4167,
+      "actualTopTwoCoveredByPredictedTopTwoRate": 0.9167,
+      "averageAbsolutePositionError": 0.375,
       "groups": [
         {
           "group": "A",
@@ -168,7 +168,7 @@
           "group": "K",
           "actualTopTwo": [
             "Colombia",
-            "DR Congo"
+            "Portugal"
           ],
           "predictedTopTwo": [
             "Portugal",
@@ -188,8 +188,8 @@
         }
       ]
     },
-    "actualGoalsPerMatch": 3.0455,
-    "actualDrawRate": 0.2955
+    "actualGoalsPerMatch": 2.9375,
+    "actualDrawRate": 0.2917
   },
   "methodNotes": {
     "llmOnlyOrSelectedScore": "This is the report-selected score. In the existing project, LLM reasoning explains and sanity-checks model outputs rather than acting as a separate numeric model.",
@@ -2699,6 +2699,234 @@
       "expectedGoalsAtPredictionTime": {
         "home": 1.0306,
         "away": 2.3395
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021506",
+      "matchNumber": 45,
+      "group": "L",
+      "matchday": 2,
+      "homeTeam": "England",
+      "awayTeam": "Ghana",
+      "actualScore": {
+        "home": 0,
+        "away": 0
+      },
+      "actualOutcome": "draw",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 3,
+        "homeGoalsError": 3,
+        "awayGoalsError": 0
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "draw",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 2,
+        "homeGoalsError": 2,
+        "awayGoalsError": 0,
+        "expectedGoals": {
+          "home": 2.7774,
+          "away": 0.7416
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 2.7774,
+        "away": 0.7416
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021511",
+      "matchNumber": 46,
+      "group": "L",
+      "matchday": 2,
+      "homeTeam": "Panama",
+      "awayTeam": "Croatia",
+      "actualScore": {
+        "home": 0,
+        "away": 1
+      },
+      "actualOutcome": "away_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 3
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 4,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 2,
+        "awayGoalsError": 2
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "away_win",
+        "actualOutcome": "away_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 0,
+        "homeGoalsError": 1,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.5483,
+          "away": 2.577
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.5483,
+        "away": 2.577
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021503",
+      "matchNumber": 47,
+      "group": "K",
+      "matchday": 2,
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistan",
+      "actualScore": {
+        "home": 5,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": true,
+        "predictedOutcome": "home_win",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 2,
+        "goalDifferenceError": 4,
+        "homeGoalsError": 3,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 0,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 3,
+        "goalDifferenceError": 5,
+        "homeGoalsError": 4,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.9519,
+          "away": 1.2494
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.9519,
+        "away": 1.2494
+      },
+      "predictionSources": {
+        "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
+        "markovMostProbableScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json"
+      }
+    },
+    {
+      "matchId": "400021501",
+      "matchNumber": 48,
+      "group": "K",
+      "matchday": 2,
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "actualScore": {
+        "home": 1,
+        "away": 0
+      },
+      "actualOutcome": "home_win",
+      "llmOnlyOrSelectedScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1
+      },
+      "markovMostProbableScore": {
+        "predictedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreHit": false,
+        "outcomeHit": false,
+        "predictedOutcome": "draw",
+        "actualOutcome": "home_win",
+        "teamGoalHits": 1,
+        "totalTeamGoalsEvaluated": 2,
+        "totalGoalsError": 1,
+        "goalDifferenceError": 1,
+        "homeGoalsError": 0,
+        "awayGoalsError": 1,
+        "expectedGoals": {
+          "home": 1.2421,
+          "away": 1.2334
+        }
+      },
+      "expectedGoalsAtPredictionTime": {
+        "home": 1.2421,
+        "away": 1.2334
       },
       "predictionSources": {
         "selectedScore": "data\\predictions\\matchday-2-score-predictions-v2-after-matchday-1.json",
