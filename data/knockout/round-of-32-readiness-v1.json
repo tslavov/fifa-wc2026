@@ -1,21 +1,21 @@
 {
   "datasetId": "round-of-32-readiness-v1",
   "artifactKind": "knockout_readiness",
-  "generatedAt": "2026-06-27T22:57:59.501Z",
+  "generatedAt": "2026-06-30T21:25:12.353Z",
   "source": {
     "sourceName": "FIFA World Cup 2026 scores and fixtures",
     "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
     "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-    "fetchedAt": "2026-06-27T22:57:59.501Z"
+    "fetchedAt": "2026-06-30T21:25:12.353Z"
   },
   "groupStageStatus": "provisional",
   "completionStatus": {
     "expectedFixtures": 72,
-    "completedFixtures": 66,
-    "incompleteFixtures": 6,
+    "completedFixtures": 68,
+    "incompleteFixtures": 4,
     "allGroupStageFixturesFinal": false
   },
-  "assignedRoundOf32Fixtures": 9,
+  "assignedRoundOf32Fixtures": 16,
   "expectedRoundOf32Fixtures": 16,
   "matches": [
     {
@@ -28,7 +28,7 @@
       "city": "Los Angeles",
       "homeTeam": "South Africa",
       "awayTeam": "Canada",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -42,7 +42,7 @@
       "city": "Boston",
       "homeTeam": "Germany",
       "awayTeam": "Paraguay",
-      "status": "scheduled",
+      "status": "unknown",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -56,7 +56,7 @@
       "city": "Monterrey",
       "homeTeam": "Netherlands",
       "awayTeam": "Morocco",
-      "status": "scheduled",
+      "status": "unknown",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -70,7 +70,7 @@
       "city": "Houston",
       "homeTeam": "Brazil",
       "awayTeam": "Japan",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -84,7 +84,7 @@
       "city": "New Jersey",
       "homeTeam": "France",
       "awayTeam": "Sweden",
-      "status": "scheduled",
+      "status": "in_progress",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -98,7 +98,7 @@
       "city": "Dallas",
       "homeTeam": "Ivory Coast",
       "awayTeam": "Norway",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -111,11 +111,10 @@
       "venue": "Mexico City Stadium",
       "city": "Mexico City",
       "homeTeam": "Mexico",
+      "awayTeam": "Ecuador",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021512",
@@ -125,12 +124,11 @@
       "utcDateTime": "2026-07-01T16:00:00Z",
       "venue": "Atlanta Stadium",
       "city": "Atlanta",
+      "homeTeam": "England",
+      "awayTeam": "DR Congo",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "home",
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021524",
@@ -155,11 +153,10 @@
       "venue": "Seattle Stadium",
       "city": "Seattle",
       "homeTeam": "Belgium",
+      "awayTeam": "Senegal",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021526",
@@ -169,12 +166,11 @@
       "utcDateTime": "2026-07-02T23:00:00Z",
       "venue": "Toronto Stadium",
       "city": "Toronto",
+      "homeTeam": "Portugal",
+      "awayTeam": "Croatia",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "home",
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021519",
@@ -185,11 +181,10 @@
       "venue": "Los Angeles Stadium",
       "city": "Los Angeles",
       "homeTeam": "Spain",
+      "awayTeam": "Austria",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021527",
@@ -200,11 +195,10 @@
       "venue": "BC Place Vancouver",
       "city": "Vancouver",
       "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021521",
@@ -228,12 +222,11 @@
       "utcDateTime": "2026-07-04T01:30:00Z",
       "venue": "Kansas City Stadium",
       "city": "Kansas City",
+      "homeTeam": "Colombia",
+      "awayTeam": "Ghana",
       "status": "scheduled",
-      "readiness": "awaiting_team_assignment",
-      "missingSlots": [
-        "home",
-        "away"
-      ]
+      "readiness": "assigned",
+      "missingSlots": []
     },
     {
       "matchId": "400021515",
@@ -270,16 +263,6 @@
       "goalDifference": -1,
       "goalsFor": 2,
       "fifaRank": 55
-    },
-    {
-      "team": "South Korea",
-      "group": "A",
-      "route": "best_third",
-      "position": 3,
-      "points": 3,
-      "goalDifference": -1,
-      "goalsFor": 2,
-      "fifaRank": 23
     },
     {
       "team": "Switzerland",
@@ -506,9 +489,9 @@
       "group": "J",
       "route": "top_two",
       "position": 1,
-      "points": 6,
-      "goalDifference": 5,
-      "goalsFor": 5,
+      "points": 9,
+      "goalDifference": 7,
+      "goalsFor": 8,
       "fifaRank": 3
     },
     {
@@ -516,10 +499,20 @@
       "group": "J",
       "route": "top_two",
       "position": 2,
-      "points": 3,
+      "points": 4,
       "goalDifference": 0,
-      "goalsFor": 3,
+      "goalsFor": 6,
       "fifaRank": 22
+    },
+    {
+      "team": "Algeria",
+      "group": "J",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": -2,
+      "goalsFor": 5,
+      "fifaRank": 38
     },
     {
       "team": "Colombia",
@@ -628,6 +621,23 @@
       "rank": 4,
       "advances": true,
       "position": 3,
+      "team": "Algeria",
+      "group": "J",
+      "countryCode": "ALG",
+      "fifaRank": 38,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 7,
+      "goalDifference": -2,
+      "points": 4
+    },
+    {
+      "rank": 5,
+      "advances": true,
+      "position": 3,
       "team": "Paraguay",
       "group": "D",
       "countryCode": "PAR",
@@ -642,7 +652,7 @@
       "points": 4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "advances": true,
       "position": 3,
       "team": "Senegal",
@@ -659,7 +669,7 @@
       "points": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "advances": true,
       "position": 3,
       "team": "Iran",
@@ -676,7 +686,7 @@
       "points": 3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "advances": true,
       "position": 3,
       "team": "Croatia",
@@ -693,8 +703,8 @@
       "points": 3
     },
     {
-      "rank": 8,
-      "advances": true,
+      "rank": 9,
+      "advances": false,
       "position": 3,
       "team": "South Korea",
       "group": "A",
@@ -707,23 +717,6 @@
       "goalsFor": 2,
       "goalsAgainst": 3,
       "goalDifference": -1,
-      "points": 3
-    },
-    {
-      "rank": 9,
-      "advances": false,
-      "position": 3,
-      "team": "Algeria",
-      "group": "J",
-      "countryCode": "ALG",
-      "fifaRank": 38,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 4,
-      "goalDifference": -2,
       "points": 3
     },
     {
@@ -779,7 +772,7 @@
     }
   ],
   "warnings": [
-    "FIFA official feed had 6 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.",
+    "FIFA official feed had 4 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.",
     "Best third-place qualifiers are provisional until all group-stage fixtures are final."
   ]
 }

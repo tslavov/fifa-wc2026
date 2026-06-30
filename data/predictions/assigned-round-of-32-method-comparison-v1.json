@@ -1,0 +1,860 @@
+{
+  "artifactKind": "prediction_comparison",
+  "comparisonId": "assigned-round-of-32-method-comparison-v1",
+  "generatedAt": "2026-06-30T21:25:54.762Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "doNotUseAsCollectedData": true,
+  "contaminationControl": {
+    "comparisonInputPaths": [
+      "data\\predictions\\assigned-round-of-32-score-predictions-v1.json"
+    ],
+    "outputPath": "data\\predictions\\assigned-round-of-32-method-comparison-v1.json",
+    "notes": "Comparison artifact for review only. It must not be read by future collectors, model-input builders, or prediction builders."
+  },
+  "scope": {
+    "stage": "Round of 32",
+    "assignedFixturesOnly": true,
+    "comparedFixtureCount": 16,
+    "groupStageStatus": "provisional",
+    "ninetyMinuteOnly": true
+  },
+  "methods": {
+    "markovChain": {
+      "source": "data\\predictions\\assigned-round-of-32-score-predictions-v1.json",
+      "description": "Exact 90-minute score distribution from calibrated Markov goal process using assigned fixture team stats."
+    },
+    "monteCarlo": {
+      "description": "20,000 seeded samples per fixture from independent Poisson approximations using the Markov expected goals.",
+      "iterationsPerFixture": 20000,
+      "seed": 20260628
+    },
+    "pureLlm": {
+      "description": "Qualitative LLM-only picks from team quality, group form, knockout caution, and matchup narrative; no numeric model or random simulation."
+    }
+  },
+  "summary": {
+    "comparedFixtures": 16,
+    "unanimousLean": 15,
+    "splitLean": 1,
+    "markovMonteCarloSameScore": 13,
+    "markovPureLlmSameScore": 5,
+    "monteCarloPureLlmSameScore": 2,
+    "pureLlmDisagreesOnLean": [
+      {
+        "matchNumber": 78,
+        "fixture": "Ivory Coast vs Norway",
+        "pureLlmLean": "away",
+        "markovLean": "home",
+        "monteCarloLean": "home"
+      }
+    ]
+  },
+  "matches": [
+    {
+      "matchNumber": 73,
+      "fixture": "South Africa vs Canada",
+      "date": "2026-06-28",
+      "venue": "Los Angeles Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "lean": "away",
+        "homeWin": 0.1041,
+        "drawThrough90": 0.1553,
+        "awayWin": 0.7406,
+        "expectedGoals": {
+          "home": 0.8786,
+          "away": 2.5656
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "selectedScoreProbability": 0.1025,
+        "lean": "away",
+        "homeWin": 0.1096,
+        "drawThrough90": 0.1568,
+        "awayWin": 0.7337,
+        "expectedGoals": {
+          "home": 0.8826,
+          "away": 2.5586
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "lean": "away",
+        "rationale": "Canada's group scoring and goal difference look more convincing than South Africa's lower-output route."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 74,
+      "fixture": "Germany vs Paraguay",
+      "date": "2026-06-29",
+      "venue": "Boston Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.8331,
+        "drawThrough90": 0.1014,
+        "awayWin": 0.0655,
+        "expectedGoals": {
+          "home": 3.4313,
+          "away": 0.9791
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.0813,
+        "lean": "home",
+        "homeWin": 0.8307,
+        "drawThrough90": 0.1019,
+        "awayWin": 0.0675,
+        "expectedGoals": {
+          "home": 3.446,
+          "away": 0.9797
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "Germany's attack and group goal difference point to control, but a knockout setting argues for a slightly lower score than the model's 3-0."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 75,
+      "fixture": "Netherlands vs Morocco",
+      "date": "2026-06-30",
+      "venue": "Monterrey Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.515,
+        "drawThrough90": 0.1881,
+        "awayWin": 0.2969,
+        "expectedGoals": {
+          "home": 2.5643,
+          "away": 1.9661
+        },
+        "confidence": "Low"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "selectedScoreProbability": 0.0715,
+        "lean": "home",
+        "homeWin": 0.512,
+        "drawThrough90": 0.1902,
+        "awayWin": 0.2978,
+        "expectedGoals": {
+          "home": 2.5581,
+          "away": 1.9675
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "Netherlands have the higher attacking ceiling, while Morocco's group strength keeps the margin narrow."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": false,
+        "markovPureLlmSameScore": true,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 76,
+      "fixture": "Brazil vs Japan",
+      "date": "2026-06-29",
+      "venue": "Houston Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.6558,
+        "drawThrough90": 0.1894,
+        "awayWin": 0.1547,
+        "expectedGoals": {
+          "home": 2.2525,
+          "away": 1.0115
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.0966,
+        "lean": "home",
+        "homeWin": 0.6524,
+        "drawThrough90": 0.1899,
+        "awayWin": 0.1578,
+        "expectedGoals": {
+          "home": 2.2429,
+          "away": 1.0098
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "Brazil have the stronger defensive profile and top-end quality, with Japan still likely to score."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": true,
+        "monteCarloPureLlmSameScore": true
+      }
+    },
+    {
+      "matchNumber": 77,
+      "fixture": "France vs Sweden",
+      "date": "2026-06-30",
+      "venue": "New York/New Jersey Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.8861,
+        "drawThrough90": 0.0696,
+        "awayWin": 0.0443,
+        "expectedGoals": {
+          "home": 4.2489,
+          "away": 1.1035
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.0741,
+        "lean": "home",
+        "homeWin": 0.8863,
+        "drawThrough90": 0.0678,
+        "awayWin": 0.0459,
+        "expectedGoals": {
+          "home": 4.2559,
+          "away": 1.1033
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "France's group dominance is the clearest signal, though Sweden's scoring record makes a consolation plausible."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 78,
+      "fixture": "Ivory Coast vs Norway",
+      "date": "2026-06-30",
+      "venue": "Dallas Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.4478,
+        "drawThrough90": 0.207,
+        "awayWin": 0.3452,
+        "expectedGoals": {
+          "home": 2.1293,
+          "away": 1.866
+        },
+        "confidence": "Low"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.077,
+        "lean": "home",
+        "homeWin": 0.4445,
+        "drawThrough90": 0.2069,
+        "awayWin": 0.3487,
+        "expectedGoals": {
+          "home": 2.1331,
+          "away": 1.871
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "lean": "away",
+        "rationale": "Norway's attack and Elo profile are appealing enough to override Ivory Coast's cleaner group table."
+      },
+      "agreement": {
+        "leanAgreementCount": 2,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 79,
+      "fixture": "Mexico vs Ecuador",
+      "date": "2026-07-01",
+      "venue": "Mexico City Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.7127,
+        "drawThrough90": 0.209,
+        "awayWin": 0.0783,
+        "expectedGoals": {
+          "home": 1.7772,
+          "away": 0.4136
+        },
+        "confidence": "High"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.1955,
+        "lean": "home",
+        "homeWin": 0.7054,
+        "drawThrough90": 0.2139,
+        "awayWin": 0.0808,
+        "expectedGoals": {
+          "home": 1.7775,
+          "away": 0.425
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "Mexico's perfect group record and clean-sheet profile make them a strong qualitative pick against Ecuador."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 80,
+      "fixture": "England vs DR Congo",
+      "date": "2026-07-01",
+      "venue": "Atlanta Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.82,
+        "drawThrough90": 0.1222,
+        "awayWin": 0.0578,
+        "expectedGoals": {
+          "home": 2.7387,
+          "away": 0.6178
+        },
+        "confidence": "High"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.1283,
+        "lean": "home",
+        "homeWin": 0.8208,
+        "drawThrough90": 0.1203,
+        "awayWin": 0.059,
+        "expectedGoals": {
+          "home": 2.7382,
+          "away": 0.6129
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "England have the stronger squad baseline and DR Congo's group record is still weak even with the assigned slot."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": true,
+        "monteCarloPureLlmSameScore": true
+      }
+    },
+    {
+      "matchNumber": 81,
+      "fixture": "United States vs Bosnia and Herzegovina",
+      "date": "2026-07-02",
+      "venue": "San Francisco Bay Area Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.8141,
+        "drawThrough90": 0.0998,
+        "awayWin": 0.086,
+        "expectedGoals": {
+          "home": 3.9786,
+          "away": 1.4635
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.0663,
+        "lean": "home",
+        "homeWin": 0.8097,
+        "drawThrough90": 0.1003,
+        "awayWin": 0.0901,
+        "expectedGoals": {
+          "home": 3.9818,
+          "away": 1.4611
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "The United States have the better group result and home-region context, but Bosnia's scoring keeps it competitive."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 82,
+      "fixture": "Belgium vs Senegal",
+      "date": "2026-07-01",
+      "venue": "Seattle Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.6478,
+        "drawThrough90": 0.1652,
+        "awayWin": 0.187,
+        "expectedGoals": {
+          "home": 2.8732,
+          "away": 1.5693
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.0766,
+        "lean": "home",
+        "homeWin": 0.6493,
+        "drawThrough90": 0.1603,
+        "awayWin": 0.1905,
+        "expectedGoals": {
+          "home": 2.8736,
+          "away": 1.5805
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "Belgium's unbeaten group and stronger baseline edge Senegal, while Senegal's attack keeps the score close."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": false,
+        "markovPureLlmSameScore": true,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 83,
+      "fixture": "Portugal vs Croatia",
+      "date": "2026-07-02",
+      "venue": "Toronto Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.8621,
+        "drawThrough90": 0.0856,
+        "awayWin": 0.0523,
+        "expectedGoals": {
+          "home": 3.7147,
+          "away": 0.9663
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.0809,
+        "lean": "home",
+        "homeWin": 0.8551,
+        "drawThrough90": 0.0883,
+        "awayWin": 0.0566,
+        "expectedGoals": {
+          "home": 3.7094,
+          "away": 0.9695
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "Portugal's attacking return and squad quality point slightly above Croatia's uneven group phase."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 84,
+      "fixture": "Spain vs Austria",
+      "date": "2026-07-02",
+      "venue": "Los Angeles Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.8621,
+        "drawThrough90": 0.0945,
+        "awayWin": 0.0434,
+        "expectedGoals": {
+          "home": 3.1535,
+          "away": 0.6378
+        },
+        "confidence": "High"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.1182,
+        "lean": "home",
+        "homeWin": 0.8594,
+        "drawThrough90": 0.097,
+        "awayWin": 0.0437,
+        "expectedGoals": {
+          "home": 3.1566,
+          "away": 0.6332
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "Spain's defensive group record and control profile make them a clear pick over Austria."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 85,
+      "fixture": "Switzerland vs Algeria",
+      "date": "2026-07-03",
+      "venue": "BC Place Vancouver",
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "lean": "home",
+        "homeWin": 0.8043,
+        "drawThrough90": 0.1067,
+        "awayWin": 0.089,
+        "expectedGoals": {
+          "home": 3.7388,
+          "away": 1.3621
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.0709,
+        "lean": "home",
+        "homeWin": 0.8003,
+        "drawThrough90": 0.1071,
+        "awayWin": 0.0927,
+        "expectedGoals": {
+          "home": 3.7421,
+          "away": 1.3625
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "lean": "home",
+        "rationale": "Switzerland's balance and group consistency look safer than Algeria's third-place route."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 86,
+      "fixture": "Argentina vs Cape Verde",
+      "date": "2026-07-03",
+      "venue": "Miami Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.8913,
+        "drawThrough90": 0.0845,
+        "awayWin": 0.0241,
+        "expectedGoals": {
+          "home": 2.9514,
+          "away": 0.3597
+        },
+        "confidence": "High"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.1567,
+        "lean": "home",
+        "homeWin": 0.8923,
+        "drawThrough90": 0.0843,
+        "awayWin": 0.0235,
+        "expectedGoals": {
+          "home": 2.9871,
+          "away": 0.3545
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "Argentina are the stronger side, while Cape Verde's low-scoring profile points to a controlled match."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": false,
+        "markovPureLlmSameScore": true,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 87,
+      "fixture": "Colombia vs Ghana",
+      "date": "2026-07-04",
+      "venue": "Kansas City Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "lean": "home",
+        "homeWin": 0.5631,
+        "drawThrough90": 0.3033,
+        "awayWin": 0.1336,
+        "expectedGoals": {
+          "home": 1.2337,
+          "away": 0.4474
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "selectedScoreProbability": 0.2322,
+        "lean": "home",
+        "homeWin": 0.558,
+        "drawThrough90": 0.3061,
+        "awayWin": 0.1359,
+        "expectedGoals": {
+          "home": 1.2236,
+          "away": 0.4468
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "lean": "home",
+        "rationale": "Colombia's group position and defensive profile give them the qualitative edge over Ghana."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    },
+    {
+      "matchNumber": 88,
+      "fixture": "Australia vs Egypt",
+      "date": "2026-07-03",
+      "venue": "Dallas Stadium",
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "lean": "away",
+        "homeWin": 0.2983,
+        "drawThrough90": 0.2722,
+        "awayWin": 0.4295,
+        "expectedGoals": {
+          "home": 1.0785,
+          "away": 1.3489
+        },
+        "confidence": "Medium"
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "selectedScoreProbability": 0.1281,
+        "lean": "away",
+        "homeWin": 0.2983,
+        "drawThrough90": 0.2722,
+        "awayWin": 0.4295,
+        "expectedGoals": {
+          "home": 1.0764,
+          "away": 1.3505
+        }
+      },
+      "pureLlm": {
+        "selectedScore": {
+          "home": 0,
+          "away": 1
+        },
+        "lean": "away",
+        "rationale": "Egypt's unbeaten group profile and better scoring form edge Australia in a tight knockout game."
+      },
+      "agreement": {
+        "leanAgreementCount": 3,
+        "markovMonteCarloSameScore": true,
+        "markovPureLlmSameScore": false,
+        "monteCarloPureLlmSameScore": false
+      }
+    }
+  ],
+  "warnings": [
+    "Group stage is still provisional in the source prediction artifact.",
+    "All three methods are 90-minute comparisons; extra time and penalties are not modeled.",
+    "Monte Carlo uses the same xG baseline as Markov, so differences are sampling/aggregation differences rather than independent data."
+  ]
+}

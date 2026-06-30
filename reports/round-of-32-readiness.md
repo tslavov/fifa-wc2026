@@ -1,12 +1,12 @@
 # Round of 32 Readiness
 
-Generated: 2026-06-27T22:57:59.501Z
+Generated: 2026-06-30T21:25:12.353Z
 
 ## Group Stage Data
 
-- Official group-stage finals collected: 66/72.
+- Official group-stage finals collected: 68/72.
 - Group-stage status: provisional.
-- Round of 32 assigned fixtures: 9/16.
+- Round of 32 assigned fixtures: 16/16.
 - Result source: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 
 ## Pending Group Fixtures
@@ -14,11 +14,9 @@ Generated: 2026-06-27T22:57:59.501Z
 | Match | Group | Date | Fixture | Status |
 | ---: | --- | --- | --- | --- |
 | 67 | L | 2026-06-27 | Panama vs England | provisional_result |
-| 68 | L | 2026-06-27 | Croatia vs Ghana | in_progress |
-| 69 | J | 2026-06-28 | Algeria vs Austria | scheduled |
-| 70 | J | 2026-06-28 | Jordan vs Argentina | scheduled |
-| 71 | K | 2026-06-27 | Colombia vs Portugal | scheduled |
-| 72 | K | 2026-06-27 | DR Congo vs Uzbekistan | scheduled |
+| 68 | L | 2026-06-27 | Croatia vs Ghana | provisional_result |
+| 71 | K | 2026-06-27 | Colombia vs Portugal | provisional_result |
+| 72 | K | 2026-06-27 | DR Congo vs Uzbekistan | provisional_result |
 
 ## Current Qualified Teams
 
@@ -26,7 +24,6 @@ Generated: 2026-06-27T22:57:59.501Z
 | --- | --- | --- | ---: | ---: | ---: | ---: |
 | Mexico | A | Top two | 1 | 9 | 6 | 6 |
 | South Africa | A | Top two | 2 | 4 | -1 | 2 |
-| South Korea | A | Best third | 3 | 3 | -1 | 2 |
 | Switzerland | B | Top two | 1 | 7 | 4 | 7 |
 | Canada | B | Top two | 2 | 4 | 5 | 8 |
 | Bosnia and Herzegovina | B | Best third | 3 | 4 | -1 | 5 |
@@ -49,8 +46,9 @@ Generated: 2026-06-27T22:57:59.501Z
 | France | I | Top two | 1 | 9 | 8 | 10 |
 | Norway | I | Top two | 2 | 6 | 1 | 8 |
 | Senegal | I | Best third | 3 | 3 | 2 | 8 |
-| Argentina | J | Top two | 1 | 6 | 5 | 5 |
-| Austria | J | Top two | 2 | 3 | 0 | 3 |
+| Argentina | J | Top two | 1 | 9 | 7 | 8 |
+| Austria | J | Top two | 2 | 4 | 0 | 6 |
+| Algeria | J | Best third | 3 | 4 | -2 | 5 |
 | Colombia | K | Top two | 1 | 6 | 3 | 4 |
 | Portugal | K | Top two | 2 | 4 | 5 | 6 |
 | England | L | Top two | 1 | 4 | 2 | 4 |
@@ -64,12 +62,12 @@ Generated: 2026-06-27T22:57:59.501Z
 | 1 | Sweden | F | Yes | 4 | 0 | 7 |
 | 2 | Ecuador | E | Yes | 4 | 0 | 2 |
 | 3 | Bosnia and Herzegovina | B | Yes | 4 | -1 | 5 |
-| 4 | Paraguay | D | Yes | 4 | -2 | 2 |
-| 5 | Senegal | I | Yes | 3 | 2 | 8 |
-| 6 | Iran | G | Yes | 3 | 0 | 3 |
-| 7 | Croatia | L | Yes | 3 | -1 | 3 |
-| 8 | South Korea | A | Yes | 3 | -1 | 2 |
-| 9 | Algeria | J | No | 3 | -2 | 2 |
+| 4 | Algeria | J | Yes | 4 | -2 | 5 |
+| 5 | Paraguay | D | Yes | 4 | -2 | 2 |
+| 6 | Senegal | I | Yes | 3 | 2 | 8 |
+| 7 | Iran | G | Yes | 3 | 0 | 3 |
+| 8 | Croatia | L | Yes | 3 | -1 | 3 |
+| 9 | South Korea | A | No | 3 | -1 | 2 |
 | 10 | Scotland | C | No | 3 | -3 | 1 |
 | 11 | Uruguay | H | No | 2 | -1 | 3 |
 | 12 | DR Congo | K | No | 1 | -1 | 1 |
@@ -84,15 +82,15 @@ Generated: 2026-06-27T22:57:59.501Z
 | 76 | 2026-06-29 | Houston Stadium | Brazil vs Japan | assigned |
 | 77 | 2026-06-30 | New York/New Jersey Stadium | France vs Sweden | assigned |
 | 78 | 2026-06-30 | Dallas Stadium | Ivory Coast vs Norway | assigned |
-| 79 | 2026-07-01 | Mexico City Stadium | Mexico vs TBD | awaiting_team_assignment |
-| 80 | 2026-07-01 | Atlanta Stadium | TBD vs TBD | awaiting_team_assignment |
+| 79 | 2026-07-01 | Mexico City Stadium | Mexico vs Ecuador | assigned |
+| 80 | 2026-07-01 | Atlanta Stadium | England vs DR Congo | assigned |
 | 81 | 2026-07-02 | San Francisco Bay Area Stadium | United States vs Bosnia and Herzegovina | assigned |
-| 82 | 2026-07-01 | Seattle Stadium | Belgium vs TBD | awaiting_team_assignment |
-| 83 | 2026-07-02 | Toronto Stadium | TBD vs TBD | awaiting_team_assignment |
-| 84 | 2026-07-02 | Los Angeles Stadium | Spain vs TBD | awaiting_team_assignment |
-| 85 | 2026-07-03 | BC Place Vancouver | Switzerland vs TBD | awaiting_team_assignment |
+| 82 | 2026-07-01 | Seattle Stadium | Belgium vs Senegal | assigned |
+| 83 | 2026-07-02 | Toronto Stadium | Portugal vs Croatia | assigned |
+| 84 | 2026-07-02 | Los Angeles Stadium | Spain vs Austria | assigned |
+| 85 | 2026-07-03 | BC Place Vancouver | Switzerland vs Algeria | assigned |
 | 86 | 2026-07-03 | Miami Stadium | Argentina vs Cape Verde | assigned |
-| 87 | 2026-07-04 | Kansas City Stadium | TBD vs TBD | awaiting_team_assignment |
+| 87 | 2026-07-04 | Kansas City Stadium | Colombia vs Ghana | assigned |
 | 88 | 2026-07-03 | Dallas Stadium | Australia vs Egypt | assigned |
 
 ## Group Standings
@@ -178,14 +176,14 @@ Generated: 2026-06-27T22:57:59.501Z
 | 3 | Senegal | 3 | 1 | 0 | 2 | 8 | 6 | 2 | 3 |
 | 4 | Iraq | 3 | 0 | 0 | 3 | 1 | 12 | -11 | 0 |
 
-### Group J (provisional)
+### Group J (final)
 
 | Pos | Team | Pld | W | D | L | GF | GA | GD | Pts |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Argentina | 2 | 2 | 0 | 0 | 5 | 0 | 5 | 6 |
-| 2 | Austria | 2 | 1 | 0 | 1 | 3 | 3 | 0 | 3 |
-| 3 | Algeria | 2 | 1 | 0 | 1 | 2 | 4 | -2 | 3 |
-| 4 | Jordan | 2 | 0 | 0 | 2 | 2 | 5 | -3 | 0 |
+| 1 | Argentina | 3 | 3 | 0 | 0 | 8 | 1 | 7 | 9 |
+| 2 | Austria | 3 | 1 | 1 | 1 | 6 | 6 | 0 | 4 |
+| 3 | Algeria | 3 | 1 | 1 | 1 | 5 | 7 | -2 | 4 |
+| 4 | Jordan | 3 | 0 | 0 | 3 | 3 | 8 | -5 | 0 |
 
 ### Group K (provisional)
 
@@ -207,5 +205,5 @@ Generated: 2026-06-27T22:57:59.501Z
 
 ## Warnings
 
-- FIFA official feed had 6 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.
+- FIFA official feed had 4 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.
 - Best third-place qualifiers are provisional until all group-stage fixtures are final.

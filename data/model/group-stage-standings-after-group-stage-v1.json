@@ -1,7 +1,7 @@
 {
   "datasetId": "group-stage-standings-after-group-stage-v1",
   "artifactKind": "standings",
-  "generatedAt": "2026-06-27T22:57:59.501Z",
+  "generatedAt": "2026-06-30T21:25:12.353Z",
   "sourceResultFile": "data\\results\\group-stage-results-v1.json",
   "status": "provisional",
   "qualificationRules": {
@@ -26,8 +26,8 @@
   },
   "completionStatus": {
     "expectedFixtures": 72,
-    "completedFixtures": 66,
-    "incompleteFixtures": 6,
+    "completedFixtures": 68,
+    "incompleteFixtures": 4,
     "allGroupStageFixturesFinal": false
   },
   "groups": [
@@ -1032,61 +1032,8 @@
     },
     {
       "group": "J",
-      "status": "provisional",
-      "incompleteFixtures": [
-        {
-          "matchId": "400021497",
-          "matchNumber": 69,
-          "stage": "First Stage",
-          "group": "J",
-          "round": "group_stage",
-          "matchday": 3,
-          "date": "2026-06-28",
-          "utcDateTime": "2026-06-28T02:00:00Z",
-          "localDateTime": "2026-06-27T21:00:00Z",
-          "venue": "Kansas City Stadium",
-          "city": "Kansas City",
-          "country": "USA",
-          "homeTeam": "Algeria",
-          "awayTeam": "Austria",
-          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
-          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
-          "officialStatus": {
-            "matchStatus": 1,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "scheduled"
-          },
-          "status": "scheduled"
-        },
-        {
-          "matchId": "400021495",
-          "matchNumber": 70,
-          "stage": "First Stage",
-          "group": "J",
-          "round": "group_stage",
-          "matchday": 3,
-          "date": "2026-06-28",
-          "utcDateTime": "2026-06-28T02:00:00Z",
-          "localDateTime": "2026-06-27T21:00:00Z",
-          "venue": "Dallas Stadium",
-          "city": "Dallas",
-          "country": "USA",
-          "homeTeam": "Jordan",
-          "awayTeam": "Argentina",
-          "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
-          "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
-          "officialStatus": {
-            "matchStatus": 1,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "scheduled"
-          },
-          "status": "scheduled"
-        }
-      ],
+      "status": "final",
+      "incompleteFixtures": [],
       "standings": [
         {
           "position": 1,
@@ -1094,14 +1041,14 @@
           "group": "J",
           "countryCode": "ARG",
           "fifaRank": 3,
-          "played": 2,
-          "wins": 2,
+          "played": 3,
+          "wins": 3,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 5,
-          "points": 6
+          "goalsFor": 8,
+          "goalsAgainst": 1,
+          "goalDifference": 7,
+          "points": 9
         },
         {
           "position": 2,
@@ -1109,14 +1056,14 @@
           "group": "J",
           "countryCode": "AUT",
           "fifaRank": 22,
-          "played": 2,
+          "played": 3,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
           "goalDifference": 0,
-          "points": 3
+          "points": 4
         },
         {
           "position": 3,
@@ -1124,14 +1071,14 @@
           "group": "J",
           "countryCode": "ALG",
           "fifaRank": 38,
-          "played": 2,
+          "played": 3,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 7,
           "goalDifference": -2,
-          "points": 3
+          "points": 4
         },
         {
           "position": 4,
@@ -1139,13 +1086,13 @@
           "group": "J",
           "countryCode": "JOR",
           "fifaRank": 62,
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
+          "losses": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 8,
+          "goalDifference": -5,
           "points": 0
         }
       ],
@@ -1155,9 +1102,9 @@
           "group": "J",
           "route": "top_two",
           "position": 1,
-          "points": 6,
-          "goalDifference": 5,
-          "goalsFor": 5,
+          "points": 9,
+          "goalDifference": 7,
+          "goalsFor": 8,
           "fifaRank": 3
         },
         {
@@ -1165,9 +1112,9 @@
           "group": "J",
           "route": "top_two",
           "position": 2,
-          "points": 3,
+          "points": 4,
           "goalDifference": 0,
-          "goalsFor": 3,
+          "goalsFor": 6,
           "fifaRank": 22
         }
       ],
@@ -1176,9 +1123,9 @@
         "group": "J",
         "route": "third_place",
         "position": 3,
-        "points": 3,
+        "points": 4,
         "goalDifference": -2,
-        "goalsFor": 2,
+        "goalsFor": 5,
         "fifaRank": 38
       },
       "eliminated": [
@@ -1188,8 +1135,8 @@
           "route": "eliminated",
           "position": 4,
           "points": 0,
-          "goalDifference": -3,
-          "goalsFor": 2,
+          "goalDifference": -5,
+          "goalsFor": 3,
           "fifaRank": 62
         }
       ]
@@ -1215,14 +1162,18 @@
           "awayTeam": "Portugal",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
+          "fetchedAt": "2026-06-30T21:25:12.353Z",
           "officialStatus": {
-            "matchStatus": 1,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "scheduled"
+            "matchStatus": 0,
+            "resultType": 1,
+            "officialityStatus": 2,
+            "statusLabel": "provisional_result"
           },
-          "status": "scheduled"
+          "status": "provisional_result",
+          "scoreAtFetch": {
+            "home": 0,
+            "away": 0
+          }
         },
         {
           "matchId": "400021500",
@@ -1241,14 +1192,18 @@
           "awayTeam": "Uzbekistan",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
+          "fetchedAt": "2026-06-30T21:25:12.353Z",
           "officialStatus": {
-            "matchStatus": 1,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "scheduled"
+            "matchStatus": 0,
+            "resultType": 1,
+            "officialityStatus": 2,
+            "statusLabel": "provisional_result"
           },
-          "status": "scheduled"
+          "status": "provisional_result",
+          "scoreAtFetch": {
+            "home": 3,
+            "away": 1
+          }
         }
       ],
       "standings": [
@@ -1379,7 +1334,7 @@
           "awayTeam": "England",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
+          "fetchedAt": "2026-06-30T21:25:12.353Z",
           "officialStatus": {
             "matchStatus": 0,
             "resultType": 1,
@@ -1409,14 +1364,14 @@
           "awayTeam": "Ghana",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-27T22:57:59.501Z",
+          "fetchedAt": "2026-06-30T21:25:12.353Z",
           "officialStatus": {
-            "matchStatus": 3,
-            "resultType": 0,
-            "officialityStatus": 0,
-            "statusLabel": "in_progress"
+            "matchStatus": 0,
+            "resultType": 1,
+            "officialityStatus": 2,
+            "statusLabel": "provisional_result"
           },
-          "status": "in_progress",
+          "status": "provisional_result",
           "scoreAtFetch": {
             "home": 2,
             "away": 1
@@ -1587,6 +1542,23 @@
       "rank": 4,
       "advances": true,
       "position": 3,
+      "team": "Algeria",
+      "group": "J",
+      "countryCode": "ALG",
+      "fifaRank": 38,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 7,
+      "goalDifference": -2,
+      "points": 4
+    },
+    {
+      "rank": 5,
+      "advances": true,
+      "position": 3,
       "team": "Paraguay",
       "group": "D",
       "countryCode": "PAR",
@@ -1601,7 +1573,7 @@
       "points": 4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "advances": true,
       "position": 3,
       "team": "Senegal",
@@ -1618,7 +1590,7 @@
       "points": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "advances": true,
       "position": 3,
       "team": "Iran",
@@ -1635,7 +1607,7 @@
       "points": 3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "advances": true,
       "position": 3,
       "team": "Croatia",
@@ -1652,8 +1624,8 @@
       "points": 3
     },
     {
-      "rank": 8,
-      "advances": true,
+      "rank": 9,
+      "advances": false,
       "position": 3,
       "team": "South Korea",
       "group": "A",
@@ -1666,23 +1638,6 @@
       "goalsFor": 2,
       "goalsAgainst": 3,
       "goalDifference": -1,
-      "points": 3
-    },
-    {
-      "rank": 9,
-      "advances": false,
-      "position": 3,
-      "team": "Algeria",
-      "group": "J",
-      "countryCode": "ALG",
-      "fifaRank": 38,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 4,
-      "goalDifference": -2,
       "points": 3
     },
     {
@@ -1757,16 +1712,6 @@
       "goalDifference": -1,
       "goalsFor": 2,
       "fifaRank": 55
-    },
-    {
-      "team": "South Korea",
-      "group": "A",
-      "route": "best_third",
-      "position": 3,
-      "points": 3,
-      "goalDifference": -1,
-      "goalsFor": 2,
-      "fifaRank": 23
     },
     {
       "team": "Switzerland",
@@ -1993,9 +1938,9 @@
       "group": "J",
       "route": "top_two",
       "position": 1,
-      "points": 6,
-      "goalDifference": 5,
-      "goalsFor": 5,
+      "points": 9,
+      "goalDifference": 7,
+      "goalsFor": 8,
       "fifaRank": 3
     },
     {
@@ -2003,10 +1948,20 @@
       "group": "J",
       "route": "top_two",
       "position": 2,
-      "points": 3,
+      "points": 4,
       "goalDifference": 0,
-      "goalsFor": 3,
+      "goalsFor": 6,
       "fifaRank": 22
+    },
+    {
+      "team": "Algeria",
+      "group": "J",
+      "route": "best_third",
+      "position": 3,
+      "points": 4,
+      "goalDifference": -2,
+      "goalsFor": 5,
+      "fifaRank": 38
     },
     {
       "team": "Colombia",
@@ -2156,8 +2111,8 @@
       "route": "eliminated",
       "position": 4,
       "points": 0,
-      "goalDifference": -3,
-      "goalsFor": 2,
+      "goalDifference": -5,
+      "goalsFor": 3,
       "fifaRank": 62
     },
     {
@@ -2182,7 +2137,7 @@
     }
   ],
   "warnings": [
-    "FIFA official feed had 6 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.",
+    "FIFA official feed had 4 group-stage fixtures not final at fetch time; standings and qualifiers are current/provisional.",
     "Best third-place qualifiers are provisional until all group-stage fixtures are final."
   ]
 }
