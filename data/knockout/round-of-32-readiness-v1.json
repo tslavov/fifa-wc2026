@@ -1,12 +1,12 @@
 {
   "datasetId": "round-of-32-readiness-v1",
   "artifactKind": "knockout_readiness",
-  "generatedAt": "2026-06-30T21:25:12.353Z",
+  "generatedAt": "2026-07-04T09:03:36.279Z",
   "source": {
     "sourceName": "FIFA World Cup 2026 scores and fixtures",
     "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
     "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-    "fetchedAt": "2026-06-30T21:25:12.353Z"
+    "fetchedAt": "2026-07-04T09:03:36.279Z"
   },
   "groupStageStatus": "provisional",
   "completionStatus": {
@@ -84,7 +84,7 @@
       "city": "New Jersey",
       "homeTeam": "France",
       "awayTeam": "Sweden",
-      "status": "in_progress",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -107,12 +107,12 @@
       "matchNumber": 79,
       "stage": "Round of 32",
       "date": "2026-07-01",
-      "utcDateTime": "2026-07-01T01:00:00Z",
+      "utcDateTime": "2026-07-01T02:00:00Z",
       "venue": "Mexico City Stadium",
       "city": "Mexico City",
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -126,7 +126,7 @@
       "city": "Atlanta",
       "homeTeam": "England",
       "awayTeam": "DR Congo",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -140,7 +140,7 @@
       "city": "San Francisco Bay Area",
       "homeTeam": "United States",
       "awayTeam": "Bosnia and Herzegovina",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -154,7 +154,7 @@
       "city": "Seattle",
       "homeTeam": "Belgium",
       "awayTeam": "Senegal",
-      "status": "scheduled",
+      "status": "unknown",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -168,7 +168,7 @@
       "city": "Toronto",
       "homeTeam": "Portugal",
       "awayTeam": "Croatia",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -182,7 +182,7 @@
       "city": "Los Angeles",
       "homeTeam": "Spain",
       "awayTeam": "Austria",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -196,7 +196,7 @@
       "city": "Vancouver",
       "homeTeam": "Switzerland",
       "awayTeam": "Algeria",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -210,7 +210,7 @@
       "city": "Miami",
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
-      "status": "scheduled",
+      "status": "unknown",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -224,7 +224,7 @@
       "city": "Kansas City",
       "homeTeam": "Colombia",
       "awayTeam": "Ghana",
-      "status": "scheduled",
+      "status": "final",
       "readiness": "assigned",
       "missingSlots": []
     },
@@ -238,7 +238,7 @@
       "city": "Dallas",
       "homeTeam": "Australia",
       "awayTeam": "Egypt",
-      "status": "scheduled",
+      "status": "unknown",
       "readiness": "assigned",
       "missingSlots": []
     }

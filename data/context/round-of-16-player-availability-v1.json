@@ -1,0 +1,219 @@
+{
+  "datasetId": "round-of-16-player-availability-v1",
+  "artifactKind": "player_stats_and_availability",
+  "generatedAt": "2026-07-04T09:35:11.906Z",
+  "source": {
+    "sourceName": "Project-supported player sources",
+    "sourceFilesChecked": [
+      "data/squads/squad-quality.json",
+      "data/form/team-form.json",
+      "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023"
+    ],
+    "collectedAt": "2026-07-04T09:35:11.906Z"
+  },
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "expectedLineups": null,
+      "startingProbabilities": [],
+      "importantAbsences": [],
+      "topScorersWeighted": [],
+      "playerStats": [],
+      "missingFields": [
+        "expected lineups",
+        "starting probabilities",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions",
+        "injuries",
+        "suspensions",
+        "yellow-card availability"
+      ]
+    }
+  ],
+  "warnings": [
+    "No existing trusted project source/script provides Round of 16 expected lineups, player event data, injuries, suspensions, or yellow-card availability. Multipliers are neutral for these fields."
+  ]
+}

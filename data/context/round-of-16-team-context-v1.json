@@ -1,0 +1,684 @@
+{
+  "datasetId": "round-of-16-team-context-v1",
+  "artifactKind": "team_context",
+  "generatedAt": "2026-07-04T09:35:11.906Z",
+  "sourceFiles": [
+    "data\\knockout\\round-of-16-team-stats-v1.json",
+    "data\\results\\round-of-32-results-v1.json",
+    "data\\results\\group-stage-results-v1.json"
+  ],
+  "teams": [
+    {
+      "team": "Argentina",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 11,
+        "goalsAgainst": 3,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2.75,
+        "goalsAgainstPerMatch": 0.75,
+        "groupPoints": 9,
+        "roundOf32Result": "Argentina 3-2 Cape Verde aet"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 86,
+        "previousMatchDate": "2026-07-03",
+        "nextMatchNumber": 95,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 4,
+        "previousExtraTime": true,
+        "accumulatedTeamMatchMinutesEstimate": 390
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Belgium",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 4,
+        "goalDifference": 5,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 1,
+        "groupPoints": 5,
+        "roundOf32Result": "Belgium 3-2 Senegal aet"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 82,
+        "previousMatchDate": "2026-07-01",
+        "nextMatchNumber": 94,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 6,
+        "previousExtraTime": true,
+        "accumulatedTeamMatchMinutesEstimate": 390
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Brazil",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": 7,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.5,
+        "groupPoints": 7,
+        "roundOf32Result": "Brazil 2-1 Japan"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 76,
+        "previousMatchDate": "2026-06-29",
+        "nextMatchNumber": 91,
+        "nextMatchDate": "2026-07-05",
+        "restDays": 6,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Canada",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.75,
+        "groupPoints": 4,
+        "roundOf32Result": "South Africa 0-1 Canada"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 73,
+        "previousMatchDate": "2026-06-28",
+        "nextMatchNumber": 90,
+        "nextMatchDate": "2026-07-04",
+        "restDays": 6,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Colombia",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 3,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDifference": 4,
+        "goalsForPerMatch": 1.6667,
+        "goalsAgainstPerMatch": 0.3333,
+        "groupPoints": 6,
+        "roundOf32Result": "Colombia 1-0 Ghana"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 87,
+        "previousMatchDate": "2026-07-04",
+        "nextMatchNumber": 96,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 3,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 270
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Egypt",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": 2,
+        "goalsForPerMatch": 1.5,
+        "goalsAgainstPerMatch": 1,
+        "groupPoints": 5,
+        "roundOf32Result": "Australia 1-1 Egypt (2-4 pens)"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 88,
+        "previousMatchDate": "2026-07-03",
+        "nextMatchNumber": 95,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "England",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 1,
+        "groupPoints": 4,
+        "roundOf32Result": "England 2-1 DR Congo"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 80,
+        "previousMatchDate": "2026-07-01",
+        "nextMatchNumber": 92,
+        "nextMatchDate": "2026-07-06",
+        "restDays": 5,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 270
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "France",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 13,
+        "goalsAgainst": 2,
+        "goalDifference": 11,
+        "goalsForPerMatch": 3.25,
+        "goalsAgainstPerMatch": 0.5,
+        "groupPoints": 9,
+        "roundOf32Result": "France 3-0 Sweden"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 77,
+        "previousMatchDate": "2026-06-30",
+        "nextMatchNumber": 89,
+        "nextMatchDate": "2026-07-04",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Mexico",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0,
+        "groupPoints": 9,
+        "roundOf32Result": "Mexico 2-0 Ecuador"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 79,
+        "previousMatchDate": "2026-07-01",
+        "nextMatchNumber": 92,
+        "nextMatchDate": "2026-07-06",
+        "restDays": 5,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Morocco",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "goalDifference": 3,
+        "goalsForPerMatch": 1.75,
+        "goalsAgainstPerMatch": 1,
+        "groupPoints": 7,
+        "roundOf32Result": "Netherlands 1-1 Morocco (2-3 pens)"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 75,
+        "previousMatchDate": "2026-06-30",
+        "nextMatchNumber": 90,
+        "nextMatchDate": "2026-07-04",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Norway",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 8,
+        "goalDifference": 2,
+        "goalsForPerMatch": 2.5,
+        "goalsAgainstPerMatch": 2,
+        "groupPoints": 6,
+        "roundOf32Result": "Ivory Coast 1-2 Norway"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 78,
+        "previousMatchDate": "2026-06-30",
+        "nextMatchNumber": 91,
+        "nextMatchDate": "2026-07-05",
+        "restDays": 5,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": -2,
+        "goalsForPerMatch": 0.75,
+        "goalsAgainstPerMatch": 1.25,
+        "groupPoints": 4,
+        "roundOf32Result": "Germany 1-1 Paraguay (3-4 pens)"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 74,
+        "previousMatchDate": "2026-06-29",
+        "nextMatchNumber": 89,
+        "nextMatchDate": "2026-07-04",
+        "restDays": 5,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Portugal",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 3,
+        "goalsFor": 8,
+        "goalsAgainst": 2,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.6667,
+        "goalsAgainstPerMatch": 0.6667,
+        "groupPoints": 4,
+        "roundOf32Result": "Portugal 2-1 Croatia"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 83,
+        "previousMatchDate": "2026-07-02",
+        "nextMatchNumber": 93,
+        "nextMatchDate": "2026-07-06",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 270
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Spain",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0,
+        "groupPoints": 7,
+        "roundOf32Result": "Spain 3-0 Austria"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 84,
+        "previousMatchDate": "2026-07-02",
+        "nextMatchNumber": 93,
+        "nextMatchDate": "2026-07-06",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.75,
+        "groupPoints": 7,
+        "roundOf32Result": "Switzerland 2-0 Algeria"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 85,
+        "previousMatchDate": "2026-07-03",
+        "nextMatchNumber": 96,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 4,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "team": "United States",
+      "sourceFiles": [
+        "data\\knockout\\round-of-16-team-stats-v1.json",
+        "data\\results\\round-of-32-results-v1.json",
+        "data\\results\\group-stage-results-v1.json"
+      ],
+      "collectedAt": "2026-07-04T09:35:11.906Z",
+      "tournamentPerformance": {
+        "played": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.5,
+        "goalsAgainstPerMatch": 1,
+        "groupPoints": 6,
+        "roundOf32Result": "United States 2-0 Bosnia and Herzegovina"
+      },
+      "formSignalPolicy": "Already included in baseline team quality/form inputs; contextual form multiplier remains neutral to avoid double counting.",
+      "fatigue": {
+        "previousMatchNumber": 81,
+        "previousMatchDate": "2026-07-02",
+        "nextMatchNumber": 94,
+        "nextMatchDate": "2026-07-07",
+        "restDays": 5,
+        "previousExtraTime": false,
+        "accumulatedTeamMatchMinutesEstimate": 360
+      },
+      "missingFields": [
+        "player minutes",
+        "expected lineups",
+        "injuries",
+        "suspensions",
+        "yellow-card availability",
+        "shots",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    }
+  ]
+}

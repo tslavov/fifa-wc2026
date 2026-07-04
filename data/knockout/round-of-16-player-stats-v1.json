@@ -1,0 +1,10 @@
+{
+  "datasetId": "round-of-16-player-stats-v1",
+  "artifactKind": "player_stats",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "status": "not_updated",
+  "players": [],
+  "warnings": [
+    "No existing trusted project source/script provides Round of 32 player minutes, goals, assists, cards, shots, or xG. No player data was invented."
+  ]
+}

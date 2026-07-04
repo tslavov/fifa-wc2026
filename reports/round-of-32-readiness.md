@@ -1,6 +1,6 @@
 # Round of 32 Readiness
 
-Generated: 2026-06-30T21:25:12.353Z
+Generated: 2026-07-04T09:03:36.279Z
 
 ## Group Stage Data
 

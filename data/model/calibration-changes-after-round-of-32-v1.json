@@ -1,0 +1,58 @@
+{
+  "datasetId": "calibration-changes-after-round-of-32-v1",
+  "artifactKind": "model_adjustment",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "basedOnEvaluation": "data\\evaluation\\round-of-32-prediction-evaluation-v1.json",
+  "contaminationControl": {
+    "previousPredictionsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true
+  },
+  "evidenceWeight": 0.15,
+  "updatedParameters": {
+    "markovChainScorePredictions": {
+      "modelParameters": {
+        "baseGoalRateMultiplier": 0.94,
+        "qualityMultiplierScale": 0.61,
+        "lambdaMin": 0.15,
+        "lambdaMax": 4.25,
+        "stepsPerMatch": 90,
+        "pruneProbabilityBelow": 1e-14
+      },
+      "scoreSelection": {
+        "nearEqualRelativeBand": 0.02,
+        "nearEqualAbsoluteProbabilityBand": 0.015,
+        "higherScoreTiebreak": false,
+        "strongerTeamTiebreak": true,
+        "saferDrawFallback": true,
+        "defaultToMostProbableScore": true
+      }
+    },
+    "knockoutAdvancement": {
+      "drawQualificationSplit": "quality_adjusted_logistic",
+      "penaltyShootoutConditionalOnDraw": 0.35
+    }
+  },
+  "changes": [
+    {
+      "parameter": "baseGoalRateMultiplier",
+      "oldValue": 0.9675,
+      "newValue": 0.94,
+      "evidence": "Round of 32 exact-score accuracy was 0.2857; several favorite predictions were high-scoring misses.",
+      "reason": "Small global dampening for knockout scoring, capped to avoid overfitting one round."
+    },
+    {
+      "parameter": "qualityMultiplierScale",
+      "oldValue": 0.6285,
+      "newValue": 0.61,
+      "evidence": "Round of 32 advancing-team accuracy was 0.8125; two strong favorites failed via penalties.",
+      "reason": "Slightly reduce favorite separation while preserving ranking/strength signal."
+    },
+    {
+      "parameter": "penaltyShootoutConditionalOnDraw",
+      "oldValue": null,
+      "newValue": 0.35,
+      "evidence": "Round of 32 included penalty outcomes and extra-time outcomes; the prior model reported only 90-minute draws.",
+      "reason": "Expose qualification probabilities without feeding old predictions into model inputs."
+    }
+  ]
+}

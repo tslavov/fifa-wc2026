@@ -1,0 +1,651 @@
+{
+  "artifactKind": "prediction",
+  "predictionId": "round-of-16-score-predictions-v1",
+  "predictionType": "round_of_16_score_predictions",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "contaminationControl": {
+    "builderInputPaths": [
+      "data\\knockout\\round-of-16-team-stats-v1.json",
+      "data\\model\\calibration-changes-after-round-of-32-v1.json"
+    ],
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "predictionDirectoryReadAsInputForPrediction": false
+  },
+  "method": {
+    "type": "knockout_markov_score_distribution_from_group_and_round32_team_stats",
+    "modelParameters": {
+      "baseGoalRateMultiplier": 0.94,
+      "qualityMultiplierScale": 0.61,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14,
+      "baseGoalsPerTeamMatch": 2.1458
+    },
+    "knockoutAdvancement": {
+      "drawQualificationSplit": "quality_adjusted_logistic",
+      "penaltyShootoutConditionalOnDraw": 0.35
+    },
+    "fantasyScoring": "6 exact score / 3 correct outcome / +1 per exact team goal"
+  },
+  "matches": [
+    {
+      "matchId": "400021533",
+      "matchNumber": 89,
+      "stage": "Round of 16",
+      "date": "2026-07-04",
+      "utcDateTime": "2026-07-04T21:00:00Z",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "predictedNinetyMinuteScore": {
+        "home": 0,
+        "away": 4
+      },
+      "mostProbableScoreline": {
+        "home": 0,
+        "away": 4,
+        "probability": 0.1103,
+        "expectedFantasyPoints": 3.9125
+      },
+      "secondMostProbableScoreline": {
+        "home": 0,
+        "away": 3,
+        "probability": 0.1023,
+        "expectedFantasyPoints": 3.8741
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.0156,
+        "drawThrough90": 0.0419,
+        "awayWin": 0.9425
+      },
+      "expectedGoals": {
+        "home": 0.584,
+        "away": 4.2498
+      },
+      "extraTimeProbability": 0.0419,
+      "penaltyShootoutProbability": 0.0147,
+      "qualificationProbabilities": {
+        "home": 0.0301,
+        "away": 0.9699
+      },
+      "selectedAdvancingTeam": "France",
+      "confidence": "High",
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.1103,
+          "expectedFantasyPoints": 3.9125
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.1023,
+          "expectedFantasyPoints": 3.8741
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.094,
+          "expectedFantasyPoints": 3.8346
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0703,
+          "expectedFantasyPoints": 3.7209
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "probability": 0.066,
+          "expectedFantasyPoints": 3.7003
+        }
+      ],
+      "reasoningNote": "Paraguay totals 3-5 vs France 13-2; qualification lean France."
+    },
+    {
+      "matchId": "400021530",
+      "matchNumber": 90,
+      "stage": "Round of 16",
+      "date": "2026-07-04",
+      "utcDateTime": "2026-07-04T17:00:00Z",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "predictedNinetyMinuteScore": {
+        "home": 2,
+        "away": 2
+      },
+      "mostProbableScoreline": {
+        "home": 2,
+        "away": 2,
+        "probability": 0.0748,
+        "expectedFantasyPoints": 1.3895
+      },
+      "secondMostProbableScoreline": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.074,
+        "expectedFantasyPoints": 2.009
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.4142,
+        "drawThrough90": 0.206,
+        "awayWin": 0.3797
+      },
+      "expectedGoals": {
+        "home": 2.0865,
+        "away": 1.9966
+      },
+      "extraTimeProbability": 0.206,
+      "penaltyShootoutProbability": 0.0721,
+      "qualificationProbabilities": {
+        "home": 0.5096,
+        "away": 0.4904
+      },
+      "selectedAdvancingTeam": "Canada",
+      "confidence": "Low",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0748,
+          "expectedFantasyPoints": 1.3895
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.074,
+          "expectedFantasyPoints": 2.009
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0708,
+          "expectedFantasyPoints": 1.8842
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0701,
+          "expectedFantasyPoints": 1.3581
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0521,
+          "expectedFantasyPoints": 1.8633
+        }
+      ],
+      "reasoningNote": "Canada totals 9-3 vs Morocco 7-4; qualification lean Canada."
+    },
+    {
+      "matchId": "400021532",
+      "matchNumber": 91,
+      "stage": "Round of 16",
+      "date": "2026-07-05",
+      "utcDateTime": "2026-07-05T20:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "predictedNinetyMinuteScore": {
+        "home": 4,
+        "away": 1
+      },
+      "mostProbableScoreline": {
+        "home": 4,
+        "away": 1,
+        "probability": 0.0696,
+        "expectedFantasyPoints": 3.3046
+      },
+      "secondMostProbableScoreline": {
+        "home": 3,
+        "away": 1,
+        "probability": 0.0652,
+        "expectedFantasyPoints": 3.2788
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.849,
+        "drawThrough90": 0.0848,
+        "awayWin": 0.0662
+      },
+      "expectedGoals": {
+        "home": 4.2065,
+        "away": 1.3678
+      },
+      "extraTimeProbability": 0.0848,
+      "penaltyShootoutProbability": 0.0297,
+      "qualificationProbabilities": {
+        "home": 0.898,
+        "away": 0.102
+      },
+      "selectedAdvancingTeam": "Brazil",
+      "confidence": "High",
+      "topScorelines": [
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0696,
+          "expectedFantasyPoints": 3.3046
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0652,
+          "expectedFantasyPoints": 3.2788
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0586,
+          "expectedFantasyPoints": 3.2403
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0501,
+          "expectedFantasyPoints": 3.1481
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0478,
+          "expectedFantasyPoints": 3.1298
+        }
+      ],
+      "reasoningNote": "Brazil totals 9-2 vs Norway 10-8; qualification lean Brazil."
+    },
+    {
+      "matchId": "400021531",
+      "matchNumber": 92,
+      "stage": "Round of 16",
+      "date": "2026-07-06",
+      "utcDateTime": "2026-07-06T00:00:00Z",
+      "venue": "Mexico City Stadium",
+      "city": "Mexico City",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "predictedNinetyMinuteScore": {
+        "home": 2,
+        "away": 0
+      },
+      "mostProbableScoreline": {
+        "home": 2,
+        "away": 0,
+        "probability": 0.1079,
+        "expectedFantasyPoints": 2.9163
+      },
+      "secondMostProbableScoreline": {
+        "home": 1,
+        "away": 0,
+        "probability": 0.1028,
+        "expectedFantasyPoints": 2.8878
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.6413,
+        "drawThrough90": 0.202,
+        "awayWin": 0.1566
+      },
+      "expectedGoals": {
+        "home": 2.0741,
+        "away": 0.9235
+      },
+      "extraTimeProbability": 0.202,
+      "penaltyShootoutProbability": 0.0707,
+      "qualificationProbabilities": {
+        "home": 0.7383,
+        "away": 0.2617
+      },
+      "selectedAdvancingTeam": "Mexico",
+      "confidence": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.1079,
+          "expectedFantasyPoints": 2.9163
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.1028,
+          "expectedFantasyPoints": 2.8878
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.1008,
+          "expectedFantasyPoints": 2.8688
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.096,
+          "expectedFantasyPoints": 1.5233
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0747,
+          "expectedFantasyPoints": 2.7324
+        }
+      ],
+      "reasoningNote": "Mexico totals 8-0 vs England 6-3; qualification lean Mexico."
+    },
+    {
+      "matchId": "400021529",
+      "matchNumber": 93,
+      "stage": "Round of 16",
+      "date": "2026-07-06",
+      "utcDateTime": "2026-07-06T19:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Portugal",
+      "awayTeam": "Spain",
+      "predictedNinetyMinuteScore": {
+        "home": 0,
+        "away": 2
+      },
+      "mostProbableScoreline": {
+        "home": 0,
+        "away": 2,
+        "probability": 0.1112,
+        "expectedFantasyPoints": 2.9244
+      },
+      "secondMostProbableScoreline": {
+        "home": 0,
+        "away": 1,
+        "probability": 0.1089,
+        "expectedFantasyPoints": 2.9118
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.1568,
+        "drawThrough90": 0.2063,
+        "awayWin": 0.6369
+      },
+      "expectedGoals": {
+        "home": 0.8952,
+        "away": 2.0187
+      },
+      "extraTimeProbability": 0.2063,
+      "penaltyShootoutProbability": 0.0722,
+      "qualificationProbabilities": {
+        "home": 0.2522,
+        "away": 0.7478
+      },
+      "selectedAdvancingTeam": "Spain",
+      "confidence": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.1112,
+          "expectedFantasyPoints": 2.9244
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.1089,
+          "expectedFantasyPoints": 2.9118
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.1007,
+          "expectedFantasyPoints": 2.8544
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0986,
+          "expectedFantasyPoints": 1.5508
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0749,
+          "expectedFantasyPoints": 2.726
+        }
+      ],
+      "reasoningNote": "Portugal totals 8-2 vs Spain 8-0; qualification lean Spain."
+    },
+    {
+      "matchId": "400021534",
+      "matchNumber": 94,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T00:00:00Z",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "homeTeam": "United States",
+      "awayTeam": "Belgium",
+      "predictedNinetyMinuteScore": {
+        "home": 2,
+        "away": 2
+      },
+      "mostProbableScoreline": {
+        "home": 2,
+        "away": 2,
+        "probability": 0.0691,
+        "expectedFantasyPoints": 1.2974
+      },
+      "secondMostProbableScoreline": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.0602,
+        "expectedFantasyPoints": 2.0406
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.3559,
+        "drawThrough90": 0.1879,
+        "awayWin": 0.4562
+      },
+      "expectedGoals": {
+        "home": 2.2618,
+        "away": 2.5416
+      },
+      "extraTimeProbability": 0.1879,
+      "penaltyShootoutProbability": 0.0658,
+      "qualificationProbabilities": {
+        "home": 0.4446,
+        "away": 0.5554
+      },
+      "selectedAdvancingTeam": "Belgium",
+      "confidence": "Low",
+      "topScorelines": [
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0691,
+          "expectedFantasyPoints": 1.2974
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0602,
+          "expectedFantasyPoints": 2.0406
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "probability": 0.059,
+          "expectedFantasyPoints": 2.0342
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0534,
+          "expectedFantasyPoints": 1.6959
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0523,
+          "expectedFantasyPoints": 1.6852
+        }
+      ],
+      "reasoningNote": "United States totals 10-4 vs Belgium 9-4; qualification lean Belgium."
+    },
+    {
+      "matchId": "400021528",
+      "matchNumber": 95,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T16:00:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egypt",
+      "predictedNinetyMinuteScore": {
+        "home": 4,
+        "away": 1
+      },
+      "mostProbableScoreline": {
+        "home": 4,
+        "away": 1,
+        "probability": 0.0738,
+        "expectedFantasyPoints": 3.4374
+      },
+      "secondMostProbableScoreline": {
+        "home": 3,
+        "away": 1,
+        "probability": 0.0712,
+        "expectedFantasyPoints": 3.4227
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.8821,
+        "drawThrough90": 0.0728,
+        "awayWin": 0.045
+      },
+      "expectedGoals": {
+        "home": 4.0899,
+        "away": 1.0421
+      },
+      "extraTimeProbability": 0.0728,
+      "penaltyShootoutProbability": 0.0255,
+      "qualificationProbabilities": {
+        "home": 0.9292,
+        "away": 0.0708
+      },
+      "selectedAdvancingTeam": "Argentina",
+      "confidence": "High",
+      "topScorelines": [
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0738,
+          "expectedFantasyPoints": 3.4374
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0712,
+          "expectedFantasyPoints": 3.4227
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0699,
+          "expectedFantasyPoints": 3.4063
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0675,
+          "expectedFantasyPoints": 3.3922
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0605,
+          "expectedFantasyPoints": 3.3614
+        }
+      ],
+      "reasoningNote": "Argentina totals 11-3 vs Egypt 6-4; qualification lean Argentina."
+    },
+    {
+      "matchId": "400021535",
+      "matchNumber": 96,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T20:00:00Z",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Colombia",
+      "predictedNinetyMinuteScore": {
+        "home": 1,
+        "away": 1
+      },
+      "mostProbableScoreline": {
+        "home": 1,
+        "away": 1,
+        "probability": 0.1038,
+        "expectedFantasyPoints": 1.64
+      },
+      "secondMostProbableScoreline": {
+        "home": 1,
+        "away": 2,
+        "probability": 0.098,
+        "expectedFantasyPoints": 2.4808
+      },
+      "outcomeProbabilities": {
+        "homeWin": 0.2552,
+        "drawThrough90": 0.2267,
+        "awayWin": 0.5182
+      },
+      "expectedGoals": {
+        "home": 1.2563,
+        "away": 1.8678
+      },
+      "extraTimeProbability": 0.2267,
+      "penaltyShootoutProbability": 0.0793,
+      "qualificationProbabilities": {
+        "home": 0.3633,
+        "away": 0.6367
+      },
+      "selectedAdvancingTeam": "Colombia",
+      "confidence": "Medium",
+      "topScorelines": [
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.1038,
+          "expectedFantasyPoints": 1.64
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.098,
+          "expectedFantasyPoints": 2.4808
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0814,
+          "expectedFantasyPoints": 2.3694
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0768,
+          "expectedFantasyPoints": 2.3394
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0654,
+          "expectedFantasyPoints": 1.4771
+        }
+      ],
+      "reasoningNote": "Switzerland totals 9-3 vs Colombia 5-1; qualification lean Colombia."
+    }
+  ]
+}

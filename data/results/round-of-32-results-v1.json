@@ -1,0 +1,431 @@
+{
+  "datasetId": "round-of-32-results-v1",
+  "artifactKind": "collected_results",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "source": {
+    "sourceName": "FIFA World Cup 2026 scores and fixtures",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+    "fetchedAt": "2026-07-04T09:08:43.777Z"
+  },
+  "completionStatus": {
+    "expectedFixtures": 16,
+    "completedFixtures": 16,
+    "incompleteFixtures": 0,
+    "allRoundOf32FixturesFinal": true
+  },
+  "results": [
+    {
+      "matchId": "400021518",
+      "matchNumber": 73,
+      "stage": "Round of 32",
+      "date": "2026-06-28",
+      "utcDateTime": "2026-06-28T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "homeTeam": "South Africa",
+      "awayTeam": "Canada",
+      "ninetyMinuteScore": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 0,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Canada"
+    },
+    {
+      "matchId": "400021513",
+      "matchNumber": 74,
+      "stage": "Round of 32",
+      "date": "2026-06-29",
+      "utcDateTime": "2026-06-29T20:30:00Z",
+      "venue": "Boston Stadium",
+      "city": "Boston",
+      "homeTeam": "Germany",
+      "awayTeam": "Paraguay",
+      "ninetyMinuteScore": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": {
+        "home": 3,
+        "away": 4
+      },
+      "finalScore": {
+        "home": 1,
+        "away": 1
+      },
+      "resultType": "penalties",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": true,
+      "advancingTeam": "Paraguay"
+    },
+    {
+      "matchId": "400021522",
+      "matchNumber": 75,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T01:00:00Z",
+      "venue": "Monterrey Stadium",
+      "city": "Monterrey",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "ninetyMinuteScore": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": {
+        "home": 2,
+        "away": 3
+      },
+      "finalScore": {
+        "home": 1,
+        "away": 1
+      },
+      "resultType": "penalties",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": true,
+      "advancingTeam": "Morocco"
+    },
+    {
+      "matchId": "400021516",
+      "matchNumber": 76,
+      "stage": "Round of 32",
+      "date": "2026-06-29",
+      "utcDateTime": "2026-06-29T17:00:00Z",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "homeTeam": "Brazil",
+      "awayTeam": "Japan",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Brazil"
+    },
+    {
+      "matchId": "400021523",
+      "matchNumber": 77,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T21:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "homeTeam": "France",
+      "awayTeam": "Sweden",
+      "ninetyMinuteScore": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 3,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "France"
+    },
+    {
+      "matchId": "400021514",
+      "matchNumber": 78,
+      "stage": "Round of 32",
+      "date": "2026-06-30",
+      "utcDateTime": "2026-06-30T17:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Norway",
+      "ninetyMinuteScore": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 1,
+        "away": 2
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Norway"
+    },
+    {
+      "matchId": "400021520",
+      "matchNumber": 79,
+      "stage": "Round of 32",
+      "date": "2026-07-01",
+      "utcDateTime": "2026-07-01T02:00:00Z",
+      "venue": "Mexico City Stadium",
+      "city": "Mexico City",
+      "homeTeam": "Mexico",
+      "awayTeam": "Ecuador",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Mexico"
+    },
+    {
+      "matchId": "400021512",
+      "matchNumber": 80,
+      "stage": "Round of 32",
+      "date": "2026-07-01",
+      "utcDateTime": "2026-07-01T16:00:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "homeTeam": "England",
+      "awayTeam": "DR Congo",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "England"
+    },
+    {
+      "matchId": "400021524",
+      "matchNumber": 81,
+      "stage": "Round of 32",
+      "date": "2026-07-02",
+      "utcDateTime": "2026-07-02T00:00:00Z",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "homeTeam": "United States",
+      "awayTeam": "Bosnia and Herzegovina",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "United States"
+    },
+    {
+      "matchId": "400021525",
+      "matchNumber": 82,
+      "stage": "Round of 32",
+      "date": "2026-07-01",
+      "utcDateTime": "2026-07-01T20:00:00Z",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "homeTeam": "Belgium",
+      "awayTeam": "Senegal",
+      "ninetyMinuteScore": null,
+      "scoreAfterExtraTime": {
+        "home": 3,
+        "away": 2
+      },
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 3,
+        "away": 2
+      },
+      "resultType": "after_extra_time",
+      "extraTimePlayed": true,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Belgium"
+    },
+    {
+      "matchId": "400021526",
+      "matchNumber": 83,
+      "stage": "Round of 32",
+      "date": "2026-07-02",
+      "utcDateTime": "2026-07-02T23:00:00Z",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "homeTeam": "Portugal",
+      "awayTeam": "Croatia",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Portugal"
+    },
+    {
+      "matchId": "400021519",
+      "matchNumber": 84,
+      "stage": "Round of 32",
+      "date": "2026-07-02",
+      "utcDateTime": "2026-07-02T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "homeTeam": "Spain",
+      "awayTeam": "Austria",
+      "ninetyMinuteScore": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 3,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Spain"
+    },
+    {
+      "matchId": "400021527",
+      "matchNumber": 85,
+      "stage": "Round of 32",
+      "date": "2026-07-03",
+      "utcDateTime": "2026-07-03T03:00:00Z",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "ninetyMinuteScore": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Switzerland"
+    },
+    {
+      "matchId": "400021521",
+      "matchNumber": 86,
+      "stage": "Round of 32",
+      "date": "2026-07-03",
+      "utcDateTime": "2026-07-03T22:00:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "homeTeam": "Argentina",
+      "awayTeam": "Cape Verde",
+      "ninetyMinuteScore": null,
+      "scoreAfterExtraTime": {
+        "home": 3,
+        "away": 2
+      },
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 3,
+        "away": 2
+      },
+      "resultType": "after_extra_time",
+      "extraTimePlayed": true,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Argentina"
+    },
+    {
+      "matchId": "400021517",
+      "matchNumber": 87,
+      "stage": "Round of 32",
+      "date": "2026-07-04",
+      "utcDateTime": "2026-07-04T01:30:00Z",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "homeTeam": "Colombia",
+      "awayTeam": "Ghana",
+      "ninetyMinuteScore": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 1,
+        "away": 0
+      },
+      "resultType": "normal_time",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Colombia"
+    },
+    {
+      "matchId": "400021515",
+      "matchNumber": 88,
+      "stage": "Round of 32",
+      "date": "2026-07-03",
+      "utcDateTime": "2026-07-03T18:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Australia",
+      "awayTeam": "Egypt",
+      "ninetyMinuteScore": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": {
+        "home": 2,
+        "away": 4
+      },
+      "finalScore": {
+        "home": 1,
+        "away": 1
+      },
+      "resultType": "penalties",
+      "extraTimePlayed": false,
+      "penaltiesPlayed": true,
+      "advancingTeam": "Egypt"
+    }
+  ],
+  "warnings": [
+    "FIFA calendar endpoint flags extra-time results but does not expose reliable 90-minute score splits for those matches; those 90-minute scores are left null."
+  ]
+}

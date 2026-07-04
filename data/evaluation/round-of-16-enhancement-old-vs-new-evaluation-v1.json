@@ -1,0 +1,34 @@
+{
+  "datasetId": "round-of-16-enhancement-old-vs-new-evaluation-v1",
+  "artifactKind": "model_evaluation",
+  "generatedAt": "2026-07-04T09:35:13.362Z",
+  "scope": "Round of 32 backtest for candidate contextual fatigue multiplier.",
+  "contaminationControl": {
+    "roundOf32PredictionsUsedForEvaluationOnly": true,
+    "doNotUseOldPredictionsAsModelInputs": true
+  },
+  "currentModel": {
+    "exactScoreAccuracy": 0.2857,
+    "ninetyMinuteOutcomeAccuracy": 0.7857,
+    "meanBrierScore": 0.3533,
+    "exactScoreExpectedFantasyPoints": 4.0714,
+    "evaluatedFixtures": 14
+  },
+  "candidateEnhancedModel": {
+    "exactScoreAccuracy": 0.2857,
+    "ninetyMinuteOutcomeAccuracy": 0.7857,
+    "meanBrierScore": 0.3535,
+    "exactScoreExpectedFantasyPoints": 4.0714,
+    "evaluatedFixtures": 14
+  },
+  "decisions": {
+    "fatigueMultiplierKept": false,
+    "reason": "Candidate failed at least one keep criterion; fatigue values are reported for Round of 16 but not applied to expected goals.",
+    "unavailableFeatureMultipliersKeptNeutral": [
+      "lineup/availability",
+      "player form",
+      "location/travel",
+      "weather"
+    ]
+  }
+}

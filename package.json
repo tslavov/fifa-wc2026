@@ -21,6 +21,8 @@
     "update:after-matchday1": "tsx src/predict/updateAfterMatchday1.ts",
     "update:after-matchday2": "node scripts/updateAfterMatchday2.mjs",
     "update:after-group-stage": "node scripts/updateAfterGroupStage.mjs",
+    "update:after-round-of-32": "node scripts/updateAfterRoundOf32.mjs",
+    "enhance:round-of-16-context": "node scripts/enhanceRoundOf16Context.mjs",
     "predict:round-of-32-assigned": "node scripts/predictAssignedRoundOf32.mjs",
     "compare:round-of-32-methods": "node scripts/compareAssignedRoundOf32Methods.mjs",
     "test:score-metrics": "tsx src/predict/scoreDistributionMetrics.test.ts",

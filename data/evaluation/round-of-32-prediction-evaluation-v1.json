@@ -1,0 +1,762 @@
+{
+  "datasetId": "round-of-32-prediction-evaluation-v1",
+  "artifactKind": "prediction_evaluation",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "contaminationControl": {
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true,
+    "evaluationInputs": [
+      "data\\results\\round-of-32-results-v1.json",
+      "data\\predictions\\assigned-round-of-32-score-predictions-v1.json",
+      "data\\predictions\\assigned-round-of-32-method-comparison-v1.json"
+    ]
+  },
+  "scope": {
+    "stage": "Round of 32",
+    "fixtureCount": 16
+  },
+  "summary": {
+    "llmOnly": {
+      "exactScoreAccuracy": 0.2857,
+      "ninetyMinuteOutcomeAccuracy": 0.7857,
+      "advancingTeamAccuracy": 0.875,
+      "meanBrierScore": null,
+      "evaluatedExactAndOutcomeFixtures": 14,
+      "evaluatedAdvancementFixtures": 16
+    },
+    "monteCarlo": {
+      "exactScoreAccuracy": 0.2857,
+      "ninetyMinuteOutcomeAccuracy": 0.8571,
+      "advancingTeamAccuracy": 0.8125,
+      "meanBrierScore": 0.3542,
+      "evaluatedExactAndOutcomeFixtures": 14,
+      "evaluatedAdvancementFixtures": 16
+    },
+    "markovChain": {
+      "exactScoreAccuracy": 0.2857,
+      "ninetyMinuteOutcomeAccuracy": 0.7857,
+      "advancingTeamAccuracy": 0.8125,
+      "meanBrierScore": 0.3533,
+      "evaluatedExactAndOutcomeFixtures": 14,
+      "evaluatedAdvancementFixtures": 16
+    }
+  },
+  "matches": [
+    {
+      "matchNumber": 73,
+      "fixture": "South Africa vs Canada",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 0,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Canada",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1022
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1075
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 74,
+      "fixture": "Germany vs Paraguay",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 1,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": {
+          "home": 3,
+          "away": 4
+        },
+        "advancingTeam": "Paraguay",
+        "resultType": "penalties"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": 1.5058
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": 1.5012
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 75,
+      "fixture": "Netherlands vs Morocco",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 1,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": {
+          "home": 2,
+          "away": 3
+        },
+        "advancingTeam": "Morocco",
+        "resultType": "penalties"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": 1.0126
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": false,
+        "brierScore": 1.0066
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 76,
+      "fixture": "Brazil vs Japan",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Brazil",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1783
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1818
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 77,
+      "fixture": "France vs Sweden",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 3,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "France",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0198
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0196
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 78,
+      "fixture": "Ivory Coast vs Norway",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 1,
+          "away": 2
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Norway",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": 0.6721
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": false,
+        "brierScore": 0.6646
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 2
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 79,
+      "fixture": "Mexico vs Ecuador",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Mexico",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1324
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.1391
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 80,
+      "fixture": "England vs DR Congo",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "England",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0507
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0501
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 81,
+      "fixture": "United States vs Bosnia and Herzegovina",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "United States",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0519
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0544
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 82,
+      "fixture": "Belgium vs Senegal",
+      "actual": {
+        "ninetyMinuteScore": null,
+        "scoreAfterExtraTime": {
+          "home": 3,
+          "away": 2
+        },
+        "penaltyScore": null,
+        "advancingTeam": "Belgium",
+        "resultType": "after_extra_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 83,
+      "fixture": "Portugal vs Croatia",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Portugal",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0291
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.032
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 84,
+      "fixture": "Spain vs Austria",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 3,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Spain",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0298
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0311
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 85,
+      "fixture": "Switzerland vs Algeria",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 2,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Switzerland",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0576
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.0599
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 86,
+      "fixture": "Argentina vs Cape Verde",
+      "actual": {
+        "ninetyMinuteScore": null,
+        "scoreAfterExtraTime": {
+          "home": 3,
+          "away": 2
+        },
+        "penaltyScore": null,
+        "advancingTeam": "Argentina",
+        "resultType": "after_extra_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 0
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": null,
+        "ninetyMinuteOutcomeCorrect": null,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 87,
+      "fixture": "Colombia vs Ghana",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 1,
+          "away": 0
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Colombia",
+        "resultType": "normal_time"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.3007
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 0
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.3075
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    },
+    {
+      "matchNumber": 88,
+      "fixture": "Australia vs Egypt",
+      "actual": {
+        "ninetyMinuteScore": {
+          "home": 1,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": {
+          "home": 2,
+          "away": 4
+        },
+        "advancingTeam": "Egypt",
+        "resultType": "penalties"
+      },
+      "markovChain": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.8031
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": true,
+        "ninetyMinuteOutcomeCorrect": true,
+        "advancingTeamCorrect": true,
+        "brierScore": 0.8031
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 0,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "ninetyMinuteOutcomeCorrect": false,
+        "advancingTeamCorrect": true,
+        "brierScore": null
+      }
+    }
+  ],
+  "warnings": [
+    "Extra-time matches from the FIFA calendar endpoint do not expose 90-minute score splits; exact-score and 90-minute outcome evaluation exclude those fixtures."
+  ]
+}

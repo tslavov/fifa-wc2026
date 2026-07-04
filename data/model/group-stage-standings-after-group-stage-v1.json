@@ -1,7 +1,7 @@
 {
   "datasetId": "group-stage-standings-after-group-stage-v1",
   "artifactKind": "standings",
-  "generatedAt": "2026-06-30T21:25:12.353Z",
+  "generatedAt": "2026-07-04T09:03:36.279Z",
   "sourceResultFile": "data\\results\\group-stage-results-v1.json",
   "status": "provisional",
   "qualificationRules": {
@@ -1162,7 +1162,7 @@
           "awayTeam": "Portugal",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-30T21:25:12.353Z",
+          "fetchedAt": "2026-07-04T09:03:36.279Z",
           "officialStatus": {
             "matchStatus": 0,
             "resultType": 1,
@@ -1192,7 +1192,7 @@
           "awayTeam": "Uzbekistan",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-30T21:25:12.353Z",
+          "fetchedAt": "2026-07-04T09:03:36.279Z",
           "officialStatus": {
             "matchStatus": 0,
             "resultType": 1,
@@ -1334,7 +1334,7 @@
           "awayTeam": "England",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-30T21:25:12.353Z",
+          "fetchedAt": "2026-07-04T09:03:36.279Z",
           "officialStatus": {
             "matchStatus": 0,
             "resultType": 1,
@@ -1364,7 +1364,7 @@
           "awayTeam": "Ghana",
           "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
           "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
-          "fetchedAt": "2026-06-30T21:25:12.353Z",
+          "fetchedAt": "2026-07-04T09:03:36.279Z",
           "officialStatus": {
             "matchStatus": 0,
             "resultType": 1,

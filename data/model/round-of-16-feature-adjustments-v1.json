@@ -1,0 +1,632 @@
+{
+  "datasetId": "round-of-16-feature-adjustments-v1",
+  "artifactKind": "feature_adjustment",
+  "generatedAt": "2026-07-04T09:35:11.906Z",
+  "sourceFiles": [
+    "data\\context\\round-of-16-team-context-v1.json",
+    "data\\context\\round-of-16-player-availability-v1.json",
+    "data\\context\\round-of-16-weather-location-v1.json",
+    "data\\evaluation\\round-of-16-enhancement-old-vs-new-evaluation-v1.json"
+  ],
+  "caps": {
+    "lineupAvailability": 0.15,
+    "form": 0.1,
+    "fatigue": 0.07,
+    "locationTravel": 0.05,
+    "weather": 0.04
+  },
+  "adjustmentPolicy": "Baseline team strength is preserved. Form is neutral because tournament performance is already in the baseline; unsourced player, availability, travel, altitude and weather fields are neutral.",
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 5,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 6,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 6,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 5,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 5,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 5,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "homeTeam": "Portugal",
+      "awayTeam": "Spain",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "homeTeam": "United States",
+      "awayTeam": "Belgium",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 5,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": -0.03,
+            "capped": -0.03,
+            "cappedMultiplier": 1,
+            "restDays": 6,
+            "previousExtraTime": true,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egypt",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": -0.03,
+            "capped": -0.03,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": true,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Colombia",
+      "expectedLineupStrength": {
+        "home": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        },
+        "away": {
+          "raw": null,
+          "cappedMultiplier": 1,
+          "missing": true
+        }
+      },
+      "importantAbsences": {
+        "home": [],
+        "away": [],
+        "missing": true
+      },
+      "adjustments": {
+        "form": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "already_in_baseline",
+          "evidence": "Tournament form/performance is already used in baseline team stats to avoid double counting."
+        },
+        "lineupAvailability": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "No trusted expected lineup, injury, suspension or card source is available in the project."
+        },
+        "fatigue": {
+          "home": {
+            "raw": 0,
+            "capped": 0,
+            "cappedMultiplier": 1,
+            "restDays": 4,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "away": {
+            "raw": -0.015,
+            "capped": -0.015,
+            "cappedMultiplier": 1,
+            "restDays": 3,
+            "previousExtraTime": false,
+            "source": "official fixture dates and result type"
+          },
+          "applied": false
+        },
+        "locationTravel": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar has venue/city but no stadium coordinates, altitude, team bases or travel distances."
+        },
+        "weather": {
+          "raw": 0,
+          "capped": 0,
+          "cappedMultiplier": 1,
+          "reason": "missing_source",
+          "evidence": "FIFA calendar weather fields are null for this fixture."
+        }
+      },
+      "combinedMultiplier": {
+        "homeAttack": 1,
+        "awayAttack": 1
+      }
+    }
+  ],
+  "warnings": [
+    "No existing trusted project source/script provides Round of 16 expected lineups, player event data, injuries, suspensions, or yellow-card availability. Multipliers are neutral for these fields."
+  ]
+}

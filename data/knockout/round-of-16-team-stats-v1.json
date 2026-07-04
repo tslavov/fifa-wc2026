@@ -1,0 +1,606 @@
+{
+  "datasetId": "round-of-16-team-stats-v1",
+  "artifactKind": "knockout_team_stats",
+  "generatedAt": "2026-07-04T09:08:43.777Z",
+  "sourceFiles": {
+    "standings": "data\\model\\group-stage-standings-after-group-stage-v1.json",
+    "teamStrength": "data\\model-input\\team-strength.json",
+    "roundOf32Results": "data\\results\\round-of-32-results-v1.json"
+  },
+  "notes": "Uses supported team-level group standings, team-strength inputs, and official Round of 32 scores only.",
+  "teamCount": 16,
+  "teams": [
+    {
+      "team": "Argentina",
+      "group": "J",
+      "countryCode": "ARG",
+      "fifaRank": 3,
+      "fifaPoints": 1870.32,
+      "eloRank": 2,
+      "eloRating": 2114,
+      "groupStage": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "points": 9,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": 7
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Argentina 3-2 Cape Verde aet"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 11,
+        "goalsAgainst": 3,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2.75,
+        "goalsAgainstPerMatch": 0.75
+      }
+    },
+    {
+      "team": "Belgium",
+      "group": "G",
+      "countryCode": "BEL",
+      "fifaRank": 8,
+      "fifaPoints": 1739.54,
+      "eloRank": 15,
+      "eloRating": 1893,
+      "groupStage": {
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "points": 5,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Belgium 3-2 Senegal aet"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 4,
+        "goalDifference": 5,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 1
+      }
+    },
+    {
+      "team": "Brazil",
+      "group": "C",
+      "countryCode": "BRA",
+      "fifaRank": 6,
+      "fifaPoints": 1761.6,
+      "eloRank": 5,
+      "eloRating": 1991,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": 6
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Brazil 2-1 Japan"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": 7,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.5
+      }
+    },
+    {
+      "team": "Canada",
+      "group": "B",
+      "countryCode": "CAN",
+      "fifaRank": 26,
+      "fifaPoints": 1558.04,
+      "eloRank": 25,
+      "eloRating": 1788,
+      "groupStage": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "points": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
+        "goalDifference": 5
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "South Africa 0-1 Canada"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.75
+      }
+    },
+    {
+      "team": "Colombia",
+      "group": "K",
+      "countryCode": "COL",
+      "fifaRank": 13,
+      "fifaPoints": 1692.1,
+      "eloRank": 7,
+      "eloRating": 1977,
+      "groupStage": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "points": 6,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "goalDifference": 3
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Colombia 1-0 Ghana"
+      },
+      "totals": {
+        "played": 3,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "goalDifference": 4,
+        "goalsForPerMatch": 1.6667,
+        "goalsAgainstPerMatch": 0.3333
+      }
+    },
+    {
+      "team": "Egypt",
+      "group": "G",
+      "countryCode": "EGY",
+      "fifaRank": 35,
+      "fifaPoints": 1519.18,
+      "eloRank": 48,
+      "eloRating": 1696,
+      "groupStage": {
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "points": 5,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": 2
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "advanced": true,
+        "lastResult": "Australia 1-1 Egypt (2-4 pens)"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": 2,
+        "goalsForPerMatch": 1.5,
+        "goalsAgainstPerMatch": 1
+      }
+    },
+    {
+      "team": "England",
+      "group": "L",
+      "countryCode": "ENG",
+      "fifaRank": 4,
+      "fifaPoints": 1820.44,
+      "eloRank": 4,
+      "eloRating": 2021,
+      "groupStage": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "points": 4,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 2
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "England 2-1 DR Congo"
+      },
+      "totals": {
+        "played": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 1
+      }
+    },
+    {
+      "team": "France",
+      "group": "I",
+      "countryCode": "FRA",
+      "fifaRank": 2,
+      "fifaPoints": 1870.92,
+      "eloRank": 3,
+      "eloRating": 2062,
+      "groupStage": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "points": 9,
+        "goalsFor": 10,
+        "goalsAgainst": 2,
+        "goalDifference": 8
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": 3,
+        "advanced": true,
+        "lastResult": "France 3-0 Sweden"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 13,
+        "goalsAgainst": 2,
+        "goalDifference": 11,
+        "goalsForPerMatch": 3.25,
+        "goalsAgainstPerMatch": 0.5
+      }
+    },
+    {
+      "team": "Mexico",
+      "group": "A",
+      "countryCode": "MEX",
+      "fifaRank": 14,
+      "fifaPoints": 1688.38,
+      "eloRank": 18,
+      "eloRating": 1875,
+      "groupStage": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "points": 9,
+        "goalsFor": 6,
+        "goalsAgainst": 0,
+        "goalDifference": 6
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": 2,
+        "advanced": true,
+        "lastResult": "Mexico 2-0 Ecuador"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0
+      }
+    },
+    {
+      "team": "Morocco",
+      "group": "C",
+      "countryCode": "MAR",
+      "fifaRank": 11,
+      "fifaPoints": 1706.27,
+      "eloRank": 24,
+      "eloRating": 1824,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "advanced": true,
+        "lastResult": "Netherlands 1-1 Morocco (2-3 pens)"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "goalDifference": 3,
+        "goalsForPerMatch": 1.75,
+        "goalsAgainstPerMatch": 1
+      }
+    },
+    {
+      "team": "Norway",
+      "group": "I",
+      "countryCode": "NOR",
+      "fifaRank": 31,
+      "fifaPoints": 1526.23,
+      "eloRank": 11,
+      "eloRating": 1917,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "points": 6,
+        "goalsFor": 8,
+        "goalsAgainst": 7,
+        "goalDifference": 1
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Ivory Coast 1-2 Norway"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 8,
+        "goalDifference": 2,
+        "goalsForPerMatch": 2.5,
+        "goalsAgainstPerMatch": 2
+      }
+    },
+    {
+      "team": "Paraguay",
+      "group": "D",
+      "countryCode": "PAR",
+      "fifaRank": 37,
+      "fifaPoints": 1501.01,
+      "eloRank": 22,
+      "eloRating": 1833,
+      "groupStage": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "points": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": -2
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "advanced": true,
+        "lastResult": "Germany 1-1 Paraguay (3-4 pens)"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": -2,
+        "goalsForPerMatch": 0.75,
+        "goalsAgainstPerMatch": 1.25
+      }
+    },
+    {
+      "team": "Portugal",
+      "group": "K",
+      "countryCode": "POR",
+      "fifaRank": 5,
+      "fifaPoints": 1779.55,
+      "eloRank": 6,
+      "eloRating": 1986,
+      "groupStage": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "points": 4,
+        "goalsFor": 6,
+        "goalsAgainst": 1,
+        "goalDifference": 5
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Portugal 2-1 Croatia"
+      },
+      "totals": {
+        "played": 3,
+        "goalsFor": 8,
+        "goalsAgainst": 2,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.6667,
+        "goalsAgainstPerMatch": 0.6667
+      }
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "countryCode": "ESP",
+      "fifaRank": 1,
+      "fifaPoints": 1875.37,
+      "eloRank": 1,
+      "eloRating": 2155,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 5,
+        "goalsAgainst": 0,
+        "goalDifference": 5
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": 3,
+        "advanced": true,
+        "lastResult": "Spain 3-0 Austria"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0
+      }
+    },
+    {
+      "team": "Switzerland",
+      "group": "B",
+      "countryCode": "SUI",
+      "fifaRank": 17,
+      "fifaPoints": 1648.3,
+      "eloRank": 17,
+      "eloRating": 1891,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": 2,
+        "advanced": true,
+        "lastResult": "Switzerland 2-0 Algeria"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.75
+      }
+    },
+    {
+      "team": "United States",
+      "group": "D",
+      "countryCode": "USA",
+      "fifaRank": 16,
+      "fifaPoints": 1670.04,
+      "eloRank": 38,
+      "eloRating": 1726,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "points": 6,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDifference": 4
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": 2,
+        "advanced": true,
+        "lastResult": "United States 2-0 Bosnia and Herzegovina"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.5,
+        "goalsAgainstPerMatch": 1
+      }
+    }
+  ]
+}
