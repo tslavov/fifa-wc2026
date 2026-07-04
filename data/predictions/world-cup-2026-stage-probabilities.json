@@ -1,0 +1,119 @@
+{
+  "artifactKind": "stage_probabilities",
+  "generatedAt": "2026-07-04T09:53:38.206Z",
+  "iterations": 50000,
+  "teams": [
+    {
+      "team": "France",
+      "quarterFinal": 0.9695,
+      "semiFinal": 0.8596,
+      "final": 0.4587,
+      "championship": 0.2892
+    },
+    {
+      "team": "Spain",
+      "quarterFinal": 0.7463,
+      "semiFinal": 0.6557,
+      "final": 0.4171,
+      "championship": 0.2871
+    },
+    {
+      "team": "Mexico",
+      "quarterFinal": 0.7403,
+      "semiFinal": 0.4787,
+      "final": 0.2908,
+      "championship": 0.1357
+    },
+    {
+      "team": "Argentina",
+      "quarterFinal": 0.9261,
+      "semiFinal": 0.5882,
+      "final": 0.3081,
+      "championship": 0.1196
+    },
+    {
+      "team": "Brazil",
+      "quarterFinal": 0.8999,
+      "semiFinal": 0.4074,
+      "final": 0.1977,
+      "championship": 0.066
+    },
+    {
+      "team": "Colombia",
+      "quarterFinal": 0.6338,
+      "semiFinal": 0.2883,
+      "final": 0.1307,
+      "championship": 0.0448
+    },
+    {
+      "team": "Portugal",
+      "quarterFinal": 0.2537,
+      "semiFinal": 0.1806,
+      "final": 0.0694,
+      "championship": 0.03
+    },
+    {
+      "team": "Switzerland",
+      "quarterFinal": 0.3662,
+      "semiFinal": 0.1112,
+      "final": 0.0345,
+      "championship": 0.0074
+    },
+    {
+      "team": "England",
+      "quarterFinal": 0.2597,
+      "semiFinal": 0.1034,
+      "final": 0.0355,
+      "championship": 0.0072
+    },
+    {
+      "team": "Belgium",
+      "quarterFinal": 0.5537,
+      "semiFinal": 0.0992,
+      "final": 0.0204,
+      "championship": 0.0056
+    },
+    {
+      "team": "Canada",
+      "quarterFinal": 0.5077,
+      "semiFinal": 0.0699,
+      "final": 0.0123,
+      "championship": 0.0027
+    },
+    {
+      "team": "United States",
+      "quarterFinal": 0.4463,
+      "semiFinal": 0.0645,
+      "final": 0.0108,
+      "championship": 0.0024
+    },
+    {
+      "team": "Morocco",
+      "quarterFinal": 0.4923,
+      "semiFinal": 0.0657,
+      "final": 0.0111,
+      "championship": 0.0022
+    },
+    {
+      "team": "Norway",
+      "quarterFinal": 0.1001,
+      "semiFinal": 0.0105,
+      "final": 0.0016,
+      "championship": 0.0001
+    },
+    {
+      "team": "Egypt",
+      "quarterFinal": 0.0739,
+      "semiFinal": 0.0124,
+      "final": 0.0012,
+      "championship": 0
+    },
+    {
+      "team": "Paraguay",
+      "quarterFinal": 0.0305,
+      "semiFinal": 0.0049,
+      "final": 0.0002,
+      "championship": 0
+    }
+  ]
+}

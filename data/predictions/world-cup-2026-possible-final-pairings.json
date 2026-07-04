@@ -1,0 +1,292 @@
+{
+  "artifactKind": "final_pairings",
+  "generatedAt": "2026-07-04T09:53:38.206Z",
+  "iterations": 50000,
+  "pairings": [
+    {
+      "teamA": "Argentina",
+      "teamB": "France",
+      "probability": 0.1415
+    },
+    {
+      "teamA": "France",
+      "teamB": "Mexico",
+      "probability": 0.1332
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Spain",
+      "probability": 0.1288
+    },
+    {
+      "teamA": "Mexico",
+      "teamB": "Spain",
+      "probability": 0.1208
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "France",
+      "probability": 0.0907
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "Spain",
+      "probability": 0.0827
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "France",
+      "probability": 0.06
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "Spain",
+      "probability": 0.0542
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Portugal",
+      "probability": 0.0215
+    },
+    {
+      "teamA": "Mexico",
+      "teamB": "Portugal",
+      "probability": 0.0203
+    },
+    {
+      "teamA": "England",
+      "teamB": "France",
+      "probability": 0.0165
+    },
+    {
+      "teamA": "France",
+      "teamB": "Switzerland",
+      "probability": 0.0155
+    },
+    {
+      "teamA": "England",
+      "teamB": "Spain",
+      "probability": 0.0147
+    },
+    {
+      "teamA": "Spain",
+      "teamB": "Switzerland",
+      "probability": 0.0146
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "Portugal",
+      "probability": 0.0139
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "Portugal",
+      "probability": 0.0088
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Belgium",
+      "probability": 0.0062
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Mexico",
+      "probability": 0.0059
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Brazil",
+      "probability": 0.0039
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Canada",
+      "probability": 0.0036
+    },
+    {
+      "teamA": "Canada",
+      "teamB": "Mexico",
+      "probability": 0.0036
+    },
+    {
+      "teamA": "Mexico",
+      "teamB": "Morocco",
+      "probability": 0.0035
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "United States",
+      "probability": 0.0034
+    },
+    {
+      "teamA": "Mexico",
+      "teamB": "United States",
+      "probability": 0.0033
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Morocco",
+      "probability": 0.0031
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Colombia",
+      "probability": 0.003
+    },
+    {
+      "teamA": "Portugal",
+      "teamB": "Switzerland",
+      "probability": 0.0025
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "Canada",
+      "probability": 0.0024
+    },
+    {
+      "teamA": "England",
+      "teamB": "Portugal",
+      "probability": 0.0022
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "Morocco",
+      "probability": 0.002
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "United States",
+      "probability": 0.0019
+    },
+    {
+      "teamA": "Canada",
+      "teamB": "Colombia",
+      "probability": 0.0017
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "Morocco",
+      "probability": 0.0016
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "United States",
+      "probability": 0.0013
+    },
+    {
+      "teamA": "Norway",
+      "teamB": "Spain",
+      "probability": 0.0009
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "England",
+      "probability": 0.0008
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Switzerland",
+      "probability": 0.0006
+    },
+    {
+      "teamA": "Egypt",
+      "teamB": "France",
+      "probability": 0.0006
+    },
+    {
+      "teamA": "France",
+      "teamB": "Norway",
+      "probability": 0.0006
+    },
+    {
+      "teamA": "Canada",
+      "teamB": "Switzerland",
+      "probability": 0.0005
+    },
+    {
+      "teamA": "Canada",
+      "teamB": "England",
+      "probability": 0.0005
+    },
+    {
+      "teamA": "England",
+      "teamB": "Morocco",
+      "probability": 0.0005
+    },
+    {
+      "teamA": "Switzerland",
+      "teamB": "United States",
+      "probability": 0.0005
+    },
+    {
+      "teamA": "Egypt",
+      "teamB": "Spain",
+      "probability": 0.0004
+    },
+    {
+      "teamA": "England",
+      "teamB": "United States",
+      "probability": 0.0003
+    },
+    {
+      "teamA": "Morocco",
+      "teamB": "Switzerland",
+      "probability": 0.0003
+    },
+    {
+      "teamA": "Argentina",
+      "teamB": "Paraguay",
+      "probability": 0.0001
+    },
+    {
+      "teamA": "Brazil",
+      "teamB": "Paraguay",
+      "probability": 0.0001
+    },
+    {
+      "teamA": "Egypt",
+      "teamB": "Portugal",
+      "probability": 0.0001
+    },
+    {
+      "teamA": "Mexico",
+      "teamB": "Paraguay",
+      "probability": 0.0001
+    },
+    {
+      "teamA": "Norway",
+      "teamB": "Portugal",
+      "probability": 0.0001
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Norway",
+      "probability": 0
+    },
+    {
+      "teamA": "Belgium",
+      "teamB": "Egypt",
+      "probability": 0
+    },
+    {
+      "teamA": "Canada",
+      "teamB": "Norway",
+      "probability": 0
+    },
+    {
+      "teamA": "Colombia",
+      "teamB": "Paraguay",
+      "probability": 0
+    },
+    {
+      "teamA": "Egypt",
+      "teamB": "Morocco",
+      "probability": 0
+    },
+    {
+      "teamA": "Morocco",
+      "teamB": "Norway",
+      "probability": 0
+    }
+  ]
+}
