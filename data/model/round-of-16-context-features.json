@@ -1,0 +1,1246 @@
+{
+  "datasetId": "round-of-16-context-features",
+  "artifactKind": "context_features",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "contaminationControl": {
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "doNotUseOldPredictionsAsModelInputs": true
+  },
+  "caps": {
+    "lineupAndAvailability": 0.15,
+    "form": 0.1,
+    "fatigueAndRest": 0.07,
+    "travelAndAltitude": 0.05,
+    "weather": 0.04
+  },
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0.01,
+          "proposedMultiplier": {
+            "home": 1.01,
+            "away": 0.99
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0.02,
+          "proposedMultiplier": {
+            "home": 1.02,
+            "away": 0.98
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0.01,
+          "proposedMultiplier": {
+            "home": 1.01,
+            "away": 0.99
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0,
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0,
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": true,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": -0.03
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 0.97
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 5,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 6,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": -0.01,
+          "proposedMultiplier": {
+            "home": 0.99,
+            "away": 1.01
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": true,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": -0.03,
+            "away": 0
+          },
+          "proposedMultiplier": {
+            "home": 0.97,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0,
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "features": {
+        "lineupStrength": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Expected/confirmed lineups unavailable from trusted sources. Feature neutral: unavailable."
+        },
+        "playerAvailability": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Confirmed injuries, suspensions and card eligibility unavailable. Feature neutral: unavailable."
+        },
+        "attackingForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team attacking performance is already represented in baseline team stats; no player-level attacking data collected. Feature neutral: baseline."
+        },
+        "defensiveForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team defensive performance is already represented in baseline team stats; no separate player defensive data collected. Feature neutral: baseline."
+        },
+        "goalkeeperForm": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Saves and goalkeeper event data unavailable. Feature neutral: unavailable."
+        },
+        "fatigue": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 3,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "homePreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayPreviousExtraTime": {
+              "value": false,
+              "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": {
+            "home": 0,
+            "away": -0.015
+          },
+          "proposedMultiplier": {
+            "home": 1,
+            "away": 0.985
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Fatigue/rest available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "restDifference": {
+          "rawInput": {
+            "homeRestDays": {
+              "value": 4,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            },
+            "awayRestDays": {
+              "value": 3,
+              "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+              "collectedAt": "2026-07-04T09:44:08.076Z",
+              "sourceType": "official/project",
+              "confidence": "high",
+              "status": "confirmed"
+            }
+          },
+          "normalizedValue": 0.01,
+          "proposedMultiplier": {
+            "home": 1.01,
+            "away": 0.99
+          },
+          "cappedMultiplier": {
+            "home": 1,
+            "away": 1
+          },
+          "applied": false,
+          "explanation": "Rest difference available but not applied because validation did not improve useful metrics without calibration cost."
+        },
+        "travel": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Team bases and travel distances unavailable. Feature neutral: unavailable."
+        },
+        "altitude": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Venue altitude unavailable from trusted collected sources. Feature neutral: unavailable."
+        },
+        "weather": {
+          "rawInput": null,
+          "normalizedValue": 0,
+          "proposedMultiplier": 1,
+          "cappedMultiplier": 1,
+          "applied": false,
+          "explanation": "Official match-time forecast fields unavailable/null. Feature neutral: unavailable."
+        }
+      }
+    }
+  ],
+  "retainedFeatures": [],
+  "rejectedFeatures": [
+    "fatigue",
+    "restDifference",
+    "lineupStrength",
+    "playerAvailability",
+    "attackingForm",
+    "defensiveForm",
+    "goalkeeperForm",
+    "travel",
+    "altitude",
+    "weather"
+  ],
+  "sourceArtifacts": [
+    "data\\context\\round-of-16-player-availability.json",
+    "data\\context\\round-of-16-player-performance.json",
+    "data\\context\\round-of-16-lineups.json",
+    "data\\context\\round-of-16-rest-travel-weather.json",
+    "data\\evaluation\\context-feature-backtest.json"
+  ]
+}

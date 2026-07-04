@@ -1,0 +1,58 @@
+{
+  "datasetId": "context-feature-backtest",
+  "artifactKind": "feature_backtest",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "scope": "Equivalent contextual history is only available for team-level rest and previous extra-time participation. Player, lineup, injury, travel, altitude and weather histories are insufficient.",
+  "metrics": {
+    "currentModel": {
+      "exactScoreAccuracy": 0.2857,
+      "ninetyMinuteOutcomeAccuracy": 0.7857,
+      "advancingTeamAccuracy": null,
+      "brierScore": 0.3533,
+      "logLoss": null,
+      "fantasyExpectedPoints": 4.0714
+    },
+    "candidateContextModel": {
+      "exactScoreAccuracy": 0.2857,
+      "ninetyMinuteOutcomeAccuracy": 0.7857,
+      "advancingTeamAccuracy": null,
+      "brierScore": 0.3535,
+      "logLoss": null,
+      "fantasyExpectedPoints": 4.0714
+    }
+  },
+  "featureDecisions": {
+    "lineupStrength": {
+      "applied": false,
+      "reason": "No historical or current trusted lineup data collected."
+    },
+    "playerAvailability": {
+      "applied": false,
+      "reason": "No historical or current trusted availability/disciplinary data collected."
+    },
+    "attackingForm": {
+      "applied": false,
+      "reason": "Player event data unavailable; team attacking form is already in baseline."
+    },
+    "defensiveForm": {
+      "applied": false,
+      "reason": "Player defensive event data unavailable; team defensive form is already in baseline."
+    },
+    "goalkeeperForm": {
+      "applied": false,
+      "reason": "Goalkeeper saves/form data unavailable."
+    },
+    "fatigueAndRest": {
+      "applied": false,
+      "reason": "Prior backtest did not improve useful metrics without worsening calibration."
+    },
+    "travelAndAltitude": {
+      "applied": false,
+      "reason": "Travel distance, time-zone change and altitude unavailable."
+    },
+    "weather": {
+      "applied": false,
+      "reason": "Official match-time forecast values unavailable/null."
+    }
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "datasetId": "round-of-16-player-availability",
+  "artifactKind": "player_availability",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "sourcePriorityApplied": [
+    "official FIFA match/player data",
+    "official FIFA disciplinary information",
+    "official national-team announcements",
+    "trusted statistical providers already approved by the project"
+  ],
+  "teams": [
+    {
+      "team": "Argentina",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Belgium",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Brazil",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Canada",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Colombia",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Egypt",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "England",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "France",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Mexico",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Morocco",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Norway",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Paraguay",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Portugal",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Spain",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "Switzerland",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    },
+    {
+      "team": "United States",
+      "confirmedInjuries": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for confirmed injuries",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "unavailablePlayers": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for unavailable players",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "suspensions": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for suspensions",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "yellowCardEligibility": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card eligibility",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "importantAbsences": [],
+      "notes": "No trusted project-approved source exposed confirmed player availability or disciplinary eligibility for this team."
+    }
+  ],
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "homeImportantAbsences": [],
+      "awayImportantAbsences": [],
+      "status": "unavailable"
+    }
+  ],
+  "warnings": [
+    "No official FIFA disciplinary/player availability endpoint or approved national-team announcement collector exists in this repository."
+  ]
+}

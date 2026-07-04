@@ -1,0 +1,560 @@
+{
+  "datasetId": "round-of-16-player-performance",
+  "artifactKind": "player_performance",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "sourcePriorityApplied": [
+    "official FIFA match/player data",
+    "trusted statistical providers already approved by the project"
+  ],
+  "teams": [
+    {
+      "team": "Argentina",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Belgium",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Brazil",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Canada",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Colombia",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Egypt",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "England",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "France",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Mexico",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Morocco",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Norway",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Paraguay",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Portugal",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Spain",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "Switzerland",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "team": "United States",
+      "players": [],
+      "topScorersWeighted": [],
+      "attackingOutputShare": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for current top scorers and attacking output share",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ],
+      "status": "unavailable"
+    }
+  ],
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "missingFields": [
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "shots on target",
+        "xG",
+        "xA",
+        "chances created",
+        "saves",
+        "defensive actions"
+      ]
+    }
+  ],
+  "warnings": [
+    "The current repository has no approved player-event/statistical provider data. No player performance values were invented."
+  ]
+}

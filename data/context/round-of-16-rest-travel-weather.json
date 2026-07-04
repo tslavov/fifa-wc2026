@@ -1,0 +1,1374 @@
+{
+  "datasetId": "round-of-16-rest-travel-weather",
+  "artifactKind": "rest_travel_weather_context",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "sourcePriorityApplied": [
+    "official FIFA match/player data",
+    "official weather API",
+    "stadium coordinates and calculated travel metrics"
+  ],
+  "teams": [
+    "Argentina",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Colombia",
+    "Egypt",
+    "England",
+    "France",
+    "Mexico",
+    "Morocco",
+    "Norway",
+    "Paraguay",
+    "Portugal",
+    "Spain",
+    "Switzerland",
+    "United States"
+  ],
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "venue": {
+        "value": "Philadelphia Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Philadelphia",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-04T21:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 5,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "venue": {
+        "value": "Houston Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Houston",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-04T17:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 6,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "venue": {
+        "value": "New York/New Jersey Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "New Jersey",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-05T20:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 6,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 5,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "venue": {
+        "value": "Mexico City Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Mexico City",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-06T00:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 5,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 5,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "venue": {
+        "value": "Dallas Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Dallas",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-06T19:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "venue": {
+        "value": "Seattle Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Seattle",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-07T00:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 5,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 6,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": true,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 390,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "venue": {
+        "value": "Atlanta Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Atlanta",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-07T16:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": true,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 390,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "venue": {
+        "value": "BC Place Vancouver",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "city": {
+        "value": "Vancouver",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "utcDateTime": {
+        "value": "2026-07-07T20:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "restDays": {
+        "home": {
+          "value": 4,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": 3,
+          "sourceUrlOrId": "existing results artifacts + FIFA calendar",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "previousExtraTime": {
+        "home": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        "away": {
+          "value": false,
+          "sourceUrlOrId": "data\\results\\round-of-32-results-v1.json",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official/project",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      },
+      "accumulatedMinutesEstimate": {
+        "home": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        },
+        "away": {
+          "value": 360,
+          "sourceUrlOrId": "team-level estimate from matches played; player minutes unavailable",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "project-derived",
+          "confidence": "medium",
+          "status": "probable"
+        }
+      },
+      "travelDistanceKm": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel distance",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "timeZoneChangeHours": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for time-zone change",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "altitudeMeters": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for venue altitude",
+        "collectedAt": "2026-07-04T09:44:08.076Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "weatherForecast": {
+        "temperatureC": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "humidityPct": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "windSpeed": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "precipitation": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for precipitation",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "missingFields": [
+        "team base locations",
+        "stadium coordinates",
+        "travel distance",
+        "time-zone change",
+        "altitude",
+        "official match-time weather forecast values"
+      ]
+    }
+  ]
+}

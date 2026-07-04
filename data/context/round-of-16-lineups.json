@@ -1,0 +1,502 @@
+{
+  "datasetId": "round-of-16-lineups",
+  "artifactKind": "lineup_context",
+  "generatedAt": "2026-07-04T09:44:08.076Z",
+  "sourcePriorityApplied": [
+    "official FIFA match/player data",
+    "official national-team announcements"
+  ],
+  "fixtures": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "homeTeam": "Portugal",
+      "awayTeam": "Spain",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "homeTeam": "United States",
+      "awayTeam": "Belgium",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egypt",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Colombia",
+      "fifaTactics": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "official",
+          "confidence": "medium",
+          "status": "unavailable"
+        }
+      },
+      "expectedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "confirmedLineup": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for confirmed lineup",
+          "collectedAt": "2026-07-04T09:44:08.076Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "startingProbabilities": []
+    }
+  ],
+  "warnings": [
+    "FIFA calendar tactics are collected when present, but player-level expected/confirmed lineups are unavailable before match sheets are published."
+  ]
+}
