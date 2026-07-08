@@ -1,0 +1,790 @@
+{
+  "datasetId": "quarter-final-team-stats-v1",
+  "artifactKind": "knockout_team_stats",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "sourceFiles": {
+    "priorTeamStats": "data\\knockout\\round-of-16-team-stats-v1.json",
+    "roundOf16Results": "data\\results\\round-of-16-results-v1.json",
+    "adjustments": "data\\model\\quarter-final-model-adjustments-v1.json"
+  },
+  "notes": "Quarter-final teams use official advancement. Round of 16 score effects are opponent-adjusted residual updates with strong shrinkage; penalty shootout goals are excluded.",
+  "updatePolicy": {
+    "selectedEvidenceWeight": 0.05,
+    "residualFormula": "newRate = oldRate + (observed - opponentAdjustedExpected) * evidenceWeight",
+    "fullScoreWeightingRejected": true
+  },
+  "teamCount": 8,
+  "teams": [
+    {
+      "team": "Argentina",
+      "group": "J",
+      "countryCode": "ARG",
+      "fifaRank": 3,
+      "fifaPoints": 1870.32,
+      "eloRank": 2,
+      "eloRating": 2114,
+      "groupStage": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "points": 9,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": 7
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Argentina 3-2 Cape Verde aet"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 11,
+        "goalsAgainst": 3,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2.75,
+        "goalsAgainstPerMatch": 0.75
+      },
+      "roundOf16": {
+        "matchNumber": 95,
+        "opponent": "Egypt",
+        "regulationGoalsFor": 3,
+        "regulationGoalsAgainst": 2,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 102
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 14,
+        "goalsAgainst": 5,
+        "goalDifference": 9
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 10.896,
+        "goalsAgainst": 3.2951,
+        "goalDifference": 7.6009,
+        "goalsForPerMatch": 2.724,
+        "goalsAgainstPerMatch": 0.8238
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2.75,
+        "preTournamentDefenceRating": 0.75,
+        "ratingBeforeRoundOf16": {
+          "attack": 2.75,
+          "defence": 0.75,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Egypt",
+          "attack": 1.5,
+          "defence": 1
+        },
+        "roundOf16GoalsScored": 3,
+        "roundOf16GoalsConceded": 2,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 3.5198,
+          "goalsAgainst": 0.5243
+        },
+        "rawScoreResidual": {
+          "attack": -0.5198,
+          "defence": 1.4757
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.026,
+          "defenceUpdate": 0.0738
+        },
+        "updatedAttackRating": 2.724,
+        "updatedDefenceRating": 0.8238
+      }
+    },
+    {
+      "team": "Belgium",
+      "group": "G",
+      "countryCode": "BEL",
+      "fifaRank": 8,
+      "fifaPoints": 1739.54,
+      "eloRank": 15,
+      "eloRating": 1893,
+      "groupStage": {
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "points": 5,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Belgium 3-2 Senegal aet"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 4,
+        "goalDifference": 5,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 1
+      },
+      "roundOf16": {
+        "matchNumber": 94,
+        "opponent": "United States",
+        "regulationGoalsFor": 4,
+        "regulationGoalsAgainst": 1,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 95
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 13,
+        "goalsAgainst": 5,
+        "goalDifference": 8
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 9.224,
+        "goalsAgainst": 3.967,
+        "goalDifference": 5.2571,
+        "goalsForPerMatch": 2.306,
+        "goalsAgainstPerMatch": 0.9917
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2.25,
+        "preTournamentDefenceRating": 1,
+        "ratingBeforeRoundOf16": {
+          "attack": 2.25,
+          "defence": 1,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "United States",
+          "attack": 2.5,
+          "defence": 1
+        },
+        "roundOf16GoalsScored": 4,
+        "roundOf16GoalsConceded": 1,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 2.8798,
+          "goalsAgainst": 1.1651
+        },
+        "rawScoreResidual": {
+          "attack": 1.1202,
+          "defence": -0.1651
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": 0.056,
+          "defenceUpdate": -0.0083
+        },
+        "updatedAttackRating": 2.306,
+        "updatedDefenceRating": 0.9917
+      }
+    },
+    {
+      "team": "England",
+      "group": "L",
+      "countryCode": "ENG",
+      "fifaRank": 4,
+      "fifaPoints": 1820.44,
+      "eloRank": 4,
+      "eloRating": 2021,
+      "groupStage": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "points": 4,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 2
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "England 2-1 DR Congo"
+      },
+      "totals": {
+        "played": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 1
+      },
+      "roundOf16": {
+        "matchNumber": 92,
+        "opponent": "Mexico",
+        "regulationGoalsFor": 3,
+        "regulationGoalsAgainst": 2,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 103
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 5,
+        "goalDifference": 4
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 3,
+        "goalsFor": 6.345,
+        "goalsAgainst": 3.1602,
+        "goalDifference": 3.1848,
+        "goalsForPerMatch": 2.115,
+        "goalsAgainstPerMatch": 1.0534
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2,
+        "preTournamentDefenceRating": 1,
+        "ratingBeforeRoundOf16": {
+          "attack": 2,
+          "defence": 1,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Mexico",
+          "attack": 2,
+          "defence": 0
+        },
+        "roundOf16GoalsScored": 3,
+        "roundOf16GoalsConceded": 2,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 0.7,
+          "goalsAgainst": 0.9321
+        },
+        "rawScoreResidual": {
+          "attack": 2.3,
+          "defence": 1.0679
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": 0.115,
+          "defenceUpdate": 0.0534
+        },
+        "updatedAttackRating": 2.115,
+        "updatedDefenceRating": 1.0534
+      }
+    },
+    {
+      "team": "France",
+      "group": "I",
+      "countryCode": "FRA",
+      "fifaRank": 2,
+      "fifaPoints": 1870.92,
+      "eloRank": 3,
+      "eloRating": 2062,
+      "groupStage": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "points": 9,
+        "goalsFor": 10,
+        "goalsAgainst": 2,
+        "goalDifference": 8
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": 3,
+        "advanced": true,
+        "lastResult": "France 3-0 Sweden"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 13,
+        "goalsAgainst": 2,
+        "goalDifference": 11,
+        "goalsForPerMatch": 3.25,
+        "goalsAgainstPerMatch": 0.5
+      },
+      "roundOf16": {
+        "matchNumber": 89,
+        "opponent": "Paraguay",
+        "regulationGoalsFor": 1,
+        "regulationGoalsAgainst": 0,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 101
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 14,
+        "goalsAgainst": 2,
+        "goalDifference": 12
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 12.1601,
+        "goalsAgainst": 1.965,
+        "goalDifference": 10.1951,
+        "goalsForPerMatch": 3.04,
+        "goalsAgainstPerMatch": 0.4913
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 3.25,
+        "preTournamentDefenceRating": 0.5,
+        "ratingBeforeRoundOf16": {
+          "attack": 3.25,
+          "defence": 0.5,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Paraguay",
+          "attack": 0.75,
+          "defence": 1.25
+        },
+        "roundOf16GoalsScored": 1,
+        "roundOf16GoalsConceded": 0,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 5.1997,
+          "goalsAgainst": 0.175
+        },
+        "rawScoreResidual": {
+          "attack": -4.1997,
+          "defence": -0.175
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.21,
+          "defenceUpdate": -0.0087
+        },
+        "updatedAttackRating": 3.04,
+        "updatedDefenceRating": 0.4913
+      }
+    },
+    {
+      "team": "Morocco",
+      "group": "C",
+      "countryCode": "MAR",
+      "fifaRank": 11,
+      "fifaPoints": 1706.27,
+      "eloRank": 24,
+      "eloRating": 1824,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "advanced": true,
+        "lastResult": "Netherlands 1-1 Morocco (2-3 pens)"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "goalDifference": 3,
+        "goalsForPerMatch": 1.75,
+        "goalsAgainstPerMatch": 1
+      },
+      "roundOf16": {
+        "matchNumber": 90,
+        "opponent": "Canada",
+        "regulationGoalsFor": 3,
+        "regulationGoalsAgainst": 0,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 100
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 7.264,
+        "goalsAgainst": 3.7903,
+        "goalDifference": 3.4737,
+        "goalsForPerMatch": 1.816,
+        "goalsAgainstPerMatch": 0.9476
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 1.75,
+        "preTournamentDefenceRating": 1,
+        "ratingBeforeRoundOf16": {
+          "attack": 1.75,
+          "defence": 1,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Canada",
+          "attack": 2.25,
+          "defence": 0.75
+        },
+        "roundOf16GoalsScored": 3,
+        "roundOf16GoalsConceded": 0,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 1.6799,
+          "goalsAgainst": 1.0486
+        },
+        "rawScoreResidual": {
+          "attack": 1.3201,
+          "defence": -1.0486
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": 0.066,
+          "defenceUpdate": -0.0524
+        },
+        "updatedAttackRating": 1.816,
+        "updatedDefenceRating": 0.9476
+      }
+    },
+    {
+      "team": "Norway",
+      "group": "I",
+      "countryCode": "NOR",
+      "fifaRank": 31,
+      "fifaPoints": 1526.23,
+      "eloRank": 11,
+      "eloRating": 1917,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "points": 6,
+        "goalsFor": 8,
+        "goalsAgainst": 7,
+        "goalDifference": 1
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "advanced": true,
+        "lastResult": "Ivory Coast 1-2 Norway"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 10,
+        "goalsAgainst": 8,
+        "goalDifference": 2,
+        "goalsForPerMatch": 2.5,
+        "goalsAgainstPerMatch": 2
+      },
+      "roundOf16": {
+        "matchNumber": 91,
+        "opponent": "Brazil",
+        "regulationGoalsFor": 2,
+        "regulationGoalsAgainst": 1,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 102
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 12,
+        "goalsAgainst": 9,
+        "goalDifference": 3
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 10.08,
+        "goalsAgainst": 7.7806,
+        "goalDifference": 2.2994,
+        "goalsForPerMatch": 2.52,
+        "goalsAgainstPerMatch": 1.9451
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2.5,
+        "preTournamentDefenceRating": 2,
+        "ratingBeforeRoundOf16": {
+          "attack": 2.5,
+          "defence": 2,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Brazil",
+          "attack": 2.25,
+          "defence": 0.5
+        },
+        "roundOf16GoalsScored": 2,
+        "roundOf16GoalsConceded": 1,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 1.5999,
+          "goalsAgainst": 2.0971
+        },
+        "rawScoreResidual": {
+          "attack": 0.4001,
+          "defence": -1.0971
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": 0.02,
+          "defenceUpdate": -0.0549
+        },
+        "updatedAttackRating": 2.52,
+        "updatedDefenceRating": 1.9451
+      }
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "countryCode": "ESP",
+      "fifaRank": 1,
+      "fifaPoints": 1875.37,
+      "eloRank": 1,
+      "eloRating": 2155,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 5,
+        "goalsAgainst": 0,
+        "goalDifference": 5
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": 3,
+        "advanced": true,
+        "lastResult": "Spain 3-0 Austria"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0
+      },
+      "roundOf16": {
+        "matchNumber": 93,
+        "opponent": "Portugal",
+        "regulationGoalsFor": 1,
+        "regulationGoalsAgainst": 0,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 99
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 9,
+        "goalsAgainst": 0,
+        "goalDifference": 9
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 7.8587,
+        "goalsAgainst": 0.2,
+        "goalDifference": 7.6587,
+        "goalsForPerMatch": 1.9647,
+        "goalsAgainstPerMatch": 0.05
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2,
+        "preTournamentDefenceRating": 0,
+        "ratingBeforeRoundOf16": {
+          "attack": 2,
+          "defence": 0,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Portugal",
+          "attack": 2.6667,
+          "defence": 0.6667
+        },
+        "roundOf16GoalsScored": 1,
+        "roundOf16GoalsConceded": 0,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 1.7066,
+          "goalsAgainst": 0
+        },
+        "rawScoreResidual": {
+          "attack": -0.7066,
+          "defence": 0
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.0353,
+          "defenceUpdate": 0
+        },
+        "updatedAttackRating": 1.9647,
+        "updatedDefenceRating": 0.05
+      }
+    },
+    {
+      "team": "Switzerland",
+      "group": "B",
+      "countryCode": "SUI",
+      "fifaRank": 17,
+      "fifaPoints": 1648.3,
+      "eloRank": 17,
+      "eloRating": 1891,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": 2,
+        "advanced": true,
+        "lastResult": "Switzerland 2-0 Algeria"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6,
+        "goalsForPerMatch": 2.25,
+        "goalsAgainstPerMatch": 0.75
+      },
+      "roundOf16": {
+        "matchNumber": 96,
+        "opponent": "Colombia",
+        "regulationGoalsFor": 0,
+        "regulationGoalsAgainst": 0,
+        "advanced": true,
+        "extraTimePlayed": true,
+        "penaltiesPlayed": true,
+        "penaltyScore": {
+          "home": 4,
+          "away": 3
+        },
+        "playingMinutes": 120,
+        "elapsedClockMinutes": 130
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 9,
+        "goalsAgainst": 3,
+        "goalDifference": 6
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 8.808,
+        "goalsAgainst": 2.8835,
+        "goalDifference": 5.9245,
+        "goalsForPerMatch": 2.202,
+        "goalsAgainstPerMatch": 0.7209
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2.25,
+        "preTournamentDefenceRating": 0.75,
+        "ratingBeforeRoundOf16": {
+          "attack": 2.25,
+          "defence": 0.75,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Colombia",
+          "attack": 1.6667,
+          "defence": 0.3333
+        },
+        "roundOf16GoalsScored": 0,
+        "roundOf16GoalsConceded": 0,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 0.9598,
+          "goalsAgainst": 0.5825
+        },
+        "rawScoreResidual": {
+          "attack": -0.9598,
+          "defence": -0.5825
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.048,
+          "defenceUpdate": -0.0291
+        },
+        "updatedAttackRating": 2.202,
+        "updatedDefenceRating": 0.7209
+      }
+    }
+  ]
+}

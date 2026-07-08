@@ -1,0 +1,356 @@
+{
+  "datasetId": "round-of-16-results-v1",
+  "artifactKind": "collected_results",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "source": {
+    "sourceName": "FIFA World Cup 2026 scores and fixtures",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+    "fetchedAt": "2026-07-08T09:26:57.863Z"
+  },
+  "completionStatus": {
+    "expectedFixtures": 8,
+    "completedFixtures": 8,
+    "incompleteFixtures": 0,
+    "allRoundOf16FixturesFinal": true
+  },
+  "results": [
+    {
+      "matchId": "400021533",
+      "matchNumber": 89,
+      "stage": "Round of 16",
+      "date": "2026-07-04",
+      "utcDateTime": "2026-07-04T21:00:00Z",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "regulationScore": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 0,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "101'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 101
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "France",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021530",
+      "matchNumber": 90,
+      "stage": "Round of 16",
+      "date": "2026-07-04",
+      "utcDateTime": "2026-07-04T17:00:00Z",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "regulationScore": {
+        "home": 0,
+        "away": 3
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 0,
+        "away": 3
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "100'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 100
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Morocco",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021532",
+      "matchNumber": 91,
+      "stage": "Round of 16",
+      "date": "2026-07-05",
+      "utcDateTime": "2026-07-05T20:00:00Z",
+      "venue": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "regulationScore": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 1,
+        "away": 2
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "102'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 102
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Norway",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021531",
+      "matchNumber": 92,
+      "stage": "Round of 16",
+      "date": "2026-07-06",
+      "utcDateTime": "2026-07-06T01:00:00Z",
+      "venue": "Mexico City Stadium",
+      "city": "Mexico City",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "regulationScore": {
+        "home": 2,
+        "away": 3
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 2,
+        "away": 3
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "103'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 103
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "England",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021529",
+      "matchNumber": 93,
+      "stage": "Round of 16",
+      "date": "2026-07-06",
+      "utcDateTime": "2026-07-06T19:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "homeTeam": "Portugal",
+      "awayTeam": "Spain",
+      "regulationScore": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 0,
+        "away": 1
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "99'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 99
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Spain",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021534",
+      "matchNumber": 94,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T00:00:00Z",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "homeTeam": "United States",
+      "awayTeam": "Belgium",
+      "regulationScore": {
+        "home": 1,
+        "away": 4
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 1,
+        "away": 4
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "95'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 95
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Belgium",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021528",
+      "matchNumber": 95,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T16:00:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egypt",
+      "regulationScore": {
+        "home": 3,
+        "away": 2
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "finalScore": {
+        "home": 3,
+        "away": 2
+      },
+      "resultType": "normal_time",
+      "matchDurationLabel": "102'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 102
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Argentina",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021535",
+      "matchNumber": 96,
+      "stage": "Round of 16",
+      "date": "2026-07-07",
+      "utcDateTime": "2026-07-07T20:00:00Z",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Colombia",
+      "regulationScore": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreAfterExtraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penaltyScore": {
+        "home": 4,
+        "away": 3
+      },
+      "finalScore": {
+        "home": 0,
+        "away": 0
+      },
+      "resultType": "penalties",
+      "matchDurationLabel": "130'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 30,
+        "playingMinutes": 120,
+        "penaltyShootout": true,
+        "elapsedClockMinutes": 130
+      },
+      "extraTimePlayed": true,
+      "penaltiesPlayed": true,
+      "advancingTeam": "Switzerland",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": "Penalty shootout is recorded separately and not counted as goal-scoring victory."
+    }
+  ],
+  "warnings": [
+    "FIFA calendar confirms result, venue, kickoff and match duration label, but does not expose lineups/events/cards/xG in this endpoint."
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "datasetId": "quarter-final-player-availability-v1",
+  "artifactKind": "player_availability",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "teams": [
+    {
+      "team": "Argentina",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "Belgium",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "England",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "France",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "Morocco",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "Norway",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "Spain",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    },
+    {
+      "team": "Switzerland",
+      "curatedEvidence": [],
+      "injuries": [],
+      "illnesses": [],
+      "suspensions": [],
+      "yellowCardStatus": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for yellow-card status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "redCardSuspensions": [],
+      "leftPreviousMatchInjured": [],
+      "expectedReturns": [],
+      "predictedStartingLineup": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for predicted starting lineup",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "accumulatedTournamentMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for player accumulated tournament minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "previousSevenDaysMinutes": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for previous seven days player minutes",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "playerStatuses": [],
+      "modelAdjustment": 1,
+      "appliedToModel": false,
+      "notes": "No official/player availability source was collected by the repository for this update; requested focus items remain unknown unless separately sourced."
+    }
+  ],
+  "curatedEvidencePolicy": {
+    "path": "data\\context\\quarter-final-curated-availability-evidence.json",
+    "supportedStatuses": [
+      "available",
+      "probable",
+      "doubtful",
+      "unavailable",
+      "suspended",
+      "unknown",
+      "conflicting_reports",
+      "available_but_not_ingested",
+      "unavailable_from_automated_api",
+      "collected_manually"
+    ],
+    "requiredFields": [
+      "team",
+      "player",
+      "status",
+      "source",
+      "publishedAt",
+      "collectedAt",
+      "confidence",
+      "notes"
+    ]
+  },
+  "warnings": [
+    "Morocco injury concerns, Belgium midfield availability, England suspension/midfield status, Norway illness reports and Swiss fitness concerns were not applied unless present in curated evidence with reliable sources."
+  ]
+}

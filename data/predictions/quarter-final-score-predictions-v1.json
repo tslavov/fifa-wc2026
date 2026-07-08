@@ -1,0 +1,7614 @@
+{
+  "artifactKind": "prediction",
+  "predictionId": "quarter-final-score-predictions-v1",
+  "predictionType": "quarter_final_score_predictions",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "excludeFromFuturePredictionInputs": true,
+  "doNotUseAsTrainingData": true,
+  "contaminationControl": {
+    "builderInputPaths": [
+      "data\\knockout\\quarter-final-team-stats-v1.json",
+      "data\\model\\calibration-changes-after-round-of-32-v1.json",
+      "data\\model\\quarter-final-model-adjustments-v1.json"
+    ],
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "predictionDirectoryReadAsInputForPrediction": false
+  },
+  "method": {
+    "type": "quarter_final_markov_score_distribution_with_monte_carlo_progression",
+    "modelParameters": {
+      "baseGoalRateMultiplier": 0.94,
+      "qualityMultiplierScale": 0.61,
+      "lambdaMin": 0.15,
+      "lambdaMax": 4.25,
+      "stepsPerMatch": 90,
+      "pruneProbabilityBelow": 1e-14,
+      "baseGoalsPerTeamMatch": 2.1458,
+      "formSignalScale": 0.45,
+      "extraTimeScoringRate": 0.72
+    },
+    "scoreUpdateShrinkageWeight": 0.05,
+    "scoreUpdateMethod": "opponent_adjusted_residual",
+    "formSignalScale": 0.45,
+    "extraTimeScoringRate": 0.72,
+    "simulationsPerFixture": 250000,
+    "randomSeedBase": 20260708,
+    "fantasyScoring": "6 exact score / 3 correct outcome / +1 per exact team goal"
+  },
+  "matches": [
+    {
+      "matchId": "400021536",
+      "matchNumber": 97,
+      "stage": "Quarter-final",
+      "date": "2026-07-09",
+      "utcDateTime": "2026-07-09T20:00:00Z",
+      "venue": "Boston Stadium",
+      "city": "Boston",
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
+      "expectedGoals": {
+        "home": 3.0368,
+        "away": 1.1974
+      },
+      "expectedGoalTrace": {
+        "home": {
+          "team": "France",
+          "originalPreTournamentAttackRating": 3.25,
+          "originalPreTournamentDefenceRating": 0.5,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 3.25,
+            "defence": 0.5,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Paraguay",
+            "attack": 0.75,
+            "defence": 1.25
+          },
+          "roundOf16GoalsScored": 1,
+          "roundOf16GoalsConceded": 0,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 5.1997,
+            "goalsAgainst": 0.175
+          },
+          "rawScoreResidual": {
+            "attack": -4.1997,
+            "defence": -0.175
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": -0.21,
+            "defenceUpdate": -0.0087
+          },
+          "updatedAttackRating": 3.04,
+          "updatedDefenceRating": 0.4913,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Morocco",
+            "qualityMultiplier": 1.3954,
+            "rawFormBlend": 1.1851,
+            "shrunkFormBlend": 1.0794
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 1.1113,
+          "finalExpectedGoals": 3.0383
+        },
+        "away": {
+          "team": "Morocco",
+          "originalPreTournamentAttackRating": 1.75,
+          "originalPreTournamentDefenceRating": 1,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 1.75,
+            "defence": 1,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Canada",
+            "attack": 2.25,
+            "defence": 0.75
+          },
+          "roundOf16GoalsScored": 3,
+          "roundOf16GoalsConceded": 0,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 1.6799,
+            "goalsAgainst": 1.0486
+          },
+          "rawScoreResidual": {
+            "attack": 1.3201,
+            "defence": -1.0486
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": 0.066,
+            "defenceUpdate": -0.0524
+          },
+          "updatedAttackRating": 1.816,
+          "updatedDefenceRating": 0.9476,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "France",
+            "qualityMultiplier": 0.7166,
+            "rawFormBlend": 0.6595,
+            "shrunkFormBlend": 0.8292
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.1812,
+          "finalExpectedGoals": 1.1986
+        }
+      },
+      "selectedScore": {
+        "home": 3,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 3,
+        "away": 1,
+        "probability": 0.0828,
+        "expectedFantasyPoints": 3.0773
+      },
+      "alternativeScores": [
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.0808,
+          "expectedFantasyPoints": 3.0657
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0682,
+          "expectedFantasyPoints": 2.9693
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0665,
+          "expectedFantasyPoints": 2.9586
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0629,
+          "expectedFantasyPoints": 2.9629
+        }
+      ],
+      "topScorelines": [
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0828,
+          "expectedFantasyPoints": 3.0773
+        },
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.0808,
+          "expectedFantasyPoints": 3.0657
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0682,
+          "expectedFantasyPoints": 2.9693
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0665,
+          "expectedFantasyPoints": 2.9586
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0629,
+          "expectedFantasyPoints": 2.9629
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.052,
+          "expectedFantasyPoints": 1.0795
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0518,
+          "expectedFantasyPoints": 2.8653
+        },
+        {
+          "home": 3,
+          "away": 2,
+          "probability": 0.0497,
+          "expectedFantasyPoints": 2.8326
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0485,
+          "expectedFantasyPoints": 1.0029
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.0428,
+          "expectedFantasyPoints": 2.8082
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.7458,
+        "drawThrough90": 0.139,
+        "awayWin": 0.1152
+      },
+      "extraTimeProbability": 0.139,
+      "penaltyShootoutProbability": {
+        "conditionalOnExtraTime": 0.4397,
+        "unconditional": 0.0611
+      },
+      "shootoutWinProbability": {
+        "home": 0.5745,
+        "away": 0.4255
+      },
+      "qualificationProbabilities": {
+        "home": 0.8404,
+        "away": 0.1596
+      },
+      "selectedAdvancingTeam": "France",
+      "monteCarlo": {
+        "iterations": 250000,
+        "seed": 20260805,
+        "qualificationProbabilities": {
+          "home": 0.8401,
+          "away": 0.1599
+        },
+        "selectedAdvancingTeam": "France"
+      },
+      "bestFantasyScore": {
+        "home": 3,
+        "away": 1,
+        "probability": 0.0828,
+        "expectedFantasyPoints": 3.0773
+      },
+      "predictionStrength": "High",
+      "evidenceConfidence": "Low",
+      "confidence": "Low",
+      "uncertainty": "Low",
+      "scoreDistribution": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0136
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0428
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0165
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.052
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0665
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0808
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0099
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0312
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0485
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0682
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0828
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0497
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0039
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0124
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "probability": 0.0192
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "probability": 0.0197
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0518
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0629
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0378
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "probability": 0.015
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.0012
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "probability": 0.0036
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "probability": 0.0056
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "probability": 0.0058
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "probability": 0.0044
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "probability": 0.0311
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0378
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "probability": 0.0227
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 3,
+          "probability": 0.009
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 4,
+          "probability": 0.0026
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "probability": 0.0013
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 5,
+          "probability": 0.0013
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 5,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 5,
+          "probability": 0.0006
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "probability": 0.0154
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "probability": 0.0187
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 2,
+          "probability": 0.0112
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 3,
+          "probability": 0.0045
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 4,
+          "probability": 0.0013
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 5,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 6,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 6,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 6,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "probability": 0.0065
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 1,
+          "probability": 0.0078
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 2,
+          "probability": 0.0047
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 3,
+          "probability": 0.0019
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 4,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 5,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 0,
+          "probability": 0.0023
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 1,
+          "probability": 0.0028
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 2,
+          "probability": 0.0017
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 3,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 4,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 0,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 1,
+          "probability": 0.0009
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 2,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 3,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 4,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 0,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 1,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 2,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 3,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 0,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 1,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 21,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 21,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 21,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 21,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 22,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 22,
+          "awayGoals": 1,
+          "probability": 0
+        }
+      ],
+      "validation": {
+        "scoreMatrixSumsToOne": true,
+        "scoreProbabilitySum": 0.9996,
+        "wdlSumsToOne": true,
+        "wdlProbabilitySum": 1,
+        "qualificationSumsToOne": true,
+        "qualificationProbabilitySum": 1,
+        "extraTimeIsDrawProbability": true,
+        "penaltyProbabilityLabel": "unconditional penalty probability = regulation draw probability * extra-time draw probability"
+      },
+      "marketComparison": {
+        "status": "diagnostic_only_not_model_input",
+        "rawOdds": null,
+        "rawImpliedProbability": null,
+        "totalOverround": null,
+        "normalizedProbability": {
+          "home": 0.75,
+          "away": 0.25
+        },
+        "projectProbability": {
+          "home": 0.8404,
+          "away": 0.1596
+        },
+        "differencePercentagePoints": {
+          "home": 9.04,
+          "away": -9.04
+        },
+        "source": "user-provided review benchmark",
+        "warningThresholdPercentagePoints": 10
+      },
+      "validationWarnings": [
+        "review: one team exceeds 3.0 regulation xG",
+        "review: total regulation xG exceeds 4.0",
+        "review: important lineup, fitness, player-minute and advanced match inputs are missing"
+      ],
+      "reasoningNote": "France residual-updated GF/GA 3.04-0.4913 vs Morocco 1.816-0.9476; Round of 16 score update uses 5% of opponent-adjusted residual only."
+    },
+    {
+      "matchId": "400021538",
+      "matchNumber": 98,
+      "stage": "Quarter-final",
+      "date": "2026-07-10",
+      "utcDateTime": "2026-07-10T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
+      "expectedGoals": {
+        "home": 2.5827,
+        "away": 1.08
+      },
+      "expectedGoalTrace": {
+        "home": {
+          "team": "Spain",
+          "originalPreTournamentAttackRating": 2,
+          "originalPreTournamentDefenceRating": 0,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2,
+            "defence": 0,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Portugal",
+            "attack": 2.6667,
+            "defence": 0.6667
+          },
+          "roundOf16GoalsScored": 1,
+          "roundOf16GoalsConceded": 0,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 1.7066,
+            "goalsAgainst": 0
+          },
+          "rawScoreResidual": {
+            "attack": -0.7066,
+            "defence": 0
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": -0.0353,
+            "defenceUpdate": 0
+          },
+          "updatedAttackRating": 1.9647,
+          "updatedDefenceRating": 0.05,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Belgium",
+            "qualityMultiplier": 1.2954,
+            "rawFormBlend": 0.9747,
+            "shrunkFormBlend": 0.9885
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.9489,
+          "finalExpectedGoals": 2.5829
+        },
+        "away": {
+          "team": "Belgium",
+          "originalPreTournamentAttackRating": 2.25,
+          "originalPreTournamentDefenceRating": 1,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2.25,
+            "defence": 1,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "United States",
+            "attack": 2.5,
+            "defence": 1
+          },
+          "roundOf16GoalsScored": 4,
+          "roundOf16GoalsConceded": 1,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 2.8798,
+            "goalsAgainst": 1.1651
+          },
+          "rawScoreResidual": {
+            "attack": 1.1202,
+            "defence": -0.1651
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": 0.056,
+            "defenceUpdate": -0.0083
+          },
+          "updatedAttackRating": 2.306,
+          "updatedDefenceRating": 0.9917,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Spain",
+            "qualityMultiplier": 0.772,
+            "rawFormBlend": 0.4443,
+            "shrunkFormBlend": 0.6942
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.0778,
+          "finalExpectedGoals": 1.0809
+        }
+      },
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0938,
+        "expectedFantasyPoints": 3.0037
+      },
+      "alternativeScores": [
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0857,
+          "expectedFantasyPoints": 2.9479
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0813,
+          "expectedFantasyPoints": 2.9323
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0743,
+          "expectedFantasyPoints": 2.8798
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0713,
+          "expectedFantasyPoints": 1.2718
+        }
+      ],
+      "topScorelines": [
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.0938,
+          "expectedFantasyPoints": 3.0037
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0857,
+          "expectedFantasyPoints": 2.9479
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0813,
+          "expectedFantasyPoints": 2.9323
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0743,
+          "expectedFantasyPoints": 2.8798
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0713,
+          "expectedFantasyPoints": 1.2718
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.0652,
+          "expectedFantasyPoints": 2.8255
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0522,
+          "expectedFantasyPoints": 2.7664
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0507,
+          "expectedFantasyPoints": 1.1017
+        },
+        {
+          "home": 4,
+          "away": 0,
+          "probability": 0.0478,
+          "expectedFantasyPoints": 2.7216
+        },
+        {
+          "home": 3,
+          "away": 2,
+          "probability": 0.044,
+          "expectedFantasyPoints": 2.6512
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.6997,
+        "drawThrough90": 0.1652,
+        "awayWin": 0.135
+      },
+      "extraTimeProbability": 0.1652,
+      "penaltyShootoutProbability": {
+        "conditionalOnExtraTime": 0.4828,
+        "unconditional": 0.0798
+      },
+      "shootoutWinProbability": {
+        "home": 0.5581,
+        "away": 0.4419
+      },
+      "qualificationProbabilities": {
+        "home": 0.8078,
+        "away": 0.1922
+      },
+      "selectedAdvancingTeam": "Spain",
+      "monteCarlo": {
+        "iterations": 250000,
+        "seed": 20260806,
+        "qualificationProbabilities": {
+          "home": 0.8075,
+          "away": 0.1925
+        },
+        "selectedAdvancingTeam": "Spain"
+      },
+      "bestFantasyScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0938,
+        "expectedFantasyPoints": 3.0037
+      },
+      "predictionStrength": "High",
+      "evidenceConfidence": "Low",
+      "confidence": "Low",
+      "uncertainty": "Low",
+      "scoreDistribution": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0245
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0652
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0268
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0713
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0857
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0938
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0145
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0386
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0507
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0743
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0813
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.044
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0052
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0138
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "probability": 0.0181
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "probability": 0.0157
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0478
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0522
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0283
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "probability": 0.0101
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.0014
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "probability": 0.0036
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "probability": 0.0048
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "probability": 0.0041
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "probability": 0.0027
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "probability": 0.0243
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0266
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "probability": 0.0144
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 3,
+          "probability": 0.0051
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 4,
+          "probability": 0.0014
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 5,
+          "probability": 0.0009
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 5,
+          "probability": 0.0006
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 5,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "probability": 0.0102
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "probability": 0.0111
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 2,
+          "probability": 0.006
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 3,
+          "probability": 0.0021
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 4,
+          "probability": 0.0006
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 5,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "probability": 0.0036
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 1,
+          "probability": 0.0039
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 2,
+          "probability": 0.0021
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 3,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 4,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 0,
+          "probability": 0.0011
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 1,
+          "probability": 0.0012
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 2,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 3,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 4,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 0,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 1,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 2,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 3,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 0,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 1,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 3,
+          "probability": 0
+        }
+      ],
+      "validation": {
+        "scoreMatrixSumsToOne": true,
+        "scoreProbabilitySum": 0.9998,
+        "wdlSumsToOne": true,
+        "wdlProbabilitySum": 0.9999,
+        "qualificationSumsToOne": true,
+        "qualificationProbabilitySum": 1,
+        "extraTimeIsDrawProbability": true,
+        "penaltyProbabilityLabel": "unconditional penalty probability = regulation draw probability * extra-time draw probability"
+      },
+      "marketComparison": {
+        "status": "diagnostic_only_not_model_input",
+        "rawOdds": null,
+        "rawImpliedProbability": null,
+        "totalOverround": null,
+        "normalizedProbability": {
+          "home": 0.73,
+          "away": 0.27
+        },
+        "projectProbability": {
+          "home": 0.8078,
+          "away": 0.1922
+        },
+        "differencePercentagePoints": {
+          "home": 7.78,
+          "away": -7.78
+        },
+        "source": "user-provided review benchmark",
+        "warningThresholdPercentagePoints": 10
+      },
+      "validationWarnings": [
+        "review: important lineup, fitness, player-minute and advanced match inputs are missing"
+      ],
+      "reasoningNote": "Spain residual-updated GF/GA 1.9647-0.05 vs Belgium 2.306-0.9917; Round of 16 score update uses 5% of opponent-adjusted residual only."
+    },
+    {
+      "matchId": "400021539",
+      "matchNumber": 99,
+      "stage": "Quarter-final",
+      "date": "2026-07-11",
+      "utcDateTime": "2026-07-11T21:00:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "homeTeam": "Norway",
+      "awayTeam": "England",
+      "expectedGoals": {
+        "home": 1.5999,
+        "away": 3.1481
+      },
+      "expectedGoalTrace": {
+        "home": {
+          "team": "Norway",
+          "originalPreTournamentAttackRating": 2.5,
+          "originalPreTournamentDefenceRating": 2,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2.5,
+            "defence": 2,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Brazil",
+            "attack": 2.25,
+            "defence": 0.5
+          },
+          "roundOf16GoalsScored": 2,
+          "roundOf16GoalsConceded": 1,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 1.5999,
+            "goalsAgainst": 2.0971
+          },
+          "rawScoreResidual": {
+            "attack": 0.4001,
+            "defence": -1.0971
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": 0.02,
+            "defenceUpdate": -0.0549
+          },
+          "updatedAttackRating": 2.52,
+          "updatedDefenceRating": 1.9451,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "England",
+            "qualityMultiplier": 0.7491,
+            "rawFormBlend": 1.1377,
+            "shrunkFormBlend": 1.0598
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.4708,
+          "finalExpectedGoals": 1.6013
+        },
+        "away": {
+          "team": "England",
+          "originalPreTournamentAttackRating": 2,
+          "originalPreTournamentDefenceRating": 1,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2,
+            "defence": 1,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Mexico",
+            "attack": 2,
+            "defence": 0
+          },
+          "roundOf16GoalsScored": 3,
+          "roundOf16GoalsConceded": 2,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 0.7,
+            "goalsAgainst": 0.9321
+          },
+          "rawScoreResidual": {
+            "attack": 2.3,
+            "defence": 1.0679
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": 0.115,
+            "defenceUpdate": 0.0534
+          },
+          "updatedAttackRating": 2.115,
+          "updatedDefenceRating": 1.0534,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Norway",
+            "qualityMultiplier": 1.3349,
+            "rawFormBlend": 1.4163,
+            "shrunkFormBlend": 1.1695
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 1.1471,
+          "finalExpectedGoals": 3.149
+        }
+      },
+      "selectedScore": {
+        "home": 1,
+        "away": 3
+      },
+      "mostProbableScore": {
+        "home": 1,
+        "away": 3,
+        "probability": 0.0736,
+        "expectedFantasyPoints": 2.8293
+      },
+      "alternativeScores": [
+        {
+          "home": 1,
+          "away": 2,
+          "probability": 0.0692,
+          "expectedFantasyPoints": 2.8025
+        },
+        {
+          "home": 2,
+          "away": 3,
+          "probability": 0.0593,
+          "expectedFantasyPoints": 2.7237
+        },
+        {
+          "home": 1,
+          "away": 4,
+          "probability": 0.058,
+          "expectedFantasyPoints": 2.7346
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0558,
+          "expectedFantasyPoints": 1.093
+        }
+      ],
+      "topScorelines": [
+        {
+          "home": 1,
+          "away": 3,
+          "probability": 0.0736,
+          "expectedFantasyPoints": 2.8293
+        },
+        {
+          "home": 1,
+          "away": 2,
+          "probability": 0.0692,
+          "expectedFantasyPoints": 2.8025
+        },
+        {
+          "home": 2,
+          "away": 3,
+          "probability": 0.0593,
+          "expectedFantasyPoints": 2.7237
+        },
+        {
+          "home": 1,
+          "away": 4,
+          "probability": 0.058,
+          "expectedFantasyPoints": 2.7346
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0558,
+          "expectedFantasyPoints": 1.093
+        },
+        {
+          "home": 2,
+          "away": 4,
+          "probability": 0.0468,
+          "expectedFantasyPoints": 2.6383
+        },
+        {
+          "home": 0,
+          "away": 3,
+          "probability": 0.0451,
+          "expectedFantasyPoints": 2.6185
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0429,
+          "expectedFantasyPoints": 1.036
+        },
+        {
+          "home": 0,
+          "away": 2,
+          "probability": 0.0424,
+          "expectedFantasyPoints": 2.5968
+        },
+        {
+          "home": 1,
+          "away": 5,
+          "probability": 0.0362,
+          "expectedFantasyPoints": 2.6018
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.1639,
+        "drawThrough90": 0.1503,
+        "awayWin": 0.6858
+      },
+      "extraTimeProbability": 0.1503,
+      "penaltyShootoutProbability": {
+        "conditionalOnExtraTime": 0.4183,
+        "unconditional": 0.0629
+      },
+      "shootoutWinProbability": {
+        "home": 0.4353,
+        "away": 0.5647
+      },
+      "qualificationProbabilities": {
+        "home": 0.2169,
+        "away": 0.7831
+      },
+      "selectedAdvancingTeam": "England",
+      "monteCarlo": {
+        "iterations": 250000,
+        "seed": 20260807,
+        "qualificationProbabilities": {
+          "home": 0.2165,
+          "away": 0.7835
+        },
+        "selectedAdvancingTeam": "England"
+      },
+      "bestFantasyScore": {
+        "home": 1,
+        "away": 3,
+        "probability": 0.0736,
+        "expectedFantasyPoints": 2.8293
+      },
+      "predictionStrength": "High",
+      "evidenceConfidence": "Low",
+      "confidence": "Low",
+      "uncertainty": "Low",
+      "scoreDistribution": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0081
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0131
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0263
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0429
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0106
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0346
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0424
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.0692
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0558
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0056
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0184
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.0296
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0451
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0736
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "probability": 0.0593
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "probability": 0.0315
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0022
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0072
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0117
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "probability": 0.0124
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.0356
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "probability": 0.058
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "probability": 0.0468
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "probability": 0.0248
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "probability": 0.0098
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0023
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "probability": 0.0036
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 3,
+          "probability": 0.0039
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 4,
+          "probability": 0.0031
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.0222
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "probability": 0.0362
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "probability": 0.0292
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 5,
+          "probability": 0.0155
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 5,
+          "probability": 0.0061
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 5,
+          "probability": 0.0019
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "probability": 0.0006
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 2,
+          "probability": 0.0009
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 3,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 4,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 5,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "probability": 0.0114
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 6,
+          "probability": 0.0186
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "probability": 0.015
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 6,
+          "probability": 0.008
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 6,
+          "probability": 0.0031
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 6,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 6,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 1,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 2,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 3,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 4,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 5,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 7,
+          "probability": 0.005
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 7,
+          "probability": 0.0081
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 7,
+          "probability": 0.0065
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 7,
+          "probability": 0.0035
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 7,
+          "probability": 0.0014
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 7,
+          "probability": 0.0004
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 7,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 8,
+          "probability": 0.0019
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 8,
+          "probability": 0.003
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 8,
+          "probability": 0.0025
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 8,
+          "probability": 0.0013
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 8,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 8,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 9,
+          "probability": 0.0006
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 9,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 9,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 9,
+          "probability": 0.0004
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 9,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 9,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 10,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 10,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 10,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 10,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 11,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 11,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 17,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 18,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 19,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 20,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 21,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 22,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 22,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 22,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 22,
+          "probability": 0
+        }
+      ],
+      "validation": {
+        "scoreMatrixSumsToOne": true,
+        "scoreProbabilitySum": 1.0001,
+        "wdlSumsToOne": true,
+        "wdlProbabilitySum": 1,
+        "qualificationSumsToOne": true,
+        "qualificationProbabilitySum": 1,
+        "extraTimeIsDrawProbability": true,
+        "penaltyProbabilityLabel": "unconditional penalty probability = regulation draw probability * extra-time draw probability"
+      },
+      "marketComparison": {
+        "status": "diagnostic_only_not_model_input",
+        "rawOdds": null,
+        "rawImpliedProbability": null,
+        "totalOverround": null,
+        "normalizedProbability": {
+          "home": 0.35,
+          "away": 0.65
+        },
+        "projectProbability": {
+          "home": 0.2169,
+          "away": 0.7831
+        },
+        "differencePercentagePoints": {
+          "home": -13.31,
+          "away": 13.31
+        },
+        "source": "user-provided review benchmark",
+        "warningThresholdPercentagePoints": 10
+      },
+      "validationWarnings": [
+        "review: one team exceeds 3.0 regulation xG",
+        "review: total regulation xG exceeds 4.0",
+        "review: project qualification probability differs from diagnostic market benchmark by more than ten percentage points",
+        "review: important lineup, fitness, player-minute and advanced match inputs are missing"
+      ],
+      "reasoningNote": "Norway residual-updated GF/GA 2.52-1.9451 vs England 2.115-1.0534; Round of 16 score update uses 5% of opponent-adjusted residual only."
+    },
+    {
+      "matchId": "400021537",
+      "matchNumber": 100,
+      "stage": "Quarter-final",
+      "date": "2026-07-12",
+      "utcDateTime": "2026-07-12T01:00:00Z",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "homeTeam": "Argentina",
+      "awayTeam": "Switzerland",
+      "expectedGoals": {
+        "home": 2.6644,
+        "away": 1.4665
+      },
+      "expectedGoalTrace": {
+        "home": {
+          "team": "Argentina",
+          "originalPreTournamentAttackRating": 2.75,
+          "originalPreTournamentDefenceRating": 0.75,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2.75,
+            "defence": 0.75,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Egypt",
+            "attack": 1.5,
+            "defence": 1
+          },
+          "roundOf16GoalsScored": 3,
+          "roundOf16GoalsConceded": 2,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 3.5198,
+            "goalsAgainst": 0.5243
+          },
+          "rawScoreResidual": {
+            "attack": -0.5198,
+            "defence": 1.4757
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": -0.026,
+            "defenceUpdate": 0.0738
+          },
+          "updatedAttackRating": 2.724,
+          "updatedDefenceRating": 0.8238,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Switzerland",
+            "qualityMultiplier": 1.3346,
+            "rawFormBlend": 0.9785,
+            "shrunkFormBlend": 0.9903
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.9805,
+          "finalExpectedGoals": 2.6658
+        },
+        "away": {
+          "team": "Switzerland",
+          "originalPreTournamentAttackRating": 2.25,
+          "originalPreTournamentDefenceRating": 0.75,
+          "ratingImmediatelyBeforeRoundOf16": {
+            "attack": 2.25,
+            "defence": 0.75,
+            "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+          },
+          "roundOf16OpponentStrength": {
+            "team": "Colombia",
+            "attack": 1.6667,
+            "defence": 0.3333
+          },
+          "roundOf16GoalsScored": 0,
+          "roundOf16GoalsConceded": 0,
+          "expectedPerformanceBeforeResultUpdate": {
+            "goalsFor": 0.9598,
+            "goalsAgainst": 0.5825
+          },
+          "rawScoreResidual": {
+            "attack": -0.9598,
+            "defence": -0.5825
+          },
+          "shrinkageAppliedToResidual": {
+            "evidenceWeight": 0.05,
+            "attackUpdate": -0.048,
+            "defenceUpdate": -0.0291
+          },
+          "updatedAttackRating": 2.202,
+          "updatedDefenceRating": 0.7209,
+          "quarterFinalOpponentAdjustment": {
+            "opponent": "Argentina",
+            "qualityMultiplier": 0.7493,
+            "rawFormBlend": 0.9405,
+            "shrunkFormBlend": 0.9727
+          },
+          "venueAdjustment": 1,
+          "contextAdjustment": 1,
+          "finalLogExpectedGoals": 0.3853,
+          "finalExpectedGoals": 1.4701
+        }
+      },
+      "selectedScore": {
+        "home": 2,
+        "away": 1
+      },
+      "mostProbableScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0847,
+        "expectedFantasyPoints": 2.7403
+      },
+      "alternativeScores": [
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0758,
+          "expectedFantasyPoints": 2.688
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0625,
+          "expectedFantasyPoints": 1.2129
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0623,
+          "expectedFantasyPoints": 1.2352
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0566,
+          "expectedFantasyPoints": 2.5439
+        }
+      ],
+      "topScorelines": [
+        {
+          "home": 2,
+          "away": 1,
+          "probability": 0.0847,
+          "expectedFantasyPoints": 2.7403
+        },
+        {
+          "home": 3,
+          "away": 1,
+          "probability": 0.0758,
+          "expectedFantasyPoints": 2.688
+        },
+        {
+          "home": 2,
+          "away": 2,
+          "probability": 0.0625,
+          "expectedFantasyPoints": 1.2129
+        },
+        {
+          "home": 1,
+          "away": 1,
+          "probability": 0.0623,
+          "expectedFantasyPoints": 1.2352
+        },
+        {
+          "home": 2,
+          "away": 0,
+          "probability": 0.0566,
+          "expectedFantasyPoints": 2.5439
+        },
+        {
+          "home": 3,
+          "away": 2,
+          "probability": 0.056,
+          "expectedFantasyPoints": 2.5399
+        },
+        {
+          "home": 3,
+          "away": 0,
+          "probability": 0.0507,
+          "expectedFantasyPoints": 2.5003
+        },
+        {
+          "home": 4,
+          "away": 1,
+          "probability": 0.0503,
+          "expectedFantasyPoints": 2.5364
+        },
+        {
+          "home": 1,
+          "away": 2,
+          "probability": 0.046,
+          "expectedFantasyPoints": 1.1502
+        },
+        {
+          "home": 1,
+          "away": 0,
+          "probability": 0.0417,
+          "expectedFantasyPoints": 2.4335
+        }
+      ],
+      "outcomeProbabilities": {
+        "homeWin": 0.6325,
+        "drawThrough90": 0.175,
+        "awayWin": 0.1925
+      },
+      "extraTimeProbability": 0.175,
+      "penaltyShootoutProbability": {
+        "conditionalOnExtraTime": 0.4579,
+        "unconditional": 0.0801
+      },
+      "shootoutWinProbability": {
+        "home": 0.5647,
+        "away": 0.4353
+      },
+      "qualificationProbabilities": {
+        "home": 0.7423,
+        "away": 0.2577
+      },
+      "selectedAdvancingTeam": "Argentina",
+      "monteCarlo": {
+        "iterations": 250000,
+        "seed": 20260808,
+        "qualificationProbabilities": {
+          "home": 0.7419,
+          "away": 0.2581
+        },
+        "selectedAdvancingTeam": "Argentina"
+      },
+      "bestFantasyScore": {
+        "home": 2,
+        "away": 1,
+        "probability": 0.0847,
+        "expectedFantasyPoints": 2.7403
+      },
+      "predictionStrength": "Medium",
+      "evidenceConfidence": "Low",
+      "confidence": "Low",
+      "uncertainty": "Low",
+      "scoreDistribution": [
+        {
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "probability": 0.0152
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "probability": 0.0417
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "probability": 0.0227
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "probability": 0.0623
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "probability": 0.0566
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "probability": 0.0846
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "probability": 0.0168
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "probability": 0.046
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "probability": 0.0625
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "probability": 0.0507
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "probability": 0.0758
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "probability": 0.056
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "probability": 0.0082
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "probability": 0.0224
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "probability": 0.0305
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "probability": 0.0273
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "probability": 0.0337
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "probability": 0.0503
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "probability": 0.0372
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "probability": 0.0181
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "probability": 0.0029
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "probability": 0.0081
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 4,
+          "probability": 0.011
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 4,
+          "probability": 0.0098
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "probability": 0.0065
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "probability": 0.0177
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 1,
+          "probability": 0.0264
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 2,
+          "probability": 0.0195
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 3,
+          "probability": 0.0095
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 4,
+          "probability": 0.0034
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "probability": 0.0008
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "probability": 0.0023
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "probability": 0.0031
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 5,
+          "probability": 0.0028
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 5,
+          "probability": 0.0019
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 5,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "probability": 0.0076
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "probability": 0.0114
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 2,
+          "probability": 0.0084
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 3,
+          "probability": 0.0041
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 4,
+          "probability": 0.0015
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 5,
+          "probability": 0.0004
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 6,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 6,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 6,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 6,
+          "probability": 0.0007
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 6,
+          "probability": 0.0004
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 6,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 6,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 0,
+          "probability": 0.0028
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 1,
+          "probability": 0.0042
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 2,
+          "probability": 0.0031
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 3,
+          "probability": 0.0015
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 4,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 5,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 7,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 7,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 7,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 7,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 0,
+          "probability": 0.0009
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 1,
+          "probability": 0.0013
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 2,
+          "probability": 0.001
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 3,
+          "probability": 0.0005
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 4,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 0,
+          "probability": 0.0002
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 1,
+          "probability": 0.0004
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 2,
+          "probability": 0.0003
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 3,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 0,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 1,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 2,
+          "probability": 0.0001
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 13,
+          "awayGoals": 11,
+          "probability": 0
+        },
+        {
+          "homeGoals": 12,
+          "awayGoals": 12,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 10,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 11,
+          "awayGoals": 13,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 14,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 9,
+          "awayGoals": 14,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 15,
+          "awayGoals": 10,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 6,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 7,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 8,
+          "awayGoals": 15,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 16,
+          "awayGoals": 9,
+          "probability": 0
+        },
+        {
+          "homeGoals": 0,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 1,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 2,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 3,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 4,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 5,
+          "awayGoals": 16,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 17,
+          "awayGoals": 8,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 6,
+          "probability": 0
+        },
+        {
+          "homeGoals": 18,
+          "awayGoals": 7,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 19,
+          "awayGoals": 5,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 0,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 1,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 2,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 3,
+          "probability": 0
+        },
+        {
+          "homeGoals": 20,
+          "awayGoals": 4,
+          "probability": 0
+        },
+        {
+          "homeGoals": 21,
+          "awayGoals": 1,
+          "probability": 0
+        }
+      ],
+      "validation": {
+        "scoreMatrixSumsToOne": true,
+        "scoreProbabilitySum": 0.9994,
+        "wdlSumsToOne": true,
+        "wdlProbabilitySum": 1,
+        "qualificationSumsToOne": true,
+        "qualificationProbabilitySum": 1,
+        "extraTimeIsDrawProbability": true,
+        "penaltyProbabilityLabel": "unconditional penalty probability = regulation draw probability * extra-time draw probability"
+      },
+      "marketComparison": {
+        "status": "diagnostic_only_not_model_input",
+        "rawOdds": null,
+        "rawImpliedProbability": null,
+        "totalOverround": null,
+        "normalizedProbability": {
+          "home": 0.71,
+          "away": 0.29
+        },
+        "projectProbability": {
+          "home": 0.7423,
+          "away": 0.2577
+        },
+        "differencePercentagePoints": {
+          "home": 3.23,
+          "away": -3.23
+        },
+        "source": "user-provided review benchmark",
+        "warningThresholdPercentagePoints": 10
+      },
+      "validationWarnings": [
+        "review: total regulation xG exceeds 4.0",
+        "review: important lineup, fitness, player-minute and advanced match inputs are missing"
+      ],
+      "reasoningNote": "Argentina residual-updated GF/GA 2.724-0.8238 vs Switzerland 2.202-0.7209; Round of 16 score update uses 5% of opponent-adjusted residual only."
+    }
+  ],
+  "semifinalBracketProbabilities": [
+    {
+      "bracket": "France vs Spain | England vs Argentina",
+      "probability": 0.3947
+    },
+    {
+      "bracket": "France vs Spain | England vs Switzerland",
+      "probability": 0.1363
+    },
+    {
+      "bracket": "France vs Spain | Norway vs Argentina",
+      "probability": 0.1094
+    },
+    {
+      "bracket": "France vs Belgium | England vs Argentina",
+      "probability": 0.0938
+    },
+    {
+      "bracket": "Morocco vs Spain | England vs Argentina",
+      "probability": 0.0754
+    },
+    {
+      "bracket": "France vs Spain | Norway vs Switzerland",
+      "probability": 0.0378
+    },
+    {
+      "bracket": "France vs Belgium | England vs Switzerland",
+      "probability": 0.0327
+    },
+    {
+      "bracket": "Morocco vs Spain | England vs Switzerland",
+      "probability": 0.0265
+    },
+    {
+      "bracket": "France vs Belgium | Norway vs Argentina",
+      "probability": 0.0262
+    },
+    {
+      "bracket": "Morocco vs Spain | Norway vs Argentina",
+      "probability": 0.0209
+    },
+    {
+      "bracket": "Morocco vs Belgium | England vs Argentina",
+      "probability": 0.0177
+    },
+    {
+      "bracket": "France vs Belgium | Norway vs Switzerland",
+      "probability": 0.0088
+    },
+    {
+      "bracket": "Morocco vs Spain | Norway vs Switzerland",
+      "probability": 0.0073
+    },
+    {
+      "bracket": "Morocco vs Belgium | England vs Switzerland",
+      "probability": 0.0059
+    },
+    {
+      "bracket": "Morocco vs Belgium | Norway vs Argentina",
+      "probability": 0.0051
+    },
+    {
+      "bracket": "Morocco vs Belgium | Norway vs Switzerland",
+      "probability": 0.0016
+    }
+  ],
+  "modelVariants": [
+    {
+      "id": "original_pre_round_of_16",
+      "method": "residual",
+      "evidenceWeight": 0,
+      "source": "prior team stats only",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 3.1316,
+            "away": 1.1839
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7613,
+            "drawThrough90": 0.1322,
+            "awayWin": 0.1065
+          },
+          "mostProbableScore": {
+            "home": 3,
+            "away": 1,
+            "probability": 0.0828
+          },
+          "qualificationProbabilities": {
+            "home": 0.8522,
+            "away": 0.1478
+          },
+          "totalGoalExpectation": 4.3155,
+          "over25Probability": 0.809,
+          "bothTeamsToScoreProbability": 0.6681,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0948,
+              "away": -0.0135
+            },
+            "qualificationProbability": {
+              "home": 0.0118,
+              "away": -0.0118
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.595,
+            "away": 1.0714
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7037,
+            "drawThrough90": 0.1639,
+            "awayWin": 0.1325
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0936
+          },
+          "qualificationProbabilities": {
+            "home": 0.8113,
+            "away": 0.1887
+          },
+          "totalGoalExpectation": 3.6664,
+          "over25Probability": 0.7124,
+          "bothTeamsToScoreProbability": 0.6126,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0123,
+              "away": -0.0086
+            },
+            "qualificationProbability": {
+              "home": 0.0035,
+              "away": -0.0035
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.5796,
+            "away": 3.1136
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.1642,
+            "drawThrough90": 0.1514,
+            "awayWin": 0.6845
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0742
+          },
+          "qualificationProbabilities": {
+            "home": 0.2177,
+            "away": 0.7823
+          },
+          "totalGoalExpectation": 4.6932,
+          "over25Probability": 0.851,
+          "bothTeamsToScoreProbability": 0.7635,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0203,
+              "away": -0.0345
+            },
+            "qualificationProbability": {
+              "home": 0.0008,
+              "away": -0.0008
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6922,
+            "away": 1.4404
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6429,
+            "drawThrough90": 0.1723,
+            "awayWin": 0.1848
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0847
+          },
+          "qualificationProbabilities": {
+            "home": 0.7517,
+            "away": 0.2483
+          },
+          "totalGoalExpectation": 4.1326,
+          "over25Probability": 0.7844,
+          "bothTeamsToScoreProbability": 0.7161,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0278,
+              "away": -0.0261
+            },
+            "qualificationProbability": {
+              "home": 0.0094,
+              "away": -0.0094
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "current_25_percent_full_score_implementation",
+      "method": "full_score",
+      "evidenceWeight": 0.25,
+      "source": "deprecated diagnostic; reproduces inflated implementation",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 3.3763,
+            "away": 0.9422
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.8334,
+            "drawThrough90": 0.1024,
+            "awayWin": 0.0642
+          },
+          "mostProbableScore": {
+            "home": 3,
+            "away": 0,
+            "probability": 0.0864
+          },
+          "qualificationProbabilities": {
+            "home": 0.9075,
+            "away": 0.0925
+          },
+          "totalGoalExpectation": 4.3185,
+          "over25Probability": 0.8096,
+          "bothTeamsToScoreProbability": 0.5926,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.3395,
+              "away": -0.2552
+            },
+            "qualificationProbability": {
+              "home": 0.0671,
+              "away": -0.0671
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.5468,
+            "away": 0.7005
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7764,
+            "drawThrough90": 0.1447,
+            "awayWin": 0.0789
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 0,
+            "probability": 0.1268
+          },
+          "qualificationProbabilities": {
+            "home": 0.876,
+            "away": 0.124
+          },
+          "totalGoalExpectation": 3.2473,
+          "over25Probability": 0.6331,
+          "bothTeamsToScoreProbability": 0.4673,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0359,
+              "away": -0.3795
+            },
+            "qualificationProbability": {
+              "home": 0.0682,
+              "away": -0.0682
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.733,
+            "away": 3.785
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.1282,
+            "drawThrough90": 0.1218,
+            "awayWin": 0.75
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0638
+          },
+          "qualificationProbabilities": {
+            "home": 0.1678,
+            "away": 0.8322
+          },
+          "totalGoalExpectation": 5.518,
+          "over25Probability": 0.9163,
+          "bothTeamsToScoreProbability": 0.809,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.1331,
+              "away": 0.6369
+            },
+            "qualificationProbability": {
+              "home": -0.0491,
+              "away": 0.0491
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6514,
+            "away": 1.3928
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6455,
+            "drawThrough90": 0.1735,
+            "awayWin": 0.1811
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0869
+          },
+          "qualificationProbabilities": {
+            "home": 0.7554,
+            "away": 0.2446
+          },
+          "totalGoalExpectation": 4.0442,
+          "over25Probability": 0.7719,
+          "bothTeamsToScoreProbability": 0.7032,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.013,
+              "away": -0.0737
+            },
+            "qualificationProbability": {
+              "home": 0.0131,
+              "away": -0.0131
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "corrected_residual_5_percent",
+      "method": "residual",
+      "evidenceWeight": 0.05,
+      "source": "selected",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 3.0368,
+            "away": 1.1974
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7458,
+            "drawThrough90": 0.139,
+            "awayWin": 0.1152
+          },
+          "mostProbableScore": {
+            "home": 3,
+            "away": 1,
+            "probability": 0.0828
+          },
+          "qualificationProbabilities": {
+            "home": 0.8404,
+            "away": 0.1596
+          },
+          "totalGoalExpectation": 4.2342,
+          "over25Probability": 0.7983,
+          "bothTeamsToScoreProbability": 0.6685,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0,
+              "away": 0
+            },
+            "qualificationProbability": {
+              "home": 0,
+              "away": 0
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.5827,
+            "away": 1.08
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6997,
+            "drawThrough90": 0.1652,
+            "awayWin": 0.135
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0938
+          },
+          "qualificationProbabilities": {
+            "home": 0.8078,
+            "away": 0.1922
+          },
+          "totalGoalExpectation": 3.6627,
+          "over25Probability": 0.7118,
+          "bothTeamsToScoreProbability": 0.6145,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0,
+              "away": 0
+            },
+            "qualificationProbability": {
+              "home": 0,
+              "away": 0
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.5999,
+            "away": 3.1481
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.1639,
+            "drawThrough90": 0.1503,
+            "awayWin": 0.6858
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0736
+          },
+          "qualificationProbabilities": {
+            "home": 0.2169,
+            "away": 0.7831
+          },
+          "totalGoalExpectation": 4.748,
+          "over25Probability": 0.8567,
+          "bothTeamsToScoreProbability": 0.7689,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0,
+              "away": 0
+            },
+            "qualificationProbability": {
+              "home": 0,
+              "away": 0
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6644,
+            "away": 1.4665
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6325,
+            "drawThrough90": 0.175,
+            "awayWin": 0.1925
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0847
+          },
+          "qualificationProbabilities": {
+            "home": 0.7423,
+            "away": 0.2577
+          },
+          "totalGoalExpectation": 4.1309,
+          "over25Probability": 0.7841,
+          "bothTeamsToScoreProbability": 0.7206,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0,
+              "away": 0
+            },
+            "qualificationProbability": {
+              "home": 0,
+              "away": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "corrected_residual_10_percent",
+      "method": "residual",
+      "evidenceWeight": 0.1,
+      "source": "sensitivity",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 2.9357,
+            "away": 1.2112
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7286,
+            "drawThrough90": 0.1464,
+            "awayWin": 0.125
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0835
+          },
+          "qualificationProbabilities": {
+            "home": 0.827,
+            "away": 0.173
+          },
+          "totalGoalExpectation": 4.1469,
+          "over25Probability": 0.7866,
+          "bothTeamsToScoreProbability": 0.6689,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.1011,
+              "away": 0.0138
+            },
+            "qualificationProbability": {
+              "home": -0.0134,
+              "away": 0.0134
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.5686,
+            "away": 1.0879
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6956,
+            "drawThrough90": 0.1668,
+            "awayWin": 0.1376
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0941
+          },
+          "qualificationProbabilities": {
+            "home": 0.8045,
+            "away": 0.1955
+          },
+          "totalGoalExpectation": 3.6565,
+          "over25Probability": 0.7108,
+          "bothTeamsToScoreProbability": 0.6164,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0141,
+              "away": 0.0079
+            },
+            "qualificationProbability": {
+              "home": -0.0033,
+              "away": 0.0033
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.616,
+            "away": 3.1845
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.163,
+            "drawThrough90": 0.1487,
+            "awayWin": 0.6883
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0729
+          },
+          "qualificationProbabilities": {
+            "home": 0.2152,
+            "away": 0.7848
+          },
+          "totalGoalExpectation": 4.8005,
+          "over25Probability": 0.8612,
+          "bothTeamsToScoreProbability": 0.7727,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0161,
+              "away": 0.0364
+            },
+            "qualificationProbability": {
+              "home": -0.0017,
+              "away": 0.0017
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6347,
+            "away": 1.4937
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6217,
+            "drawThrough90": 0.1775,
+            "awayWin": 0.2007
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0845
+          },
+          "qualificationProbabilities": {
+            "home": 0.7322,
+            "away": 0.2678
+          },
+          "totalGoalExpectation": 4.1284,
+          "over25Probability": 0.784,
+          "bothTeamsToScoreProbability": 0.7249,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0297,
+              "away": 0.0272
+            },
+            "qualificationProbability": {
+              "home": -0.0101,
+              "away": 0.0101
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "no_score_update_context_only",
+      "method": "residual",
+      "evidenceWeight": 0,
+      "source": "context neutral; no score update",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 3.1316,
+            "away": 1.1839
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7613,
+            "drawThrough90": 0.1322,
+            "awayWin": 0.1065
+          },
+          "mostProbableScore": {
+            "home": 3,
+            "away": 1,
+            "probability": 0.0828
+          },
+          "qualificationProbabilities": {
+            "home": 0.8522,
+            "away": 0.1478
+          },
+          "totalGoalExpectation": 4.3155,
+          "over25Probability": 0.809,
+          "bothTeamsToScoreProbability": 0.6681,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0948,
+              "away": -0.0135
+            },
+            "qualificationProbability": {
+              "home": 0.0118,
+              "away": -0.0118
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.595,
+            "away": 1.0714
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7037,
+            "drawThrough90": 0.1639,
+            "awayWin": 0.1325
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0936
+          },
+          "qualificationProbabilities": {
+            "home": 0.8113,
+            "away": 0.1887
+          },
+          "totalGoalExpectation": 3.6664,
+          "over25Probability": 0.7124,
+          "bothTeamsToScoreProbability": 0.6126,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0123,
+              "away": -0.0086
+            },
+            "qualificationProbability": {
+              "home": 0.0035,
+              "away": -0.0035
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.5796,
+            "away": 3.1136
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.1642,
+            "drawThrough90": 0.1514,
+            "awayWin": 0.6845
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0742
+          },
+          "qualificationProbabilities": {
+            "home": 0.2177,
+            "away": 0.7823
+          },
+          "totalGoalExpectation": 4.6932,
+          "over25Probability": 0.851,
+          "bothTeamsToScoreProbability": 0.7635,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0203,
+              "away": -0.0345
+            },
+            "qualificationProbability": {
+              "home": 0.0008,
+              "away": -0.0008
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6922,
+            "away": 1.4404
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6429,
+            "drawThrough90": 0.1723,
+            "awayWin": 0.1848
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0847
+          },
+          "qualificationProbabilities": {
+            "home": 0.7517,
+            "away": 0.2483
+          },
+          "totalGoalExpectation": 4.1326,
+          "over25Probability": 0.7844,
+          "bothTeamsToScoreProbability": 0.7161,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0278,
+              "away": -0.0261
+            },
+            "qualificationProbability": {
+              "home": 0.0094,
+              "away": -0.0094
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "market_blind_statistical_ensemble",
+      "method": "ensemble",
+      "evidenceWeight": 0.05,
+      "source": "average of original and corrected residual statistical variants; no market input",
+      "matches": [
+        {
+          "matchNumber": 97,
+          "fixture": "France vs Morocco",
+          "expectedGoals": {
+            "home": 3.0842,
+            "away": 1.1907
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7535,
+            "drawThrough90": 0.1356,
+            "awayWin": 0.1109
+          },
+          "mostProbableScore": {
+            "home": 3,
+            "away": 1,
+            "probability": 0.0828
+          },
+          "qualificationProbabilities": {
+            "home": 0.8463,
+            "away": 0.1537
+          },
+          "totalGoalExpectation": 4.2749,
+          "over25Probability": 0.8037,
+          "bothTeamsToScoreProbability": 0.6683,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0474,
+              "away": -0.0067
+            },
+            "qualificationProbability": {
+              "home": 0.0059,
+              "away": -0.0059
+            }
+          }
+        },
+        {
+          "matchNumber": 98,
+          "fixture": "Spain vs Belgium",
+          "expectedGoals": {
+            "home": 2.5889,
+            "away": 1.0757
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.7017,
+            "drawThrough90": 0.1646,
+            "awayWin": 0.1338
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0938
+          },
+          "qualificationProbabilities": {
+            "home": 0.8096,
+            "away": 0.1905
+          },
+          "totalGoalExpectation": 3.6646,
+          "over25Probability": 0.7121,
+          "bothTeamsToScoreProbability": 0.6136,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0062,
+              "away": -0.0043
+            },
+            "qualificationProbability": {
+              "home": 0.0018,
+              "away": -0.0017
+            }
+          }
+        },
+        {
+          "matchNumber": 99,
+          "fixture": "Norway vs England",
+          "expectedGoals": {
+            "home": 1.5898,
+            "away": 3.1308
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.1641,
+            "drawThrough90": 0.1508,
+            "awayWin": 0.6851
+          },
+          "mostProbableScore": {
+            "home": 1,
+            "away": 3,
+            "probability": 0.0736
+          },
+          "qualificationProbabilities": {
+            "home": 0.2173,
+            "away": 0.7827
+          },
+          "totalGoalExpectation": 4.7206,
+          "over25Probability": 0.8539,
+          "bothTeamsToScoreProbability": 0.7662,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": -0.0101,
+              "away": -0.0173
+            },
+            "qualificationProbability": {
+              "home": 0.0004,
+              "away": -0.0004
+            }
+          }
+        },
+        {
+          "matchNumber": 100,
+          "fixture": "Argentina vs Switzerland",
+          "expectedGoals": {
+            "home": 2.6783,
+            "away": 1.4534
+          },
+          "outcomeProbabilities": {
+            "homeWin": 0.6377,
+            "drawThrough90": 0.1737,
+            "awayWin": 0.1886
+          },
+          "mostProbableScore": {
+            "home": 2,
+            "away": 1,
+            "probability": 0.0847
+          },
+          "qualificationProbabilities": {
+            "home": 0.747,
+            "away": 0.253
+          },
+          "totalGoalExpectation": 4.1318,
+          "over25Probability": 0.7843,
+          "bothTeamsToScoreProbability": 0.7184,
+          "changeFromOriginal": {
+            "expectedGoals": {
+              "home": 0.0139,
+              "away": -0.0131
+            },
+            "qualificationProbability": {
+              "home": 0.0047,
+              "away": -0.0047
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

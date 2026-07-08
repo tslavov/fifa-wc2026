@@ -1,0 +1,2299 @@
+{
+  "datasetId": "round-of-16-performance-context-v1",
+  "artifactKind": "match_performance_context",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "providerPolicy": "No advanced provider values were collected; xG and event metrics remain unavailable and neutral. Do not mix providers.",
+  "matches": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "rawScore": {
+        "home": 0,
+        "away": 1
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "No source-backed advanced context collected.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "rawScore": {
+        "home": 0,
+        "away": 3
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Morocco scored three; chance-quality metrics requested but unavailable, so no scoring-efficiency adjustment is applied.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "rawScore": {
+        "home": 1,
+        "away": 2
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Norway beat Brazil; xG/shot-quality support for Brazil is requested but unavailable from approved machine source.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "rawScore": {
+        "home": 2,
+        "away": 3
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "England scored three from a reported low-shot profile; source-backed attempts/xG are unavailable in repository data.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "rawScore": {
+        "home": 0,
+        "away": 1
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Spain 1-0 may understate performance; source-backed xG/territory data unavailable.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "rawScore": {
+        "home": 1,
+        "away": 4
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Belgium 4-1 is directionally supported by scoreline only; chance-creation metrics unavailable.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "rawScore": {
+        "home": 3,
+        "away": 2
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Argentina trailed before winning; event timing/score-state data unavailable from the collected feed.",
+      "appliedToModel": false
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "rawScore": {
+        "home": 0,
+        "away": 0
+      },
+      "adjustedPerformance": {
+        "nonPenaltyXgDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty xG difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "scoreStateAdjustedXg": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score-state-adjusted xG",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shotQualityDifference": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shot-quality difference",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expectedPointsEstimate": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected-points estimate",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "finishingOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for finishing overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeperOverperformance": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper overperformance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedAttack": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted attacking performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "opponentAdjustedDefense": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for opponent-adjusted defensive performance",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "requestedMetrics": {
+        "possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "in-contest possession": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for in-contest possession",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "total attempts": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for total attempts",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "shots inside penalty area": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for shots inside penalty area",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "big chances": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for big chances",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "non-penalty expected goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for non-penalty expected goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "expected goals on target": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for expected goals on target",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "final-third entries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for final-third entries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "penalty-area entries/touches": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for penalty-area entries/touches",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "corners": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for corners",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "set-piece attempts/goals": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for set-piece attempts/goals",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "progressive passes/carries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for progressive passes/carries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "passing accuracy": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for passing accuracy",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "defensive actions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for defensive actions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "recoveries": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for recoveries",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goalkeeper saves": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goalkeeper saves",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "red cards": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for red cards",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "substitutions": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for substitutions",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "starting lineups": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for starting lineups",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "player minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for player minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "extra-time minutes": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for extra-time minutes",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "goal timing": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for goal timing",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "score state": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for score state",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "misleadingScorelineAssessment": "Switzerland-Colombia 0-0 through extra time is treated as low scoring; attacking-value metrics unavailable.",
+      "appliedToModel": false
+    }
+  ],
+  "warnings": [
+    "Advanced performance data was not available from existing project-approved machine-readable sources; no xG/shot/event values were invented."
+  ]
+}

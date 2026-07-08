@@ -1,0 +1,72 @@
+{
+  "datasetId": "quarter-final-model-adjustments-v1",
+  "artifactKind": "model_adjustment",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "basedOnEvaluation": "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+  "contaminationControl": {
+    "previousPredictionsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true
+  },
+  "accepted": [
+    {
+      "feature": "official Round of 16 advancement and residual-only score update",
+      "status": "accepted_with_residual_shrinkage",
+      "evidenceWeight": 0.05,
+      "reason": "Official results define quarter-final teams. Goal-score observations are used only as opponent-adjusted residuals with a small weight because xG/event data is unavailable."
+    }
+  ],
+  "rejected": [
+    "advanced xG/shot/event metrics unavailable from approved machine source",
+    "player availability unavailable from reliable collected source",
+    "travel/weather/altitude unavailable or unvalidated",
+    "no coefficient recalibration from only eight Round of 16 matches",
+    "external market consensus not collected as odds; review benchmarks stored as diagnostics only and not used as inputs"
+  ],
+  "coefficientsChanged": false,
+  "scoreUpdateShrinkageWeight": 0.05,
+  "residualEvidenceWeight": 0.05,
+  "formSignalScale": 0.45,
+  "performanceContextApplied": false,
+  "availabilityApplied": false,
+  "fatigueTravelWeatherApplied": false,
+  "marketBenchmark": {
+    "status": "diagnostic_only",
+    "benchmarks": {
+      "France": {
+        "qualificationProbability": 0.75,
+        "source": "user-provided review benchmark",
+        "status": "diagnostic_only"
+      },
+      "Spain": {
+        "qualificationProbability": 0.73,
+        "source": "user-provided review benchmark",
+        "status": "diagnostic_only"
+      },
+      "England": {
+        "qualificationProbability": 0.65,
+        "source": "user-provided review benchmark",
+        "status": "diagnostic_only"
+      },
+      "Argentina": {
+        "qualificationProbability": 0.71,
+        "source": "user-provided review benchmark",
+        "status": "diagnostic_only"
+      }
+    },
+    "notes": "No existing project-supported market blending or odds collector; review benchmarks are not used as model inputs."
+  },
+  "validation": {
+    "previousModel": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 0.5,
+      "qualificationAccuracy": 0.5,
+      "meanBrierScore": 0.6221,
+      "meanLogLoss": 1.0553,
+      "meanRankedProbabilityScore": 0.2627,
+      "meanAbsoluteGoalError": 1.3125,
+      "meanFantasyScore": 1.875
+    },
+    "updatedDataModel": "accepted official results and residual-only shrunk team stats",
+    "contextAdjustedCandidate": "neutral because requested features could not be validated from trusted machine sources"
+  }
+}

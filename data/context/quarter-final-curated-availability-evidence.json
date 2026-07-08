@@ -1,0 +1,30 @@
+{
+  "datasetId": "quarter-final-curated-availability-evidence",
+  "artifactKind": "curated_human_readable_availability_evidence",
+  "records": [],
+  "schema": {
+    "requiredFields": [
+      "team",
+      "player",
+      "status",
+      "source",
+      "publishedAt",
+      "collectedAt",
+      "confidence",
+      "notes"
+    ],
+    "supportedStatuses": [
+      "available",
+      "probable",
+      "doubtful",
+      "unavailable",
+      "suspended",
+      "unknown",
+      "conflicting_reports",
+      "available_but_not_ingested",
+      "unavailable_from_automated_api",
+      "collected_manually"
+    ]
+  },
+  "notes": "Populate only from reliable human-readable sources. Do not apply model adjustments from these records until independently validated."
+}

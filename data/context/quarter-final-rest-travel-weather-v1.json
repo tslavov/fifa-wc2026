@@ -1,0 +1,875 @@
+{
+  "datasetId": "quarter-final-rest-travel-weather-v1",
+  "artifactKind": "rest_travel_weather",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "fixtures": [
+    {
+      "matchNumber": 97,
+      "fixture": "France vs Morocco",
+      "stadium": {
+        "value": "Boston Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "kickoffUtc": {
+        "value": "2026-07-09T20:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "localTimezone": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for local timezone",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "expectedTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for official match-time temperature forecast",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "apparentTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for apparent temperature",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "humidity": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for humidity",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "precipitationProbability": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for precipitation probability",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "wind": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for wind",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "roofOpenClosed": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for roof status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "surfaceType": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for surface type",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "altitude": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for altitude",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "hydrationBreakRisk": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for hydration break risk",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "recovery": {
+        "home": {
+          "previousMatchDate": {
+            "value": "2026-07-04T21:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 101
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 119,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        },
+        "away": {
+          "previousMatchDate": {
+            "value": "2026-07-04T17:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 100
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 123,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        }
+      },
+      "travel": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "weatherSensitivity": "neutral; official forecast values unavailable."
+    },
+    {
+      "matchNumber": 98,
+      "fixture": "Spain vs Belgium",
+      "stadium": {
+        "value": "Los Angeles Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "kickoffUtc": {
+        "value": "2026-07-10T19:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "localTimezone": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for local timezone",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "expectedTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for official match-time temperature forecast",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "apparentTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for apparent temperature",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "humidity": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for humidity",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "precipitationProbability": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for precipitation probability",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "wind": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for wind",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "roofOpenClosed": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for roof status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "surfaceType": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for surface type",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "altitude": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for altitude",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "hydrationBreakRisk": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for hydration break risk",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "recovery": {
+        "home": {
+          "previousMatchDate": {
+            "value": "2026-07-06T19:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 99
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 96,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        },
+        "away": {
+          "previousMatchDate": {
+            "value": "2026-07-07T00:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 95
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 91,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        }
+      },
+      "travel": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "weatherSensitivity": "neutral; official forecast values unavailable."
+    },
+    {
+      "matchNumber": 99,
+      "fixture": "Norway vs England",
+      "stadium": {
+        "value": "Miami Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "kickoffUtc": {
+        "value": "2026-07-11T21:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "localTimezone": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for local timezone",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "expectedTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for official match-time temperature forecast",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "apparentTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for apparent temperature",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "humidity": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for humidity",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "precipitationProbability": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for precipitation probability",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "wind": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for wind",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "roofOpenClosed": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for roof status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "surfaceType": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for surface type",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "altitude": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for altitude",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "hydrationBreakRisk": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for hydration break risk",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "recovery": {
+        "home": {
+          "previousMatchDate": {
+            "value": "2026-07-05T20:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 102
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 145,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        },
+        "away": {
+          "previousMatchDate": {
+            "value": "2026-07-06T01:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 103
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 140,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        }
+      },
+      "travel": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "weatherSensitivity": "neutral; official forecast values unavailable."
+    },
+    {
+      "matchNumber": 100,
+      "fixture": "Argentina vs Switzerland",
+      "stadium": {
+        "value": "Kansas City Stadium",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "kickoffUtc": {
+        "value": "2026-07-12T01:00:00Z",
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "localTimezone": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for local timezone",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "expectedTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for official match-time temperature forecast",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "apparentTemperature": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for apparent temperature",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "humidity": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for humidity",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "precipitationProbability": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for precipitation probability",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "wind": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for wind",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "roofOpenClosed": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for roof status",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "surfaceType": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for surface type",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "altitude": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for altitude",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "hydrationBreakRisk": {
+        "value": null,
+        "sourceUrlOrId": "No trusted source collected for hydration break risk",
+        "collectedAt": "2026-07-08T09:26:57.863Z",
+        "sourceType": "unavailable",
+        "confidence": "low",
+        "status": "unavailable"
+      },
+      "recovery": {
+        "home": {
+          "previousMatchDate": {
+            "value": "2026-07-07T16:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 0,
+              "playingMinutes": 90,
+              "penaltyShootout": false,
+              "elapsedClockMinutes": 102
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": false,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 105,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 450,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        },
+        "away": {
+          "previousMatchDate": {
+            "value": "2026-07-07T20:00:00Z",
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousMatchDuration": {
+            "value": {
+              "regulationMinutes": 90,
+              "extraTimeMinutes": 30,
+              "playingMinutes": 120,
+              "penaltyShootout": true,
+              "elapsedClockMinutes": 130
+            },
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "previousExtraTime": {
+            "value": true,
+            "sourceUrlOrId": "data\\results\\round-of-16-results-v1.json",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "official/project",
+            "confidence": "high",
+            "status": "confirmed"
+          },
+          "recoveryHours": {
+            "value": 101,
+            "sourceUrlOrId": "computed from official kickoff times",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          },
+          "accumulatedTeamMinutesEstimate": {
+            "value": 480,
+            "sourceUrlOrId": "team-level estimate using playingMinutes, not elapsedClockMinutes; player minutes unavailable",
+            "collectedAt": "2026-07-08T09:26:57.863Z",
+            "sourceType": "project-derived",
+            "confidence": "medium",
+            "status": "probable"
+          }
+        }
+      },
+      "travel": {
+        "home": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        },
+        "away": {
+          "value": null,
+          "sourceUrlOrId": "No trusted source collected for travel origin/destination/distance/time-zone change",
+          "collectedAt": "2026-07-08T09:26:57.863Z",
+          "sourceType": "unavailable",
+          "confidence": "low",
+          "status": "unavailable"
+        }
+      },
+      "weatherSensitivity": "neutral; official forecast values unavailable."
+    }
+  ]
+}

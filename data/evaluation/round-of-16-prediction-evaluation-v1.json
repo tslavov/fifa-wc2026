@@ -1,0 +1,526 @@
+{
+  "datasetId": "round-of-16-prediction-evaluation-v1",
+  "artifactKind": "prediction_evaluation",
+  "generatedAt": "2026-07-08T09:26:57.863Z",
+  "contaminationControl": {
+    "previousPredictionArtifactsUsedForEvaluationOnly": true,
+    "doNotUsePreviousPredictionsAsTrainingData": true,
+    "evaluationInputs": [
+      "data\\predictions\\round-of-16-enhanced-predictions-v2.json",
+      "data\\results\\round-of-16-results-v1.json"
+    ]
+  },
+  "summary": {
+    "markov": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 0.5,
+      "qualificationAccuracy": 0.5,
+      "meanBrierScore": 0.6221,
+      "meanLogLoss": 1.0553,
+      "meanRankedProbabilityScore": 0.2627,
+      "meanAbsoluteGoalError": 1.3125,
+      "meanFantasyScore": 1.875
+    },
+    "monteCarlo": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 0.5,
+      "qualificationAccuracy": 0.5,
+      "meanBrierScore": 0.6221,
+      "meanLogLoss": 1.0553,
+      "meanRankedProbabilityScore": 0.2627,
+      "meanAbsoluteGoalError": 1.3125,
+      "meanFantasyScore": 2
+    },
+    "llmOnly": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 0.5,
+      "qualificationAccuracy": 0.625,
+      "meanBrierScore": null,
+      "meanLogLoss": null,
+      "meanRankedProbabilityScore": null,
+      "meanAbsoluteGoalError": 1.1875,
+      "meanFantasyScore": 1.875
+    }
+  },
+  "matches": [
+    {
+      "matchNumber": 89,
+      "fixture": "Paraguay vs France",
+      "actual": {
+        "regulationScore": {
+          "home": 0,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "France"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 0,
+          "away": 4
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.0053,
+        "logLoss": 0.0592,
+        "rankedProbabilityScore": 0.0018,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 4
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 0,
+          "away": 4
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.0053,
+        "logLoss": 0.0592,
+        "rankedProbabilityScore": 0.0018,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 4
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 0.5,
+        "fantasyScore": 4
+      },
+      "errorAttribution": [
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 90,
+      "fixture": "Canada vs Morocco",
+      "actual": {
+        "regulationScore": {
+          "home": 0,
+          "away": 3
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Morocco"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 0.5988,
+        "logLoss": 0.9684,
+        "rankedProbabilityScore": 0.2781,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 0.5988,
+        "logLoss": 0.9684,
+        "rankedProbabilityScore": 0.2781,
+        "meanAbsoluteGoalError": 2,
+        "fantasyScore": 0
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": true,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "errorAttribution": [
+        "90-minute outcome miss",
+        "qualification miss",
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 91,
+      "fixture": "Brazil vs Norway",
+      "actual": {
+        "regulationScore": {
+          "home": 1,
+          "away": 2
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Norway"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 1.6,
+        "logLoss": 2.7151,
+        "rankedProbabilityScore": 0.7964,
+        "meanAbsoluteGoalError": 2,
+        "fantasyScore": 0
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 1.6,
+        "logLoss": 2.7151,
+        "rankedProbabilityScore": 0.7964,
+        "meanAbsoluteGoalError": 2,
+        "fantasyScore": 0
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "errorAttribution": [
+        "90-minute outcome miss",
+        "qualification miss",
+        "missing contextual/player information",
+        "excessive confidence"
+      ]
+    },
+    {
+      "matchNumber": 92,
+      "fixture": "Mexico vs England",
+      "actual": {
+        "regulationScore": {
+          "home": 2,
+          "away": 3
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "England"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 1.1634,
+        "logLoss": 1.8541,
+        "rankedProbabilityScore": 0.5612,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 1
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": 1.1634,
+        "logLoss": 1.8541,
+        "rankedProbabilityScore": 0.5612,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 1
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": false,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "errorAttribution": [
+        "90-minute outcome miss",
+        "qualification miss",
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 93,
+      "fixture": "Portugal vs Spain",
+      "actual": {
+        "regulationScore": {
+          "home": 0,
+          "away": 1
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Spain"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.199,
+        "logLoss": 0.4511,
+        "rankedProbabilityScore": 0.0782,
+        "meanAbsoluteGoalError": 0.5,
+        "fantasyScore": 4
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.199,
+        "logLoss": 0.4511,
+        "rankedProbabilityScore": 0.0782,
+        "meanAbsoluteGoalError": 0.5,
+        "fantasyScore": 4
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 0,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 0.5,
+        "fantasyScore": 4
+      },
+      "errorAttribution": [
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 94,
+      "fixture": "United States vs Belgium",
+      "actual": {
+        "regulationScore": {
+          "home": 1,
+          "away": 4
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Belgium"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": true,
+        "brierScore": 0.4577,
+        "logLoss": 0.7848,
+        "rankedProbabilityScore": 0.2112,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 2,
+          "away": 2
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": true,
+        "brierScore": 0.4577,
+        "logLoss": 0.7848,
+        "rankedProbabilityScore": 0.2112,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 0
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": false,
+        "qualificationCorrect": true,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 1
+      },
+      "errorAttribution": [
+        "90-minute outcome miss",
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 95,
+      "fixture": "Argentina vs Egypt",
+      "actual": {
+        "regulationScore": {
+          "home": 3,
+          "away": 2
+        },
+        "scoreAfterExtraTime": null,
+        "penaltyScore": null,
+        "advancingTeam": "Argentina"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 4,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.0212,
+        "logLoss": 0.1254,
+        "rankedProbabilityScore": 0.008,
+        "meanAbsoluteGoalError": 1,
+        "fantasyScore": 3
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 3,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": 0.0212,
+        "logLoss": 0.1254,
+        "rankedProbabilityScore": 0.008,
+        "meanAbsoluteGoalError": 0.5,
+        "fantasyScore": 4
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 2,
+          "away": 0
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": true,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1.5,
+        "fantasyScore": 3
+      },
+      "errorAttribution": [
+        "missing contextual/player information"
+      ]
+    },
+    {
+      "matchNumber": 96,
+      "fixture": "Switzerland vs Colombia",
+      "actual": {
+        "regulationScore": {
+          "home": 0,
+          "away": 0
+        },
+        "scoreAfterExtraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penaltyScore": {
+          "home": 4,
+          "away": 3
+        },
+        "advancingTeam": "Switzerland"
+      },
+      "markov": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": false,
+        "brierScore": 0.9317,
+        "logLoss": 1.4841,
+        "rankedProbabilityScore": 0.1668,
+        "meanAbsoluteGoalError": 1,
+        "fantasyScore": 3
+      },
+      "monteCarlo": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": false,
+        "brierScore": 0.9317,
+        "logLoss": 1.4841,
+        "rankedProbabilityScore": 0.1668,
+        "meanAbsoluteGoalError": 1,
+        "fantasyScore": 3
+      },
+      "llmOnly": {
+        "selectedScore": {
+          "home": 1,
+          "away": 1
+        },
+        "exactScoreCorrect": false,
+        "outcomeCorrect": true,
+        "qualificationCorrect": false,
+        "brierScore": null,
+        "logLoss": null,
+        "rankedProbabilityScore": null,
+        "meanAbsoluteGoalError": 1,
+        "fantasyScore": 3
+      },
+      "errorAttribution": [
+        "penalties",
+        "missing contextual/player information"
+      ]
+    }
+  ]
+}
