@@ -23,6 +23,7 @@
     "update:after-group-stage": "node scripts/updateAfterGroupStage.mjs",
     "update:after-round-of-32": "node scripts/updateAfterRoundOf32.mjs",
     "update:after-round-of-16": "node scripts/updateAfterRoundOf16.mjs",
+    "update:after-quarter-finals": "node scripts/updateAfterQuarterFinals.mjs",
     "validate:round-of-16-update": "node scripts/validateRoundOf16Update.mjs",
     "report:quarter-final-methods": "node scripts/reportQuarterFinalMarkovMonteCarlo.mjs",
     "enhance:round-of-16-context": "node scripts/enhanceRoundOf16Context.mjs",

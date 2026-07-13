@@ -1,0 +1,176 @@
+{
+  "datasetId": "quarter-final-results-v1",
+  "artifactKind": "collected_results",
+  "generatedAt": "2026-07-13T07:56:17.757Z",
+  "source": {
+    "sourceName": "FIFA World Cup 2026 scores and fixtures",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "sourceApiUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+    "fetchedAt": "2026-07-13T07:56:17.757Z"
+  },
+  "completionStatus": {
+    "expectedFixtures": 4,
+    "completedFixtures": 4,
+    "incompleteFixtures": 0,
+    "allQuarterFinalFixturesFinal": true
+  },
+  "results": [
+    {
+      "matchId": "400021536",
+      "matchNumber": 97,
+      "stage": "Quarter-final",
+      "date": "2026-07-09",
+      "utcDateTime": "2026-07-09T20:00:00Z",
+      "venue": "Boston Stadium",
+      "city": "Boston",
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
+      "finalScore": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "resultType": "normal_time",
+      "matchDurationLabel": "97'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 97
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "France",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-13T07:56:17.757Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021538",
+      "matchNumber": 98,
+      "stage": "Quarter-final",
+      "date": "2026-07-10",
+      "utcDateTime": "2026-07-10T19:00:00Z",
+      "venue": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
+      "finalScore": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreAfterExtraTime": null,
+      "penaltyScore": null,
+      "resultType": "normal_time",
+      "matchDurationLabel": "98'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 0,
+        "playingMinutes": 90,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 98
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Spain",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-13T07:56:17.757Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021539",
+      "matchNumber": 99,
+      "stage": "Quarter-final",
+      "date": "2026-07-11",
+      "utcDateTime": "2026-07-11T21:00:00Z",
+      "venue": "Miami Stadium",
+      "city": "Miami",
+      "homeTeam": "Norway",
+      "awayTeam": "England",
+      "finalScore": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreAfterExtraTime": {
+        "home": 1,
+        "away": 2
+      },
+      "penaltyScore": null,
+      "resultType": "after_extra_time",
+      "matchDurationLabel": "123'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 30,
+        "playingMinutes": 120,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 123
+      },
+      "extraTimePlayed": true,
+      "penaltiesPlayed": false,
+      "advancingTeam": "England",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-13T07:56:17.757Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    },
+    {
+      "matchId": "400021537",
+      "matchNumber": 100,
+      "stage": "Quarter-final",
+      "date": "2026-07-12",
+      "utcDateTime": "2026-07-12T01:00:00Z",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "homeTeam": "Argentina",
+      "awayTeam": "Switzerland",
+      "finalScore": {
+        "home": 3,
+        "away": 1
+      },
+      "scoreAfterExtraTime": {
+        "home": 3,
+        "away": 1
+      },
+      "penaltyScore": null,
+      "resultType": "after_extra_time",
+      "matchDurationLabel": "125'",
+      "duration": {
+        "regulationMinutes": 90,
+        "extraTimeMinutes": 30,
+        "playingMinutes": 120,
+        "penaltyShootout": false,
+        "elapsedClockMinutes": 125
+      },
+      "extraTimePlayed": true,
+      "penaltiesPlayed": false,
+      "advancingTeam": "Argentina",
+      "source": {
+        "sourceUrlOrId": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+        "collectedAt": "2026-07-13T07:56:17.757Z",
+        "sourceType": "official",
+        "confidence": "high",
+        "status": "confirmed"
+      },
+      "notes": ""
+    }
+  ],
+  "warnings": [
+    "FIFA calendar confirms result, venue, kickoff and match duration label, but does not expose lineups/events/cards/xG in this endpoint."
+  ]
+}
