@@ -1,0 +1,84 @@
+{
+  "datasetId": "semi-final-actual-results-v1",
+  "artifactKind": "match_results",
+  "generatedAt": "2026-07-16T10:51:43.332Z",
+  "validationStatus": "fixed inputs cross-checked where official FIFA report was available",
+  "records": [
+    {
+      "matchId": "400021541",
+      "matchNumber": 101,
+      "stage": "Semi-final",
+      "homeTeam": "France",
+      "awayTeam": "Spain",
+      "kickoffUtc": "2026-07-14T19:00:00Z",
+      "venue": "Dallas Stadium",
+      "city": "Dallas",
+      "scoreAfter90": {
+        "home": 0,
+        "away": 2
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advanced": "Spain",
+      "events": [
+        {
+          "minute": 22,
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "type": "penalty_goal"
+        },
+        {
+          "minute": 58,
+          "team": "Spain",
+          "player": "Pedro Porro",
+          "type": "goal"
+        }
+      ],
+      "source": "FIFA match report",
+      "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-spain-match-report-highlights",
+      "collectionTimestamp": "2026-07-16T10:51:43.332Z",
+      "dataAvailability": "result, venue, kickoff and scoring events available",
+      "validationStatus": "officially confirmed",
+      "missingData": [
+        "official starting lineups",
+        "substitutions",
+        "cards",
+        "complete player minutes",
+        "complete match-event feed",
+        "team-level match statistics"
+      ]
+    },
+    {
+      "matchId": "400021540",
+      "matchNumber": 102,
+      "stage": "Semi-final",
+      "homeTeam": "England",
+      "awayTeam": "Argentina",
+      "kickoffUtc": "2026-07-15T19:00:00Z",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "scoreAfter90": {
+        "home": 1,
+        "away": 2
+      },
+      "extraTimePlayed": false,
+      "penaltiesPlayed": false,
+      "advanced": "Argentina",
+      "source": "user-confirmed fixed official input; FIFA calendar endpoint designated for verification",
+      "sourceUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+      "collectionTimestamp": "2026-07-16T10:51:43.332Z",
+      "dataAvailability": "teams, result, venue and kickoff available",
+      "validationStatus": "accepted fixed input; detailed FIFA record unavailable to collector",
+      "missingData": [
+        "official starting lineups",
+        "substitutions",
+        "cards",
+        "complete player minutes",
+        "complete match-event feed",
+        "team-level match statistics",
+        "official FIFA match-report URL",
+        "scorers and event minutes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "datasetId": "semi-final-prediction-evaluation-v1",
+  "artifactKind": "prediction_evaluation",
+  "generatedAt": "2026-07-16T10:51:43.332Z",
+  "inputs": [
+    "data\\predictions\\remaining-knockout-score-predictions-v1.json",
+    "data\\results\\semi-final-actual-results-v1.json"
+  ],
+  "sampleSize": 2,
+  "summary": {
+    "markov": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 1,
+      "qualificationAccuracy": 1,
+      "meanBrierScore": 0.2079,
+      "meanLogLoss": 0.4493,
+      "meanRankedProbabilityScore": 0.0896,
+      "meanQualificationBrierScore": 0.1483,
+      "meanFantasyScore": 3
+    },
+    "monteCarlo": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 1,
+      "qualificationAccuracy": 1,
+      "meanBrierScore": 0.2079,
+      "meanLogLoss": 0.4493,
+      "meanRankedProbabilityScore": 0.0896,
+      "meanQualificationBrierScore": 0.1478,
+      "meanFantasyScore": 3
+    },
+    "ensemble": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 1,
+      "qualificationAccuracy": 1,
+      "meanBrierScore": 0.2079,
+      "meanLogLoss": 0.4493,
+      "meanRankedProbabilityScore": 0.0896,
+      "meanQualificationBrierScore": 0.1483,
+      "meanFantasyScore": 3
+    }
+  },
+  "calibration": {
+    "outcomeProbabilities": [
+      {
+        "bin": "0.0-0.2",
+        "count": 2,
+        "meanPredicted": 0.112,
+        "observedFrequency": 0
+      },
+      {
+        "bin": "0.2-0.4",
+        "count": 2,
+        "meanPredicted": 0.2377,
+        "observedFrequency": 0
+      },
+      {
+        "bin": "0.4-0.6",
+        "count": 1,
+        "meanPredicted": 0.5247,
+        "observedFrequency": 1
+      },
+      {
+        "bin": "0.6-0.8",
+        "count": 1,
+        "meanPredicted": 0.776,
+        "observedFrequency": 1
+      }
+    ],
+    "qualificationProbabilities": [
+      {
+        "bin": "0.0-0.2",
+        "count": 1,
+        "meanPredicted": 0.1436,
+        "observedFrequency": 0
+      },
+      {
+        "bin": "0.2-0.4",
+        "count": 1,
+        "meanPredicted": 0.3573,
+        "observedFrequency": 0
+      },
+      {
+        "bin": "0.6-0.8",
+        "count": 1,
+        "meanPredicted": 0.6427,
+        "observedFrequency": 1
+      },
+      {
+        "bin": "0.8-1.0",
+        "count": 1,
+        "meanPredicted": 0.8564,
+        "observedFrequency": 1
+      }
+    ],
+    "warning": "Two matches are insufficient for standalone recalibration."
+  },
+  "matches": [
+    {
+      "matchNumber": 101,
+      "fixture": "France vs Spain",
+      "previousPrediction": {
+        "mostProbableScore": {
+          "home": 1,
+          "away": 2,
+          "probability": 0.092,
+          "expectedFantasyPoints": 2.4605
+        },
+        "selectedScore": {
+          "home": 1,
+          "away": 3,
+          "probability": 0.0654
+        },
+        "outcomeProbabilities": {
+          "homeWin": 0.2659,
+          "drawThrough90": 0.2094,
+          "awayWin": 0.5247
+        },
+        "qualificationProbabilities": {
+          "home": 0.3573,
+          "away": 0.6427
+        }
+      },
+      "actual": {
+        "scoreAfter90": {
+          "home": 0,
+          "away": 2
+        },
+        "advanced": "Spain"
+      },
+      "methods": {
+        "markov": {
+          "selectedScore": {
+            "home": 1,
+            "away": 3
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.3405,
+          "logLoss": 0.6449,
+          "rankedProbabilityScore": 0.1483,
+          "qualificationBrierScore": 0.2553,
+          "fantasyScore": 3
+        },
+        "monteCarlo": {
+          "selectedScore": {
+            "home": 1,
+            "away": 3
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.3405,
+          "logLoss": 0.6449,
+          "rankedProbabilityScore": 0.1483,
+          "qualificationBrierScore": 0.2543,
+          "fantasyScore": 3
+        },
+        "ensemble": {
+          "selectedScore": {
+            "home": 1,
+            "away": 3
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.3405,
+          "logLoss": 0.6449,
+          "rankedProbabilityScore": 0.1483,
+          "qualificationBrierScore": 0.2553,
+          "fantasyScore": 3
+        }
+      }
+    },
+    {
+      "matchNumber": 102,
+      "fixture": "England vs Argentina",
+      "previousPrediction": {
+        "mostProbableScore": {
+          "home": 1,
+          "away": 3,
+          "probability": 0.0699,
+          "expectedFantasyPoints": 3.0809
+        },
+        "selectedScore": {
+          "home": 2,
+          "away": 4,
+          "probability": 0.0507
+        },
+        "outcomeProbabilities": {
+          "homeWin": 0.1085,
+          "drawThrough90": 0.1155,
+          "awayWin": 0.776
+        },
+        "qualificationProbabilities": {
+          "home": 0.1436,
+          "away": 0.8564
+        }
+      },
+      "actual": {
+        "scoreAfter90": {
+          "home": 1,
+          "away": 2
+        },
+        "advanced": "Argentina"
+      },
+      "methods": {
+        "markov": {
+          "selectedScore": {
+            "home": 2,
+            "away": 4
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.0753,
+          "logLoss": 0.2536,
+          "rankedProbabilityScore": 0.031,
+          "qualificationBrierScore": 0.0412,
+          "fantasyScore": 3
+        },
+        "monteCarlo": {
+          "selectedScore": {
+            "home": 2,
+            "away": 4
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.0753,
+          "logLoss": 0.2536,
+          "rankedProbabilityScore": 0.031,
+          "qualificationBrierScore": 0.0413,
+          "fantasyScore": 3
+        },
+        "ensemble": {
+          "selectedScore": {
+            "home": 2,
+            "away": 4
+          },
+          "exactScoreCorrect": false,
+          "outcomeCorrect": true,
+          "qualificationCorrect": true,
+          "brierScore": 0.0753,
+          "logLoss": 0.2536,
+          "rankedProbabilityScore": 0.031,
+          "qualificationBrierScore": 0.0412,
+          "fantasyScore": 3
+        }
+      }
+    }
+  ]
+}

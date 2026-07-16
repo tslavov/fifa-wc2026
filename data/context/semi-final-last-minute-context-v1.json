@@ -1,0 +1,126 @@
+{
+  "datasetId": "semi-final-last-minute-context-v1",
+  "artifactKind": "last_minute_context",
+  "generatedAt": "2026-07-14T00:00:00+03:00",
+  "scope": "Sourced late context for World Cup 2026 remaining knockout predictions as of the semi-final window.",
+  "applicationPolicy": {
+    "numericUse": "Only explicit fixture/team expected-goals multipliers are applied. All other sourced notes are explanatory context.",
+    "multiplierBounds": [0.95, 1.05],
+    "lineupPolicy": "Do not invent lineups. Expected availability is not treated as confirmed until official lineups exist.",
+    "weatherPolicy": "Weather is applied only when a reliable source indicates likely on-field conditions; roofed or climate-controlled venues are neutral unless disruption is specifically expected."
+  },
+  "globalFactors": [
+    {
+      "factor": "yellow_card_reset_after_quarter_finals",
+      "summary": "Yellow-card accumulation is reported as reset after the quarter-finals, reducing semi-final suspension risk from accumulated yellows.",
+      "appliedToModel": true,
+      "modelEffect": "No yellow-card accumulation suspension penalty applied for semi-final predictions.",
+      "sourceRefs": [
+        {
+          "sourceName": "talkSPORT",
+          "sourceUrl": "https://talksport.com/football/world-cup/1200553/england-yellow-cards-semi-finals-bellingham-rice-guehi-oreilly/",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "fixtureContexts": [
+    {
+      "matchNumber": 101,
+      "fixture": "France vs Spain",
+      "stage": "Semi-final",
+      "summary": "France have the longer rest window after a 90-minute quarter-final; Spain are reported fully fit, while France's Mbappe and Kone concerns are described as minor. Controlled AT&T Stadium conditions keep weather neutral.",
+      "teamAdjustments": [
+        {
+          "team": "France",
+          "expectedGoalsMultiplier": 1.004,
+          "appliedToModel": true,
+          "rationale": "Small rest advantage over Spain after both quarter-finals ended in 90 minutes; minor availability concerns are not strong enough for a separate penalty."
+        },
+        {
+          "team": "Spain",
+          "expectedGoalsMultiplier": 0.998,
+          "appliedToModel": true,
+          "rationale": "Slightly shorter recovery window than France; fully fit squad note keeps the adjustment very small."
+        }
+      ],
+      "contextOnlyFactors": [
+        "France and Spain are reported as unbeaten and not having trailed in the tournament.",
+        "France's Mbappe and Kone concerns are reported as minor; Spain are reported fully fit.",
+        "AT&T Stadium conditions are treated as controlled/neutral for on-field weather impact."
+      ],
+      "sourceRefs": [
+        {
+          "sourceName": "AP News",
+          "sourceUrl": "https://apnews.com/article/1fcbd397cb402688024b706f222b1b93",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        },
+        {
+          "sourceName": "talkSPORT",
+          "sourceUrl": "https://talksport.com/football/world-cup/4411822/where-to-watch-france-v-spain-tv-channel-free-live-stream/",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        },
+        {
+          "sourceName": "talkSPORT",
+          "sourceUrl": "https://talksport.com/betting/4411918/france-vs-spain-bet-builder-tips/",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "matchNumber": 102,
+      "fixture": "England vs Argentina",
+      "stage": "Semi-final",
+      "summary": "England's Rice, Bellingham and James are reported fit or expected to be available, but Rice illness/managed fitness and Argentina's slightly shorter recovery after extra time keep both teams close to neutral. Atlanta roof/climate control keeps weather neutral for on-field play.",
+      "teamAdjustments": [
+        {
+          "team": "England",
+          "expectedGoalsMultiplier": 0.999,
+          "appliedToModel": true,
+          "rationale": "Availability news is mostly positive, but Rice's recent illness/managed condition keeps a tiny caution discount."
+        },
+        {
+          "team": "Argentina",
+          "expectedGoalsMultiplier": 0.997,
+          "appliedToModel": true,
+          "rationale": "Argentina played 120 minutes and have a slightly shorter recovery window than England; no confirmed player absence is applied."
+        }
+      ],
+      "contextOnlyFactors": [
+        "Declan Rice is reported likely to start after illness.",
+        "Jude Bellingham is reported fit despite shoulder attention.",
+        "Reece James is reported fit and ready.",
+        "Atlanta Stadium conditions are treated as climate-controlled and weather-neutral for on-field play."
+      ],
+      "sourceRefs": [
+        {
+          "sourceName": "The Guardian",
+          "sourceUrl": "https://www.theguardian.com/football/2026/jul/13/england-declan-rice-winning-fitness-battle-argentina-world-cup",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        },
+        {
+          "sourceName": "The Guardian live blog",
+          "sourceUrl": "https://www.theguardian.com/football/live/2026/jul/13/world-cup-2026-buildup-to-blockbuster-semi-finals-infantino-hints-at-64-team-expansion-live",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        },
+        {
+          "sourceName": "The Sun",
+          "sourceUrl": "https://www.thesun.co.uk/sport/39741266/is-atlanta-stadium-air-conditioned-weather-england-argentina/",
+          "collectedAt": "2026-07-14",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "No official starting lineups were available at collection time.",
+    "No trusted xG, shot, event, player-minute, or complete card-log source was added.",
+    "News-source availability notes are treated conservatively and do not override official results or team-strength inputs."
+  ]
+}

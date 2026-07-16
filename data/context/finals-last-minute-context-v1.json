@@ -1,0 +1,141 @@
+{
+  "datasetId": "finals-last-minute-context-v1",
+  "artifactKind": "match_context",
+  "generatedAt": "2026-07-16T10:51:43.332Z",
+  "fixtures": [
+    {
+      "matchId": 103,
+      "fixture": "France vs England",
+      "factors": {
+        "venue": {
+          "value": "Miami Stadium",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Venue recorded; no validated directional effect."
+        },
+        "kickoffUtc": {
+          "value": "2026-07-18T21:00:00Z",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Scheduling fact only."
+        },
+        "rest": {
+          "value": "France 4 days; England 3 days",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Repository rest backtest did not improve calibration."
+        },
+        "accumulatedExtraTime": {
+          "value": "France 0; England 30 minutes in quarter-final",
+          "source": "data\\knockout\\semi-final-team-stats-v1.json",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Not validated as a directional scoring adjustment."
+        },
+        "rotation": {
+          "value": "uncertain; elevated third-place rotation risk",
+          "source": "model policy inference",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No confirmed lineup; uncertainty only."
+        },
+        "motivation": {
+          "value": "uncertain after semi-final defeats",
+          "source": "model policy inference",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No reliable symmetric measurement."
+        },
+        "weather": {
+          "value": "not collected",
+          "source": "unavailable",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No official match-time forecast validated for both teams."
+        },
+        "availability": {
+          "value": "not confirmed",
+          "source": "unavailable",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No official squad announcement collected."
+        }
+      },
+      "uncertaintyAdjustment": "high contextual uncertainty; no directional expected-goals adjustment"
+    },
+    {
+      "matchId": 104,
+      "fixture": "Spain vs Argentina",
+      "factors": {
+        "venue": {
+          "value": "New York New Jersey Stadium",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Venue recorded; no validated directional effect."
+        },
+        "kickoffUtc": {
+          "value": "2026-07-19T19:00:00Z",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Scheduling fact only."
+        },
+        "rest": {
+          "value": "Spain 5 days; Argentina 4 days",
+          "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=104&idCompetition=17&idSeason=285023",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Repository rest backtest did not improve calibration."
+        },
+        "accumulatedExtraTime": {
+          "value": "Spain 0; Argentina 30 minutes in quarter-final",
+          "source": "data\\knockout\\semi-final-team-stats-v1.json",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "high",
+          "includedInModel": false,
+          "reason": "Not validated as a directional scoring adjustment."
+        },
+        "tacticalContext": {
+          "value": "final may increase risk management",
+          "source": "historical football inference",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No repository final-specific backtest; no forced low-score multiplier."
+        },
+        "weather": {
+          "value": "not collected",
+          "source": "unavailable",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No official match-time forecast validated for both teams."
+        },
+        "availability": {
+          "value": "not confirmed",
+          "source": "unavailable",
+          "collectionTime": "2026-07-16T10:51:43.332Z",
+          "confidence": "low",
+          "includedInModel": false,
+          "reason": "No official squad announcement collected."
+        }
+      },
+      "uncertaintyAdjustment": "medium contextual uncertainty; no directional expected-goals adjustment"
+    }
+  ]
+}

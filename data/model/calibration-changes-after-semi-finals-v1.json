@@ -1,0 +1,93 @@
+{
+  "datasetId": "calibration-changes-after-semi-finals-v1",
+  "artifactKind": "calibration_change",
+  "generatedAt": "2026-07-16T10:51:43.332Z",
+  "evidence": {
+    "semiFinalSampleSize": 2,
+    "semiFinalEvaluation": "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+    "previousCumulativeArtifact": "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+    "previousCumulativeMetrics": {
+      "exactScoreAccuracy": 0,
+      "outcomeAccuracy": 0.5,
+      "qualificationAccuracy": 0.5,
+      "meanBrierScore": 0.6221,
+      "meanLogLoss": 1.0553,
+      "meanRankedProbabilityScore": 0.2627,
+      "meanAbsoluteGoalError": 1.3125,
+      "meanFantasyScore": 1.875
+    }
+  },
+  "adjustments": [
+    {
+      "feature": "residualEvidenceWeight",
+      "originalValue": 0.05,
+      "candidateValue": 0.1,
+      "finalRetainedValue": 0.05,
+      "reason": "Two semi-finals must not dominate cumulative and historical evidence.",
+      "evidence": [
+        "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+        "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+        "data\\evaluation\\context-feature-backtest.json"
+      ],
+      "validationResult": "Retaining regularisation prevents reactive fitting.",
+      "status": "rejected"
+    },
+    {
+      "feature": "formSignalScale",
+      "originalValue": 0.45,
+      "candidateValue": 0.4,
+      "finalRetainedValue": 0.45,
+      "reason": "Semi-final misses do not identify form-scale error from two observations.",
+      "evidence": [
+        "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+        "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+        "data\\evaluation\\context-feature-backtest.json"
+      ],
+      "validationResult": "Rejected: no out-of-sample improvement established.",
+      "status": "rejected"
+    },
+    {
+      "feature": "ensembleMarkovWeight",
+      "originalValue": null,
+      "candidateValue": 0.6,
+      "finalRetainedValue": 0.6,
+      "reason": "Analytical distribution receives a modest stability preference; Monte Carlo remains an independent finite-sample check.",
+      "evidence": [
+        "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+        "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+        "data\\evaluation\\context-feature-backtest.json"
+      ],
+      "validationResult": "Accepted as conservative documented weighting; components had identical semi-final decisions.",
+      "status": "accepted"
+    },
+    {
+      "feature": "thirdPlaceGoalMultiplier",
+      "originalValue": 1,
+      "candidateValue": 1.08,
+      "finalRetainedValue": 1,
+      "reason": "No repository historical third-place backtest supports a directional goals bonus.",
+      "evidence": [
+        "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+        "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+        "data\\evaluation\\context-feature-backtest.json"
+      ],
+      "validationResult": "Rejected; uncertainty is widened instead.",
+      "status": "rejected"
+    },
+    {
+      "feature": "finalGoalMultiplier",
+      "originalValue": 1,
+      "candidateValue": 0.92,
+      "finalRetainedValue": 1,
+      "reason": "Small historical final samples are absent from repository validation.",
+      "evidence": [
+        "data\\evaluation\\semi-final-prediction-evaluation-v1.json",
+        "data\\evaluation\\round-of-16-prediction-evaluation-v1.json",
+        "data\\evaluation\\context-feature-backtest.json"
+      ],
+      "validationResult": "Rejected; no automatic low-score adjustment.",
+      "status": "rejected"
+    }
+  ],
+  "protectionAgainstOverfitting": "No coefficient or scoring-rate change is accepted from the two newest matches; the established 5% residual update is retained."
+}

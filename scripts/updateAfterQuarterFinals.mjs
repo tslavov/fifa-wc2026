@@ -8,6 +8,7 @@ const PATHS = {
   priorTeamStats: join("data", "knockout", "quarter-final-team-stats-v1.json"),
   calibration: join("data", "model", "calibration-changes-after-round-of-32-v1.json"),
   quarterFinalAdjustments: join("data", "model", "quarter-final-model-adjustments-v1.json"),
+  lastMinuteContext: join("data", "context", "semi-final-last-minute-context-v1.json"),
   results: join("data", "results", "quarter-final-results-v1.json"),
   teamStats: join("data", "knockout", "semi-final-team-stats-v1.json"),
   predictions: join("data", "predictions", "remaining-knockout-score-predictions-v1.json"),
@@ -27,6 +28,8 @@ const SCORE_SELECTION = {
   nearEqualAbsoluteProbabilityBand: 0.03,
   higherScoreTiebreak: true,
 };
+const LAST_MINUTE_MULTIPLIER_MIN = 0.95;
+const LAST_MINUTE_MULTIPLIER_MAX = 1.05;
 
 const aliases = new Map([
   ["usa", "United States"],
@@ -35,16 +38,17 @@ const aliases = new Map([
 
 async function main() {
   const generatedAt = new Date().toISOString();
-  const [priorTeamStats, calibration, quarterFinalAdjustments, calendar] = await Promise.all([
+  const [priorTeamStats, calibration, quarterFinalAdjustments, lastMinuteContext, calendar] = await Promise.all([
     readJson(PATHS.priorTeamStats),
     readJson(PATHS.calibration),
     readJson(PATHS.quarterFinalAdjustments),
+    readJsonOptional(PATHS.lastMinuteContext, null),
     fetchFifaCalendar(),
   ]);
   const fixtures = calendar.Results.map((match) => normalizeFixture(match, generatedAt)).sort((a, b) => a.matchNumber - b.matchNumber);
   const quarterFinalResults = buildQuarterFinalResults(fixtures, generatedAt);
   const teamStats = buildSemiFinalTeamStats(priorTeamStats, quarterFinalResults.results, quarterFinalAdjustments, generatedAt);
-  const predictions = buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibration, quarterFinalAdjustments, quarterFinalResults, generatedAt);
+  const predictions = buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibration, quarterFinalAdjustments, quarterFinalResults, lastMinuteContext, generatedAt);
 
   await writeJson(PATHS.results, quarterFinalResults);
   await writeJson(PATHS.teamStats, teamStats);
@@ -233,24 +237,25 @@ function buildSemiFinalTeamStats(prior, results, adjustments, generatedAt) {
   };
 }
 
-function buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibration, adjustments, quarterFinalResults, generatedAt) {
+function buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibration, adjustments, quarterFinalResults, lastMinuteContext, generatedAt) {
   const params = {
     ...calibration.updatedParameters.markovChainScorePredictions.modelParameters,
     baseGoalsPerTeamMatch: average(priorTeamStats.teams.map((team) => rateSource(team).goalsForPerMatch)),
     formSignalScale: adjustments.formSignalScale ?? 0.45,
     extraTimeScoringRate: EXTRA_TIME_SCORING_RATE,
+    residualEvidenceWeight: adjustments.residualEvidenceWeight ?? adjustments.scoreUpdateShrinkageWeight ?? 0.05,
   };
   const inputs = buildModelInputs(teamStats.teams, params);
   const byTeam = new Map(inputs.map((team) => [teamKey(team.team), team]));
   const semifinalMatches = fixtures.filter((fixture) => SEMI_NUMBERS.includes(fixture.matchNumber)).map((fixture) => {
     if (!fixture.homeTeam || !fixture.awayTeam) throw new Error(`Semi-final match ${fixture.matchNumber} is not assigned.`);
-    return predictionRow(fixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + fixture.matchNumber);
+    return predictionRow(fixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + fixture.matchNumber, findFixtureContext(lastMinuteContext, fixture));
   });
   const [semiA, semiB] = semifinalMatches;
   const finalFixture = resolveConditionalFixture(fixtures, FINAL_NUMBER, semiA.selectedAdvancingTeam, semiB.selectedAdvancingTeam);
   const thirdFixture = resolveConditionalFixture(fixtures, THIRD_PLACE_NUMBER, loser(semiA), loser(semiB));
-  const finalPrediction = predictionRow(finalFixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + FINAL_NUMBER);
-  const thirdPlacePrediction = predictionRow(thirdFixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + THIRD_PLACE_NUMBER);
+  const finalPrediction = predictionRow(finalFixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + FINAL_NUMBER, findFixtureContext(lastMinuteContext, finalFixture));
+  const thirdPlacePrediction = predictionRow(thirdFixture, byTeam, params, SIMULATIONS_PER_FIXTURE, RANDOM_SEED_BASE + THIRD_PLACE_NUMBER, findFixtureContext(lastMinuteContext, thirdFixture));
   const bracketSimulation = simulateRemainingBracket(semifinalMatches, byTeam, params, BRACKET_SIMULATIONS);
 
   return {
@@ -261,7 +266,7 @@ function buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibrat
     excludeFromFuturePredictionInputs: true,
     doNotUseAsTrainingData: true,
     contaminationControl: {
-      builderInputPaths: [PATHS.teamStats, PATHS.calibration, PATHS.quarterFinalAdjustments, PATHS.results],
+      builderInputPaths: [PATHS.teamStats, PATHS.calibration, PATHS.quarterFinalAdjustments, PATHS.results, ...(lastMinuteContext ? [PATHS.lastMinuteContext] : [])],
       previousPredictionArtifactsUsedForEvaluationOnly: false,
       predictionDirectoryReadAsInputForPrediction: false,
       noFutureResultsUsed: true,
@@ -271,13 +276,19 @@ function buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibrat
       modelParameters: params,
       scoreUpdateMethod: "opponent_adjusted_residual",
       scoreUpdateShrinkageWeight: adjustments.scoreUpdateShrinkageWeight ?? adjustments.residualEvidenceWeight ?? 0.05,
+      lastMinuteContextPolicy: {
+        sourcePath: lastMinuteContext ? PATHS.lastMinuteContext : null,
+        expectedGoalsMultiplierBounds: [LAST_MINUTE_MULTIPLIER_MIN, LAST_MINUTE_MULTIPLIER_MAX],
+        notes: "Only sourced, fixture-specific factors with explicit multipliers are applied numerically. Unconfirmed lineups, vague injuries and weather without on-field impact remain context only.",
+      },
       scoreSelection: SCORE_SELECTION,
       simulationsPerFixture: SIMULATIONS_PER_FIXTURE,
       bracketSimulations: BRACKET_SIMULATIONS,
       randomSeedBase: RANDOM_SEED_BASE,
       noInventedInputs: true,
-      unavailableInputsOmitted: ["lineups", "injuries", "suspensions", "xG", "event data", "cards", "weather", "travel"],
+      unavailableInputsOmitted: ["confirmed lineups", "player minutes", "xG", "event data", "complete card logs", "detailed travel logistics"],
     },
+    lastMinuteContext: lastMinuteContext ? summarizeLastMinuteContext(lastMinuteContext) : null,
     officialQuarterFinalResults: quarterFinalResults.results,
     semiFinalPredictions: semifinalMatches,
     selectedPath: {
@@ -293,7 +304,7 @@ function buildRemainingPredictions(fixtures, priorTeamStats, teamStats, calibrat
   };
 }
 
-function predictionRow(fixture, byTeam, params, iterations, seed) {
+function predictionRow(fixture, byTeam, params, iterations, seed, fixtureContext) {
   return {
     matchId: fixture.matchId,
     matchNumber: fixture.matchNumber,
@@ -304,15 +315,18 @@ function predictionRow(fixture, byTeam, params, iterations, seed) {
     city: fixture.city,
     homeTeam: fixture.homeTeam,
     awayTeam: fixture.awayTeam,
-    ...matchupPrediction(fixture.homeTeam, fixture.awayTeam, byTeam, params, iterations, seed),
+    ...matchupPrediction(fixture.homeTeam, fixture.awayTeam, byTeam, params, iterations, seed, fixtureContext),
   };
 }
 
-function matchupPrediction(homeTeam, awayTeam, byTeam, params, iterations, seed) {
+function matchupPrediction(homeTeam, awayTeam, byTeam, params, iterations, seed, fixtureContext = null) {
   const home = required(byTeam.get(teamKey(homeTeam)), `Missing team ${homeTeam}.`);
   const away = required(byTeam.get(teamKey(awayTeam)), `Missing team ${awayTeam}.`);
-  const lambdaHome = expectedGoals(home, away, params);
-  const lambdaAway = expectedGoals(away, home, params);
+  const baseLambdaHome = expectedGoals(home, away, params);
+  const baseLambdaAway = expectedGoals(away, home, params);
+  const contextAdjustment = buildContextAdjustment(fixtureContext, homeTeam, awayTeam);
+  const lambdaHome = round(clamp(baseLambdaHome * contextAdjustment.home.expectedGoalsMultiplier, params.lambdaMin, params.lambdaMax));
+  const lambdaAway = round(clamp(baseLambdaAway * contextAdjustment.away.expectedGoalsMultiplier, params.lambdaMin, params.lambdaMax));
   const distribution = buildScoreDistribution(lambdaHome, lambdaAway, params).map((score) => ({ homeGoals: score.goalsA, awayGoals: score.goalsB, probability: score.probability }));
   const metrics = calculateScoreDistributionMetrics(distribution);
   const extraTime = extraTimeModel(lambdaHome, lambdaAway, home, away, params);
@@ -326,7 +340,9 @@ function matchupPrediction(homeTeam, awayTeam, byTeam, params, iterations, seed)
   return {
     homeTeam,
     awayTeam,
+    lastMinuteContext: contextAdjustment,
     expectedGoals: { home: metrics.expectedHomeGoals, away: metrics.expectedAwayGoals },
+    baseExpectedGoalsBeforeLastMinuteContext: { home: baseLambdaHome, away: baseLambdaAway },
     selectedScore: { home: selected.homeGoals, away: selected.awayGoals, probability: selected.probability },
     mostProbableScore: scoreOut(top[0]),
     alternativeScores: top.slice(1, 5).map(scoreOut),
@@ -357,7 +373,7 @@ function matchupPrediction(homeTeam, awayTeam, byTeam, params, iterations, seed)
     scoreDistribution: distribution,
     validation: validateDistribution(distribution, metrics, qual),
     validationWarnings: warnings,
-    reasoningNote: `${homeTeam} residual-updated GF/GA ${home.modelingTotals.goalsForPerMatch}-${home.modelingTotals.goalsAgainstPerMatch} vs ${awayTeam} ${away.modelingTotals.goalsForPerMatch}-${away.modelingTotals.goalsAgainstPerMatch}; quarter-final score update uses ${Math.round((params.residualEvidenceWeight ?? 0.05) * 100)}% of opponent-adjusted residual only.`,
+    reasoningNote: `${homeTeam} residual-updated GF/GA ${home.modelingTotals.goalsForPerMatch}-${home.modelingTotals.goalsAgainstPerMatch} vs ${awayTeam} ${away.modelingTotals.goalsForPerMatch}-${away.modelingTotals.goalsAgainstPerMatch}; quarter-final score update uses ${Math.round((params.residualEvidenceWeight ?? 0.05) * 100)}% of opponent-adjusted residual only.${contextAdjustment.appliedToModel ? ` Last-minute xG multipliers: ${homeTeam} ${contextAdjustment.home.expectedGoalsMultiplier}, ${awayTeam} ${contextAdjustment.away.expectedGoalsMultiplier}.` : " No sourced last-minute numeric adjustment for this fixture."}`,
   };
 }
 
@@ -398,6 +414,62 @@ function cachedMatchup(homeTeam, awayTeam, byTeam, params, cache) {
   const key = `${homeTeam}||${awayTeam}`;
   if (!cache.has(key)) cache.set(key, matchupPrediction(homeTeam, awayTeam, byTeam, params, 0, 0));
   return cache.get(key);
+}
+
+function findFixtureContext(lastMinuteContext, fixture) {
+  const contexts = lastMinuteContext?.fixtureContexts;
+  if (!Array.isArray(contexts)) return null;
+  return contexts.find((context) => context.matchNumber === fixture.matchNumber)
+    ?? contexts.find((context) => {
+      const teams = String(context.fixture ?? "").split(/\s+vs\s+/i).map(teamKey);
+      return teams.length === 2 && teams.includes(teamKey(fixture.homeTeam)) && teams.includes(teamKey(fixture.awayTeam));
+    })
+    ?? null;
+}
+
+function buildContextAdjustment(fixtureContext, homeTeam, awayTeam) {
+  const home = teamContextAdjustment(fixtureContext, homeTeam);
+  const away = teamContextAdjustment(fixtureContext, awayTeam);
+  return {
+    sourceDatasetId: fixtureContext?.datasetId ?? undefined,
+    summary: fixtureContext?.summary ?? "No fixture-specific last-minute context available.",
+    appliedToModel: home.appliedToModel || away.appliedToModel,
+    home,
+    away,
+    sourceRefs: fixtureContext?.sourceRefs ?? [],
+    contextOnlyFactors: fixtureContext?.contextOnlyFactors ?? [],
+  };
+}
+
+function teamContextAdjustment(fixtureContext, team) {
+  const adjustment = fixtureContext?.teamAdjustments?.find((item) => teamKey(item.team) === teamKey(team));
+  const rawMultiplier = Number(adjustment?.expectedGoalsMultiplier ?? 1);
+  const multiplier = Number.isFinite(rawMultiplier) ? clamp(rawMultiplier, LAST_MINUTE_MULTIPLIER_MIN, LAST_MINUTE_MULTIPLIER_MAX) : 1;
+  return {
+    team,
+    expectedGoalsMultiplier: round(multiplier),
+    appliedToModel: Boolean(adjustment?.appliedToModel) && multiplier !== 1,
+    rationale: adjustment?.rationale ?? "No sourced numeric last-minute adjustment.",
+  };
+}
+
+function summarizeLastMinuteContext(lastMinuteContext) {
+  return {
+    datasetId: lastMinuteContext.datasetId,
+    generatedAt: lastMinuteContext.generatedAt,
+    sourcePath: PATHS.lastMinuteContext,
+    applicationPolicy: lastMinuteContext.applicationPolicy,
+    globalFactors: lastMinuteContext.globalFactors ?? [],
+    fixtureContexts: (lastMinuteContext.fixtureContexts ?? []).map((context) => ({
+      matchNumber: context.matchNumber,
+      fixture: context.fixture,
+      summary: context.summary,
+      teamAdjustments: context.teamAdjustments ?? [],
+      contextOnlyFactors: context.contextOnlyFactors ?? [],
+      sourceRefs: context.sourceRefs ?? [],
+    })),
+    warnings: lastMinuteContext.warnings ?? [],
+  };
 }
 
 function sampleQualifier(match, rng) {
@@ -669,6 +741,7 @@ function buildReport(results, teamStats, predictions) {
     `- Collected: ${results.generatedAt}`,
     `- Team stats: ${PATHS.teamStats}`,
     `- Prediction artifact: ${PATHS.predictions}`,
+    `- Last-minute context: ${predictions.lastMinuteContext ? PATHS.lastMinuteContext : "none"}`,
     "",
     "## 3. Quarter-Final Actual Results",
     "",
@@ -676,36 +749,41 @@ function buildReport(results, teamStats, predictions) {
     "| ---: | --- | --- | --- | --- | --- | --- | ---: |",
     ...results.results.map((match) => `| ${match.matchNumber}: ${match.homeTeam} vs ${match.awayTeam} | ${match.venue} | ${match.utcDateTime} | ${match.finalScore.home}-${match.finalScore.away} | ${match.scoreAfterExtraTime ? `${match.scoreAfterExtraTime.home}-${match.scoreAfterExtraTime.away}` : ""} | ${match.penaltyScore ? `${match.penaltyScore.home}-${match.penaltyScore.away}` : ""} | ${match.advancingTeam} | ${match.duration.playingMinutes} |`),
     "",
-    "## 4. Semi-Final Predictions",
+    "## 4. Last-Minute Context Applied",
+    "",
+    ...lastMinuteContextLines(predictions.lastMinuteContext),
+    "",
+    "## 5. Semi-Final Predictions",
     "",
     predictionTable(predictions.semiFinalPredictions),
     "",
-    "## 5. Conditional Third-Place Match",
+    "## 6. Conditional Third-Place Match",
     "",
     predictionTable([path.thirdPlace]),
     "",
-    "## 6. Conditional Final",
+    "## 7. Conditional Final",
     "",
     predictionTable([path.final]),
     "",
-    "## 7. Champion Probabilities",
+    "## 8. Champion Probabilities",
     "",
     ...predictions.bracketSimulation.championProbabilities.map((row) => `- ${row.team}: ${percent(row.probability)}`),
     "",
-    "## 8. Possible Final Pairings",
+    "## 9. Possible Final Pairings",
     "",
     ...predictions.bracketSimulation.finalPairings.map((row) => `- ${row.teamA} vs ${row.teamB}: ${percent(row.probability)}`),
     "",
-    "## 9. Score Probability Matrices",
+    "## 10. Score Probability Matrices",
     "",
     ...[...predictions.semiFinalPredictions, path.thirdPlace, path.final].map((match) => `- ${match.matchNumber}: ${match.homeTeam} vs ${match.awayTeam}: ${match.topScorelines.map((score) => `${score.home}-${score.away} ${percent(score.probability)}`).join("; ")}`),
     "",
-    "## 10. Method And Limitations",
+    "## 11. Method And Limitations",
     "",
     "- Markov score distributions use semi-final team stats after a 5% opponent-adjusted residual update from official quarter-final scores.",
     "- Monte Carlo simulates the remaining bracket from the two official semi-finals.",
+    "- Sourced last-minute context is applied through tiny, capped expected-goals multipliers only where the context file explicitly marks it for model use.",
     "- Near-equal scorelines are resolved with the higher-scoring tiebreak requested for score predictions.",
-    "- LLM reasoning is only used to explain and sanity-check; no injuries, lineups, cards, xG, tactical news, travel or weather data are invented.",
+    "- LLM reasoning is only used to explain and sanity-check; no lineups, xG, player minutes, tactical news, or unsourced availability data are invented.",
     "",
     `Predicted champion: ${path.champion}. Predicted final: ${path.final.homeTeam} vs ${path.final.awayTeam}, ${formatScore(path.final.selectedScore)}. Predicted third-place team: ${path.thirdPlaceTeam}.`,
     "",
@@ -718,6 +796,23 @@ function predictionTable(matches) {
     "| --- | --- | --- | --- | --- | ---: | ---: | --- | --- | --- | --- |",
     ...matches.map((match) => `| ${match.matchNumber}: ${match.homeTeam} vs ${match.awayTeam} | ${match.expectedGoals.home}-${match.expectedGoals.away} | ${formatScore(match.mostProbableScore)} (${percent(match.mostProbableScore.probability)}) | ${formatScore(match.selectedScore)} | ${percent(match.outcomeProbabilities.homeWin)} / ${percent(match.outcomeProbabilities.drawThrough90)} / ${percent(match.outcomeProbabilities.awayWin)} | ${percent(match.extraTimeProbability)} | ${percent(match.penaltyShootoutProbability.conditionalOnExtraTime)} / ${percent(match.penaltyShootoutProbability.unconditional)} | ${match.homeTeam} ${percent(match.qualificationProbabilities.home)}, ${match.awayTeam} ${percent(match.qualificationProbabilities.away)} | ${match.selectedAdvancingTeam} | ${match.predictionStrength} / evidence ${match.evidenceConfidence} | ${match.selectedScoreReason} ${match.reasoningNote} |`),
   ].join("\n");
+}
+
+function lastMinuteContextLines(lastMinuteContext) {
+  if (!lastMinuteContext) return ["- No sourced last-minute context file was available for this run."];
+  return [
+    `- Context dataset: ${lastMinuteContext.datasetId} (${lastMinuteContext.generatedAt}).`,
+    ...lastMinuteContext.globalFactors.map((factor) => `- Global: ${factor.summary} ${factor.modelEffect}`),
+    "",
+    "| Match | Applied xG multipliers | Context summary | Sources |",
+    "| --- | --- | --- | --- |",
+    ...lastMinuteContext.fixtureContexts.map((context) => {
+      const multipliers = context.teamAdjustments.map((item) => `${item.team} ${item.expectedGoalsMultiplier}`).join(", ");
+      const sources = context.sourceRefs.map((source) => `[${source.sourceName}](${source.sourceUrl})`).join("; ");
+      return `| ${context.matchNumber}: ${context.fixture} | ${multipliers || "none"} | ${context.summary} | ${sources} |`;
+    }),
+    ...(lastMinuteContext.warnings.length ? ["", ...lastMinuteContext.warnings.map((warning) => `- Warning: ${warning}`)] : []),
+  ];
 }
 
 function rateSource(team) {
@@ -821,6 +916,15 @@ function teamKey(value) {
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, "utf8"));
+}
+
+async function readJsonOptional(path, fallback) {
+  try {
+    return await readJson(path);
+  } catch (error) {
+    if (error && error.code === "ENOENT") return fallback;
+    throw error;
+  }
 }
 
 async function writeJson(path, value) {

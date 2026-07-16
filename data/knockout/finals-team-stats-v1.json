@@ -1,19 +1,12 @@
 {
-  "datasetId": "semi-final-team-stats-v1",
+  "datasetId": "finals-team-stats-v1",
   "artifactKind": "knockout_team_stats",
-  "generatedAt": "2026-07-13T22:05:00.808Z",
-  "sourceFiles": {
-    "priorTeamStats": "data\\knockout\\quarter-final-team-stats-v1.json",
-    "quarterFinalResults": "data\\results\\quarter-final-results-v1.json",
-    "adjustments": "data\\model\\quarter-final-model-adjustments-v1.json"
-  },
-  "notes": "Semi-final teams use official quarter-final advancement. Quarter-final score effects are opponent-adjusted residual updates with strong shrinkage; penalty shootout goals are excluded.",
-  "updatePolicy": {
-    "selectedEvidenceWeight": 0.05,
-    "residualFormula": "newRate = oldRate + (observed - opponentAdjustedExpected) * evidenceWeight",
-    "fullScoreWeightingRejected": true
-  },
-  "teamCount": 4,
+  "generatedAt": "2026-07-16T10:51:43.332Z",
+  "sourceFiles": [
+    "data\\knockout\\semi-final-team-stats-v1.json",
+    "data\\results\\semi-final-actual-results-v1.json"
+  ],
+  "updatePolicy": "5% opponent-adjusted semi-final score residual; no tuning to two matches",
   "teams": [
     {
       "team": "France",
@@ -73,11 +66,11 @@
         "updateMethod": "opponent_adjusted_residual",
         "residualEvidenceWeight": 0.05,
         "played": 4,
-        "goalsFor": 11.9038,
-        "goalsAgainst": 1.8888,
-        "goalDifference": 10.015,
-        "goalsForPerMatch": 2.9759,
-        "goalsAgainstPerMatch": 0.4722
+        "goalsFor": 11.8802,
+        "goalsAgainst": 2.2146,
+        "goalDifference": 9.6657,
+        "goalsForPerMatch": 2.9701,
+        "goalsAgainstPerMatch": 0.5536
       },
       "expectedGoalTrace": {
         "preTournamentAttackRating": 3.25,
@@ -154,148 +147,44 @@
         "goalsFor": 16,
         "goalsAgainst": 2,
         "goalDifference": 14
-      }
-    },
-    {
-      "team": "Spain",
-      "group": "H",
-      "countryCode": "ESP",
-      "fifaRank": 1,
-      "fifaPoints": 1875.37,
-      "eloRank": 1,
-      "eloRating": 2155,
-      "groupStage": {
-        "played": 3,
-        "wins": 2,
-        "draws": 1,
-        "losses": 0,
-        "points": 7,
-        "goalsFor": 5,
-        "goalsAgainst": 0,
-        "goalDifference": 5
       },
-      "knockout": {
-        "played": 1,
-        "wins": 1,
-        "drawsThrough90": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 0,
-        "goalDifference": 3,
-        "advanced": true,
-        "lastResult": "Spain 3-0 Austria"
+      "semiFinal": {
+        "matchNumber": 101,
+        "opponent": "Spain",
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "advanced": false,
+        "playingMinutes": 90
       },
-      "totals": {
-        "played": 4,
-        "goalsFor": 8,
-        "goalsAgainst": 0,
-        "goalDifference": 8,
-        "goalsForPerMatch": 2,
-        "goalsAgainstPerMatch": 0
+      "actualTotalsThroughSemiFinal": {
+        "played": 7,
+        "goalsFor": 16,
+        "goalsAgainst": 4
       },
-      "roundOf16": {
-        "matchNumber": 93,
-        "opponent": "Portugal",
-        "regulationGoalsFor": 1,
-        "regulationGoalsAgainst": 0,
-        "advanced": true,
-        "extraTimePlayed": false,
-        "penaltiesPlayed": false,
-        "penaltyScore": null,
-        "playingMinutes": 90,
-        "elapsedClockMinutes": 99
+      "semiFinalUpdate": {
+        "method": "opponent_adjusted_residual",
+        "evidenceWeight": 0.05,
+        "expectedGoalsFor": 0.1168,
+        "expectedGoalsAgainst": 0.3712,
+        "attackResidual": -0.1168,
+        "defenceResidual": 1.6288
       },
-      "actualTotalsThroughRoundOf16": {
-        "played": 5,
-        "goalsFor": 9,
-        "goalsAgainst": 0,
-        "goalDifference": 9
-      },
-      "modelingTotals": {
-        "updateMethod": "opponent_adjusted_residual",
-        "residualEvidenceWeight": 0.05,
-        "played": 4,
-        "goalsFor": 7.815,
-        "goalsAgainst": 0.3901,
-        "goalDifference": 7.4248,
-        "goalsForPerMatch": 1.9537,
-        "goalsAgainstPerMatch": 0.0975
-      },
-      "expectedGoalTrace": {
-        "preTournamentAttackRating": 2,
-        "preTournamentDefenceRating": 0,
-        "ratingBeforeRoundOf16": {
-          "attack": 2,
-          "defence": 0,
-          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
-        },
-        "roundOf16OpponentStrength": {
-          "team": "Portugal",
-          "attack": 2.6667,
-          "defence": 0.6667
-        },
-        "roundOf16GoalsScored": 1,
-        "roundOf16GoalsConceded": 0,
-        "expectedPerformanceBeforeUpdate": {
-          "goalsFor": 1.7066,
-          "goalsAgainst": 0
-        },
-        "rawScoreResidual": {
-          "attack": -0.7066,
-          "defence": 0
-        },
-        "shrinkageAppliedToResidual": {
-          "evidenceWeight": 0.05,
-          "attackUpdate": -0.0353,
-          "defenceUpdate": 0
-        },
-        "updatedAttackRating": 1.9647,
-        "updatedDefenceRating": 0.05,
-        "ratingBeforeQuarterFinal": {
-          "attack": 1.9647,
-          "defence": 0.05,
-          "source": "data\\knockout\\quarter-final-team-stats-v1.json"
-        },
-        "quarterFinalOpponentStrength": {
-          "team": "Belgium",
-          "attack": 2.306,
-          "defence": 0.9917
-        },
-        "quarterFinalGoalsScored": 2,
-        "quarterFinalGoalsConceded": 1,
-        "expectedPerformanceBeforeQuarterFinalUpdate": {
-          "goalsFor": 2.2192,
-          "goalsAgainst": 0.0494
-        },
-        "quarterFinalRawScoreResidual": {
-          "attack": -0.2192,
-          "defence": 0.9506
-        },
-        "quarterFinalShrinkageAppliedToResidual": {
-          "evidenceWeight": 0.05,
-          "attackUpdate": -0.011,
-          "defenceUpdate": 0.0475
-        },
-        "updatedAttackRatingAfterQuarterFinal": 1.9537,
-        "updatedDefenceRatingAfterQuarterFinal": 0.0975
-      },
-      "quarterFinal": {
-        "matchNumber": 98,
-        "opponent": "Belgium",
-        "goalsFor": 2,
-        "goalsAgainst": 1,
-        "advanced": true,
-        "extraTimePlayed": false,
-        "penaltiesPlayed": false,
-        "penaltyScore": null,
-        "playingMinutes": 90,
-        "elapsedClockMinutes": 98
-      },
-      "actualTotalsThroughQuarterFinal": {
-        "played": 6,
-        "goalsFor": 11,
-        "goalsAgainst": 1,
-        "goalDifference": 10
-      }
+      "availableMetrics": [
+        "official tournament goals for/against",
+        "FIFA ranking",
+        "Elo rating",
+        "knockout results",
+        "extra-time minutes"
+      ],
+      "unavailableMetrics": [
+        "validated xG/xGA",
+        "shots and shot quality",
+        "possession and territory",
+        "goalkeeper statistics",
+        "set-piece statistics",
+        "complete player minutes",
+        "opponent-strength-adjusted event data"
+      ]
     },
     {
       "team": "England",
@@ -355,11 +244,11 @@
         "updateMethod": "opponent_adjusted_residual",
         "residualEvidenceWeight": 0.05,
         "played": 3,
-        "goalsFor": 5.9421,
-        "goalsAgainst": 3.1397,
-        "goalDifference": 2.8024,
-        "goalsForPerMatch": 1.9807,
-        "goalsAgainstPerMatch": 1.0466
+        "goalsFor": 5.9923,
+        "goalsAgainst": 3.2653,
+        "goalDifference": 2.727,
+        "goalsForPerMatch": 1.9974,
+        "goalsAgainstPerMatch": 1.0884
       },
       "expectedGoalTrace": {
         "preTournamentAttackRating": 2,
@@ -436,7 +325,222 @@
         "goalsFor": 11,
         "goalsAgainst": 6,
         "goalDifference": 5
-      }
+      },
+      "semiFinal": {
+        "matchNumber": 102,
+        "opponent": "Argentina",
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "advanced": false,
+        "playingMinutes": 90
+      },
+      "actualTotalsThroughSemiFinal": {
+        "played": 6,
+        "goalsFor": 12,
+        "goalsAgainst": 8
+      },
+      "semiFinalUpdate": {
+        "method": "opponent_adjusted_residual",
+        "evidenceWeight": 0.05,
+        "expectedGoalsFor": 0.6655,
+        "expectedGoalsAgainst": 1.1633,
+        "attackResidual": 0.3345,
+        "defenceResidual": 0.8367
+      },
+      "availableMetrics": [
+        "official tournament goals for/against",
+        "FIFA ranking",
+        "Elo rating",
+        "knockout results",
+        "extra-time minutes"
+      ],
+      "unavailableMetrics": [
+        "validated xG/xGA",
+        "shots and shot quality",
+        "possession and territory",
+        "goalkeeper statistics",
+        "set-piece statistics",
+        "complete player minutes",
+        "opponent-strength-adjusted event data"
+      ]
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "countryCode": "ESP",
+      "fifaRank": 1,
+      "fifaPoints": 1875.37,
+      "eloRank": 1,
+      "eloRating": 2155,
+      "groupStage": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "points": 7,
+        "goalsFor": 5,
+        "goalsAgainst": 0,
+        "goalDifference": 5
+      },
+      "knockout": {
+        "played": 1,
+        "wins": 1,
+        "drawsThrough90": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "goalDifference": 3,
+        "advanced": true,
+        "lastResult": "Spain 3-0 Austria"
+      },
+      "totals": {
+        "played": 4,
+        "goalsFor": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 8,
+        "goalsForPerMatch": 2,
+        "goalsAgainstPerMatch": 0
+      },
+      "roundOf16": {
+        "matchNumber": 93,
+        "opponent": "Portugal",
+        "regulationGoalsFor": 1,
+        "regulationGoalsAgainst": 0,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 99
+      },
+      "actualTotalsThroughRoundOf16": {
+        "played": 5,
+        "goalsFor": 9,
+        "goalsAgainst": 0,
+        "goalDifference": 9
+      },
+      "modelingTotals": {
+        "updateMethod": "opponent_adjusted_residual",
+        "residualEvidenceWeight": 0.05,
+        "played": 4,
+        "goalsFor": 8.1406,
+        "goalsAgainst": 0.3666,
+        "goalDifference": 7.7739,
+        "goalsForPerMatch": 2.0351,
+        "goalsAgainstPerMatch": 0.0917
+      },
+      "expectedGoalTrace": {
+        "preTournamentAttackRating": 2,
+        "preTournamentDefenceRating": 0,
+        "ratingBeforeRoundOf16": {
+          "attack": 2,
+          "defence": 0,
+          "source": "data\\knockout\\round-of-16-team-stats-v1.json"
+        },
+        "roundOf16OpponentStrength": {
+          "team": "Portugal",
+          "attack": 2.6667,
+          "defence": 0.6667
+        },
+        "roundOf16GoalsScored": 1,
+        "roundOf16GoalsConceded": 0,
+        "expectedPerformanceBeforeUpdate": {
+          "goalsFor": 1.7066,
+          "goalsAgainst": 0
+        },
+        "rawScoreResidual": {
+          "attack": -0.7066,
+          "defence": 0
+        },
+        "shrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.0353,
+          "defenceUpdate": 0
+        },
+        "updatedAttackRating": 1.9647,
+        "updatedDefenceRating": 0.05,
+        "ratingBeforeQuarterFinal": {
+          "attack": 1.9647,
+          "defence": 0.05,
+          "source": "data\\knockout\\quarter-final-team-stats-v1.json"
+        },
+        "quarterFinalOpponentStrength": {
+          "team": "Belgium",
+          "attack": 2.306,
+          "defence": 0.9917
+        },
+        "quarterFinalGoalsScored": 2,
+        "quarterFinalGoalsConceded": 1,
+        "expectedPerformanceBeforeQuarterFinalUpdate": {
+          "goalsFor": 2.2192,
+          "goalsAgainst": 0.0494
+        },
+        "quarterFinalRawScoreResidual": {
+          "attack": -0.2192,
+          "defence": 0.9506
+        },
+        "quarterFinalShrinkageAppliedToResidual": {
+          "evidenceWeight": 0.05,
+          "attackUpdate": -0.011,
+          "defenceUpdate": 0.0475
+        },
+        "updatedAttackRatingAfterQuarterFinal": 1.9537,
+        "updatedDefenceRatingAfterQuarterFinal": 0.0975
+      },
+      "quarterFinal": {
+        "matchNumber": 98,
+        "opponent": "Belgium",
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "advanced": true,
+        "extraTimePlayed": false,
+        "penaltiesPlayed": false,
+        "penaltyScore": null,
+        "playingMinutes": 90,
+        "elapsedClockMinutes": 98
+      },
+      "actualTotalsThroughQuarterFinal": {
+        "played": 6,
+        "goalsFor": 11,
+        "goalsAgainst": 1,
+        "goalDifference": 10
+      },
+      "semiFinal": {
+        "matchNumber": 101,
+        "opponent": "France",
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "advanced": true,
+        "playingMinutes": 90
+      },
+      "actualTotalsThroughSemiFinal": {
+        "played": 7,
+        "goalsFor": 13,
+        "goalsAgainst": 1
+      },
+      "semiFinalUpdate": {
+        "method": "opponent_adjusted_residual",
+        "evidenceWeight": 0.05,
+        "expectedGoalsFor": 0.3712,
+        "expectedGoalsAgainst": 0.1168,
+        "attackResidual": 1.6288,
+        "defenceResidual": -0.1168
+      },
+      "availableMetrics": [
+        "official tournament goals for/against",
+        "FIFA ranking",
+        "Elo rating",
+        "knockout results",
+        "extra-time minutes"
+      ],
+      "unavailableMetrics": [
+        "validated xG/xGA",
+        "shots and shot quality",
+        "possession and territory",
+        "goalkeeper statistics",
+        "set-piece statistics",
+        "complete player minutes",
+        "opponent-strength-adjusted event data"
+      ]
     },
     {
       "team": "Argentina",
@@ -496,11 +600,11 @@
         "updateMethod": "opponent_adjusted_residual",
         "residualEvidenceWeight": 0.05,
         "played": 4,
-        "goalsFor": 11.0487,
-        "goalsAgainst": 3.3399,
-        "goalDifference": 7.7088,
-        "goalsForPerMatch": 2.7622,
-        "goalsAgainstPerMatch": 0.835
+        "goalsFor": 11.2161,
+        "goalsAgainst": 3.4069,
+        "goalDifference": 7.8092,
+        "goalsForPerMatch": 2.804,
+        "goalsAgainstPerMatch": 0.8517
       },
       "expectedGoalTrace": {
         "preTournamentAttackRating": 2.75,
@@ -577,7 +681,44 @@
         "goalsFor": 17,
         "goalsAgainst": 6,
         "goalDifference": 11
-      }
+      },
+      "semiFinal": {
+        "matchNumber": 102,
+        "opponent": "England",
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "advanced": true,
+        "playingMinutes": 90
+      },
+      "actualTotalsThroughSemiFinal": {
+        "played": 7,
+        "goalsFor": 19,
+        "goalsAgainst": 7
+      },
+      "semiFinalUpdate": {
+        "method": "opponent_adjusted_residual",
+        "evidenceWeight": 0.05,
+        "expectedGoalsFor": 1.1633,
+        "expectedGoalsAgainst": 0.6655,
+        "attackResidual": 0.8367,
+        "defenceResidual": 0.3345
+      },
+      "availableMetrics": [
+        "official tournament goals for/against",
+        "FIFA ranking",
+        "Elo rating",
+        "knockout results",
+        "extra-time minutes"
+      ],
+      "unavailableMetrics": [
+        "validated xG/xGA",
+        "shots and shot quality",
+        "possession and territory",
+        "goalkeeper statistics",
+        "set-piece statistics",
+        "complete player minutes",
+        "opponent-strength-adjusted event data"
+      ]
     }
   ]
 }
